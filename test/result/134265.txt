@@ -1,0 +1,1600 @@
+<!DOCTYPE html><html lang=zh-Hans><head><meta charset=utf-8><meta name=viewport content="width=device-width,minimum-scale=1,maximum-scale=1,initial-scale=1,user-scalable=no"><meta name=description content=优书网(www.yousuu.com)集小说搜索、追更阅读、读者评分、书单推荐于一体,不但可以追看小说最新更新,还可以解决书荒寻找到更多更好看的小说,在这里你可以阅读、...><!--[if lte IE 8]>
+    <script type="text/javascript">
+     window.alert('浏览器版本过低，请使用现代浏览器访问本站')
+    </script>
+    <![endif]--><script src=//cdn.staticfile.org/babel-polyfill/7.4.4/polyfill.min.js></script><script src=//cdn.staticfile.org/vue/2.6.10/vue.min.js></script><script src=//cdn.staticfile.org/vuex/3.1.0/vuex.min.js></script><script src=//cdn.staticfile.org/moment.js/2.23.0/moment.min.js></script><script src=//cdn.staticfile.org/moment.js/2.24.0/locale/zh-cn.js></script><script src=//cdn.staticfile.org/vue-router/3.0.2/vue-router.min.js></script><script src=//cdn.staticfile.org/axios/0.18.0/axios.min.js></script><script src=//cdn.staticfile.org/element-ui/2.12.0/index.js></script><link href=//cdn.staticfile.org/element-ui/2.12.0/theme-chalk/index.css rel=stylesheet><link rel=stylesheet href=/display.css><link rel=icon href=/favicon.png><title></title><link rel="preload" href="/js/chunk-vendors.2ae1758f.js" as="script"><link rel="preload" href="/css/app.e969f070.css" as="style"><link rel="preload" href="/js/app.f80969f5.js" as="script"><link rel="preload" href="/css/chunk-08f09854.daf5f3f3.css" as="style"><link rel="preload" href="/js/chunk-08f09854.d754755b.js" as="script"><link rel="preload" href="/css/chunk-0c4f7370.f50b17fe.css" as="style"><link rel="preload" href="/js/chunk-0c4f7370.bfdf292f.js" as="script"><link rel="preload" href="/css/chunk-353e28b8.2047a095.css" as="style"><link rel="preload" href="/js/chunk-353e28b8.fb9e970c.js" as="script"><link rel="preload" href="/css/chunk-6cf6d074.9aad5b48.css" as="style"><link rel="preload" href="/js/chunk-6cf6d074.9b389b87.js" as="script"><link rel="prefetch" href="/css/chunk-03d925a9.9c8bdec6.css"><link rel="prefetch" href="/css/chunk-1e0eddf4.4a613a22.css"><link rel="prefetch" href="/css/chunk-20430dab.a7526f9a.css"><link rel="prefetch" href="/css/chunk-28410e6e.aed52d4a.css"><link rel="prefetch" href="/css/chunk-2ad49d59.1ae564c8.css"><link rel="prefetch" href="/css/chunk-2b66ae69.ed4f4e8d.css"><link rel="prefetch" href="/css/chunk-35d79526.4367d685.css"><link rel="prefetch" href="/css/chunk-3d6f543a.f051f8bf.css"><link rel="prefetch" href="/css/chunk-3f724e29.90e6c05a.css"><link rel="prefetch" href="/css/chunk-402e3694.fac22ed6.css"><link rel="prefetch" href="/css/chunk-551a5bcf.1f4ae7bd.css"><link rel="prefetch" href="/css/chunk-588066cd.7e23b635.css"><link rel="prefetch" href="/css/chunk-61a4aa5f.c3d28fca.css"><link rel="prefetch" href="/css/chunk-62fbc14e.90d38039.css"><link rel="prefetch" href="/css/chunk-6514e929.a7c91a7a.css"><link rel="prefetch" href="/css/chunk-8b38b6ee.e290abe4.css"><link rel="prefetch" href="/css/chunk-8c464618.f1106934.css"><link rel="prefetch" href="/css/chunk-a6a34bd2.385efc79.css"><link rel="prefetch" href="/css/chunk-e7f421e6.8edc5d88.css"><link rel="prefetch" href="/css/chunk-ffbf21b0.f676977d.css"><link rel="prefetch" href="/display.css"><link rel="prefetch" href="/js/chunk-03d925a9.98c037d8.js"><link rel="prefetch" href="/js/chunk-1e0eddf4.a07129a2.js"><link rel="prefetch" href="/js/chunk-20430dab.fc0c9b79.js"><link rel="prefetch" href="/js/chunk-28410e6e.94075a82.js"><link rel="prefetch" href="/js/chunk-2ad49d59.ae15f5d9.js"><link rel="prefetch" href="/js/chunk-2b66ae69.85dc371a.js"><link rel="prefetch" href="/js/chunk-2d0b1d9a.2262834d.js"><link rel="prefetch" href="/js/chunk-2d0d0095.0b91d809.js"><link rel="prefetch" href="/js/chunk-2d0d640e.f7603056.js"><link rel="prefetch" href="/js/chunk-2d207b69.d129f9bb.js"><link rel="prefetch" href="/js/chunk-35d79526.3b38f74b.js"><link rel="prefetch" href="/js/chunk-3d6f543a.ee89b0c3.js"><link rel="prefetch" href="/js/chunk-3f724e29.e9872a0b.js"><link rel="prefetch" href="/js/chunk-402e3694.9da5bc59.js"><link rel="prefetch" href="/js/chunk-551a5bcf.0c004cdf.js"><link rel="prefetch" href="/js/chunk-588066cd.fb366fde.js"><link rel="prefetch" href="/js/chunk-61a4aa5f.eec8b5d8.js"><link rel="prefetch" href="/js/chunk-62fbc14e.ce7ad43b.js"><link rel="prefetch" href="/js/chunk-6514e929.61ce8693.js"><link rel="prefetch" href="/js/chunk-6adc696c.464a14bd.js"><link rel="prefetch" href="/js/chunk-8b38b6ee.26e08a15.js"><link rel="prefetch" href="/js/chunk-8c464618.27227a08.js"><link rel="prefetch" href="/js/chunk-a6a34bd2.da5e1f5b.js"><link rel="prefetch" href="/js/chunk-e7f421e6.707dc50c.js"><link rel="prefetch" href="/js/chunk-ffbf21b0.067f9459.js"> <link rel="stylesheet" href="/css/app.e969f070.css"><link rel="stylesheet" href="/css/chunk-08f09854.daf5f3f3.css"><link rel="stylesheet" href="/css/chunk-0c4f7370.f50b17fe.css"><link rel="stylesheet" href="/css/chunk-353e28b8.2047a095.css"><link rel="stylesheet" href="/css/chunk-6cf6d074.9aad5b48.css"><style data-vue-ssr-id="829db9f0:0 df47ec5e:0 30ed692e:0 29c61380:0 279f8473:0 498e0b34:0 93e6dfb8:0 5484549e:0 315fc63c:0 583c1257:0 eec1301c:0 4293c5c6:0 5efcb8c9:0 5b7cd2c9:0 1ddc1ee6:0 03b168d8:0 159125ec:0 1a234d6b:0 45bb7abd:0 9a30e3c6:0 1a78965b:0 0740943b:0 019af9b7:0 b1814b7e:0 3d4d82c3:0 090608d0:0 8a3d8666:0 129f9146:0 0239c318:0 eb595cbe:0 ece3b906:0 755ced8f:0">/* notice */
+.messageLength{
+  min-width: 300px;
+}
+.el-rate {
+  height: 18px;
+  margin-top: -2px;
+}
+/* hack element */
+.el-message-box{
+  /* width:50vw; */
+  max-width: 432px;
+}
+.el-popover--plain{
+  padding:10px;
+}
+.el-dialog{
+  max-width: 95vw;
+}
+.el-dropdown-menu__item {
+  line-height: 2.2em;
+  padding:0 20px;
+}
+.el-collapse-item__content{
+  padding-bottom:15px;
+}
+.el-collapse{
+  border-top:none;
+}
+.el-collapse-item__wrap,.el-collapse{
+  border-bottom: none;
+}
+.el-collapse-item:last-child{
+  margin-bottom:0;
+}
+.el-rate__icon{
+  margin-right:2px;
+}
+.el-dialog__header {
+  padding: 10px 20px 0px;
+  }
+  .el-form--label-top .el-form-item__label{
+    padding:0;
+  }
+  .el-form-item{
+    margin-bottom:5px;
+  }
+.el-dialog__headerbtn {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  padding: 8px;
+  /* background-color: #888; */
+  border-radius: 50%;
+  outline: 0;
+  color:#fff;
+  cursor: pointer;
+  font-size: 16px;
+}
+.el-tag {
+  margin: 5px 10px 5px 0px;
+  }
+/*  弹窗样式覆盖*/
+.el-dropdown-menu li{
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+.DialogFormItem .el-textarea__inner {
+  border-color: transparent !important;
+  padding: 0.7em 0 0 0;
+}
+.DialogFormItem .el-input__inner {
+  border-color: transparent;
+}
+#Dialog-EditBookInfo input{
+  text-align: center;
+}
+#Dialog-EditBookInfo .yousuu-selector.el-select .el-input__inner{
+  padding-left:30px;
+}
+.yousuu-selector-dropdown-align-center {
+  text-align: center;
+}
+.yousuu-selector-dropdown-align-center .popper__arrow,.DatePicker-Customer .popper__arrow {
+  left: 49%!important;
+}
+@media(max-width:768px){
+  .el-collapse-item__header{
+    line-height: 44px;
+    height: 44px;
+  }
+}
+/* 公用 */
+table {
+  text-align: left;
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  color: #999;
+}
+th,
+td {
+  font-size: 14px;
+}
+button:disabled{
+  cursor:not-allowed!important;
+}
+/* 空白网页 */
+.empty-container{
+max-width: 1000px;
+width: 100%;
+margin:0 auto;
+}
+.empty-tip{
+  text-align: center;
+  font-size: 20px;
+  color:#888;
+  padding-bottom:20px;
+}
+.empty-tip.withhead{
+  padding-top:20px;
+}
+.withicon {
+  font-size: 14px;
+  color: #999;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+.withicon + .withicon{
+  margin-left: 30px;
+}
+.withicon svg {
+  margin-right: 6px;
+  width: 17px;
+  /* height: 14px; */
+}
+.withicon.mini{
+  font-size: 14px;
+}
+.withicon.ban{
+  color:#f35e6b;
+  /* margin-left: 25px; */
+}
+.withicon.mini svg {
+  width: 14px;
+  height: 14px;
+}
+.followBtn {
+  /* width: 120px; */min-width:100px;
+  padding:0 15px;
+  height: 34px;
+  background-color: #efefef;
+  color: #aaa;
+  font-size: 14px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.followBtn.onlyText{
+  background:transparent;
+  min-width: 1em;
+  width: auto;
+  height: 24px;
+  padding:0;
+}
+.followBtn.small{
+  padding:0 10px;
+} 
+.unFollow {
+  background-color: #567ceb;
+  color: #fff;
+}
+.unFollow.onlyText{
+  color:#567ceb;
+}
+/* new follow btn style */
+.follow-btn.gear {
+  font-size: 14px;
+  color: #888;
+  padding: 7px 12px;
+  border: 1px solid #aaa;
+  border-radius: 2px;
+}
+.follow-btn.text {
+  font-size: 14px;
+  color: #567ceb;
+}
+.follow-btn.gear.inBookcase {
+  background-color: #f8f8f8;
+  /* color: #bbb; */
+  border-color: transparent;
+}
+.follow-btn {
+  cursor: pointer;
+}
+.follow-btn:hover {
+  color: #567ceb;
+  border-color: #567ceb;
+}
+button.inBookcase.follow-btn,button.inBookcase{
+  color:#888
+}
+/* 分割 */
+.primary {
+  background-color: #567ceb;
+  color: #fff;
+}
+.text {
+  margin-left: 26px;
+  color: #888;
+  font-size: 14px;
+  cursor: pointer;
+}
+.plain {
+  border: 1px solid #ccc;
+  color: #aaa;
+}
+.danger {
+  background: #f74e5c;
+  color: #fff;
+}
+.StoreBooks,.SearchResult,.SpaceBooklist,.BooklistsResult{
+  padding:0px 30px;
+}
+.space-action-item-padding{
+  padding:20px;
+}
+.ActionBooklistVoting {
+  margin-top: 15px;
+}
+@media (max-width: 768px) {
+  *:not(.navbar-wrap,.backtop-btn){
+    -webkit-box-shadow: none!important;
+            box-shadow: none!important;
+  }
+  .withicon + .withicon{
+    margin-left: 5vw;
+  }
+  .el-dialog__body{
+    padding:15px!important;
+  }
+  .space-action-item-padding {
+    padding: 10px !important;
+  }
+  .StoreBooks,.BooklistsResult,.SearchResult,.space-action-item-padding,.SpaceBooklist{
+    padding: 0 15px;
+  }
+    .ActionBooklistVoting {
+      margin-top: 10px;
+    }
+}
+
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 14px;
+  background-color: #f3f4f7;
+  word-wrap: break-word;
+  word-break: break-all;
+  text-decoration: none;
+  font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, PingFang SC,
+    Microsoft YaHei, Source Han Sans SC, Noto Sans CJK SC, WenQuanYi Micro Hei,
+    sans-serif;
+}
+*,
+*:before,
+*:after {
+  -webkit-appearance: inherit;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  outline: none;
+  border: none;
+  line-height: 1.1em;
+  text-decoration: inherit;
+  color: inherit;
+  -webkit-transition: color 0.2s;
+  transition: color 0.2s;
+  background-color: transparent;
+}
+a:hover {
+  color: #567ceb;
+}
+.ellipsis {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+::-webkit-input-placeholder {
+  color: #d8d8d8;
+}
+button,
+input {
+  -webkit-transition: background-color 0.4s;
+  transition: background-color 0.4s;
+}
+body {
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+*::-webkit-scrollbar {
+  background-color: #fff;
+  width: 6px;
+  /* position: absolute; */
+}
+*::-webkit-scrollbar-thumb {
+  width: 100%;
+  height: auto;
+  border-radius: 18px;
+  background-color: #aaa;
+  /* transition: display 0.2s; */
+  /* position: absolute; */
+}
+#app {
+  width: 100vw;
+  position: absolute;
+}
+.capsule {
+  /* width: 120px; */
+  height: 40px;
+  border-radius: 20px;
+  font-size: 14px;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+
+.navbar-wrap[data-v-68dc387f] {
+  width: 100vw;
+  background: #fff;
+  -webkit-box-shadow: 0 0 1px 0px rgba(0, 0, 0, 0.15);
+          box-shadow: 0 0 1px 0px rgba(0, 0, 0, 0.15);
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  z-index: 100;
+  font-size: 14px;
+  color: #888;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: -webkit-sticky;
+  position: sticky;
+  /* position: fixed; */
+  top: 0;
+}
+.topic.archiver .navbar-wrap[data-v-68dc387f],
+.booklist.archiver .navbar-wrap[data-v-68dc387f] {
+  display: none;
+}
+.navbar-inner[data-v-68dc387f] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.navbar-main-xs-only[data-v-68dc387f] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+@media (max-width: 999px) {
+.navbar-inner[data-v-68dc387f] {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+}
+}
+@media (min-width: 1000px) {
+.navbar-inner[data-v-68dc387f] {
+    width: 1000px;
+}
+}
+.user-info[data-v-68dc387f] {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+a[data-v-68dc387f],
+img[data-v-68dc387f],
+span[data-v-68dc387f] {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.navbar-main[data-v-68dc387f] {
+  /* margin: 0 auto; */
+  margin-left: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 555px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.navbar-main-wrap[data-v-68dc387f] {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  /* justify-content: center; */
+}
+.navbar-main .router-link-active[data-v-68dc387f]:not(.search-block) {
+  font-weight: bold;
+  color: #343434;
+}
+.navbar-side[data-v-68dc387f] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 120px;
+  margin-left: 30px;
+}
+.news-route[data-v-68dc387f] {
+  position: relative;
+}
+.news-route em[data-v-68dc387f] {
+  display: block;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 8px;
+  height: 8px;
+  background: #f35e6b;
+  border-radius: 50%;
+}
+.logo svg[data-v-68dc387f] {
+  width: 106px;
+  min-width: 106px;
+  height: 30px;
+}
+@media (max-width: 768px) {
+.navbar-wrap[data-v-68dc387f] {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+}
+.logo svg[data-v-68dc387f] {
+    width: 106px;
+    min-width: 106px;
+    height: 30px;
+}
+}
+@media (max-width: 992px) {
+.navbar-side[data-v-68dc387f] {
+    width: 150px;
+    margin-left: 0px;
+}
+}
+@media (max-width: 320px) {
+.navbar-side[data-v-68dc387f] {
+    width: 130px;
+    margin-left: 0px;
+}
+}
+
+
+.svg-icon[data-v-80a6e342] {
+  width: 1em;
+  height: 1em;
+  fill: #343434;
+  overflow: hidden;
+}
+/* .logo {
+  width: 89px;
+  height: 38px;
+}
+/* .logoBeta { */
+/* width: 89px; */
+/* height: 38px; */
+/* } */
+/* @media (max-width: 768px) {
+  .logo {
+    width: 120px;
+    height: 30px;
+  }
+  .logoBeta {
+    height: 30px;
+  }
+} */
+.search[data-v-80a6e342] {
+  width: 14px;
+  height: 14px;
+}
+.bookcase[data-v-80a6e342],
+.news[data-v-80a6e342] {
+  width: 18px;
+  height: 18px;
+}
+.bookcase.mini[data-v-80a6e342] {
+  width: 14px;
+  height: 14px;
+}
+/* .share,
+.comment,
+.fav,
+.fav_block {
+  width: 16px;
+  height: 16px;
+} */
+.createbooklist[data-v-80a6e342],
+.postBook[data-v-80a6e342],
+.postcomment[data-v-80a6e342] {
+  fill: #343434;
+  width: 20px;
+  height: 20px;
+}
+/* .router-link-active * {
+  fill: #567ceb;
+} */
+.router-link-active .logo[data-v-80a6e342] {
+  fill: #343434;
+}
+
+
+.backtop-btn[data-v-5587096e] {
+  position: fixed;
+  bottom: 30px;
+  right: 12px;
+  cursor: pointer;
+  z-index: 99;
+  font-size: 24px;
+  -webkit-box-shadow: 0px 4px 12px 0px rgba(86, 124, 235, 0.26);
+          box-shadow: 0px 4px 12px 0px rgba(86, 124, 235, 0.26);
+  width: 50px;
+  height: 50px;
+  border-radius: 4px;
+  color: #5a7be6;
+  background-color: #fff;
+  font-weight: bold;
+}
+
+
+@media (max-width: 768px) {
+.book-page .main-left-header {
+    margin: 10px 0;
+}
+}
+
+
+.bookpage-layout-header[data-v-a616861a] {
+  background-color: #ffffff;
+  margin: 0 auto;
+  padding-top: 30px;
+  width: 100%;
+  position: relative;
+  padding-bottom: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  /* box-shadow: 0 0 4px 0 rgba(204, 204, 204, 0.5); */
+}
+.bookpage-layout-header-wrap[data-v-a616861a] {
+  max-width: 1000px;
+  width: 100%;
+  -ms-flex-item-align: center;
+      align-self: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.bookpage-layout-header-main[data-v-a616861a] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+.bookpage-layout-header-side[data-v-a616861a] {
+  width: 280px;
+}
+@media (max-width: 992px) {
+.bookpage-layout-header-wrap[data-v-a616861a] {
+    width: 100%;
+    display: block;
+}
+.bookpage-layout-header-main[data-v-a616861a] {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+}
+.bookpage-layout-header[data-v-a616861a] {
+    padding: 0px;
+}
+.bookpage-layout-header-side[data-v-a616861a] {
+    width: 100%;
+    padding: 0 15px;
+}
+}
+
+
+.bookinfo-button {
+  /* width: 100px; */
+  padding: 0 15px;
+  height: 34px;
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  color: #888;
+  font-size: 14px;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+.bookinfo-button {
+    height: 30px;
+    border-radius: 3px;
+    padding: 0 5px;
+    font-size: 12px;
+}
+}
+
+
+.feed-back[data-v-438d1754] {
+  width: 80px;
+  height: 30px;
+}
+.book-info-wrap[data-v-438d1754] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.book-author[data-v-438d1754] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.book-author[data-v-438d1754]:hover {
+  color: #567ceb;
+}
+.book-name[data-v-438d1754] {
+  max-width: 530px;
+}
+.book-info-detail[data-v-438d1754] {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.book-info-btns-wrap button[data-v-438d1754],
+.book-info-btns-wrap div[data-v-438d1754] {
+  margin-right: 10px;
+}
+.el-button + .el-button[data-v-438d1754] {
+  margin-left: 0;
+}
+.book-info[data-v-438d1754] {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.book-info-detail .book-name[data-v-438d1754] {
+  font-size: 32px;
+  color: #000000;
+  padding-top: 10px;
+}
+.book-info-detail p[data-v-438d1754],
+.book-author[data-v-438d1754] {
+  margin-top: 18px;
+  color: #999;
+  font-size: 16px;
+}
+.book-status[data-v-438d1754] {
+  margin-bottom: 0;
+}
+.book-status .status[data-v-438d1754] {
+  color: #de9763;
+}
+.book-info-btns-wrap[data-v-438d1754] {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.book-info-footer[data-v-438d1754] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 10px;
+}
+.feedback-btn[data-v-438d1754] {
+  margin-bottom: 10px;
+  /* align-self: center; */
+}
+@media (max-width: 992px) {
+.book-info[data-v-438d1754] {
+    padding: 0 0px 10px 15px;
+}
+.book-info-detail .book-name[data-v-438d1754] {
+    font-size: 20px;
+    padding-top: 0px;
+    line-height: 1.2em;
+    max-width: 55vw;
+}
+.book-info-detail p[data-v-438d1754],
+  .book-author[data-v-438d1754] {
+    margin-top: 9px;
+    font-size: 14px;
+}
+.feedback-btn[data-v-438d1754] {
+    margin-bottom: 5px;
+}
+}
+
+
+.loadingBlock[data-v-7b843d00] {
+  display: block;
+  background-color: #f3f4f7;
+  border-radius: 4px;
+}
+
+
+.tags[data-v-708b1883] {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.button-new-tag[data-v-708b1883] {
+  height: 24px;
+  line-height: 24px;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-bottom: 10px;
+}
+.input-new-tag[data-v-708b1883] {
+  width: 90px;
+  height: 24px;
+  line-height: 22px;
+  margin-right: 10px;
+  vertical-align: bottom;
+}
+.el-tag[data-v-708b1883],
+.input-new-tag[data-v-708b1883],
+.button-new-tag[data-v-708b1883] {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+
+.tags .input-new-tag input {
+  line-height: 22px !important;
+  height: 24px !important;
+}
+
+
+.bookpage-layout-main[data-v-14c62c06] {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1000px;
+  padding-bottom: 0px;
+}
+.bookpage-layout-main-right[data-v-14c62c06],
+.bookpage-layout-main-left[data-v-14c62c06] {
+  width: 100%;
+}
+@media (min-width: 1015px) {
+.bookpage-layout-main[data-v-14c62c06] {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.bookpage-layout-main-right[data-v-14c62c06] {
+    width: 280px;
+    margin-left: 10px;
+    /* display: flex;
+    flex-direction: column; */
+}
+.bookpage-layout-main-left[data-v-14c62c06] {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+}
+}
+
+
+.sticky[data-v-611f19ec] {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 66px;
+}
+
+
+p[data-v-6581533a] {
+  cursor: pointer;
+}
+.addListCount[data-v-6581533a] {
+  color: #567ceb;
+
+  padding: 0 5px;
+}
+
+
+.side[data-v-562ec182] {
+  font-size: 14px;
+  color: #333;
+  width: 100%;
+}
+h1[data-v-562ec182] {
+  padding-bottom: 10px;
+  font-size: 24px;
+  color: #333;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-weight: bold;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+
+.side a {
+  padding: 10px 0;
+  cursor: pointer;
+  display: block;
+  -webkit-transition: color 0.2s;
+  transition: color 0.2s;
+}
+.side h1 * {
+  padding: 0;
+}
+.side .body a:last-child {
+  padding-bottom: 0;
+}
+.RecBooks .body a {
+  text-indent: -0.5em;
+}
+
+
+.common-card-layout {
+  width: 100%;
+  background-color: #fff;
+  margin-bottom: 10px;
+  /* border-radius: 4px;
+  box-shadow: 0px 0px 4px 0px rgba(204, 204, 204, 0.5); */
+}
+@media (max-width: 768px) {
+.common-card-layout {
+    margin-bottom: 10px;
+}
+}
+
+
+.CommentBtn[data-v-348a438e] {
+  width: 150px;
+  /* height: 100%;
+  line-height: 100%; */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #888;
+  cursor: pointer;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+@media (max-width: 768px) {
+.CommentsAreaAd[data-v-348a438e] {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.CommentBtn[data-v-348a438e] {
+    width: 30vw;
+    /* margin-left: 15vw; */
+    font-size: 14px;
+}
+}
+
+
+.main-left-header[data-v-41abf9f6] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 56px;
+  padding-left: 10px;
+}
+.bookpage-main-left-layout[data-v-41abf9f6] {
+  position: relative;
+}
+@media (max-width: 768px) {
+.main-left-header[data-v-41abf9f6] {
+    height: 44px;
+    padding-left: 0;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .post-comment {
+  padding: 0 20px 20px 20px;
+  margin-bottom: 10px;
+} */
+.post-comment-score[data-v-4d260282] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 1em;
+  color: #999;
+  font-size: 16px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 15px;
+}
+/* .post-comment-score .title {
+  margin-right: 10px;
+}
+.post-comment-textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  color: #999;
+  padding-top: 5px;
+}
+.post-comment-tools {
+  width: 100%;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  color: #999;
+}
+.full-screen-edit {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+.post-comment-setting {
+  display: flex;
+  margin-right: 18px;
+}
+.post-comment-btn {
+  width: 100px;
+  height: 34px;
+  background-color: #567ceb;
+  color: #fff;
+  border-radius: 4px;
+}
+.post-comment-btn:disabled {
+  cursor: not-allowed;
+  background: #ddd;
+} */
+@media (max-width: 768px) {
+  /* .title {
+    font-size: 14px;
+    color: #888;
+  } */
+  /* .post-comment-score {
+    height: 44px;
+  } */
+  /* .post-comment {
+    padding: 0 15px 15px 15px;
+  }
+  .post-comment-btn {
+    width: 76px;
+    height: 28px;
+    border-radius: 3px;
+    font-size: 14px;
+  } */
+.post-comment-score[data-v-4d260282] {
+    /* display: flex;
+  line-height: 1em;
+  color: #999;
+  font-size: 16px; */
+    /* align-items: center; */
+    padding-bottom: 10px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .post-comment-textarea textarea {
+  border: none;
+  padding: 0;
+  min-height: 100px !important;
+} */
+
+
+.post-comment[data-v-1a17e40e] {
+  padding: 30px;
+  margin-bottom: 10px;
+}
+/* .post-comment-score {
+  display: flex;
+  height: 56px;
+  color: #999;
+  font-size: 16px;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+} */
+.post-comment-score .title[data-v-1a17e40e] {
+  margin-right: 10px;
+}
+.post-comment-textarea[data-v-1a17e40e] {
+  width: 100%;
+  margin-bottom: 10px;
+  color: #999;
+  padding-top: 0px;
+}
+.post-comment-tools[data-v-1a17e40e] {
+  width: 100%;
+  height: 34px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #999;
+}
+.full-screen-edit[data-v-1a17e40e] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+.post-comment-setting[data-v-1a17e40e] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 18px;
+}
+.post-comment-btn[data-v-1a17e40e] {
+  padding: 0 20px;
+  height: 34px;
+  background-color: #567ceb;
+  color: #fff;
+  border-radius: 4px;
+}
+.plain[data-v-1a17e40e] {
+  background-color: transparent;
+  color: #333;
+}
+button + button[data-v-1a17e40e] {
+  margin-left: 10px;
+}
+.post-comment-btn[data-v-1a17e40e]:disabled {
+  cursor: not-allowed;
+  background: #ddd;
+}
+@media (max-width: 768px) {
+.title[data-v-1a17e40e] {
+    font-size: 14px;
+    color: #888;
+}
+  /* .post-comment-textarea {
+    padding-top: 15px;
+  } */
+.post-comment[data-v-1a17e40e] {
+    padding: 15px;
+}
+.post-comment-btn[data-v-1a17e40e] {
+    /* width: 76px; */
+    height: 28px;
+    border-radius: 3px;
+    font-size: 14px;
+}
+}
+
+
+.post-comment-textarea textarea {
+  border: 1px solid #ddd;
+  padding: 10px;
+  min-height: 140px !important;
+}
+
+
+.el-dropdown-link[data-v-7e560391] {
+  cursor: pointer;
+}
+.dropdown-menu-checked[data-v-7e560391] {
+  background-color: #ecf5ff;
+  color: #66b1ff;
+}
+
+
+.result-view.as-result-view[data-v-a26c59f8] {
+  min-height: 529px;
+}
+.pagination[data-v-a26c59f8] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 10px 0;
+}
+
+
+.comment-card[data-v-ae9d561a] {
+  width: 100%;
+  background-color: #fff;
+  /* border-radius: 4px; */
+  /* box-shadow: 0px 0px 4px 0px rgba(204, 204, 204, 0.5); */
+  margin-bottom: 10px;
+  padding: 30px;
+}
+.SubjectItem.comment-card[data-v-ae9d561a] {
+  margin-bottom: 0;
+  border-bottom: 1px solid #f6f6f6;
+}
+.ReplyItem.comment-card[data-v-ae9d561a] {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border-top: 1px solid #f3f3f3;
+  padding: 20px 0;
+  margin-bottom: 0px;
+}
+.author-info[data-v-ae9d561a] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.author-info.BookComment[data-v-ae9d561a],
+.author-info.SubjectItem[data-v-ae9d561a] {
+  margin-bottom: 12px;
+}
+.author-info.ReplyItem[data-v-ae9d561a] {
+  margin-bottom: 0px;
+}
+.author-info-right[data-v-ae9d561a] {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+.SpaceCommentItem[data-v-ae9d561a] {
+  padding: 0 20px 20px;
+}
+@media (max-width: 768px) {
+.comment-card[data-v-ae9d561a] {
+    margin-bottom: 10px;
+}
+.SpaceCommentItem[data-v-ae9d561a] {
+    padding: 0 15px 10px;
+}
+.SpaceFavCommentItem[data-v-ae9d561a] {
+    padding: 10px;
+}
+.ReplyItem.comment-card[data-v-ae9d561a] {
+    padding: 10px 0;
+}
+.comment-card.BookCommentItem[data-v-ae9d561a],
+  .comment-card.SubjectItem[data-v-ae9d561a] {
+    padding: 15px;
+}
+.author-info.BookComment[data-v-ae9d561a],
+  .author-info.SubjectItem[data-v-ae9d561a] {
+    margin-bottom: 10px;
+}
+}
+
+
+.comment-author-container[data-v-23fbe57c] {
+  display: inline-block;
+  position: relative;
+}
+.comment-author[data-v-23fbe57c] {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.author-name[data-v-23fbe57c] {
+  font-size: 14px;
+  color: #616161;
+  font-weight: bold;
+}
+@media (max-width: 768px) {
+.author-name[data-v-23fbe57c] {
+    font-size: 14px;
+}
+}
+.author-action[data-v-23fbe57c] {
+  font-size: 12px;
+  color: #999;
+  margin-top: 5px;
+}
+.comment-author-info[data-v-23fbe57c] {
+  margin-left: 10px;
+}
+.fade-enter-active[data-v-23fbe57c],
+.fade-leave-active[data-v-23fbe57c] {
+  -webkit-transition: opacity 0.2s;
+  transition: opacity 0.2s;
+}
+.fade-enter[data-v-23fbe57c],
+.fade-leave-to[data-v-23fbe57c] {
+  opacity: 0;
+}
+
+
+.userinfo-avatar[data-v-a14252a0] {
+  display: inline-block;
+  /* width: 32px;
+  height: 32px; */
+  border-radius: 50%;
+  background-color: #ddd;
+  background-position: center center;
+  background-size: cover;
+  cursor: pointer;
+  /* transition: transform 0.2s; */
+}
+/* .userinfo-avatar:hover {
+  transform: scale(1.1);
+} */
+
+
+.createdAt-source[data-v-a0ec6b4e] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  /* margin: 15px 0 20px; */
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.createdAt[data-v-a0ec6b4e] {
+  color: #999;
+  font-size: 14px;
+  display: inline-block;
+  padding: 15px 0 20px;
+}
+.createdAt[data-v-a0ec6b4e]:hover {
+  color: #567ceb;
+}
+@media (max-width: 768px) {
+.createdAt[data-v-a0ec6b4e] {
+    padding: 10px 0 8px;
+}
+}
+
+
+.ToggleBtn[data-v-57d4d532] {
+  color: #567ceb;
+  font-size: 15px;
+  cursor: pointer;
+  margin-top: 5px;
+}
+.comment-content-inner[data-v-57d4d532] {
+  font-size: 15px;
+  line-height: 2em;
+  color: #333;
+  word-wrap: break-word;
+  word-break: break-word;
+  white-space: pre-wrap;
+  overflow: hidden;
+}
+.ReplyContentInner .comment-content-inner[data-v-57d4d532] {
+  font-size: 14px;
+  line-height: 1.6em;
+}
+.ReplyContentInner .ToggleBtn[data-v-57d4d532] {
+  font-size: 14px;
+}
+
+
+.comment-content-inner a {
+  color: #567ceb;
+}
+</style></head><body><div id="app" data-server-rendered="true" class="book"><header class="navbar-wrap" data-v-68dc387f><nav class="navbar-inner" data-v-68dc387f><a href="/" class="logo" data-v-68dc387f><!----></a><div class="navbar-main-wrap hidden-sm-and-down" data-v-68dc387f><div class="navbar-main" data-v-68dc387f><a href="/bookstore/" data-v-68dc387f>书库</a><a href="/booklists/" data-v-68dc387f>书单</a><a href="/topics/" data-v-68dc387f>话题</a><a href="/explore" data-v-68dc387f>发现</a><!----></div></div><div class="navbar-main-xs-only hidden-md-and-up" data-v-68dc387f></div><div class="navbar-side" data-v-68dc387f><!----><a href="/search/" class="hidden-md-and-up" data-v-68dc387f><!----></a><span data-v-68dc387f>登录</span><span data-v-68dc387f>注册</span></div></nav><!----></header><div class="app-main"><button class="backtop-btn el-icon-top" style="display:none;" data-v-5587096e></button><div><header class="bookpage-layout-header" data-v-a616861a><div class="bookpage-layout-header-wrap" data-v-a616861a><div class="bookpage-layout-header-main" data-v-a616861a><div class="book-info" data-v-438d1754><div class="book-info-wrap" data-v-438d1754><a href="/book/" cover="https://novel-cdn.kuangxiangit.com/uploads/allimg/c171123/23-11-17120059-32196.jpg" width="150" height="200" bookId="" class="hidden-sm-and-down router-link-active" style="margin-right:20px;" data-v-7b843d00 data-v-438d1754><span alt="" class="loadingBlock" style="width:150px;height:200px;" data-v-7b843d00></span></a><a href="/book/" cover="https://novel-cdn.kuangxiangit.com/uploads/allimg/c171123/23-11-17120059-32196.jpg" width="82.5" height="110" bookId="" class="hidden-md-and-up router-link-active" style="margin-right:10px;" data-v-7b843d00 data-v-438d1754><span alt="" class="loadingBlock" style="width:82.5px;height:110px;" data-v-7b843d00></span></a><div class="book-info-detail" data-v-438d1754><h1 class="book-name" data-v-438d1754>致四千年后</h1><p class="book-author hidden-md-and-up" data-v-438d1754><a href="/search/?SearchType=author&amp;SearchValue=%E7%A5%88%E8%80%B3%E5%96%B5" style="margin-right:5px;" data-v-438d1754>祈耳喵</a>
+        183.7万 完结
+        <!----></p><p class="hidden-sm-and-down" data-v-438d1754><a href="/search/?SearchType=author&amp;SearchValue=%E7%A5%88%E8%80%B3%E5%96%B5" target="_blank" data-v-438d1754>
+          作者:
+          祈耳喵
+          <!----></a></p><p class="book-word-count hidden-sm-and-down" data-v-438d1754>本书字数：183.7万字</p><p class="book-status" data-v-438d1754>
+        更新时间：2 个月前
+        <span class="status hidden-sm-and-down" data-v-438d1754>·完结</span></p><!----></div></div><div class="book-info-footer" data-v-438d1754><div class="tags" data-v-708b1883 data-v-438d1754><div class="public" data-v-708b1883><span class="el-tag el-tag--primary el-tag--small el-tag--light"><a href="/bookstore/?classId=14" target="_blank">二次元</a></span><span class="el-tag el-tag--success el-tag--small el-tag--light"><a href="/bookstore/?tag=%E5%AE%85%E6%96%87&amp;classId=14" target="_blank">宅文</a></span><span class="el-tag el-tag--success el-tag--small el-tag--light"><a href="/bookstore/?tag=%E6%88%98%E4%BA%89%E5%8E%86%E5%8F%B2&amp;classId=14" target="_blank">战争历史</a></span></div><!----><button type="button" class="el-button button-new-tag el-button--default el-button--mini" data-v-708b1883><!----><!----><span>新建标签</span></button></div></div></div></div><div class="bookpage-layout-header-side" data-v-a616861a></div></div></header><section class="bookpage-layout-main book-page" data-v-14c62c06><div class="bookpage-layout-main-right" data-v-14c62c06><div class="hidden-sm-and-down sticky" data-v-611f19ec><div data-v-611f19ec><div class="common-card-layout side" style="padding:30px;" data-v-562ec182 data-v-6581533a data-v-611f19ec><h1 data-v-562ec182><p data-v-6581533a>
+      收录书单
+      <span class="addListCount" data-v-6581533a>39</span>次
+    </p></h1><div class="body" data-v-562ec182><a href="/booklist/595b8c0182864d380645f90f" target="_blank" class="ellipsis" data-v-6581533a>记录那些熬夜看的文</a><a href="/booklist/58d3c1f4aa441ea76574a8f6" target="_blank" class="ellipsis" data-v-6581533a>这是戴面具的书单（各种类型都有，纯都市较少）</a><a href="/booklist/5c31fba51b4026a3610d93ee" target="_blank" class="ellipsis" data-v-6581533a>760工程2019</a><a href="/booklist/59fac2575828cdf15c05c527" target="_blank" class="ellipsis" data-v-6581533a>上接五千年悠悠时光，下览亿万重平行宇宙</a><a href="/booklist/59ffed17030235aa7eae320f" target="_blank" class="ellipsis" data-v-6581533a>宅向粮草-飞卢书客①</a><a href="/booklist/5b67a8485a22f5ad5fd25c7a" target="_blank" class="ellipsis" data-v-6581533a>不是很懂妳們弍次元</a><a href="/booklist/5bc49f05419979115505cd53" target="_blank" class="ellipsis" data-v-6581533a>推一些感觉不错的书系列二</a><a href="/booklist/5b795427c330670f34c447c3" target="_blank" class="ellipsis" data-v-6581533a>【菜De】2018在欢乐书客的日子</a><a href="/booklist/59b0cfdb1e87161f5d53c774" target="_blank" class="ellipsis" data-v-6581533a>好毒！好毒！</a><a href="/booklist/5a3f3994833f95967e267afb" target="_blank" class="ellipsis" data-v-6581533a>仙草</a></div></div></div></div></div><div class="bookpage-layout-main-left" data-v-14c62c06><!----><div class="bookpage-main-left-layout" data-v-41abf9f6 data-v-348a438e><div class="common-card-layout main-left-header" data-v-41abf9f6></div><div data-v-41abf9f6><div bookId="" myScore="0" class="common-card-layout post-comment" style="display:none;" data-v-1a17e40e data-v-4d260282 data-v-348a438e><div class="post-comment-score" data-v-4d260282><span class="title" data-v-4d260282>本书评分:</span><div role="slider" aria-valuenow="0" aria-valuetext="" aria-valuemin="0" aria-valuemax="5" tabindex="0" class="el-rate" data-v-4d260282><span class="el-rate__item" style="cursor:pointer;"><i class="el-rate__icon el-icon-star-off" style="color:#C6D1DE;"><!----></i></span><span class="el-rate__item" style="cursor:pointer;"><i class="el-rate__icon el-icon-star-off" style="color:#C6D1DE;"><!----></i></span><span class="el-rate__item" style="cursor:pointer;"><i class="el-rate__icon el-icon-star-off" style="color:#C6D1DE;"><!----></i></span><span class="el-rate__item" style="cursor:pointer;"><i class="el-rate__icon el-icon-star-off" style="color:#C6D1DE;"><!----></i></span><span class="el-rate__item" style="cursor:pointer;"><i class="el-rate__icon el-icon-star-off" style="color:#C6D1DE;"><!----></i></span><!----></div></div><div class="post-comment-textarea el-textarea" data-v-1a17e40e><textarea autocomplete="off" placeholder="写评论，发表评论要记得先对本书进行打分噢(内容不得少于2个字)" class="el-textarea__inner"></textarea><!----></div><div class="post-comment-tools" data-v-1a17e40e><div class="full-screen-edit" data-v-1a17e40e></div><div class="post-comment-setting" data-v-1a17e40e><div class="el-dropdown" data-v-7e560391 data-v-1a17e40e><button class="withicon" data-v-7e560391><!---->设置
+  </button><ul class="el-dropdown-menu el-popper" style="display:none;" data-v-7e560391><li tabindex="-1" class="el-dropdown-menu__item dropdown-menu-checked" data-v-7e560391><!---->
+      所有人可以评论
+      <span data-v-7e560391>√</span></li><li tabindex="-1" class="el-dropdown-menu__item" data-v-7e560391><!---->
+      关注的人可以评论
+      <!----></li><li tabindex="-1" class="el-dropdown-menu__item" data-v-7e560391><!---->
+      禁止评论
+      <!----></li></ul></div></div><!----><button disabled="disabled" class="post-comment-btn" data-v-1a17e40e>发送评论</button></div></div><div class="result-view" data-v-a26c59f8 data-v-348a438e><div class="result" data-v-a26c59f8><div replyable="true" templateType="comment" index="5a3e7c423bb559d07e824a66" comment="[object Object]" bookId="" cssType="BookComment" class="comment-card BookCommentItem" data-v-ae9d561a data-v-9d2f8b00 data-v-2dfb9b9e data-v-348a438e><div class="author-info BookComment" data-v-ae9d561a><div size="36" class="comment-author-container" data-v-23fbe57c><a href="/user/827009/comments" target="_blank" class="comment-author" data-v-23fbe57c><img src="//img.lkong.cn/avatar/000/82/70/09_avatar_small.jpg" loading="lazy" class="userinfo-avatar" style="width:36px;height:36px;" data-v-a14252a0 data-v-23fbe57c><div class="comment-author-info" data-v-23fbe57c><p class="author-name" data-v-23fbe57c>泉落三千丈</p><!----></div></a><!----></div><div class="author-info-right" data-v-ae9d561a></div></div><div class="comment-card-content" data-v-ae9d561a><div commentId="5a3e7c423bb559d07e824a66" replyable="true" cssType="BookComment" templateType="comment" index="5a3e7c423bb559d07e824a66" comment="[object Object]" bookId="" data-v-a0ec6b4e data-v-9d2f8b00><div class="comment-content" data-v-57d4d532 data-v-a0ec6b4e><div class="comment-content-inner default" data-v-57d4d532><span data-v-57d4d532>剧毒拿好不谢，非来推读装逼，洗地还要和国人自信心扯上关系，蠢得不行，合着有自信心的就非得看是吧，想看爽文不想被膈应还不行？</span><!----></div></div><div class="createdAt-source" data-v-a0ec6b4e><a href="/book//comment/5a3e7c423bb559d07e824a66" class="createdAt" data-v-a0ec6b4e>发表于2017-12-23 23:54</a></div><!----><!----></div></div><div class="comment-received-hot" data-v-ae9d561a></div></div><div replyable="true" templateType="comment" index="5b69909babfc6a785ffcd3b0" comment="[object Object]" bookId="" cssType="BookComment" class="comment-card BookCommentItem" data-v-ae9d561a data-v-9d2f8b00 data-v-2dfb9b9e data-v-348a438e><div class="author-info BookComment" data-v-ae9d561a><div size="36" class="comment-author-container" data-v-23fbe57c><a href="/user/713355/comments" target="_blank" class="comment-author" data-v-23fbe57c><img src="//img.lkong.cn/avatar/000/71/33/55_avatar_small.jpg" loading="lazy" class="userinfo-avatar" style="width:36px;height:36px;" data-v-a14252a0 data-v-23fbe57c><div class="comment-author-info" data-v-23fbe57c><p class="author-name" data-v-23fbe57c>嗯哼吧哈</p><!----></div></a><!----></div><div class="author-info-right" data-v-ae9d561a></div></div><div class="comment-card-content" data-v-ae9d561a><div commentId="5b69909babfc6a785ffcd3b0" replyable="true" cssType="BookComment" templateType="comment" index="5b69909babfc6a785ffcd3b0" comment="[object Object]" bookId="" data-v-a0ec6b4e data-v-9d2f8b00><div class="comment-content" data-v-57d4d532 data-v-a0ec6b4e><div class="comment-content-inner default" data-v-57d4d532><span data-v-57d4d532>一星接好了，精神白皮读者拉低的不谢，书质量是三星，劣质装逼，做事浑浑噩噩，关键NC粉疯狂洗地嘲讽，直接说不喜欢看的就都是喜欢看屠日灭美的，果然信了白皮那套的都是狭隘的非我既恶，丑恶得不行。
+感情有自信心的就非得说好吧，同是梦想，梦想本国崛起还真就不如你们香蕉人梦想屁大小国霸球，毕竟你们梦的更彻底。</span><!----></div></div><div class="createdAt-source" data-v-a0ec6b4e><a href="/book//comment/5b69909babfc6a785ffcd3b0" class="createdAt" data-v-a0ec6b4e>发表于2018-08-07 20:29</a></div><!----><!----></div></div><div class="comment-received-hot" data-v-ae9d561a></div></div><div replyable="true" templateType="comment" index="5b866ff19fe95e5a14977cd8" comment="[object Object]" bookId="" cssType="BookComment" class="comment-card BookCommentItem" data-v-ae9d561a data-v-9d2f8b00 data-v-2dfb9b9e data-v-348a438e><div class="author-info BookComment" data-v-ae9d561a><div size="36" class="comment-author-container" data-v-23fbe57c><a href="/user/566563/comments" target="_blank" class="comment-author" data-v-23fbe57c><img src="//img.lkong.cn/avatar/000/56/65/63_avatar_small.jpg" loading="lazy" class="userinfo-avatar" style="width:36px;height:36px;" data-v-a14252a0 data-v-23fbe57c><div class="comment-author-info" data-v-23fbe57c><p class="author-name" data-v-23fbe57c>305467120</p><!----></div></a><!----></div><div class="author-info-right" data-v-ae9d561a></div></div><div class="comment-card-content" data-v-ae9d561a><div commentId="5b866ff19fe95e5a14977cd8" replyable="true" cssType="BookComment" templateType="comment" index="5b866ff19fe95e5a14977cd8" comment="[object Object]" bookId="" data-v-a0ec6b4e data-v-9d2f8b00><div class="comment-content" data-v-57d4d532 data-v-a0ec6b4e><div class="comment-content-inner default" data-v-57d4d532><span data-v-57d4d532>你们这些喷的，都没看过作者的上本书吧？
+看完你们就不会喷了，这么垃圾的作者我会看它的第二本书？</span><!----></div></div><div class="createdAt-source" data-v-a0ec6b4e><a href="/book//comment/5b866ff19fe95e5a14977cd8" class="createdAt" data-v-a0ec6b4e>发表于2018-08-29 18:05</a></div><!----><!----></div></div><div class="comment-received-hot" data-v-ae9d561a></div></div><div replyable="true" templateType="comment" index="5a61955f7140107570067f50" comment="[object Object]" bookId="" cssType="BookComment" class="comment-card BookCommentItem" data-v-ae9d561a data-v-9d2f8b00 data-v-2dfb9b9e data-v-348a438e><div class="author-info BookComment" data-v-ae9d561a><div size="36" class="comment-author-container" data-v-23fbe57c><a href="/user/1062864/comments" target="_blank" class="comment-author" data-v-23fbe57c><img src="//img.lkong.cn/avatar/001/06/28/64_avatar_small.jpg" loading="lazy" class="userinfo-avatar" style="width:36px;height:36px;" data-v-a14252a0 data-v-23fbe57c><div class="comment-author-info" data-v-23fbe57c><p class="author-name" data-v-23fbe57c>天王寺嵐</p><!----></div></a><!----></div><div class="author-info-right" data-v-ae9d561a></div></div><div class="comment-card-content" data-v-ae9d561a><div commentId="5a61955f7140107570067f50" replyable="true" cssType="BookComment" templateType="comment" index="5a61955f7140107570067f50" comment="[object Object]" bookId="" data-v-a0ec6b4e data-v-9d2f8b00><div class="comment-content" data-v-57d4d532 data-v-a0ec6b4e><div class="comment-content-inner default" data-v-57d4d532><span data-v-57d4d532>主角真是枉活七十有六，没搞懂主角想干嘛。披着<a href="/name/文明" target="_blank">《文明》</a>的外皮，水着没营养的东西。本来拥有轮回转世的能力，即使不像<a href="/name/从酋长到球长" target="_blank">《从酋长到球长》</a>的陈健那样圣人一般推进自己文明的发展，也要干点什么大事才行吧。一直在干对人类文明毫无意义的事情，行文充满装逼式的宗教说教。</span><!----></div></div><div class="createdAt-source" data-v-a0ec6b4e><a href="/book//comment/5a61955f7140107570067f50" class="createdAt" data-v-a0ec6b4e>发表于2018-01-19 14:51</a></div><!----><!----></div></div><div class="comment-received-hot" data-v-ae9d561a></div></div><div replyable="true" templateType="comment" index="5a2a72290077cebc7ed53944" comment="[object Object]" bookId="" cssType="BookComment" class="comment-card BookCommentItem" data-v-ae9d561a data-v-9d2f8b00 data-v-2dfb9b9e data-v-348a438e><div class="author-info BookComment" data-v-ae9d561a><div size="36" class="comment-author-container" data-v-23fbe57c><a href="/user/739282/comments" target="_blank" class="comment-author" data-v-23fbe57c><img src="//img.lkong.cn/avatar/000/73/92/82_avatar_small.jpg" loading="lazy" class="userinfo-avatar" style="width:36px;height:36px;" data-v-a14252a0 data-v-23fbe57c><div class="comment-author-info" data-v-23fbe57c><p class="author-name" data-v-23fbe57c>愿云远</p><!----></div></a><!----></div><div class="author-info-right" data-v-ae9d561a></div></div><div class="comment-card-content" data-v-ae9d561a><div commentId="5a2a72290077cebc7ed53944" replyable="true" cssType="BookComment" templateType="comment" index="5a2a72290077cebc7ed53944" comment="[object Object]" bookId="" data-v-a0ec6b4e data-v-9d2f8b00><div class="comment-content" data-v-57d4d532 data-v-a0ec6b4e><div class="comment-content-inner default" data-v-57d4d532><span data-v-57d4d532>书客，文明养成流，穿越圣经故事，主角所罗门，目前正与亚多尼雅争夺以色列王，预测会收服72柱魔神。
+为什么看：我居然在书客看圣经故事，也是醉了，但真如同史诗里的所罗门一样。
+为什么不看：感觉黑幕重重的，又是系统又是魔神的，系统介绍的上帝已死感觉也蹊跷，怕不是雅威钦定。
+补充：主角继续转生下去，无数贤人马甲，怕不是<a href="/name/从启蒙人类到坐马桶——帝皇本纪" target="_blank">《从启蒙人类到坐马桶——帝皇本纪》</a>
+再补充：看到所罗门去世的那一章，我居然有点感动了。</span><!----></div></div><div class="createdAt-source" data-v-a0ec6b4e><a href="/book//comment/5a2a72290077cebc7ed53944" class="createdAt" data-v-a0ec6b4e>发表于2017-12-08 19:06</a></div><!----><!----></div></div><div class="comment-received-hot" data-v-ae9d561a></div></div><div replyable="true" templateType="comment" index="5bc54c9d4b33263955e56c10" comment="[object Object]" bookId="" cssType="BookComment" class="comment-card BookCommentItem" data-v-ae9d561a data-v-9d2f8b00 data-v-2dfb9b9e data-v-348a438e><div class="author-info BookComment" data-v-ae9d561a><div size="36" class="comment-author-container" data-v-23fbe57c><a href="/user/1137639/comments" target="_blank" class="comment-author" data-v-23fbe57c><img src="//img.lkong.cn/avatar/001/13/76/39_avatar_small.jpg" loading="lazy" class="userinfo-avatar" style="width:36px;height:36px;" data-v-a14252a0 data-v-23fbe57c><div class="comment-author-info" data-v-23fbe57c><p class="author-name" data-v-23fbe57c>三色枕</p><!----></div></a><!----></div><div class="author-info-right" data-v-ae9d561a></div></div><div class="comment-card-content" data-v-ae9d561a><div commentId="5bc54c9d4b33263955e56c10" replyable="true" cssType="BookComment" templateType="comment" index="5bc54c9d4b33263955e56c10" comment="[object Object]" bookId="" data-v-a0ec6b4e data-v-9d2f8b00><div class="comment-content" data-v-57d4d532 data-v-a0ec6b4e><div class="comment-content-inner default" data-v-57d4d532><span data-v-57d4d532>作者还是挺机智的，仅写西方绝口不提东方都能被喷成这样，他要是涉及到东方了岂不是要螺旋升天</span><!----></div></div><div class="createdAt-source" data-v-a0ec6b4e><a href="/book//comment/5bc54c9d4b33263955e56c10" class="createdAt" data-v-a0ec6b4e>发表于2018-10-16 10:27</a></div><!----><!----></div></div><div class="comment-received-hot" data-v-ae9d561a></div></div><div replyable="true" templateType="comment" index="5ca371341db926554d975a8f" comment="[object Object]" bookId="" cssType="BookComment" class="comment-card BookCommentItem" data-v-ae9d561a data-v-9d2f8b00 data-v-2dfb9b9e data-v-348a438e><div class="author-info BookComment" data-v-ae9d561a><div size="36" class="comment-author-container" data-v-23fbe57c><a href="/user/695648/comments" target="_blank" class="comment-author" data-v-23fbe57c><img src="//img.lkong.cn/avatar/000/69/56/48_avatar_small.jpg" loading="lazy" class="userinfo-avatar" style="width:36px;height:36px;" data-v-a14252a0 data-v-23fbe57c><div class="comment-author-info" data-v-23fbe57c><p class="author-name" data-v-23fbe57c>一寸十万</p><!----></div></a><!----></div><div class="author-info-right" data-v-ae9d561a></div></div><div class="comment-card-content" data-v-ae9d561a><div commentId="5ca371341db926554d975a8f" replyable="true" cssType="BookComment" templateType="comment" index="5ca371341db926554d975a8f" comment="[object Object]" bookId="" data-v-a0ec6b4e data-v-9d2f8b00><div class="comment-content" data-v-57d4d532 data-v-a0ec6b4e><div class="comment-content-inner default" data-v-57d4d532><span data-v-57d4d532>我来猜猜作者心里话 “斯世已难逃匪穴,来生愿做异邦人”</span><!----></div></div><div class="createdAt-source" data-v-a0ec6b4e><a href="/book//comment/5ca371341db926554d975a8f" class="createdAt" data-v-a0ec6b4e>发表于2019-04-02 22:27</a></div><!----><!----></div></div><div class="comment-received-hot" data-v-ae9d561a></div></div><div replyable="true" templateType="comment" index="5a60ba886fc6f3477075a0f9" comment="[object Object]" bookId="" cssType="BookComment" class="comment-card BookCommentItem" data-v-ae9d561a data-v-9d2f8b00 data-v-2dfb9b9e data-v-348a438e><div class="author-info BookComment" data-v-ae9d561a><div size="36" class="comment-author-container" data-v-23fbe57c><a href="/user/928497/comments" target="_blank" class="comment-author" data-v-23fbe57c><img src="//img.lkong.cn/avatar/000/92/84/97_avatar_small.jpg" loading="lazy" class="userinfo-avatar" style="width:36px;height:36px;" data-v-a14252a0 data-v-23fbe57c><div class="comment-author-info" data-v-23fbe57c><p class="author-name" data-v-23fbe57c>Jrua0844</p><!----></div></a><!----></div><div class="author-info-right" data-v-ae9d561a></div></div><div class="comment-card-content" data-v-ae9d561a><div commentId="5a60ba886fc6f3477075a0f9" replyable="true" cssType="BookComment" templateType="comment" index="5a60ba886fc6f3477075a0f9" comment="[object Object]" bookId="" data-v-a0ec6b4e data-v-9d2f8b00><div class="comment-content" data-v-57d4d532 data-v-a0ec6b4e><div class="comment-content-inner default" data-v-57d4d532><span data-v-57d4d532>还行，问题是几乎没有战争全靠一些男主想当然的计谋，以色列就打的赢埃及了？更何况男主自己一个人跑去埃及神TM第二天就当了法老...真的是除了系统外还自带气运流万丈金身。我不是想说无敌流不好，但作者的这些计谋还有推演显然说服不了我，显得非常的假和不自然</span><!----></div></div><div class="createdAt-source" data-v-a0ec6b4e><a href="/book//comment/5a60ba886fc6f3477075a0f9" class="createdAt" data-v-a0ec6b4e>发表于2018-01-18 23:17</a></div><!----><!----></div></div><div class="comment-received-hot" data-v-ae9d561a></div></div><div replyable="true" templateType="comment" index="5b1d4cd27ca9548f6609310a" comment="[object Object]" bookId="" cssType="BookComment" class="comment-card BookCommentItem" data-v-ae9d561a data-v-9d2f8b00 data-v-2dfb9b9e data-v-348a438e><div class="author-info BookComment" data-v-ae9d561a><div size="36" class="comment-author-container" data-v-23fbe57c><a href="/user/690621/comments" target="_blank" class="comment-author" data-v-23fbe57c><img src="//img.lkong.cn/avatar/000/69/06/21_avatar_small.jpg" loading="lazy" class="userinfo-avatar" style="width:36px;height:36px;" data-v-a14252a0 data-v-23fbe57c><div class="comment-author-info" data-v-23fbe57c><p class="author-name" data-v-23fbe57c>黑翼降临</p><!----></div></a><!----></div><div class="author-info-right" data-v-ae9d561a></div></div><div class="comment-card-content" data-v-ae9d561a><div commentId="5b1d4cd27ca9548f6609310a" replyable="true" cssType="BookComment" templateType="comment" index="5b1d4cd27ca9548f6609310a" comment="[object Object]" bookId="" data-v-a0ec6b4e data-v-9d2f8b00><div class="comment-content" data-v-57d4d532 data-v-a0ec6b4e><div class="comment-content-inner default" data-v-57d4d532><span data-v-57d4d532>没搞懂男主在做啥 一直装逼转世 既没积累超脱的资本也没什么别的目的。</span><!----></div></div><div class="createdAt-source" data-v-a0ec6b4e><a href="/book//comment/5b1d4cd27ca9548f6609310a" class="createdAt" data-v-a0ec6b4e>发表于2018-06-11 00:07</a></div><!----><!----></div></div><div class="comment-received-hot" data-v-ae9d561a></div></div><div replyable="true" templateType="comment" index="5a8e6c7692fca93460ce9acb" comment="[object Object]" bookId="" cssType="BookComment" class="comment-card BookCommentItem" data-v-ae9d561a data-v-9d2f8b00 data-v-2dfb9b9e data-v-348a438e><div class="author-info BookComment" data-v-ae9d561a><div size="36" class="comment-author-container" data-v-23fbe57c><a href="/user/731606/comments" target="_blank" class="comment-author" data-v-23fbe57c><img src="//img.lkong.cn/avatar/000/73/16/06_avatar_small.jpg" loading="lazy" class="userinfo-avatar" style="width:36px;height:36px;" data-v-a14252a0 data-v-23fbe57c><div class="comment-author-info" data-v-23fbe57c><p class="author-name" data-v-23fbe57c>南江鱼</p><!----></div></a><!----></div><div class="author-info-right" data-v-ae9d561a></div></div><div class="comment-card-content" data-v-ae9d561a><div commentId="5a8e6c7692fca93460ce9acb" replyable="true" cssType="BookComment" templateType="comment" index="5a8e6c7692fca93460ce9acb" comment="[object Object]" bookId="" data-v-a0ec6b4e data-v-9d2f8b00><div class="comment-content" data-v-57d4d532 data-v-a0ec6b4e><div class="comment-content-inner default" data-v-57d4d532><span data-v-57d4d532>虽然本书在龙空被嘲讽为精神包皮，对推动历史无太大用处，但是也能一看。
+本书换个名字可能更贴切如<a href="/name/从村长到坐金马桶" target="_blank">《从村长到坐金马桶》</a>
+<a href="/name/我，所罗门一定要苟到四千年以后口牙" target="_blank">《我，所罗门一定要苟到四千年以后口牙》</a><a href="/name/我，耶稣" target="_blank">《我，耶稣》</a>等等</span><!----></div></div><div class="createdAt-source" data-v-a0ec6b4e><a href="/book//comment/5a8e6c7692fca93460ce9acb" class="createdAt" data-v-a0ec6b4e>发表于2018-02-22 15:08</a></div><!----><!----></div></div><div class="comment-received-hot" data-v-ae9d561a></div></div><div replyable="true" templateType="comment" index="5a76c3f47140107570072102" comment="[object Object]" bookId="" cssType="BookComment" class="comment-card BookCommentItem" data-v-ae9d561a data-v-9d2f8b00 data-v-2dfb9b9e data-v-348a438e><div class="author-info BookComment" data-v-ae9d561a><div size="36" class="comment-author-container" data-v-23fbe57c><a href="/user/97905/comments" target="_blank" class="comment-author" data-v-23fbe57c><img src="//img.lkong.cn/avatar/000/09/79/05_avatar_small.jpg" loading="lazy" class="userinfo-avatar" style="width:36px;height:36px;" data-v-a14252a0 data-v-23fbe57c><div class="comment-author-info" data-v-23fbe57c><p class="author-name" data-v-23fbe57c>狈狈先生</p><!----></div></a><!----></div><div class="author-info-right" data-v-ae9d561a></div></div><div class="comment-card-content" data-v-ae9d561a><div commentId="5a76c3f47140107570072102" replyable="true" cssType="BookComment" templateType="comment" index="5a76c3f47140107570072102" comment="[object Object]" bookId="" data-v-a0ec6b4e data-v-9d2f8b00><div class="comment-content" data-v-57d4d532 data-v-a0ec6b4e><div class="comment-content-inner default" data-v-57d4d532><span data-v-57d4d532>罗曼医生是一回事，包.皮佬之王又是另一回事了。</span><!----></div></div><div class="createdAt-source" data-v-a0ec6b4e><a href="/book//comment/5a76c3f47140107570072102" class="createdAt" data-v-a0ec6b4e>发表于2018-02-04 16:27</a></div><!----><!----></div></div><div class="comment-received-hot" data-v-ae9d561a></div></div><div replyable="true" templateType="comment" index="5ca8e9557ae131914dd0dc89" comment="[object Object]" bookId="" cssType="BookComment" class="comment-card BookCommentItem" data-v-ae9d561a data-v-9d2f8b00 data-v-2dfb9b9e data-v-348a438e><div class="author-info BookComment" data-v-ae9d561a><div size="36" class="comment-author-container" data-v-23fbe57c><a href="/user/913483/comments" target="_blank" class="comment-author" data-v-23fbe57c><img src="//img.lkong.cn/avatar/000/91/34/83_avatar_small.jpg" loading="lazy" class="userinfo-avatar" style="width:36px;height:36px;" data-v-a14252a0 data-v-23fbe57c><div class="comment-author-info" data-v-23fbe57c><p class="author-name" data-v-23fbe57c>浮休道人</p><!----></div></a><!----></div><div class="author-info-right" data-v-ae9d561a></div></div><div class="comment-card-content" data-v-ae9d561a><div commentId="5ca8e9557ae131914dd0dc89" replyable="true" cssType="BookComment" templateType="comment" index="5ca8e9557ae131914dd0dc89" comment="[object Object]" bookId="" data-v-a0ec6b4e data-v-9d2f8b00><div class="comment-content" data-v-57d4d532 data-v-a0ec6b4e><div class="comment-content-inner default" data-v-57d4d532><span data-v-57d4d532>希望作者正视自己的本心，早日移民出国。</span><!----></div></div><div class="createdAt-source" data-v-a0ec6b4e><a href="/book//comment/5ca8e9557ae131914dd0dc89" class="createdAt" data-v-a0ec6b4e>发表于2019-04-07 02:00</a></div><!----><!----></div></div><div class="comment-received-hot" data-v-ae9d561a></div></div><div replyable="true" templateType="comment" index="5b67b2cfabfc6a785ffcc268" comment="[object Object]" bookId="" cssType="BookComment" class="comment-card BookCommentItem" data-v-ae9d561a data-v-9d2f8b00 data-v-2dfb9b9e data-v-348a438e><div class="author-info BookComment" data-v-ae9d561a><div size="36" class="comment-author-container" data-v-23fbe57c><a href="/user/934699/comments" target="_blank" class="comment-author" data-v-23fbe57c><img src="//img.lkong.cn/avatar/000/93/46/99_avatar_small.jpg" loading="lazy" class="userinfo-avatar" style="width:36px;height:36px;" data-v-a14252a0 data-v-23fbe57c><div class="comment-author-info" data-v-23fbe57c><p class="author-name" data-v-23fbe57c>结城林檎</p><!----></div></a><!----></div><div class="author-info-right" data-v-ae9d561a></div></div><div class="comment-card-content" data-v-ae9d561a><div commentId="5b67b2cfabfc6a785ffcc268" replyable="true" cssType="BookComment" templateType="comment" index="5b67b2cfabfc6a785ffcc268" comment="[object Object]" bookId="" data-v-a0ec6b4e data-v-9d2f8b00><div class="comment-content" data-v-57d4d532 data-v-a0ec6b4e><div class="comment-content-inner default" data-v-57d4d532><span data-v-57d4d532>绝了，我一个无神论者居然在书客看圣经，真是不懂你们二次元的玩法（笑
+主角带着类似席德梅尔的文明的系统穿越回低（中？）魔的古代地中海文明，主要通过外交手段来统合各个国家，在文明的走向停滞或者是走上了岔路的时候就会再度转生来引领文明，目标是四千年以后引领地球人成为灵能联网的群星大佬，可以说是真实从石器时代到群星了。
+主角克制了攀科技的速度，而且有意识的调和种族矛盾，而且至少目前地图还只有欧洲和北非。可能想看中国埋头种田种出排队枪毙然后灭日艹美搞种族灭局屠杀的读者看到这种小说是要跳脚骂人的吧（笑</span><!----></div></div><div class="createdAt-source" data-v-a0ec6b4e><a href="/book//comment/5b67b2cfabfc6a785ffcc268" class="createdAt" data-v-a0ec6b4e>发表于2018-08-06 10:30</a></div><!----><!----></div></div><div class="comment-received-hot" data-v-ae9d561a></div></div><div replyable="true" templateType="comment" index="5ca34885522e88734d73ce8f" comment="[object Object]" bookId="" cssType="BookComment" class="comment-card BookCommentItem" data-v-ae9d561a data-v-9d2f8b00 data-v-2dfb9b9e data-v-348a438e><div class="author-info BookComment" data-v-ae9d561a><div size="36" class="comment-author-container" data-v-23fbe57c><a href="/user/865686/comments" target="_blank" class="comment-author" data-v-23fbe57c><img src="//img.lkong.cn/avatar/000/86/56/86_avatar_small.jpg" loading="lazy" class="userinfo-avatar" style="width:36px;height:36px;" data-v-a14252a0 data-v-23fbe57c><div class="comment-author-info" data-v-23fbe57c><p class="author-name" data-v-23fbe57c>aexe</p><!----></div></a><!----></div><div class="author-info-right" data-v-ae9d561a></div></div><div class="comment-card-content" data-v-ae9d561a><div commentId="5ca34885522e88734d73ce8f" replyable="true" cssType="BookComment" templateType="comment" index="5ca34885522e88734d73ce8f" comment="[object Object]" bookId="" data-v-a0ec6b4e data-v-9d2f8b00><div class="comment-content" data-v-57d4d532 data-v-a0ec6b4e><div class="comment-content-inner default" data-v-57d4d532><span data-v-57d4d532>白皮为主一星走你</span><!----></div></div><div class="createdAt-source" data-v-a0ec6b4e><a href="/book//comment/5ca34885522e88734d73ce8f" class="createdAt" data-v-a0ec6b4e>发表于2019-04-02 19:33</a></div><!----><!----></div></div><div class="comment-received-hot" data-v-ae9d561a></div></div><div replyable="true" templateType="comment" index="5d0a4b056362a9e477413626" comment="[object Object]" bookId="" cssType="BookComment" class="comment-card BookCommentItem" data-v-ae9d561a data-v-9d2f8b00 data-v-2dfb9b9e data-v-348a438e><div class="author-info BookComment" data-v-ae9d561a><div size="36" class="comment-author-container" data-v-23fbe57c><a href="/user/596227/comments" target="_blank" class="comment-author" data-v-23fbe57c><img src="//img.lkong.cn/avatar/000/59/62/27_avatar_small.jpg" loading="lazy" class="userinfo-avatar" style="width:36px;height:36px;" data-v-a14252a0 data-v-23fbe57c><div class="comment-author-info" data-v-23fbe57c><p class="author-name" data-v-23fbe57c>冰无漪</p><!----></div></a><!----></div><div class="author-info-right" data-v-ae9d561a></div></div><div class="comment-card-content" data-v-ae9d561a><div commentId="5d0a4b056362a9e477413626" replyable="true" cssType="BookComment" templateType="comment" index="5d0a4b056362a9e477413626" comment="[object Object]" bookId="" data-v-a0ec6b4e data-v-9d2f8b00><div class="comment-content" data-v-57d4d532 data-v-a0ec6b4e><div class="comment-content-inner default" data-v-57d4d532><span data-v-57d4d532>其实我很纠结要不要在这推这本书，之前在推书版看到上一个推这本书的因为主角穿了个白人被喷了几百楼，真的感觉匪夷所思。
+这本书我觉得最大的优点在于他不违和，比如在第一二个世界，主角是所罗门和耶稣，在那个时代主角与人交流以及治国外交的理念就是圣经体的，包括说话，措辞等等，到了第三世查理曼大帝，主角的理念就换成了符合时代特色的君主论的理论，包括书中所有人物的说话行为等等，至少在我看来比那些动不动蹦几个现代用语，然而拿一些远远超出时代，根本不符合现实的理论出来装逼的主角好的多，也说明作者用心很多，至少至少，他是认真去考据的。最后，期待那个4000年的老鸡汤</span><!----></div></div><div class="createdAt-source" data-v-a0ec6b4e><a href="/book//comment/5d0a4b056362a9e477413626" class="createdAt" data-v-a0ec6b4e>发表于2019-06-19 22:47</a></div><!----><!----></div></div><div class="comment-received-hot" data-v-ae9d561a></div></div><div replyable="true" templateType="comment" index="5ca4e22380eba0794d09b6b2" comment="[object Object]" bookId="" cssType="BookComment" class="comment-card BookCommentItem" data-v-ae9d561a data-v-9d2f8b00 data-v-2dfb9b9e data-v-348a438e><div class="author-info BookComment" data-v-ae9d561a><div size="36" class="comment-author-container" data-v-23fbe57c><a href="/user/709995/comments" target="_blank" class="comment-author" data-v-23fbe57c><img src="//img.lkong.cn/avatar/000/70/99/95_avatar_small.jpg" loading="lazy" class="userinfo-avatar" style="width:36px;height:36px;" data-v-a14252a0 data-v-23fbe57c><div class="comment-author-info" data-v-23fbe57c><p class="author-name" data-v-23fbe57c>normanbao1992</p><!----></div></a><!----></div><div class="author-info-right" data-v-ae9d561a></div></div><div class="comment-card-content" data-v-ae9d561a><div commentId="5ca4e22380eba0794d09b6b2" replyable="true" cssType="BookComment" templateType="comment" index="5ca4e22380eba0794d09b6b2" comment="[object Object]" bookId="" data-v-a0ec6b4e data-v-9d2f8b00><div class="comment-content" data-v-57d4d532 data-v-a0ec6b4e><div class="comment-content-inner default" data-v-57d4d532><span data-v-57d4d532>精神白皮</span><!----></div></div><div class="createdAt-source" data-v-a0ec6b4e><a href="/book//comment/5ca4e22380eba0794d09b6b2" class="createdAt" data-v-a0ec6b4e>发表于2019-04-04 00:41</a></div><!----><!----></div></div><div class="comment-received-hot" data-v-ae9d561a></div></div><div replyable="true" templateType="comment" index="5a3ab3c6bd5fc29c7e5fdc09" comment="[object Object]" bookId="" cssType="BookComment" class="comment-card BookCommentItem" data-v-ae9d561a data-v-9d2f8b00 data-v-2dfb9b9e data-v-348a438e><div class="author-info BookComment" data-v-ae9d561a><div size="36" class="comment-author-container" data-v-23fbe57c><a href="/user/672494/comments" target="_blank" class="comment-author" data-v-23fbe57c><img src="//img.lkong.cn/avatar/000/67/24/94_avatar_small.jpg" loading="lazy" class="userinfo-avatar" style="width:36px;height:36px;" data-v-a14252a0 data-v-23fbe57c><div class="comment-author-info" data-v-23fbe57c><p class="author-name" data-v-23fbe57c>路明妃</p><!----></div></a><!----></div><div class="author-info-right" data-v-ae9d561a></div></div><div class="comment-card-content" data-v-ae9d561a><div commentId="5a3ab3c6bd5fc29c7e5fdc09" replyable="true" cssType="BookComment" templateType="comment" index="5a3ab3c6bd5fc29c7e5fdc09" comment="[object Object]" bookId="" data-v-a0ec6b4e data-v-9d2f8b00><div class="comment-content" data-v-57d4d532 data-v-a0ec6b4e><div class="comment-content-inner default" data-v-57d4d532><span data-v-57d4d532>反了天了 喵娘不让日喵  必须惩罚她!</span><!----></div></div><div class="createdAt-source" data-v-a0ec6b4e><a href="/book//comment/5a3ab3c6bd5fc29c7e5fdc09" class="createdAt" data-v-a0ec6b4e>发表于2017-12-21 03:02</a></div><!----><!----></div></div><div class="comment-received-hot" data-v-ae9d561a></div></div><div replyable="true" templateType="comment" index="5a47083269c5852d0f76d9d0" comment="[object Object]" bookId="" cssType="BookComment" class="comment-card BookCommentItem" data-v-ae9d561a data-v-9d2f8b00 data-v-2dfb9b9e data-v-348a438e><div class="author-info BookComment" data-v-ae9d561a><div size="36" class="comment-author-container" data-v-23fbe57c><a href="/user/1051976/comments" target="_blank" class="comment-author" data-v-23fbe57c><img src="//img.lkong.cn/avatar/001/05/19/76_avatar_small.jpg" loading="lazy" class="userinfo-avatar" style="width:36px;height:36px;" data-v-a14252a0 data-v-23fbe57c><div class="comment-author-info" data-v-23fbe57c><p class="author-name" data-v-23fbe57c>一根箭</p><!----></div></a><!----></div><div class="author-info-right" data-v-ae9d561a></div></div><div class="comment-card-content" data-v-ae9d561a><div commentId="5a47083269c5852d0f76d9d0" replyable="true" cssType="BookComment" templateType="comment" index="5a47083269c5852d0f76d9d0" comment="[object Object]" bookId="" data-v-a0ec6b4e data-v-9d2f8b00><div class="comment-content" data-v-57d4d532 data-v-a0ec6b4e><div class="comment-content-inner default" data-v-57d4d532><span data-v-57d4d532>脑洞类似于<a href="/name/从酋长到球长" target="_blank">《从酋长到球长》</a>，都是死了换时代，但是又水又毒！10万字还没发展主线！各种换着法子水！还多了股子宅臭味，高逼格史诗风格不好好装逼，硬生生弄成幼儿园过家家风格。PS：作者非常能水，非常能水，非常能水，非常能水，非常能水，非常能水，非常能水，非常能水，非常能水，非常能水，非常能水，非常能水，非常能水，非常能水，非常能水，非常能水，非常能水，非常能水，非常能水，非常能水，非常能水，非常能水，非常能水，非常能水。</span><!----></div></div><div class="createdAt-source" data-v-a0ec6b4e><a href="/book//comment/5a47083269c5852d0f76d9d0" class="createdAt" data-v-a0ec6b4e>发表于2017-12-30 11:29</a></div><!----><!----></div></div><div class="comment-received-hot" data-v-ae9d561a></div></div><div replyable="true" templateType="comment" index="5a3bba420077cebc7ed5b64f" comment="[object Object]" bookId="" cssType="BookComment" class="comment-card BookCommentItem" data-v-ae9d561a data-v-9d2f8b00 data-v-2dfb9b9e data-v-348a438e><div class="author-info BookComment" data-v-ae9d561a><div size="36" class="comment-author-container" data-v-23fbe57c><a href="/user/913310/comments" target="_blank" class="comment-author" data-v-23fbe57c><img src="//img.lkong.cn/avatar/000/91/33/10_avatar_small.jpg" loading="lazy" class="userinfo-avatar" style="width:36px;height:36px;" data-v-a14252a0 data-v-23fbe57c><div class="comment-author-info" data-v-23fbe57c><p class="author-name" data-v-23fbe57c>拾光夜</p><!----></div></a><!----></div><div class="author-info-right" data-v-ae9d561a></div></div><div class="comment-card-content" data-v-ae9d561a><div commentId="5a3bba420077cebc7ed5b64f" replyable="true" cssType="BookComment" templateType="comment" index="5a3bba420077cebc7ed5b64f" comment="[object Object]" bookId="" data-v-a0ec6b4e data-v-9d2f8b00><div class="comment-content" data-v-57d4d532 data-v-a0ec6b4e><div class="comment-content-inner default" data-v-57d4d532><span data-v-57d4d532>关于主角要一路活到四千年后，然后自己主持项目挖自己的墓的脑洞很有趣。
+很浓的圣经腔和二次元味道。看得下去的觉得挺新鲜，看不下去感觉非常恶心。
+主角是个每天修仙的游戏产品经理，连续一周每天只睡一两个小时后累死到异界了。
+这个世界类似主角做的游戏的背景，玩家扮演某个公元前知名领袖，通过文化，宗教，军事等推动人类文明进步。
+外挂是玩家身份（系统），可以一眼看到npc好感度，做任务，死后还能以新的领袖身份领导国家发展等等。 
+目前主角已经搞死想弄死自己的大哥和元帅，坐上以色列的王座了，正在发展商业，修建商路，整治祭祀体系。</span><!----></div></div><div class="createdAt-source" data-v-a0ec6b4e><a href="/book//comment/5a3bba420077cebc7ed5b64f" class="createdAt" data-v-a0ec6b4e>发表于2017-12-21 21:42</a></div><!----><!----></div></div><div class="comment-received-hot" data-v-ae9d561a></div></div><div replyable="true" templateType="comment" index="5a2a73f69288eaca7ed39e17" comment="[object Object]" bookId="" cssType="BookComment" class="comment-card BookCommentItem" data-v-ae9d561a data-v-9d2f8b00 data-v-2dfb9b9e data-v-348a438e><div class="author-info BookComment" data-v-ae9d561a><div size="36" class="comment-author-container" data-v-23fbe57c><a href="/user/722596/comments" target="_blank" class="comment-author" data-v-23fbe57c><img src="//img.lkong.cn/avatar/000/72/25/96_avatar_small.jpg" loading="lazy" class="userinfo-avatar" style="width:36px;height:36px;" data-v-a14252a0 data-v-23fbe57c><div class="comment-author-info" data-v-23fbe57c><p class="author-name" data-v-23fbe57c>一直在找书</p><!----></div></a><!----></div><div class="author-info-right" data-v-ae9d561a></div></div><div class="comment-card-content" data-v-ae9d561a><div commentId="5a2a73f69288eaca7ed39e17" replyable="true" cssType="BookComment" templateType="comment" index="5a2a73f69288eaca7ed39e17" comment="[object Object]" bookId="" data-v-a0ec6b4e data-v-9d2f8b00><div class="comment-content" data-v-57d4d532 data-v-a0ec6b4e><div class="comment-content-inner default" data-v-57d4d532><span data-v-57d4d532>这个脑洞可以，当年看过来自地球的男人后，就一直希望有人能写类似的小说，就看作者的水平能不能稳住了，写不好，那可是毒的很，毕竟是拿史诗作为背景</span><!----></div></div><div class="createdAt-source" data-v-a0ec6b4e><a href="/book//comment/5a2a73f69288eaca7ed39e17" class="createdAt" data-v-a0ec6b4e>发表于2017-12-08 19:13</a></div><!----><!----></div></div><div class="comment-received-hot" data-v-ae9d561a></div></div></div><!----></div></div></div></div></section></div></div></div> <script>window.__INITIAL_STATE__={"Book":{"fetched":true,"commentsFetched":true,"header":{"title":"致四千年后 祈耳喵 优书网","keywords":"致四千年后  祈耳喵   致四千年后写的怎么样 致四千年后好不好看","description":" 致四千年后   祈耳喵   对于致四千年后的小说打分、吐槽、深度解析。【神脑洞系列--原创征文】\n\t\t\t\t\t\t                                                                                                                                 带着文明系统穿越到公元前十世纪，但幸运或不幸的是，他哪怕是死了也会再度重生到下一个时代，直至四千年后。\n 他从公元前活到中世纪，从文艺复兴活到工业革命，从赛博朋克活到星际时代。他当过国王也当过先知，做过骑士也做过贵族，他是全能的艺术家、天才的发明家……\n  这是一部长达四千年的人类史诗——\n  “致四千年后的我们：\n  “世界和平了吗？饥荒灭绝了吗？人们能碰到星星了吗？人类的寿命几何？地球的疆界多远？人类……还记得我们吗？”\n  ——发掘自地球时代·公元前十世纪，《所罗门·祈祷书》。"},"shielded":false,"notFound":false,"loading":true,"bookId":"","bookInfo":{"_id":134265,"status":1,"tags":["宅文","战争历史"],"shielded":false,"defaultSource":134265,"score":5.7,"scoreDetail":[0.315,0.085,0.234,0.145,0.219],"scorerCount":268,"commentCount":83,"addListCount":7,"addListTotal":39,"recom_ignore":false,"title":"致四千年后","author":"祈耳喵","cover":"https:\u002F\u002Fnovel-cdn.kuangxiangit.com\u002Fuploads\u002Fallimg\u002Fc171123\u002F23-11-17120059-32196.jpg","introduction":"【神脑洞系列--原创征文】\n\t\t\t\t\t\t                                                                                                                                 带着文明系统穿越到公元前十世纪，但幸运或不幸的是，他哪怕是死了也会再度重生到下一个时代，直至四千年后。\n 他从公元前活到中世纪，从文艺复兴活到工业革命，从赛博朋克活到星际时代。他当过国王也当过先知，做过骑士也做过贵族，他是全能的艺术家、天才的发明家……\n  这是一部长达四千年的人类史诗——\n  “致四千年后的我们：\n  “世界和平了吗？饥荒灭绝了吗？人们能碰到星星了吗？人类的寿命几何？地球的疆界多远？人类……还记得我们吗？”\n  ——发掘自地球时代·公元前十世纪，《所罗门·祈祷书》。","countWord":1837099,"updateAt":"2019-09-29T16:00:00.000Z","__v":0,"caseId":0,"classInfo":{"classId":14,"className":"二次元"}},"loadComments":true,"myScore":0,"myComment":null,"commented":false,"bookSource":[{"bookId":134265,"siteName":"刺猬猫","bookPage":"https:\u002F\u002Fwww.ciweimao.com\u002Fbook\u002F100050780"}],"tags":["宅文","战争历史"],"privateTags":[],"scoreDetail":[0.32,0.09,0.23,0.15,0.22],"booklistsResult":{"booklists":[{"_id":"595b8c0182864d380645f90f","clicks":858473,"praiseTotal":2295,"bookTotal":108,"createdAt":"2017-07-04T12:37:21.000Z","createrId":{"_id":557798,"userName":"拂衣客"},"title":"记录那些熬夜看的文","listType":"male","updateAt":"2019-12-05T11:57:40.000Z","praiseAt":"2019-12-06T07:32:12.000Z","classes":[{"classId":6,"className":"都市","count":14},{"classId":13,"className":"科幻","count":11},{"classId":2,"className":"玄幻","count":9},{"classId":11,"className":"游戏","count":7},{"classId":9,"className":"历史","count":5},{"classId":25,"className":"耽美纯爱","count":5},{"classId":5,"className":"仙侠","count":4},{"classId":21,"className":"都市言情","count":3},{"classId":14,"className":"二次元","count":3},{"classId":23,"className":"幻想言情","count":3},{"classId":18,"className":"架空历史","count":3},{"classId":10,"className":"悬疑","count":2},{"classId":3,"className":"奇幻","count":2},{"classId":22,"className":"仙侠奇缘","count":1},{"classId":8,"className":"军事","count":1}],"collectNum":2080,"covers":["https:\u002F\u002Fqidian.qpic.cn\u002Fqdbimg\u002F349573\u002F1016113915\u002F300","https:\u002F\u002Fqidian.qpic.cn\u002Fqdbimg\u002F349573\u002F1015744831\u002F300","https:\u002F\u002Fqidian.qpic.cn\u002Fqdbimg\u002F349573\u002F1010868264\u002F300"],"booklistId":"595b8c0182864d380645f90f","voting":0},{"_id":"58d3c1f4aa441ea76574a8f6","clicks":20782,"praiseTotal":64,"bookTotal":102,"createdAt":"2017-03-23T12:39:16.000Z","createrId":{"_id":889104,"userName":"苍白假面"},"title":"这是戴面具的书单（各种类型都有，纯都市较少）","listType":"male","updateAt":"2019-12-06T07:29:05.000Z","praiseAt":"2019-12-06T07:29:05.000Z","classes":[{"classId":9,"className":"历史","count":12},{"classId":11,"className":"游戏","count":8},{"classId":14,"className":"二次元","count":7},{"classId":2,"className":"玄幻","count":6},{"classId":5,"className":"仙侠","count":5},{"classId":3,"className":"奇幻","count":5},{"classId":6,"className":"都市","count":3},{"classId":13,"className":"科幻","count":3},{"classId":16,"className":"同人","count":1}],"collectNum":37,"covers":["https:\u002F\u002Fqidian.qpic.cn\u002Fqdbimg\u002F349573\u002F1011471481\u002F300","https:\u002F\u002Fnovel-cdn.kuangxiangit.com\u002Fuploads\u002Fallimg\u002Fc180515\u002F15-05-18221905-61873-100066603.jpg","https:\u002F\u002Fqidian.qpic.cn\u002Fqdbimg\u002F349573\u002F1012490256\u002F300"],"booklistId":"58d3c1f4aa441ea76574a8f6","voting":0},{"_id":"5c31fba51b4026a3610d93ee","clicks":30354,"praiseTotal":76,"bookTotal":109,"createdAt":"2019-01-06T12:59:17.000Z","createrId":{"_id":760438,"userName":"760feacb55"},"title":"760工程2019","listType":"male","updateAt":"2019-11-30T14:11:09.000Z","praiseAt":"2019-12-05T12:37:40.000Z","classes":[{"classId":13,"className":"科幻","count":23},{"classId":6,"className":"都市","count":16},{"classId":9,"className":"历史","count":11},{"classId":14,"className":"二次元","count":10},{"classId":11,"className":"游戏","count":6},{"classId":5,"className":"仙侠","count":6},{"classId":2,"className":"玄幻","count":6},{"classId":3,"className":"奇幻","count":4},{"classId":18,"className":"架空历史","count":3},{"classId":21,"className":"都市言情","count":3},{"classId":4,"className":"武侠","count":2},{"classId":17,"className":"穿越时空","count":1},{"classId":12,"className":"竞技","count":1},{"classId":25,"className":"耽美纯爱","count":1},{"classId":8,"className":"军事","count":1},{"classId":26,"className":"衍生同人","count":1}],"collectNum":67,"covers":["https:\u002F\u002Fqidian.qpic.cn\u002Fqdbimg\u002F349573\u002F1016618839\u002F300","https:\u002F\u002Fqidian.qpic.cn\u002Fqdbimg\u002F349573\u002F1016831050\u002F300","http:\u002F\u002Fimg.faloo.com\u002FNovel\u002F166x235\u002F0\u002F333\u002F000333821.jpg"],"booklistId":"5c31fba51b4026a3610d93ee","voting":0},{"_id":"59fac2575828cdf15c05c527","clicks":28318,"praiseTotal":68,"bookTotal":108,"createdAt":"2017-11-02T06:59:35.000Z","createrId":{"_id":1075795,"userName":"金色的逗比"},"title":"上接五千年悠悠时光，下览亿万重平行宇宙","listType":"male","updateAt":"2019-12-05T11:55:04.000Z","praiseAt":"2019-12-05T11:55:04.000Z","classes":[{"classId":6,"className":"都市","count":16},{"classId":9,"className":"历史","count":13},{"classId":13,"className":"科幻","count":12},{"classId":14,"className":"二次元","count":8},{"classId":3,"className":"奇幻","count":8},{"classId":11,"className":"游戏","count":6},{"classId":5,"className":"仙侠","count":5},{"classId":2,"className":"玄幻","count":3},{"classId":10,"className":"悬疑","count":2},{"classId":21,"className":"都市言情","count":1},{"classId":18,"className":"架空历史","count":1},{"classId":8,"className":"军事","count":1},{"classId":23,"className":"幻想言情","count":1},{"classId":12,"className":"竞技","count":1},{"classId":25,"className":"耽美纯爱","count":1}],"collectNum":35,"covers":["https:\u002F\u002Fqidian.qpic.cn\u002Fqdbimg\u002F349573\u002F1016658094\u002F300","https:\u002F\u002Fqidian.qpic.cn\u002Fqdbimg\u002F349573\u002F1012850575\u002F300","https:\u002F\u002Fqidian.qpic.cn\u002Fqdbimg\u002F349573\u002F1016521140\u002F300"],"booklistId":"59fac2575828cdf15c05c527","voting":0},{"_id":"59ffed17030235aa7eae320f","clicks":272716,"praiseTotal":653,"bookTotal":119,"createdAt":"2017-11-06T05:03:19.000Z","createrId":{"_id":739282,"userName":"愿云远"},"title":"宅向粮草-飞卢书客①","listType":"male","updateAt":"2019-11-06T04:53:54.000Z","praiseAt":"2019-12-05T10:23:39.000Z","classes":[{"classId":14,"className":"二次元","count":67},{"classId":16,"className":"同人","count":31},{"classId":2,"className":"玄幻","count":6},{"classId":6,"className":"都市","count":3},{"classId":5,"className":"仙侠","count":2},{"classId":15,"className":"灵异","count":2},{"classId":10,"className":"悬疑","count":1},{"classId":13,"className":"科幻","count":1}],"collectNum":790,"covers":["http:\u002F\u002Fimg.faloo.com\u002FNovel\u002F166x235\u002F0\u002F257\u002F000257772.jpg","https:\u002F\u002Fnovel-cdn.kuangxiangit.com\u002Fuploads\u002Fallimg\u002Fc190903\u002F03-09-19104001-65401-100124791.jpg","https:\u002F\u002Fnovel-cdn.kuangxiangit.com\u002Fuploads\u002Fallimg\u002Fc190620\u002F20-06-19115744-32167-100102744.jpg"],"booklistId":"59ffed17030235aa7eae320f","voting":0},{"_id":"5b67a8485a22f5ad5fd25c7a","clicks":90898,"praiseTotal":187,"bookTotal":93,"createdAt":"2018-08-06T01:45:44.000Z","createrId":{"_id":934699,"userName":"结城林檎"},"title":"不是很懂妳們弍次元","listType":"male","updateAt":"2019-11-25T04:02:04.000Z","praiseAt":"2019-12-04T15:43:54.000Z","classes":[{"classId":14,"className":"二次元","count":57},{"classId":16,"className":"同人","count":21},{"classId":11,"className":"游戏","count":2},{"classId":26,"className":"衍生同人","count":1}],"collectNum":231,"covers":["http:\u002F\u002Fs7.static.jjwxc.net\u002Ffrontcover\u002F001\u002F540\u002F1540257.jpg","http:\u002F\u002Fimg.faloo.com\u002FNovel\u002F166x235\u002F0\u002F168\u002F000168247.jpg","https:\u002F\u002Fnovel-cdn.kuangxiangit.com\u002Fuploads\u002Fallimg\u002Fc191015\u002F15-10-19140836-83963.jpg"],"booklistId":"5b67a8485a22f5ad5fd25c7a","voting":0},{"_id":"5bc49f05419979115505cd53","clicks":5421,"praiseTotal":14,"bookTotal":38,"createdAt":"2018-10-15T14:07:01.000Z","createrId":{"_id":561550,"userName":"310304570"},"title":"推一些感觉不错的书系列二","listType":"male","updateAt":"2019-12-03T12:59:30.000Z","praiseAt":"2019-12-03T12:59:30.000Z","classes":[{"classId":3,"className":"奇幻","count":8},{"classId":14,"className":"二次元","count":8},{"classId":9,"className":"历史","count":6},{"classId":11,"className":"游戏","count":5},{"classId":6,"className":"都市","count":1},{"classId":5,"className":"仙侠","count":1},{"classId":2,"className":"玄幻","count":1}],"collectNum":15,"covers":["https:\u002F\u002Fqidian.qpic.cn\u002Fqdbimg\u002F349573\u002F1015290688\u002F300","https:\u002F\u002Fqidian.qpic.cn\u002Fqdbimg\u002F349573\u002F1005843719\u002F300","https:\u002F\u002Fqidian.qpic.cn\u002Fqdbimg\u002F349573\u002F1016565588\u002F300"],"booklistId":"5bc49f05419979115505cd53","voting":0},{"_id":"5b795427c330670f34c447c3","clicks":5139,"praiseTotal":7,"bookTotal":30,"createdAt":"2018-08-19T11:27:35.000Z","createrId":{"_id":714094,"userName":"菜De"},"title":"【菜De】2018在欢乐书客的日子","listType":"male","updateAt":"2019-10-14T10:35:40.000Z","praiseAt":"2019-12-03T06:56:06.000Z","classes":[{"classId":14,"className":"二次元","count":30}],"collectNum":10,"covers":["https:\u002F\u002Fnovel-cdn.kuangxiangit.com\u002Fuploads\u002Fallimg\u002Fc191012\u002F12-10-19174644-10461.jpg","https:\u002F\u002Fnovel-cdn.kuangxiangit.com\u002Fuploads\u002Fallimg\u002Fc191008\u002F08-10-19233233-1918-100129963.jpg","https:\u002F\u002Fnovel-cdn.kuangxiangit.com\u002Fuploads\u002Fallimg\u002Fc191008\u002F08-10-19120028-7569-100128633.jpg"],"booklistId":"5b795427c330670f34c447c3","voting":0},{"_id":"59b0cfdb1e87161f5d53c774","clicks":15451,"praiseTotal":297,"bookTotal":108,"createdAt":"2017-09-07T04:49:31.000Z","createrId":{"_id":963521,"userName":"longll555"},"title":"好毒！好毒！","listType":"male","updateAt":"2019-11-30T14:23:40.000Z","praiseAt":"2019-11-30T14:23:40.000Z","classes":[{"classId":14,"className":"二次元","count":40},{"classId":9,"className":"历史","count":15},{"classId":6,"className":"都市","count":10},{"classId":13,"className":"科幻","count":10},{"classId":10,"className":"悬疑","count":3},{"classId":3,"className":"奇幻","count":2},{"classId":2,"className":"玄幻","count":2},{"classId":5,"className":"仙侠","count":1},{"classId":11,"className":"游戏","count":1}],"collectNum":6,"covers":["https:\u002F\u002Fqidian.qpic.cn\u002Fqdbimg\u002F349573\u002F1014175588\u002F300","https:\u002F\u002Fqidian.qpic.cn\u002Fqdbimg\u002F349573\u002F1003307002\u002F300","https:\u002F\u002Fqidian.qpic.cn\u002Fqdbimg\u002F349573\u002F1016287525\u002F300"],"booklistId":"59b0cfdb1e87161f5d53c774","voting":0},{"_id":"5a3f3994833f95967e267afb","clicks":15669,"praiseTotal":75,"bookTotal":33,"createdAt":"2017-12-24T05:22:28.000Z","createrId":{"_id":1082819,"userName":"赵赵大人"},"title":"仙草","listType":"male","updateAt":"2019-09-01T18:05:32.000Z","praiseAt":"2019-11-30T03:50:17.000Z","classes":[{"classId":14,"className":"二次元","count":8},{"classId":16,"className":"同人","count":6},{"classId":6,"className":"都市","count":3},{"classId":11,"className":"游戏","count":2},{"classId":3,"className":"奇幻","count":1},{"classId":15,"className":"灵异","count":1},{"classId":2,"className":"玄幻","count":1},{"classId":5,"className":"仙侠","count":1},{"classId":13,"className":"科幻","count":1},{"classId":10,"className":"悬疑","count":1}],"collectNum":14,"covers":["https:\u002F\u002Fqidian.qpic.cn\u002Fqdbimg\u002F349573\u002F1015504449\u002F300","http:\u002F\u002Fimg.faloo.com\u002FNovel\u002F166x235\u002F0\u002F219\u002F000219040.jpg","https:\u002F\u002Fqidian.qpic.cn\u002Fqdbimg\u002F349573\u002F1011449273\u002F300"],"booklistId":"5a3f3994833f95967e267afb","voting":0},{"_id":"5cfba95b2075e5a55308c2e1","clicks":39245,"praiseTotal":35,"bookTotal":24,"createdAt":"2019-06-08T12:26:03.000Z","createrId":{"_id":596227,"userName":"冰无漪"},"title":"起点2019在追作品，无女主或单女主居多，剧情向","listType":"male","updateAt":"2019-10-28T16:14:12.000Z","praiseAt":"2019-11-26T13:37:35.000Z","classes":[{"classId":2,"className":"玄幻","count":4},{"classId":14,"className":"二次元","count":4},{"classId":5,"className":"仙侠","count":3},{"classId":13,"className":"科幻","count":3},{"classId":6,"className":"都市","count":2},{"classId":21,"className":"都市言情","count":1},{"classId":26,"className":"衍生同人","count":1},{"classId":10,"className":"悬疑","count":1},{"classId":3,"className":"奇幻","count":1},{"classId":11,"className":"游戏","count":1}],"collectNum":48,"covers":["https:\u002F\u002Fqidian.qpic.cn\u002Fqdbimg\u002F349573\u002F1015350660\u002F300","https:\u002F\u002Fqidian.qpic.cn\u002Fqdbimg\u002F349573\u002F1016174285\u002F300","https:\u002F\u002Fqidian.qpic.cn\u002Fqdbimg\u002F349573\u002F1015990091\u002F300"],"booklistId":"5cfba95b2075e5a55308c2e1","voting":0},{"_id":"5550ade70f906f18385225ec","clicks":90311,"praiseTotal":375,"bookTotal":54,"createdAt":"2015-05-11T13:25:59.000Z","createrId":{"_id":390344,"userName":"大地无双"},"title":"我偏爱的宅类文","listType":"male","updateAt":"2019-06-25T18:47:10.000Z","praiseAt":"2019-11-22T13:35:19.000Z","classes":[{"classId":14,"className":"二次元","count":9},{"classId":16,"className":"同人","count":3},{"classId":3,"className":"奇幻","count":3},{"classId":2,"className":"玄幻","count":1},{"classId":6,"className":"都市","count":1},{"classId":13,"className":"科幻","count":1}],"collectNum":321,"covers":["https:\u002F\u002Fnovel-cdn.kuangxiangit.com\u002Fuploads\u002Fallimg\u002Fc181120\u002F20-11-18175345-99918-100034889.jpg","https:\u002F\u002Fqidian.qpic.cn\u002Fqdbimg\u002F349573\u002F1010144088\u002F300","https:\u002F\u002Fnovel-cdn.kuangxiangit.com\u002Fuploads\u002Fallimg\u002Fc171123\u002F23-11-17120059-32196.jpg"],"booklistId":"5550ade70f906f18385225ec","voting":0},{"_id":"5ad860ea6e7c5971660d65fe","clicks":6069,"praiseTotal":12,"bookTotal":18,"createdAt":"2018-04-19T09:27:06.000Z","createrId":{"_id":1011797,"userName":"行答"},"title":"改变文明进程","listType":"male","updateAt":"2019-06-28T17:27:12.000Z","praiseAt":"2019-11-21T18:20:39.000Z","classes":[{"classId":13,"className":"科幻","count":3},{"classId":14,"className":"二次元","count":3},{"classId":3,"className":"奇幻","count":2},{"classId":5,"className":"仙侠","count":1}],"collectNum":8,"covers":["https:\u002F\u002Fqidian.qpic.cn\u002Fqdbimg\u002F349573\u002F1013779581\u002F300","https:\u002F\u002Fqidian.qpic.cn\u002Fqdbimg\u002F349573\u002F1012366169\u002F300","https:\u002F\u002Fnovel-cdn.kuangxiangit.com\u002Fuploads\u002Fallimg\u002Fc180601\u002F01-06-18071622-90355-100064911.jpg"],"booklistId":"5ad860ea6e7c5971660d65fe","voting":0},{"_id":"54fef332fe4e2df6a5ee4146","clicks":222482,"praiseTotal":716,"bookTotal":96,"createdAt":"2015-01-28T14:36:20.000Z","createrId":{"_id":672494,"userName":"路明妃"},"title":"十二年后你若已嫁我若未娶叫你女儿放学后小心点","listType":"male","updateAt":"2019-09-29T19:23:30.000Z","praiseAt":"2019-11-18T09:16:31.000Z","classes":[{"classId":14,"className":"二次元","count":20},{"classId":16,"className":"同人","count":5},{"classId":6,"className":"都市","count":4},{"classId":13,"className":"科幻","count":3},{"classId":26,"className":"衍生同人","count":3},{"classId":2,"className":"玄幻","count":3},{"classId":24,"className":"悬疑推理","count":1},{"classId":5,"className":"仙侠","count":1},{"classId":23,"className":"幻想言情","count":1},{"classId":21,"className":"都市言情","count":1},{"classId":18,"className":"架空历史","count":1},{"classId":11,"className":"游戏","count":1}],"collectNum":322,"covers":["https:\u002F\u002Fnovel-cdn.kuangxiangit.com\u002Fuploads\u002Fallimg\u002Fc180425\u002F25-04-18190111-56562-100059997.jpg","http:\u002F\u002Fimg.faloo.com\u002FNovel\u002F166x235\u002F0\u002F307\u002F000307551.jpg","https:\u002F\u002Fqidian.qpic.cn\u002Fqdbimg\u002F349573\u002F1015525869\u002F300"],"booklistId":"54fef332fe4e2df6a5ee4146","voting":0},{"_id":"5d4c75053904ce14a6a2a319","clicks":772,"praiseTotal":0,"bookTotal":42,"createrId":{"_id":1315136,"userName":"黑色围巾"},"title":"XS世界","listType":"male","createdAt":"2019-08-08T19:16:21.319Z","updateAt":"2019-11-13T09:49:22.000Z","praiseAt":"2019-11-13T09:49:22.000Z","classes":[{"classId":3,"className":"奇幻","count":6},{"classId":2,"className":"玄幻","count":5},{"classId":5,"className":"仙侠","count":3},{"classId":13,"className":"科幻","count":3},{"classId":11,"className":"游戏","count":2},{"classId":14,"className":"二次元","count":2},{"classId":6,"className":"都市","count":1}],"collectNum":0,"covers":["https:\u002F\u002Fqidian.qpic.cn\u002Fqdbimg\u002F349573\u002F1014180485\u002F300","https:\u002F\u002Fnovel-cdn.kuangxiangit.com\u002Fuploads\u002Fallimg\u002Fc160729\u002F29-07-16143622-40820-100014315.jpg","https:\u002F\u002Fnovel-cdn.kuangxiangit.com\u002Fuploads\u002Fallimg\u002Fc171123\u002F23-11-17120059-32196.jpg"],"booklistId":"5d4c75053904ce14a6a2a319","voting":0},{"_id":"58fc78338e9b43361eb7dff2","clicks":123466,"praiseTotal":418,"bookTotal":74,"createdAt":"2017-04-23T09:47:31.000Z","createrId":{"_id":731606,"userName":"南江鱼"},"title":"【书海捞针】十年书虫，主打男频，几本女频异类","listType":"male","updateAt":"2019-06-14T04:16:00.000Z","praiseAt":"2019-11-06T03:31:51.000Z","classes":[{"classId":14,"className":"二次元","count":17},{"classId":13,"className":"科幻","count":8},{"classId":9,"className":"历史","count":4},{"classId":3,"className":"奇幻","count":4},{"classId":5,"className":"仙侠","count":3},{"classId":6,"className":"都市","count":2},{"classId":16,"className":"同人","count":1},{"classId":26,"className":"衍生同人","count":1},{"classId":21,"className":"都市言情","count":1},{"classId":11,"className":"游戏","count":1}],"collectNum":215,"covers":["https:\u002F\u002Fqidian.qpic.cn\u002Fqdbimg\u002F349573\u002F1013555860\u002F300","https:\u002F\u002Fqidian.qpic.cn\u002Fqdbimg\u002F349573\u002F1012423893\u002F300","https:\u002F\u002Fqidian.qpic.cn\u002Fqdbimg\u002F349573\u002F1012347298\u002F300"],"booklistId":"58fc78338e9b43361eb7dff2","voting":0},{"_id":"5bed1f4333c324b2683cddd9","clicks":19985,"praiseTotal":72,"bookTotal":20,"createdAt":"2018-11-15T07:24:51.000Z","createrId":{"_id":702114,"userName":"齐爱人"},"title":"推书是件很个人、很主观的事情","listType":"male","updateAt":"2019-07-06T12:58:43.000Z","praiseAt":"2019-11-01T04:09:19.000Z","classes":[{"classId":14,"className":"二次元","count":8},{"classId":3,"className":"奇幻","count":2},{"classId":23,"className":"幻想言情","count":2},{"classId":26,"className":"衍生同人","count":1},{"classId":21,"className":"都市言情","count":1},{"classId":5,"className":"仙侠","count":1},{"classId":11,"className":"游戏","count":1},{"classId":2,"className":"玄幻","count":1}],"collectNum":63,"covers":["https:\u002F\u002Fnovel-cdn.kuangxiangit.com\u002Fuploads\u002Fallimg\u002Fc190522\u002F22-05-19133858-3169.jpg","https:\u002F\u002Fwww.youdubook.com\u002F\u002Fuploads\u002F20190614\u002F1daa36cf1bb9599f2ef2b3afe65acb0d.jpg","https:\u002F\u002Fc.8kana.com\u002F201805\u002F216\u002F31\u002F21631_9cc65_4844_m.jpg"],"booklistId":"5bed1f4333c324b2683cddd9","voting":0},{"_id":"58326a5f3fd3224f3db92224","clicks":41715,"praiseTotal":214,"bookTotal":119,"createdAt":"2016-11-21T03:30:39.000Z","createrId":{"_id":934350,"userName":"叶桓"},"title":"这些年看过记得的觉得不错的，以及最近书荒找到的","listType":"male","updateAt":"2018-12-24T13:41:19.000Z","praiseAt":"2019-10-24T05:54:48.000Z","classes":[{"classId":26,"className":"衍生同人","count":17},{"classId":14,"className":"二次元","count":9},{"classId":13,"className":"科幻","count":7},{"classId":5,"className":"仙侠","count":6},{"classId":6,"className":"都市","count":6},{"classId":21,"className":"都市言情","count":4},{"classId":9,"className":"历史","count":4},{"classId":2,"className":"玄幻","count":3},{"classId":11,"className":"游戏","count":3},{"classId":16,"className":"同人","count":2},{"classId":3,"className":"奇幻","count":1},{"classId":22,"className":"仙侠奇缘","count":1}],"collectNum":45,"covers":["http:\u002F\u002Fwx4.sinaimg.cn\u002Fmw690\u002F005zciTTgy1fr7u1b38umj30go0ncn07.jpg","https:\u002F\u002Fwx3.sinaimg.cn\u002Fmw690\u002F6f4cacc7gy1fqq2ycr1gvj21kw28gk5n.jpg","https:\u002F\u002Fqidian.qpic.cn\u002Fqdbimg\u002F349573\u002F1010068112\u002F300"],"booklistId":"58326a5f3fd3224f3db92224","voting":0},{"_id":"5b88a2449c47559f14fa377a","clicks":324,"praiseTotal":0,"bookTotal":8,"createdAt":"2018-08-31T02:04:52.000Z","createrId":{"_id":1156097,"userName":"十月7"},"title":"个人看过的好书推荐- 游戏","listType":"male","updateAt":"2019-10-22T05:48:35.000Z","praiseAt":"2019-10-22T05:48:35.000Z","classes":[{"classId":21,"className":"都市言情","count":1},{"classId":11,"className":"游戏","count":1},{"classId":14,"className":"二次元","count":1}],"collectNum":0,"covers":["https:\u002F\u002Fqidian.qpic.cn\u002Fqdbimg\u002F349573\u002F1011159802\u002F300","https:\u002F\u002Fnovel-cdn.kuangxiangit.com\u002Fuploads\u002Fallimg\u002Fc171123\u002F23-11-17120059-32196.jpg","https:\u002F\u002Fqidian.qpic.cn\u002Fqdbimg\u002F349573\u002F1011815140\u002F300"],"booklistId":"5b88a2449c47559f14fa377a","voting":0},{"_id":"59a32a58d7935daf3a962c7b","clicks":13184,"praiseTotal":30,"bookTotal":36,"createdAt":"2017-08-27T20:23:52.000Z","createrId":{"_id":984212,"userName":"神在随波逐流"},"title":"主角控书单","listType":"male","updateAt":"2019-06-13T09:23:41.000Z","praiseAt":"2019-10-21T10:54:02.000Z","classes":[{"classId":14,"className":"二次元","count":5},{"classId":25,"className":"耽美纯爱","count":4},{"classId":11,"className":"游戏","count":4},{"classId":13,"className":"科幻","count":4},{"classId":26,"className":"衍生同人","count":3},{"classId":6,"className":"都市","count":3},{"classId":16,"className":"同人","count":2},{"classId":2,"className":"玄幻","count":2},{"classId":18,"className":"架空历史","count":1},{"classId":17,"className":"穿越时空","count":1},{"classId":5,"className":"仙侠","count":1},{"classId":23,"className":"幻想言情","count":1},{"classId":3,"className":"奇幻","count":1}],"collectNum":10,"covers":["https:\u002F\u002Fnovel-cdn.kuangxiangit.com\u002Fuploads\u002Fallimg\u002Fc170401\u002F01-04-17025803-21811-100029661.jpg","https:\u002F\u002Fqidian.qpic.cn\u002Fqdbimg\u002F349573\u002F1010868264\u002F300","https:\u002F\u002Fstatic.zongheng.com\u002Fupload\u002Fs_image\u002Fcover\u002F2016\u002F06\u002F1467096066539.jpg"],"booklistId":"59a32a58d7935daf3a962c7b","voting":0}],"total":39},"commentsLoaded":true,"commentsResult":{"total":98,"comments":[{"_id":"5a3e7c423bb559d07e824a66","shielded":false,"replyCount":0,"jurisdiction":0,"essence":false,"praiseCount":58,"bookId":{"_id":134265,"title":"致四千年后","author":"祈耳喵"},"createrId":{"_id":827009,"userName":"泉落三千丈"},"createdAt":"2017-12-23T15:54:42.000Z","content":"剧毒拿好不谢，非来推读装逼，洗地还要和国人自信心扯上关系，蠢得不行，合着有自信心的就非得看是吧，想看爽文不想被膈应还不行？","score":1,"updateAt":"2017-12-23T15:54:42.000Z","inReview":false,"voting":0,"collected":false,"replyable":true},{"_id":"5b69909babfc6a785ffcd3b0","shielded":false,"replyCount":1,"jurisdiction":0,"essence":false,"praiseCount":51,"bookId":{"_id":134265,"title":"致四千年后","author":"祈耳喵"},"createrId":{"_id":713355,"userName":"嗯哼吧哈"},"createdAt":"2018-08-07T12:29:15.000Z","content":"一星接好了，精神白皮读者拉低的不谢，书质量是三星，劣质装逼，做事浑浑噩噩，关键NC粉疯狂洗地嘲讽，直接说不喜欢看的就都是喜欢看屠日灭美的，果然信了白皮那套的都是狭隘的非我既恶，丑恶得不行。\r\n感情有自信心的就非得说好吧，同是梦想，梦想本国崛起还真就不如你们香蕉人梦想屁大小国霸球，毕竟你们梦的更彻底。","score":1,"updateAt":"2018-08-07T12:29:15.000Z","inReview":false,"voting":0,"collected":false,"replyable":true},{"_id":"5b866ff19fe95e5a14977cd8","shielded":false,"replyCount":0,"jurisdiction":0,"essence":false,"praiseCount":47,"bookId":{"_id":134265,"title":"致四千年后","author":"祈耳喵"},"createrId":{"_id":566563,"userName":"305467120"},"createdAt":"2018-08-29T10:05:36.000Z","content":"你们这些喷的，都没看过作者的上本书吧？\r\n看完你们就不会喷了，这么垃圾的作者我会看它的第二本书？","score":1,"updateAt":"2018-08-29T10:05:36.000Z","inReview":false,"voting":0,"collected":false,"replyable":true},{"_id":"5a61955f7140107570067f50","shielded":false,"replyCount":0,"jurisdiction":0,"essence":false,"praiseCount":41,"bookId":{"_id":134265,"title":"致四千年后","author":"祈耳喵"},"createrId":{"_id":1062864,"userName":"天王寺嵐"},"createdAt":"2018-01-19T06:51:11.000Z","content":"主角真是枉活七十有六，没搞懂主角想干嘛。披着《文明》的外皮，水着没营养的东西。本来拥有轮回转世的能力，即使不像《从酋长到球长》的陈健那样圣人一般推进自己文明的发展，也要干点什么大事才行吧。一直在干对人类文明毫无意义的事情，行文充满装逼式的宗教说教。","score":1,"updateAt":"2018-01-19T06:51:11.000Z","inReview":false,"voting":0,"collected":false,"replyable":true},{"_id":"5a2a72290077cebc7ed53944","shielded":false,"replyCount":2,"jurisdiction":0,"essence":false,"praiseCount":36,"bookId":{"_id":134265,"title":"致四千年后","author":"祈耳喵"},"createrId":{"_id":739282,"userName":"愿云远"},"createdAt":"2017-12-08T11:06:17.000Z","content":"书客，文明养成流，穿越圣经故事，主角所罗门，目前正与亚多尼雅争夺以色列王，预测会收服72柱魔神。\r\n为什么看：我居然在书客看圣经故事，也是醉了，但真如同史诗里的所罗门一样。\r\n为什么不看：感觉黑幕重重的，又是系统又是魔神的，系统介绍的上帝已死感觉也蹊跷，怕不是雅威钦定。\r\n补充：主角继续转生下去，无数贤人马甲，怕不是《从启蒙人类到坐马桶——帝皇本纪》\r\n再补充：看到所罗门去世的那一章，我居然有点感动了。","score":5,"updateAt":"2017-12-08T11:06:17.000Z","inReview":false,"voting":0,"collected":false,"replyable":true},{"_id":"5bc54c9d4b33263955e56c10","shielded":false,"replyCount":0,"jurisdiction":0,"essence":false,"praiseCount":33,"bookId":{"_id":134265,"title":"致四千年后","author":"祈耳喵"},"createrId":{"_id":1137639,"userName":"三色枕"},"createdAt":"2018-10-16T02:27:41.000Z","content":"作者还是挺机智的，仅写西方绝口不提东方都能被喷成这样，他要是涉及到东方了岂不是要螺旋升天","score":4,"updateAt":"2018-10-16T02:27:41.000Z","inReview":false,"voting":0,"collected":false,"replyable":true},{"_id":"5ca371341db926554d975a8f","shielded":false,"replyCount":1,"jurisdiction":0,"essence":false,"praiseCount":26,"bookId":{"_id":134265,"title":"致四千年后","author":"祈耳喵"},"createrId":{"_id":695648,"userName":"一寸十万"},"createdAt":"2019-04-02T14:27:00.000Z","content":"我来猜猜作者心里话 “斯世已难逃匪穴,来生愿做异邦人”","score":1,"updateAt":"2019-04-02T14:27:00.000Z","inReview":false,"voting":0,"collected":false,"replyable":true},{"_id":"5a60ba886fc6f3477075a0f9","shielded":false,"replyCount":0,"jurisdiction":0,"essence":false,"praiseCount":15,"bookId":{"_id":134265,"title":"致四千年后","author":"祈耳喵"},"createrId":{"_id":928497,"userName":"Jrua0844"},"createdAt":"2018-01-18T15:17:28.000Z","content":"还行，问题是几乎没有战争全靠一些男主想当然的计谋，以色列就打的赢埃及了？更何况男主自己一个人跑去埃及神TM第二天就当了法老...真的是除了系统外还自带气运流万丈金身。我不是想说无敌流不好，但作者的这些计谋还有推演显然说服不了我，显得非常的假和不自然","score":1,"updateAt":"2018-01-18T15:17:28.000Z","inReview":false,"voting":0,"collected":false,"replyable":true},{"_id":"5b1d4cd27ca9548f6609310a","shielded":false,"replyCount":0,"jurisdiction":0,"essence":false,"praiseCount":15,"bookId":{"_id":134265,"title":"致四千年后","author":"祈耳喵"},"createrId":{"_id":690621,"userName":"黑翼降临"},"createdAt":"2018-06-10T16:07:46.000Z","content":"没搞懂男主在做啥 一直装逼转世 既没积累超脱的资本也没什么别的目的。","score":3,"updateAt":"2018-06-10T16:07:46.000Z","inReview":false,"voting":0,"collected":false,"replyable":true},{"_id":"5a8e6c7692fca93460ce9acb","shielded":false,"replyCount":0,"jurisdiction":0,"essence":false,"praiseCount":14,"bookId":{"_id":134265,"title":"致四千年后","author":"祈耳喵"},"createrId":{"_id":731606,"userName":"南江鱼"},"createdAt":"2018-02-22T07:08:38.000Z","content":"虽然本书在龙空被嘲讽为精神包皮，对推动历史无太大用处，但是也能一看。\r\n本书换个名字可能更贴切如《从村长到坐金马桶》\r\n《我，所罗门一定要苟到四千年以后口牙》《我，耶稣》等等","score":3,"updateAt":"2018-02-22T07:08:38.000Z","inReview":false,"voting":0,"collected":false,"replyable":true},{"_id":"5a76c3f47140107570072102","shielded":false,"replyCount":0,"jurisdiction":0,"essence":false,"praiseCount":13,"bookId":{"_id":134265,"title":"致四千年后","author":"祈耳喵"},"createrId":{"_id":97905,"userName":"狈狈先生"},"createdAt":"2018-02-04T08:27:32.000Z","content":"罗曼医生是一回事，包.皮佬之王又是另一回事了。","score":1,"updateAt":"2018-02-04T08:27:32.000Z","inReview":false,"voting":0,"collected":false,"replyable":true},{"_id":"5ca8e9557ae131914dd0dc89","shielded":false,"replyCount":0,"jurisdiction":0,"essence":false,"praiseCount":13,"bookId":{"_id":134265,"title":"致四千年后","author":"祈耳喵"},"createrId":{"_id":913483,"userName":"浮休道人"},"createdAt":"2019-04-06T18:00:53.000Z","content":"希望作者正视自己的本心，早日移民出国。","score":1,"updateAt":"2019-04-06T18:00:53.000Z","inReview":false,"voting":0,"collected":false,"replyable":true},{"_id":"5b67b2cfabfc6a785ffcc268","shielded":false,"replyCount":0,"jurisdiction":0,"essence":false,"praiseCount":11,"bookId":{"_id":134265,"title":"致四千年后","author":"祈耳喵"},"createrId":{"_id":934699,"userName":"结城林檎"},"createdAt":"2018-08-06T02:30:39.000Z","content":"绝了，我一个无神论者居然在书客看圣经，真是不懂你们二次元的玩法（笑\r\n主角带着类似席德梅尔的文明的系统穿越回低（中？）魔的古代地中海文明，主要通过外交手段来统合各个国家，在文明的走向停滞或者是走上了岔路的时候就会再度转生来引领文明，目标是四千年以后引领地球人成为灵能联网的群星大佬，可以说是真实从石器时代到群星了。\r\n主角克制了攀科技的速度，而且有意识的调和种族矛盾，而且至少目前地图还只有欧洲和北非。可能想看中国埋头种田种出排队枪毙然后灭日艹美搞种族灭局屠杀的读者看到这种小说是要跳脚骂人的吧（笑","score":5,"updateAt":"2018-08-06T02:30:39.000Z","inReview":false,"voting":0,"collected":false,"replyable":true},{"_id":"5ca34885522e88734d73ce8f","shielded":false,"replyCount":0,"jurisdiction":0,"essence":false,"praiseCount":11,"bookId":{"_id":134265,"title":"致四千年后","author":"祈耳喵"},"createrId":{"_id":865686,"userName":"aexe"},"createdAt":"2019-04-02T11:33:25.000Z","content":"白皮为主一星走你","score":1,"updateAt":"2019-04-02T11:33:25.000Z","inReview":false,"voting":0,"collected":false,"replyable":true},{"_id":"5d0a4b056362a9e477413626","shielded":false,"replyCount":2,"jurisdiction":0,"essence":false,"praiseCount":11,"bookId":{"_id":134265,"title":"致四千年后","author":"祈耳喵"},"createrId":{"_id":596227,"userName":"冰无漪"},"createdAt":"2019-06-19T14:47:33.000Z","content":"其实我很纠结要不要在这推这本书，之前在推书版看到上一个推这本书的因为主角穿了个白人被喷了几百楼，真的感觉匪夷所思。\r\n这本书我觉得最大的优点在于他不违和，比如在第一二个世界，主角是所罗门和耶稣，在那个时代主角与人交流以及治国外交的理念就是圣经体的，包括说话，措辞等等，到了第三世查理曼大帝，主角的理念就换成了符合时代特色的君主论的理论，包括书中所有人物的说话行为等等，至少在我看来比那些动不动蹦几个现代用语，然而拿一些远远超出时代，根本不符合现实的理论出来装逼的主角好的多，也说明作者用心很多，至少至少，他是认真去考据的。最后，期待那个4000年的老鸡汤","score":5,"updateAt":"2019-06-19T14:47:33.000Z","inReview":false,"voting":0,"collected":false,"replyable":true},{"_id":"5ca4e22380eba0794d09b6b2","shielded":false,"replyCount":0,"jurisdiction":0,"essence":false,"praiseCount":10,"bookId":{"_id":134265,"title":"致四千年后","author":"祈耳喵"},"createrId":{"_id":709995,"userName":"normanbao1992"},"createdAt":"2019-04-03T16:41:07.000Z","content":"精神白皮","score":1,"updateAt":"2019-04-03T16:41:07.000Z","inReview":false,"voting":0,"collected":false,"replyable":true},{"_id":"5a3ab3c6bd5fc29c7e5fdc09","shielded":false,"replyCount":0,"jurisdiction":0,"essence":false,"praiseCount":8,"bookId":{"_id":134265,"title":"致四千年后","author":"祈耳喵"},"createrId":{"_id":672494,"userName":"路明妃"},"createdAt":"2017-12-20T19:02:30.000Z","content":"反了天了 喵娘不让日喵  必须惩罚她!","score":3,"updateAt":"2017-12-20T19:02:30.000Z","inReview":false,"voting":0,"collected":false,"replyable":true},{"_id":"5a47083269c5852d0f76d9d0","shielded":false,"replyCount":4,"jurisdiction":0,"essence":false,"praiseCount":8,"bookId":{"_id":134265,"title":"致四千年后","author":"祈耳喵"},"createrId":{"_id":1051976,"userName":"一根箭"},"createdAt":"2017-12-30T03:29:54.000Z","content":"脑洞类似于《从酋长到球长》，都是死了换时代，但是又水又毒！10万字还没发展主线！各种换着法子水！还多了股子宅臭味，高逼格史诗风格不好好装逼，硬生生弄成幼儿园过家家风格。PS：作者非常能水，非常能水，非常能水，非常能水，非常能水，非常能水，非常能水，非常能水，非常能水，非常能水，非常能水，非常能水，非常能水，非常能水，非常能水，非常能水，非常能水，非常能水，非常能水，非常能水，非常能水，非常能水，非常能水，非常能水。","score":2,"updateAt":"2017-12-30T03:29:54.000Z","inReview":false,"voting":0,"collected":false,"replyable":true},{"_id":"5a3bba420077cebc7ed5b64f","shielded":false,"replyCount":1,"jurisdiction":0,"essence":false,"praiseCount":7,"bookId":{"_id":134265,"title":"致四千年后","author":"祈耳喵"},"createrId":{"_id":913310,"userName":"拾光夜"},"createdAt":"2017-12-21T13:42:26.000Z","content":"关于主角要一路活到四千年后，然后自己主持项目挖自己的墓的脑洞很有趣。\r\n很浓的圣经腔和二次元味道。看得下去的觉得挺新鲜，看不下去感觉非常恶心。\r\n主角是个每天修仙的游戏产品经理，连续一周每天只睡一两个小时后累死到异界了。\r\n这个世界类似主角做的游戏的背景，玩家扮演某个公元前知名领袖，通过文化，宗教，军事等推动人类文明进步。\r\n外挂是玩家身份（系统），可以一眼看到npc好感度，做任务，死后还能以新的领袖身份领导国家发展等等。 \r\n目前主角已经搞死想弄死自己的大哥和元帅，坐上以色列的王座了，正在发展商业，修建商路，整治祭祀体系。","score":3,"updateAt":"2017-12-21T13:42:26.000Z","inReview":false,"voting":0,"collected":false,"replyable":true},{"_id":"5a2a73f69288eaca7ed39e17","shielded":false,"replyCount":0,"jurisdiction":0,"essence":false,"praiseCount":5,"bookId":{"_id":134265,"title":"致四千年后","author":"祈耳喵"},"createrId":{"_id":722596,"userName":"一直在找书"},"createdAt":"2017-12-08T11:13:58.000Z","content":"这个脑洞可以，当年看过来自地球的男人后，就一直希望有人能写类似的小说，就看作者的水平能不能稳住了，写不好，那可是毒的很，毕竟是拿史诗作为背景","score":4,"updateAt":"2017-12-08T11:13:58.000Z","inReview":false,"voting":0,"collected":false,"replyable":true}]}},"Bookcase":{"bookcase":[],"taglistData":{"taglist":[],"bookCount":0},"currentTag":""},"Booklist":{"fetched":false,"booksFetched":false,"header":{"title":"","description":"","keywords":""},"shielded":false,"notFound":false,"createrId":{"_id":""},"booklistId":null,"booklistInfo":null,"books":[],"total":0,"booksLoaded":false},"Booklists":{"booklists":[],"total":0,"fetched":false},"Bookstore":{"books":[],"total":0,"fetched":false,"easyMode":false,"storeOptions":null},"Dialog":{"dialog":null},"Explore":{"comments":[],"lastTime":""},"Home":{"friends":[],"actions":[],"nextTime":""},"Me":{"userName":"","uid":"","photo":"","isAdmin":false,"isGeneralAdmin":false,"unRead":false,"status":0,"showLogin":false,"showSignup":false,"isSmall":false,"contentId":null,"isLoaded":false},"Search":{"total":0},"Space":{"uid":null,"spaceUserName":"","routeName":null,"otherPageConfig":{"loading":true,"page":1,"result":{"users":[],"total":0}}},"Topic":{"fetched":false,"header":{"title":"","description":"","keywords":""},"mySubject":null,"answered":false,"shielded":false,"notFound":false,"createrId":{"_id":""},"topicId":null,"topicInfo":null,"subjects":[],"subjectsFetched":false,"total":0},"Topics":{"topics":[],"total":0,"fetched":false}};(function(){var s;(s=document.currentScript||document.scripts[document.scripts.length-1]).parentNode.removeChild(s);}());</script>  <script src="/js/chunk-vendors.2ae1758f.js" defer></script><script src="/js/chunk-08f09854.d754755b.js" defer></script><script src="/js/chunk-0c4f7370.bfdf292f.js" defer></script><script src="/js/chunk-353e28b8.fb9e970c.js" defer></script><script src="/js/chunk-6cf6d074.9b389b87.js" defer></script><script src="/js/app.f80969f5.js" defer></script></body></html>

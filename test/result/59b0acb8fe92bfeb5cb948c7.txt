@@ -1,0 +1,1380 @@
+<!DOCTYPE html><html lang=zh-Hans><head><meta charset=utf-8><meta name=viewport content="width=device-width,minimum-scale=1,maximum-scale=1,initial-scale=1,user-scalable=no"><meta name=description content=优书网(www.yousuu.com)集小说搜索、追更阅读、读者评分、书单推荐于一体,不但可以追看小说最新更新,还可以解决书荒寻找到更多更好看的小说,在这里你可以阅读、...><!--[if lte IE 8]>
+    <script type="text/javascript">
+     window.alert('浏览器版本过低，请使用现代浏览器访问本站')
+    </script>
+    <![endif]--><script src=//cdn.staticfile.org/babel-polyfill/7.4.4/polyfill.min.js></script><script src=//cdn.staticfile.org/vue/2.6.10/vue.min.js></script><script src=//cdn.staticfile.org/vuex/3.1.0/vuex.min.js></script><script src=//cdn.staticfile.org/moment.js/2.23.0/moment.min.js></script><script src=//cdn.staticfile.org/moment.js/2.24.0/locale/zh-cn.js></script><script src=//cdn.staticfile.org/vue-router/3.0.2/vue-router.min.js></script><script src=//cdn.staticfile.org/axios/0.18.0/axios.min.js></script><script src=//cdn.staticfile.org/element-ui/2.12.0/index.js></script><link href=//cdn.staticfile.org/element-ui/2.12.0/theme-chalk/index.css rel=stylesheet><link rel=stylesheet href=/display.css><link rel=icon href=/favicon.png><title></title><link rel="preload" href="/js/chunk-vendors.2ae1758f.js" as="script"><link rel="preload" href="/css/app.e969f070.css" as="style"><link rel="preload" href="/js/app.f80969f5.js" as="script"><link rel="preload" href="/css/chunk-08f09854.daf5f3f3.css" as="style"><link rel="preload" href="/js/chunk-08f09854.d754755b.js" as="script"><link rel="preload" href="/css/chunk-0c4f7370.f50b17fe.css" as="style"><link rel="preload" href="/js/chunk-0c4f7370.bfdf292f.js" as="script"><link rel="preload" href="/css/chunk-03d925a9.9c8bdec6.css" as="style"><link rel="preload" href="/js/chunk-03d925a9.98c037d8.js" as="script"><link rel="preload" href="/css/chunk-2ad49d59.1ae564c8.css" as="style"><link rel="preload" href="/js/chunk-2ad49d59.ae15f5d9.js" as="script"><link rel="preload" href="/css/chunk-2b66ae69.ed4f4e8d.css" as="style"><link rel="preload" href="/js/chunk-2b66ae69.85dc371a.js" as="script"><link rel="prefetch" href="/css/chunk-1e0eddf4.4a613a22.css"><link rel="prefetch" href="/css/chunk-20430dab.a7526f9a.css"><link rel="prefetch" href="/css/chunk-28410e6e.aed52d4a.css"><link rel="prefetch" href="/css/chunk-353e28b8.2047a095.css"><link rel="prefetch" href="/css/chunk-35d79526.4367d685.css"><link rel="prefetch" href="/css/chunk-3d6f543a.f051f8bf.css"><link rel="prefetch" href="/css/chunk-3f724e29.90e6c05a.css"><link rel="prefetch" href="/css/chunk-402e3694.fac22ed6.css"><link rel="prefetch" href="/css/chunk-551a5bcf.1f4ae7bd.css"><link rel="prefetch" href="/css/chunk-588066cd.7e23b635.css"><link rel="prefetch" href="/css/chunk-61a4aa5f.c3d28fca.css"><link rel="prefetch" href="/css/chunk-62fbc14e.90d38039.css"><link rel="prefetch" href="/css/chunk-6514e929.a7c91a7a.css"><link rel="prefetch" href="/css/chunk-6cf6d074.9aad5b48.css"><link rel="prefetch" href="/css/chunk-8b38b6ee.e290abe4.css"><link rel="prefetch" href="/css/chunk-8c464618.f1106934.css"><link rel="prefetch" href="/css/chunk-a6a34bd2.385efc79.css"><link rel="prefetch" href="/css/chunk-e7f421e6.8edc5d88.css"><link rel="prefetch" href="/css/chunk-ffbf21b0.f676977d.css"><link rel="prefetch" href="/display.css"><link rel="prefetch" href="/js/chunk-1e0eddf4.a07129a2.js"><link rel="prefetch" href="/js/chunk-20430dab.fc0c9b79.js"><link rel="prefetch" href="/js/chunk-28410e6e.94075a82.js"><link rel="prefetch" href="/js/chunk-2d0b1d9a.2262834d.js"><link rel="prefetch" href="/js/chunk-2d0d0095.0b91d809.js"><link rel="prefetch" href="/js/chunk-2d0d640e.f7603056.js"><link rel="prefetch" href="/js/chunk-2d207b69.d129f9bb.js"><link rel="prefetch" href="/js/chunk-353e28b8.fb9e970c.js"><link rel="prefetch" href="/js/chunk-35d79526.3b38f74b.js"><link rel="prefetch" href="/js/chunk-3d6f543a.ee89b0c3.js"><link rel="prefetch" href="/js/chunk-3f724e29.e9872a0b.js"><link rel="prefetch" href="/js/chunk-402e3694.9da5bc59.js"><link rel="prefetch" href="/js/chunk-551a5bcf.0c004cdf.js"><link rel="prefetch" href="/js/chunk-588066cd.fb366fde.js"><link rel="prefetch" href="/js/chunk-61a4aa5f.eec8b5d8.js"><link rel="prefetch" href="/js/chunk-62fbc14e.ce7ad43b.js"><link rel="prefetch" href="/js/chunk-6514e929.61ce8693.js"><link rel="prefetch" href="/js/chunk-6adc696c.464a14bd.js"><link rel="prefetch" href="/js/chunk-6cf6d074.9b389b87.js"><link rel="prefetch" href="/js/chunk-8b38b6ee.26e08a15.js"><link rel="prefetch" href="/js/chunk-8c464618.27227a08.js"><link rel="prefetch" href="/js/chunk-a6a34bd2.da5e1f5b.js"><link rel="prefetch" href="/js/chunk-e7f421e6.707dc50c.js"><link rel="prefetch" href="/js/chunk-ffbf21b0.067f9459.js"> <link rel="stylesheet" href="/css/app.e969f070.css"><link rel="stylesheet" href="/css/chunk-08f09854.daf5f3f3.css"><link rel="stylesheet" href="/css/chunk-0c4f7370.f50b17fe.css"><link rel="stylesheet" href="/css/chunk-03d925a9.9c8bdec6.css"><link rel="stylesheet" href="/css/chunk-2ad49d59.1ae564c8.css"><link rel="stylesheet" href="/css/chunk-2b66ae69.ed4f4e8d.css"><style data-vue-ssr-id="829db9f0:0 df47ec5e:0 30ed692e:0 29c61380:0 279f8473:0 7fc0ca85:0 93e6dfb8:0 189a3f1c:0 267ae499:0 3b091f38:0 19244458:0 fecbca90:0 ece3b906:0 755ced8f:0 d59455d6:0 7a3684fe:0 63c062a0:0 9c7d41be:0 5efcb8c9:0 170bfd0f:0 62c4c147:0 72b6980d:0 20cb99d8:0 78dd6458:0 090608d0:0 7da82475:0 4950b1e4:0 1a234d6b:0 69105428:0 eb595cbe:0">/* notice */
+.messageLength{
+  min-width: 300px;
+}
+.el-rate {
+  height: 18px;
+  margin-top: -2px;
+}
+/* hack element */
+.el-message-box{
+  /* width:50vw; */
+  max-width: 432px;
+}
+.el-popover--plain{
+  padding:10px;
+}
+.el-dialog{
+  max-width: 95vw;
+}
+.el-dropdown-menu__item {
+  line-height: 2.2em;
+  padding:0 20px;
+}
+.el-collapse-item__content{
+  padding-bottom:15px;
+}
+.el-collapse{
+  border-top:none;
+}
+.el-collapse-item__wrap,.el-collapse{
+  border-bottom: none;
+}
+.el-collapse-item:last-child{
+  margin-bottom:0;
+}
+.el-rate__icon{
+  margin-right:2px;
+}
+.el-dialog__header {
+  padding: 10px 20px 0px;
+  }
+  .el-form--label-top .el-form-item__label{
+    padding:0;
+  }
+  .el-form-item{
+    margin-bottom:5px;
+  }
+.el-dialog__headerbtn {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  padding: 8px;
+  /* background-color: #888; */
+  border-radius: 50%;
+  outline: 0;
+  color:#fff;
+  cursor: pointer;
+  font-size: 16px;
+}
+.el-tag {
+  margin: 5px 10px 5px 0px;
+  }
+/*  弹窗样式覆盖*/
+.el-dropdown-menu li{
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+.DialogFormItem .el-textarea__inner {
+  border-color: transparent !important;
+  padding: 0.7em 0 0 0;
+}
+.DialogFormItem .el-input__inner {
+  border-color: transparent;
+}
+#Dialog-EditBookInfo input{
+  text-align: center;
+}
+#Dialog-EditBookInfo .yousuu-selector.el-select .el-input__inner{
+  padding-left:30px;
+}
+.yousuu-selector-dropdown-align-center {
+  text-align: center;
+}
+.yousuu-selector-dropdown-align-center .popper__arrow,.DatePicker-Customer .popper__arrow {
+  left: 49%!important;
+}
+@media(max-width:768px){
+  .el-collapse-item__header{
+    line-height: 44px;
+    height: 44px;
+  }
+}
+/* 公用 */
+table {
+  text-align: left;
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  color: #999;
+}
+th,
+td {
+  font-size: 14px;
+}
+button:disabled{
+  cursor:not-allowed!important;
+}
+/* 空白网页 */
+.empty-container{
+max-width: 1000px;
+width: 100%;
+margin:0 auto;
+}
+.empty-tip{
+  text-align: center;
+  font-size: 20px;
+  color:#888;
+  padding-bottom:20px;
+}
+.empty-tip.withhead{
+  padding-top:20px;
+}
+.withicon {
+  font-size: 14px;
+  color: #999;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+.withicon + .withicon{
+  margin-left: 30px;
+}
+.withicon svg {
+  margin-right: 6px;
+  width: 17px;
+  /* height: 14px; */
+}
+.withicon.mini{
+  font-size: 14px;
+}
+.withicon.ban{
+  color:#f35e6b;
+  /* margin-left: 25px; */
+}
+.withicon.mini svg {
+  width: 14px;
+  height: 14px;
+}
+.followBtn {
+  /* width: 120px; */min-width:100px;
+  padding:0 15px;
+  height: 34px;
+  background-color: #efefef;
+  color: #aaa;
+  font-size: 14px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.followBtn.onlyText{
+  background:transparent;
+  min-width: 1em;
+  width: auto;
+  height: 24px;
+  padding:0;
+}
+.followBtn.small{
+  padding:0 10px;
+} 
+.unFollow {
+  background-color: #567ceb;
+  color: #fff;
+}
+.unFollow.onlyText{
+  color:#567ceb;
+}
+/* new follow btn style */
+.follow-btn.gear {
+  font-size: 14px;
+  color: #888;
+  padding: 7px 12px;
+  border: 1px solid #aaa;
+  border-radius: 2px;
+}
+.follow-btn.text {
+  font-size: 14px;
+  color: #567ceb;
+}
+.follow-btn.gear.inBookcase {
+  background-color: #f8f8f8;
+  /* color: #bbb; */
+  border-color: transparent;
+}
+.follow-btn {
+  cursor: pointer;
+}
+.follow-btn:hover {
+  color: #567ceb;
+  border-color: #567ceb;
+}
+button.inBookcase.follow-btn,button.inBookcase{
+  color:#888
+}
+/* 分割 */
+.primary {
+  background-color: #567ceb;
+  color: #fff;
+}
+.text {
+  margin-left: 26px;
+  color: #888;
+  font-size: 14px;
+  cursor: pointer;
+}
+.plain {
+  border: 1px solid #ccc;
+  color: #aaa;
+}
+.danger {
+  background: #f74e5c;
+  color: #fff;
+}
+.StoreBooks,.SearchResult,.SpaceBooklist,.BooklistsResult{
+  padding:0px 30px;
+}
+.space-action-item-padding{
+  padding:20px;
+}
+.ActionBooklistVoting {
+  margin-top: 15px;
+}
+@media (max-width: 768px) {
+  *:not(.navbar-wrap,.backtop-btn){
+    -webkit-box-shadow: none!important;
+            box-shadow: none!important;
+  }
+  .withicon + .withicon{
+    margin-left: 5vw;
+  }
+  .el-dialog__body{
+    padding:15px!important;
+  }
+  .space-action-item-padding {
+    padding: 10px !important;
+  }
+  .StoreBooks,.BooklistsResult,.SearchResult,.space-action-item-padding,.SpaceBooklist{
+    padding: 0 15px;
+  }
+    .ActionBooklistVoting {
+      margin-top: 10px;
+    }
+}
+
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 14px;
+  background-color: #f3f4f7;
+  word-wrap: break-word;
+  word-break: break-all;
+  text-decoration: none;
+  font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, PingFang SC,
+    Microsoft YaHei, Source Han Sans SC, Noto Sans CJK SC, WenQuanYi Micro Hei,
+    sans-serif;
+}
+*,
+*:before,
+*:after {
+  -webkit-appearance: inherit;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  outline: none;
+  border: none;
+  line-height: 1.1em;
+  text-decoration: inherit;
+  color: inherit;
+  -webkit-transition: color 0.2s;
+  transition: color 0.2s;
+  background-color: transparent;
+}
+a:hover {
+  color: #567ceb;
+}
+.ellipsis {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+::-webkit-input-placeholder {
+  color: #d8d8d8;
+}
+button,
+input {
+  -webkit-transition: background-color 0.4s;
+  transition: background-color 0.4s;
+}
+body {
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+*::-webkit-scrollbar {
+  background-color: #fff;
+  width: 6px;
+  /* position: absolute; */
+}
+*::-webkit-scrollbar-thumb {
+  width: 100%;
+  height: auto;
+  border-radius: 18px;
+  background-color: #aaa;
+  /* transition: display 0.2s; */
+  /* position: absolute; */
+}
+#app {
+  width: 100vw;
+  position: absolute;
+}
+.capsule {
+  /* width: 120px; */
+  height: 40px;
+  border-radius: 20px;
+  font-size: 14px;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+
+.navbar-wrap[data-v-68dc387f] {
+  width: 100vw;
+  background: #fff;
+  -webkit-box-shadow: 0 0 1px 0px rgba(0, 0, 0, 0.15);
+          box-shadow: 0 0 1px 0px rgba(0, 0, 0, 0.15);
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  z-index: 100;
+  font-size: 14px;
+  color: #888;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: -webkit-sticky;
+  position: sticky;
+  /* position: fixed; */
+  top: 0;
+}
+.topic.archiver .navbar-wrap[data-v-68dc387f],
+.booklist.archiver .navbar-wrap[data-v-68dc387f] {
+  display: none;
+}
+.navbar-inner[data-v-68dc387f] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.navbar-main-xs-only[data-v-68dc387f] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+@media (max-width: 999px) {
+.navbar-inner[data-v-68dc387f] {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+}
+}
+@media (min-width: 1000px) {
+.navbar-inner[data-v-68dc387f] {
+    width: 1000px;
+}
+}
+.user-info[data-v-68dc387f] {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+a[data-v-68dc387f],
+img[data-v-68dc387f],
+span[data-v-68dc387f] {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.navbar-main[data-v-68dc387f] {
+  /* margin: 0 auto; */
+  margin-left: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 555px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.navbar-main-wrap[data-v-68dc387f] {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  /* justify-content: center; */
+}
+.navbar-main .router-link-active[data-v-68dc387f]:not(.search-block) {
+  font-weight: bold;
+  color: #343434;
+}
+.navbar-side[data-v-68dc387f] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 120px;
+  margin-left: 30px;
+}
+.news-route[data-v-68dc387f] {
+  position: relative;
+}
+.news-route em[data-v-68dc387f] {
+  display: block;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 8px;
+  height: 8px;
+  background: #f35e6b;
+  border-radius: 50%;
+}
+.logo svg[data-v-68dc387f] {
+  width: 106px;
+  min-width: 106px;
+  height: 30px;
+}
+@media (max-width: 768px) {
+.navbar-wrap[data-v-68dc387f] {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+}
+.logo svg[data-v-68dc387f] {
+    width: 106px;
+    min-width: 106px;
+    height: 30px;
+}
+}
+@media (max-width: 992px) {
+.navbar-side[data-v-68dc387f] {
+    width: 150px;
+    margin-left: 0px;
+}
+}
+@media (max-width: 320px) {
+.navbar-side[data-v-68dc387f] {
+    width: 130px;
+    margin-left: 0px;
+}
+}
+
+
+.svg-icon[data-v-80a6e342] {
+  width: 1em;
+  height: 1em;
+  fill: #343434;
+  overflow: hidden;
+}
+/* .logo {
+  width: 89px;
+  height: 38px;
+}
+/* .logoBeta { */
+/* width: 89px; */
+/* height: 38px; */
+/* } */
+/* @media (max-width: 768px) {
+  .logo {
+    width: 120px;
+    height: 30px;
+  }
+  .logoBeta {
+    height: 30px;
+  }
+} */
+.search[data-v-80a6e342] {
+  width: 14px;
+  height: 14px;
+}
+.bookcase[data-v-80a6e342],
+.news[data-v-80a6e342] {
+  width: 18px;
+  height: 18px;
+}
+.bookcase.mini[data-v-80a6e342] {
+  width: 14px;
+  height: 14px;
+}
+/* .share,
+.comment,
+.fav,
+.fav_block {
+  width: 16px;
+  height: 16px;
+} */
+.createbooklist[data-v-80a6e342],
+.postBook[data-v-80a6e342],
+.postcomment[data-v-80a6e342] {
+  fill: #343434;
+  width: 20px;
+  height: 20px;
+}
+/* .router-link-active * {
+  fill: #567ceb;
+} */
+.router-link-active .logo[data-v-80a6e342] {
+  fill: #343434;
+}
+
+
+.backtop-btn[data-v-5587096e] {
+  position: fixed;
+  bottom: 30px;
+  right: 12px;
+  cursor: pointer;
+  z-index: 99;
+  font-size: 24px;
+  -webkit-box-shadow: 0px 4px 12px 0px rgba(86, 124, 235, 0.26);
+          box-shadow: 0px 4px 12px 0px rgba(86, 124, 235, 0.26);
+  width: 50px;
+  height: 50px;
+  border-radius: 4px;
+  color: #5a7be6;
+  background-color: #fff;
+  font-weight: bold;
+}
+
+
+.BooklistBooksAd[data-v-f2ac917a] {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+@media (max-width: 768px) {
+.BooklistBooksAd[data-v-f2ac917a] {
+    margin-top: 10px;
+}
+}
+
+
+.bookpage-layout-header[data-v-a616861a] {
+  background-color: #ffffff;
+  margin: 0 auto;
+  padding-top: 30px;
+  width: 100%;
+  position: relative;
+  padding-bottom: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  /* box-shadow: 0 0 4px 0 rgba(204, 204, 204, 0.5); */
+}
+.bookpage-layout-header-wrap[data-v-a616861a] {
+  max-width: 1000px;
+  width: 100%;
+  -ms-flex-item-align: center;
+      align-self: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.bookpage-layout-header-main[data-v-a616861a] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+.bookpage-layout-header-side[data-v-a616861a] {
+  width: 280px;
+}
+@media (max-width: 992px) {
+.bookpage-layout-header-wrap[data-v-a616861a] {
+    width: 100%;
+    display: block;
+}
+.bookpage-layout-header-main[data-v-a616861a] {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+}
+.bookpage-layout-header[data-v-a616861a] {
+    padding: 0px;
+}
+.bookpage-layout-header-side[data-v-a616861a] {
+    width: 100%;
+    padding: 0 15px;
+}
+}
+
+
+.BooklistHeader[data-v-1d77f6b6] {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+/* .BooklistHeader-Actions {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+} */
+/* .BooklistName {
+  display: flex;
+  align-items: center;
+} */
+.BooklistMetaTitle[data-v-1d77f6b6] {
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+@media (max-width: 992px) {
+.BooklistHeader[data-v-1d77f6b6] {
+    padding: 0 15px;
+}
+}
+
+
+.BooklistHeader .BooklistInfoIntro {
+  padding: 10px 0 5px;
+}
+@media (max-width: 992px) {
+.BooklistHeader {
+    padding: 0 15px;
+}
+.BooklistHeader .BooklistInfoIntro {
+    padding: 6px 0 0px;
+}
+}
+
+
+a[data-v-cac7e50c] {
+  display: inline-block;
+  font-size: 13px;
+  color: #567ceb;
+  background-color: #eff3fe;
+  border-radius: 3px;
+  padding: 8px 12px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+@media (max-width: 768px) {
+a[data-v-cac7e50c] {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+}
+
+
+.BooklistMeta[data-v-7ac25c74] {
+  line-height: 1em;
+}
+.booklistName[data-v-7ac25c74] {
+  color: #333;
+  font-size: 22px;
+  font-weight: bold;
+  /* display: inline-block; */
+}
+.flow .booklistName[data-v-7ac25c74] {
+  font-size: 18px;
+}
+@media (max-width: 768px) {
+.flow[data-v-7ac25c74] {
+    margin-top: 15px;
+}
+}
+
+
+.BooklistInfoIntro[data-v-387bbed7] {
+  line-height: 2em;
+  color: #888;
+}
+.flow[data-v-387bbed7] {
+  padding-bottom: 0;
+}
+/* .SpaceFlow {
+  padding: 15px 0 0 0;
+} */
+@media (max-width: 768px) {
+  /* .BooklistInfoIntro { */
+  /* padding: 5px 0 5px; */
+  /* } */
+  /* .SpaceFlow {
+    padding: 5px 0 0 0;
+  } */
+}
+
+
+.ToggleBtn[data-v-57d4d532] {
+  color: #567ceb;
+  font-size: 15px;
+  cursor: pointer;
+  margin-top: 5px;
+}
+.comment-content-inner[data-v-57d4d532] {
+  font-size: 15px;
+  line-height: 2em;
+  color: #333;
+  word-wrap: break-word;
+  word-break: break-word;
+  white-space: pre-wrap;
+  overflow: hidden;
+}
+.ReplyContentInner .comment-content-inner[data-v-57d4d532] {
+  font-size: 14px;
+  line-height: 1.6em;
+}
+.ReplyContentInner .ToggleBtn[data-v-57d4d532] {
+  font-size: 14px;
+}
+
+
+.comment-content-inner a {
+  color: #567ceb;
+}
+
+
+.booklist-header-side[data-v-5a9f5cee] {
+  text-align: right;
+  min-height: 70px;
+}
+.booklist-status-inner[data-v-5a9f5cee] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+/* .number-border-item:first-child {
+  padding-right: 15px;
+} */
+.number-border-item[data-v-5a9f5cee]:nth-child(2) {
+  padding: 0 15px;
+  margin: 0 15px;
+  border-left: 1px solid #f5f5f5;
+  border-right: 1px solid #f5f5f5;
+}
+.number-border-itemname[data-v-5a9f5cee] {
+  font-size: 14px;
+  color: #999;
+  padding-top: 6px;
+}
+.number-border-itemvalue[data-v-5a9f5cee] {
+  color: #333;
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.number-border-item[data-v-5a9f5cee] {
+  text-align: center;
+}
+
+
+.booklist-info-footer[data-v-db9b7b58] {
+  width: 1000px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 14px;
+  color: #888;
+}
+.BooklistUpdateAtInfo[data-v-db9b7b58] {
+  padding-right: 14px;
+}
+button.withicon[data-v-db9b7b58] {
+  cursor: pointer;
+  padding: 8px 14px;
+  border-radius: 4px;
+  font-size: 14px;
+}
+.BooklistCollectArea[data-v-db9b7b58] {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  height: 30px;
+  /* display: flex;
+  justify-content: flex-end; */
+  position: relative;
+}
+.BooklistCollectArea button[data-v-db9b7b58] {
+  position: absolute;
+  right: 0;
+  top: -16px;
+}
+.main-actions[data-v-db9b7b58] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.main-actions button[data-v-db9b7b58] {
+  margin-right: 10px;
+}
+.withicon + .withicon[data-v-db9b7b58] {
+  margin: 0;
+}
+@media (max-width: 992px) {
+.booklist-info-footer-wrap[data-v-db9b7b58] {
+    width: 100%;
+}
+.BooklistUpdateAtInfo[data-v-db9b7b58] {
+    padding-right: 0px;
+}
+button.withicon[data-v-db9b7b58] {
+    padding: 5px;
+    margin-left: 0px;
+}
+.booklist-info-footer[data-v-db9b7b58] {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    /* flex-direction: column; */
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 10px 15px;
+}
+.text[data-v-db9b7b58] {
+    padding-right: 0;
+    margin-left: 5px;
+}
+.BooklistCollectSmallArea[data-v-db9b7b58] {
+    padding-bottom: 20px;
+    padding-top: 5px;
+}
+.BooklistCollectSmallArea button[data-v-db9b7b58] {
+    margin: 0 auto;
+}
+}
+
+
+.dropdown-button[data-v-78837c26] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+
+.BooklistCollect[data-v-6d746988] {
+  border: 1px solid #ff7f7f;
+  width: 120px;
+  /* height: 40px; */
+  /* padding: 12px 35px; */
+  background: #ff7f7f;
+  -webkit-box-shadow: 0px 3px 10px 0px rgba(255, 127, 127, 0.5);
+          box-shadow: 0px 3px 10px 0px rgba(255, 127, 127, 0.5);
+  /* border-radius: 20px; */
+  color: #fff;
+  /* font-size: 14px; */
+  /* display: flex;
+  align-items: center;
+  justify-content: center;*/
+}
+em[data-v-6d746988] {
+  margin-left: 5px;
+}
+span[data-v-6d746988] {
+  display: none;
+}
+.BooklistCollect[data-v-6d746988]:hover {
+  background-color: #ec6d6d;
+}
+.BooklistCollect.collected[data-v-6d746988] {
+  background-color: #fff;
+  -webkit-box-shadow: unset;
+          box-shadow: unset;
+  color: #ff7f7f;
+}
+.BooklistCollect.collected svg[data-v-6d746988] {
+  fill: #ff7f7f;
+}
+.BooklistCollect.collected:hover svg[data-v-6d746988],
+.BooklistCollect.collected:hover em[data-v-6d746988] {
+  display: none;
+}
+.BooklistCollect.collected:hover span[data-v-6d746988] {
+  display: inline-block;
+}
+/* .BooklistCollect:hover  */
+
+
+.bookpage-layout-main[data-v-14c62c06] {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1000px;
+  padding-bottom: 0px;
+}
+.bookpage-layout-main-right[data-v-14c62c06],
+.bookpage-layout-main-left[data-v-14c62c06] {
+  width: 100%;
+}
+@media (min-width: 1015px) {
+.bookpage-layout-main[data-v-14c62c06] {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.bookpage-layout-main-right[data-v-14c62c06] {
+    width: 280px;
+    margin-left: 10px;
+    /* display: flex;
+    flex-direction: column; */
+}
+.bookpage-layout-main-left[data-v-14c62c06] {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+}
+}
+
+
+@media (min-width: 768px) {
+.sticky[data-v-35afcc85] {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 66px;
+}
+}
+
+
+.OwnerProfile[data-v-d11bbdf8] {
+  padding: 30px;
+}
+.OwnerProfileContent[data-v-d11bbdf8] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.owner-info[data-v-d11bbdf8] {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.owner-info *[data-v-d11bbdf8] {
+  display: block;
+  text-align: center;
+}
+.user-name[data-v-d11bbdf8] {
+  font-size: 20px;
+  color: #333;
+  padding: 20px 0;
+}
+.user-name.bold[data-v-d11bbdf8] {
+  font-weight: 700;
+}
+.followers[data-v-d11bbdf8] {
+  font-size: 14px;
+  color: #999;
+}
+.profile-actions[data-v-d11bbdf8] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+  width: 100%;
+}
+.followBtn[data-v-d11bbdf8] {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  min-width: unset;
+  padding: 0;
+}
+/* .el-dropdown, */
+.other-info[data-v-d11bbdf8] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  padding-top: 10px;
+}
+.other-info.booklist[data-v-d11bbdf8] {
+  padding-top: 0px;
+}
+.booklist .followBtn.onlyText[data-v-d11bbdf8] {
+  text-align: right;
+}
+.BanInfoPadding[data-v-d11bbdf8] {
+  padding: 30px;
+}
+@media (max-width: 992px) {
+.owner-info[data-v-d11bbdf8] {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+}
+.BanInfoPadding[data-v-d11bbdf8] {
+    padding: 0px 10px;
+}
+.owner-info.booklist[data-v-d11bbdf8] {
+    display: none;
+}
+.OwnerProfile[data-v-d11bbdf8] {
+    padding: 15px;
+    padding-top: 0;
+}
+.OwnerProfile.booklist[data-v-d11bbdf8] {
+    margin-top: 10px;
+    padding: 10px;
+}
+.user-name[data-v-d11bbdf8] {
+    padding: 0 15px;
+    font-size: 16px;
+}
+.OwnerProfileContent[data-v-d11bbdf8] {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+}
+.booklist-owner-profile[data-v-d11bbdf8] {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.owner-info-small[data-v-d11bbdf8] {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+}
+
+
+.title[data-v-4a5fc30d] {
+  font-size: 24px;
+  font-weight: bold;
+}
+img[data-v-4a5fc30d] {
+  width: 60px;
+  height: 60px;
+  margin-top: 20px;
+}
+.medals[data-v-4a5fc30d] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+
+a[data-v-bd4bb766] {
+  padding: 10px 0;
+  cursor: pointer;
+  display: block;
+}
+a[data-v-bd4bb766]:last-child {
+  padding-bottom: 0;
+}
+.sticky[data-v-bd4bb766] {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 392px;
+}
+
+
+.less-tip[data-v-24f67f33] {
+  font-size: 14px;
+  text-align: center;
+  color: #888;
+  padding: 10px 0 30px;
+}
+.BooklistBooksAd[data-v-24f67f33] {
+  margin-bottom: 20px;
+}
+@media (max-width: 768px) {
+.less-tip[data-v-24f67f33] {
+    padding-bottom: 20px;
+}
+.BooklistBooksAd[data-v-24f67f33] {
+    margin-bottom: 10px;
+}
+}
+
+
+.result-view.as-result-view[data-v-a26c59f8] {
+  min-height: 529px;
+}
+.pagination[data-v-a26c59f8] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 10px 0;
+}
+
+
+.close-btn[data-v-593d3247] {
+  position: absolute;
+  right: -40px;
+  top: 0px;
+}
+.modal-title[data-v-593d3247] {
+  font-size: 24px;
+  color: #333;
+  text-align: center;
+}
+.modal-content[data-v-593d3247] {
+  font-size: 16px;
+  padding: 20px;
+  line-height: 1.5em;
+  margin: 0 auto;
+}
+.modal-actions-wrap[data-v-593d3247] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.modal-actions[data-v-593d3247] {
+  width: 240px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+@media (max-width: 768px) {
+.modal-content[data-v-593d3247] {
+    padding: 20px 0;
+}
+}
+
+
+.booklist-book-item[data-v-03792142] {
+  padding: 0 30px 30px 30px;
+}
+.card-actions-wrap[data-v-03792142] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.owner-rate[data-v-03792142] {
+  margin: 20px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 16px;
+  color: #999;
+}
+.card-actions[data-v-03792142] {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin-left: 20px;
+}
+@media (max-width: 768px) {
+.owner-rate[data-v-03792142] {
+    margin: 10px 0;
+}
+.booklist-book-item[data-v-03792142] {
+    padding: 0 15px 15px 15px;
+}
+}
+
+
+.common-card-layout {
+  width: 100%;
+  background-color: #fff;
+  margin-bottom: 10px;
+  /* border-radius: 4px;
+  box-shadow: 0px 0px 4px 0px rgba(204, 204, 204, 0.5); */
+}
+@media (max-width: 768px) {
+.common-card-layout {
+    margin-bottom: 10px;
+}
+}
+
+
+.card-bookInfo[data-v-f047370c] {
+  padding-top: 30px;
+  padding-bottom: 15px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #999;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.card-bookInfo-meta[data-v-f047370c] {
+  margin-left: 14px;
+}
+.add-btn[data-v-f047370c] {
+  position: absolute;
+  top: 20px;
+  right: 0;
+}
+.card-bookInfo-cover[data-v-f047370c] {
+  position: relative;
+}
+.card-bookInfo-cover span[data-v-f047370c] {
+  background-color: rgba(152, 153, 169, 0.5);
+  color: #fff;
+  position: absolute;
+  padding: 5px 7px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+@media (max-width: 768px) {
+.card-bookInfo[data-v-f047370c] {
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+.card-bookInfo-meta[data-v-f047370c] {
+    margin-left: 10px;
+}
+}
+
+
+.createdAt-source[data-v-a0ec6b4e] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  /* margin: 15px 0 20px; */
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.createdAt[data-v-a0ec6b4e] {
+  color: #999;
+  font-size: 14px;
+  display: inline-block;
+  padding: 15px 0 20px;
+}
+.createdAt[data-v-a0ec6b4e]:hover {
+  color: #567ceb;
+}
+@media (max-width: 768px) {
+.createdAt[data-v-a0ec6b4e] {
+    padding: 10px 0 8px;
+}
+}
+</style></head><body><div id="app" data-server-rendered="true" class="booklist"><header class="navbar-wrap" data-v-68dc387f><nav class="navbar-inner" data-v-68dc387f><a href="/" class="logo" data-v-68dc387f><!----></a><div class="navbar-main-wrap hidden-sm-and-down" data-v-68dc387f><div class="navbar-main" data-v-68dc387f><a href="/bookstore/" data-v-68dc387f>书库</a><a href="/booklists/" data-v-68dc387f>书单</a><a href="/topics/" data-v-68dc387f>话题</a><a href="/explore" data-v-68dc387f>发现</a><!----></div></div><div class="navbar-main-xs-only hidden-md-and-up" data-v-68dc387f></div><div class="navbar-side" data-v-68dc387f><!----><a href="/search/" class="hidden-md-and-up" data-v-68dc387f><!----></a><span data-v-68dc387f>登录</span><span data-v-68dc387f>注册</span></div></nav><!----></header><div class="app-main"><button class="backtop-btn el-icon-top" style="display:none;" data-v-5587096e></button><div data-v-f2ac917a><header class="bookpage-layout-header" data-v-a616861a data-v-f2ac917a><div class="bookpage-layout-header-wrap" data-v-a616861a><div class="bookpage-layout-header-main" data-v-a616861a><div class="BooklistHeader" data-v-1d77f6b6 data-v-f2ac917a><div data-v-cac7e50c data-v-1d77f6b6><a href="/bookstore/?classId=26" target="_blank" data-v-cac7e50c>衍生同人(60)</a><a href="/bookstore/?classId=23" target="_blank" data-v-cac7e50c>幻想言情(9)</a><a href="/bookstore/?classId=25" target="_blank" data-v-cac7e50c>耽美纯爱(4)</a><a href="/bookstore/?classId=21" target="_blank" data-v-cac7e50c>都市言情(4)</a><a href="/bookstore/?classId=22" target="_blank" data-v-cac7e50c>仙侠奇缘(2)</a></div><div class="BooklistMetaTitle BooklistMeta" data-v-7ac25c74 data-v-1d77f6b6><a href="/booklist/59b0acb8fe92bfeb5cb948c7" class="booklistName router-link-exact-active router-link-active" data-v-7ac25c74>女性向，杂食</a></div><div data-v-387bbed7 data-v-1d77f6b6><div class="comment-content BooklistInfoIntro" data-v-57d4d532 data-v-387bbed7><div class="comment-content-inner default" data-v-57d4d532><!----><!----></div></div></div><!----></div></div><div class="bookpage-layout-header-side" data-v-a616861a><div class="booklist-header-side hidden-sm-and-down" data-v-5a9f5cee data-v-6765efa0 data-v-f2ac917a><div class="booklist-status-inner" data-v-5a9f5cee><div class="number-border-item" data-v-5a9f5cee><div class="number-border-itemvalue" data-v-5a9f5cee>1.8w</div><div class="number-border-itemname" data-v-5a9f5cee>浏览</div></div><div class="number-border-item" data-v-5a9f5cee><div class="number-border-itemvalue" data-v-5a9f5cee>87</div><div class="number-border-itemname" data-v-5a9f5cee>本书</div></div><div class="number-border-item" data-v-5a9f5cee><div class="number-border-itemvalue" data-v-5a9f5cee>51</div><div class="number-border-itemname" data-v-5a9f5cee>收藏</div></div></div></div></div></div><div booklistId="59b0acb8fe92bfeb5cb948c7" class="booklist-info-footer-wrap" data-v-db9b7b58 data-v-f2ac917a><div class="booklist-info-footer" data-v-db9b7b58><span class="BooklistUpdateAtInfo" data-v-db9b7b58>2019-09-27更新</span><span class="text hidden-md-and-up" data-v-db9b7b58>1.8w浏览</span><span class="text hidden-md-and-up" data-v-db9b7b58>87本书</span><!----><!----><button class="withicon share-booklist" data-v-db9b7b58><!---->分享
+  </button><button class="withicon" data-v-db9b7b58><!---->阅读
+    </button><div class="el-dropdown" data-v-78837c26><div class="dropdown-button" data-v-78837c26><button class="withicon"><!----></button></div><ul class="el-dropdown-menu el-popper" style="display:none;" data-v-78837c26><li tabindex="-1" class="el-dropdown-menu__item" data-v-78837c26><!---->举报书单</li></ul></div><div class="BooklistCollectArea" style="display:;" data-v-db9b7b58><button class="capsule BooklistCollect" data-v-6d746988><!----><em data-v-6d746988>收藏</em><span data-v-6d746988>取消收藏</span></button></div></div><div class="BooklistCollectSmallArea" style="display:none;" data-v-db9b7b58><button class="capsule BooklistCollect" data-v-6d746988><!----><em data-v-6d746988>收藏</em><span data-v-6d746988>取消收藏</span></button></div></div></header><section class="bookpage-layout-main" data-v-14c62c06 data-v-f2ac917a><div class="bookpage-layout-main-right" data-v-14c62c06><div route="booklist" class="sticky" data-v-35afcc85 data-v-f2ac917a><!----><!----><!----></div><!----></div><div class="bookpage-layout-main-left" data-v-14c62c06><div data-v-24f67f33 data-v-f2ac917a><div class="result-view" data-v-a26c59f8 data-v-24f67f33><div class="result" data-v-a26c59f8><div title="书单加书" class="el-dialog__wrapper" style="display:none;" data-v-593d3247 data-v-24f67f33><div role="dialog" aria-modal="true" aria-label="dialog" class="el-dialog form-modal" style="margin-top:20vh;width:480px;"><div class="el-dialog__header"><span class="el-dialog__title"></span><button type="button" aria-label="Close" class="el-dialog__headerbtn"><i class="el-dialog__close el-icon el-icon-close"></i></button></div><!----><!----></div></div><!----><div index="5d8dbc07c268c25f05c19b01" createrId="[object Object]" class="common-card-layout booklist-book-item" data-v-03792142 data-v-24f67f33><div bookId="37059" class="card-bookInfo" data-v-f047370c data-v-03792142><!----><!----><!----></div><div comment="[object Object]" commentId="5d8dbc07c268c25f05c19b01" bookId="37059" replyable="true" templateType="comment" class="CommentBody" data-v-a0ec6b4e data-v-03792142><div class="comment-content" data-v-57d4d532 data-v-a0ec6b4e><div class="comment-content-inner default" data-v-57d4d532><span data-v-57d4d532>居然没有标记这本，看之前，什么女穿男，同性情侣养娃，还有穿皮作品角色都是我的雷点，但这本把一切都推翻了，还让我喜欢上了麻婆，不过还是讨厌金皮卡</span><!----></div></div><div class="createdAt-source" data-v-a0ec6b4e><a href="/book/37059/comment/5d8dbc07c268c25f05c19b01" target="_blank" class="createdAt" data-v-a0ec6b4e>发表于2019-09-27 15:36</a></div><!----><!----></div></div><div index="5d5b2a63b5aa8032fef75dab" createrId="[object Object]" class="common-card-layout booklist-book-item" data-v-03792142 data-v-24f67f33><div bookId="155680" class="card-bookInfo" data-v-f047370c data-v-03792142><!----><!----><!----></div><div comment="[object Object]" commentId="5d5b2a63b5aa8032fef75dab" bookId="155680" replyable="true" templateType="comment" class="CommentBody" data-v-a0ec6b4e data-v-03792142><div class="comment-content" data-v-57d4d532 data-v-a0ec6b4e><div class="comment-content-inner default" data-v-57d4d532><span data-v-57d4d532>发现了不少过往不感兴趣，现在看特别美味的角色哈哈哈，世界观是真的爆炸，导致前期尤其是日常角色逐渐沦为路人</span><!----></div></div><div class="createdAt-source" data-v-a0ec6b4e><a href="/book/155680/comment/5d5b2a63b5aa8032fef75dab" target="_blank" class="createdAt" data-v-a0ec6b4e>发表于2019-08-20 07:01</a></div><!----><!----></div></div><div index="5d5a8006b5aa8032fef744d7" createrId="[object Object]" class="common-card-layout booklist-book-item" data-v-03792142 data-v-24f67f33><div bookId="171504" class="card-bookInfo" data-v-f047370c data-v-03792142><!----><!----><!----></div><div comment="[object Object]" commentId="5d5a8006b5aa8032fef744d7" bookId="171504" replyable="true" templateType="comment" class="CommentBody" data-v-a0ec6b4e data-v-03792142><div class="comment-content" data-v-57d4d532 data-v-a0ec6b4e><div class="comment-content-inner default" data-v-57d4d532><span data-v-57d4d532>原设绿谷的性转版，让我想起看<a href="/name/守望者" target="_blank">《守望者》</a>的心碎感，我喜欢罗夏，很长一段时间内自比罗夏，然后逐渐发现自己是笑匠，甚至是法老王，没有后悔被现实改变，坦然接受自己的欲望，但我果然还是无可救药的浪漫主义者，小英雄经常被诟病善恶阵营黑白简单化，在这样一部作品中喜爱着欧尔麦特，大概人类就是本能般渴望着纯粹吧</span><!----></div></div><div class="createdAt-source" data-v-a0ec6b4e><a href="/book/171504/comment/5d5a8006b5aa8032fef744d7" target="_blank" class="createdAt" data-v-a0ec6b4e>发表于2019-08-19 18:55</a></div><!----><!----></div></div><div index="5d5575f0c2e8857cd5f991d2" createrId="[object Object]" class="common-card-layout booklist-book-item" data-v-03792142 data-v-24f67f33><div bookId="172312" class="card-bookInfo" data-v-f047370c data-v-03792142><!----><!----><!----></div><div comment="[object Object]" commentId="5d5575f0c2e8857cd5f991d2" bookId="172312" replyable="true" templateType="comment" class="CommentBody" data-v-a0ec6b4e data-v-03792142><div class="comment-content" data-v-57d4d532 data-v-a0ec6b4e><div class="comment-content-inner default" data-v-57d4d532><span data-v-57d4d532>发了四次书评了次次屏蔽，已经搞不懂这破站G点
+搞笑的是喷网站居然通过了？？</span><!----></div></div><div class="createdAt-source" data-v-a0ec6b4e><a href="/book/172312/comment/5d5575f0c2e8857cd5f991d2" target="_blank" class="createdAt" data-v-a0ec6b4e>发表于2019-08-15 23:10</a></div><!----><!----></div></div><div index="5d557d45c2e8857cd5f99355" createrId="[object Object]" class="common-card-layout booklist-book-item" data-v-03792142 data-v-24f67f33><div bookId="170495" class="card-bookInfo" data-v-f047370c data-v-03792142><!----><!----><!----></div><div comment="[object Object]" commentId="5d557d45c2e8857cd5f99355" bookId="170495" replyable="true" templateType="comment" class="CommentBody" data-v-a0ec6b4e data-v-03792142><div class="comment-content" data-v-57d4d532 data-v-a0ec6b4e><div class="comment-content-inner default" data-v-57d4d532><span data-v-57d4d532>文案耽误了我，实际上内容比文案cult多了，女主替自杀的身体原主复仇时没有犹豫加分</span><!----></div></div><div class="createdAt-source" data-v-a0ec6b4e><a href="/book/170495/comment/5d557d45c2e8857cd5f99355" target="_blank" class="createdAt" data-v-a0ec6b4e>发表于2019-08-15 23:41</a></div><!----><!----></div></div><div index="5d557fc7c2e8857cd5f993d0" createrId="[object Object]" class="common-card-layout booklist-book-item" data-v-03792142 data-v-24f67f33><div bookId="165394" class="card-bookInfo" data-v-f047370c data-v-03792142><!----><!----><!----></div><div comment="[object Object]" commentId="5d557fc7c2e8857cd5f993d0" bookId="165394" replyable="true" templateType="comment" class="CommentBody" data-v-a0ec6b4e data-v-03792142><div class="comment-content" data-v-57d4d532 data-v-a0ec6b4e><div class="comment-content-inner default" data-v-57d4d532><span data-v-57d4d532>更新慢，虽然作者再三保证但感觉在坑的边缘，走心的攻略我一直很喜欢，而且还是很少见的有药王，明明是卖肉略后宫向作品的男主，但仔细想想他真的很难攻略</span><!----></div></div><div class="createdAt-source" data-v-a0ec6b4e><a href="/book/165394/comment/5d557fc7c2e8857cd5f993d0" target="_blank" class="createdAt" data-v-a0ec6b4e>发表于2019-08-15 23:52</a></div><!----><!----></div></div><div index="5d557e68c2e8857cd5f99395" createrId="[object Object]" class="common-card-layout booklist-book-item" data-v-03792142 data-v-24f67f33><div bookId="172319" class="card-bookInfo" data-v-f047370c data-v-03792142><!----><!----><!----></div><div comment="[object Object]" commentId="5d557e68c2e8857cd5f99395" bookId="172319" replyable="true" templateType="comment" class="CommentBody" data-v-a0ec6b4e data-v-03792142><div class="comment-content" data-v-57d4d532 data-v-a0ec6b4e><div class="comment-content-inner default" data-v-57d4d532><span data-v-57d4d532>我的渣男书评属性又要发作了，明明看了一百多章，但仔细看看到底说了个嘛呢……不就是嘎勒底御主与黑泥哒宰桑的爱情故事，其他的好像啥也没发生，整本书就是像流水素面一样，圆滑的嗖地一下没了，但现在让我看完一本书真的不容易，考虑到这点给四星</span><!----></div></div><div class="createdAt-source" data-v-a0ec6b4e><a href="/book/172319/comment/5d557e68c2e8857cd5f99395" target="_blank" class="createdAt" data-v-a0ec6b4e>发表于2019-08-15 23:46</a></div><!----><!----></div></div><div index="5d557199c2e8857cd5f990e0" createrId="[object Object]" class="common-card-layout booklist-book-item" data-v-03792142 data-v-24f67f33><div bookId="167408" class="card-bookInfo" data-v-f047370c data-v-03792142><!----><!----><!----></div><div comment="[object Object]" commentId="5d557199c2e8857cd5f990e0" bookId="167408" replyable="true" templateType="comment" class="CommentBody" data-v-a0ec6b4e data-v-03792142><div class="comment-content" data-v-57d4d532 data-v-a0ec6b4e><div class="comment-content-inner default" data-v-57d4d532><span data-v-57d4d532>邪恶混乱女主，暂无感情戏，写蝙蝠一家只要怎样做就能劝服二桶那里我枯了哈哈哈，谁说女主莫得感情，这不是很有情商嘛只是懒得用，但所有的设定文笔堆出来的主角并没有让我觉得很酷或者很疯，可能是要写的世界多所有展开有点快？</span><!----></div></div><div class="createdAt-source" data-v-a0ec6b4e><a href="/book/167408/comment/5d557199c2e8857cd5f990e0" target="_blank" class="createdAt" data-v-a0ec6b4e>发表于2019-08-15 22:52</a></div><!----><!----></div></div><div index="5d557c26c2e8857cd5f9931c" createrId="[object Object]" class="common-card-layout booklist-book-item" data-v-03792142 data-v-24f67f33><div bookId="172318" class="card-bookInfo" data-v-f047370c data-v-03792142><!----><!----><!----></div><div comment="[object Object]" commentId="5d557c26c2e8857cd5f9931c" bookId="172318" replyable="true" templateType="comment" class="CommentBody" data-v-a0ec6b4e data-v-03792142><div class="comment-content" data-v-57d4d532 data-v-a0ec6b4e><div class="comment-content-inner default" data-v-57d4d532><span data-v-57d4d532>三星半？作品很好只是我不喜欢，毕竟这是我的私人书单，不需要客观。弃书于美队危机那里，原因大概是，我不喜欢美队，他很好，作品里也写出了他更像“人”而不是一个符号的一面，但我就是不喜欢而已，不知道后面是否他确定是男主，可我看不下去了</span><!----></div></div><div class="createdAt-source" data-v-a0ec6b4e><a href="/book/172318/comment/5d557c26c2e8857cd5f9931c" target="_blank" class="createdAt" data-v-a0ec6b4e>发表于2019-08-15 23:37</a></div><!----><!----></div></div><div index="5d557ac8c2e8857cd5f992c5" createrId="[object Object]" class="common-card-layout booklist-book-item" data-v-03792142 data-v-24f67f33><div bookId="172315" class="card-bookInfo" data-v-f047370c data-v-03792142><!----><!----><!----></div><div comment="[object Object]" commentId="5d557ac8c2e8857cd5f992c5" bookId="172315" replyable="true" templateType="comment" class="CommentBody" data-v-a0ec6b4e data-v-03792142><div class="comment-content" data-v-57d4d532 data-v-a0ec6b4e><div class="comment-content-inner default" data-v-57d4d532><span data-v-57d4d532>狂犬女主，文笔不能算优秀，但这种粗糙的醍醐味，我喜啊。目前黄金之风已结束，走到不灭钻石的剧情了，女主是布姐手中的狂犬，精神状态和茶哥有点像？充满自我毁灭欲，正篇世界线中算是稳定住了没有死掉，甚至开启了布姐与茸总的修罗场！茸茸那种年下但冷静可靠积极进攻的苏感有被写出来，虽然只有短短几次</span><!----></div></div><div class="createdAt-source" data-v-a0ec6b4e><a href="/book/172315/comment/5d557ac8c2e8857cd5f992c5" target="_blank" class="createdAt" data-v-a0ec6b4e>发表于2019-08-15 23:31</a></div><!----><!----></div></div><div index="5d5577fdc2e8857cd5f99228" createrId="[object Object]" class="common-card-layout booklist-book-item" data-v-03792142 data-v-24f67f33><div bookId="172313" class="card-bookInfo" data-v-f047370c data-v-03792142><!----><!----><!----></div><div comment="[object Object]" commentId="5d5577fdc2e8857cd5f99228" bookId="172313" replyable="true" templateType="comment" class="CommentBody" data-v-a0ec6b4e data-v-03792142><div class="comment-content" data-v-57d4d532 data-v-a0ec6b4e><div class="comment-content-inner default" data-v-57d4d532><span data-v-57d4d532>薄樱鬼里的嘎勒底御主，我不喜欢薄樱鬼，那为什么要看呢，因为冲田小姐太可爱了！还有嘎勒底的土方先生，自从“土方在福袋里埋伏我”事件后导致他风评下降，但我还是很喜欢他卡面和配音的</span><!----></div></div><div class="createdAt-source" data-v-a0ec6b4e><a href="/book/172313/comment/5d5577fdc2e8857cd5f99228" target="_blank" class="createdAt" data-v-a0ec6b4e>发表于2019-08-15 23:19</a></div><!----><!----></div></div><div index="5d557722c2e8857cd5f991f2" createrId="[object Object]" class="common-card-layout booklist-book-item" data-v-03792142 data-v-24f67f33><div bookId="170492" class="card-bookInfo" data-v-f047370c data-v-03792142><!----><!----><!----></div><div comment="[object Object]" commentId="5d557722c2e8857cd5f991f2" bookId="170492" replyable="true" templateType="comment" class="CommentBody" data-v-a0ec6b4e data-v-03792142><div class="comment-content" data-v-57d4d532 data-v-a0ec6b4e><div class="comment-content-inner default" data-v-57d4d532><span data-v-57d4d532>老作者诈尸之作，OOC的太宰，但不带脑子看得欢乐，是的我就是喜欢哒宰桑，虽然我觉得文野是部很烂的作品，但不妨碍我在晋江搜寻能吃的粮，主太宰的文里我会觉得中也超可爱，但并不想看他的文……</span><!----></div></div><div class="createdAt-source" data-v-a0ec6b4e><a href="/book/170492/comment/5d557722c2e8857cd5f991f2" target="_blank" class="createdAt" data-v-a0ec6b4e>发表于2019-08-15 23:15</a></div><!----><!----></div></div><div index="5d5574a0c2e8857cd5f9918a" createrId="[object Object]" class="common-card-layout booklist-book-item" data-v-03792142 data-v-24f67f33><div bookId="154364" class="card-bookInfo" data-v-f047370c data-v-03792142><!----><!----><!----></div><div comment="[object Object]" commentId="5d5574a0c2e8857cd5f9918a" bookId="154364" replyable="true" templateType="comment" class="CommentBody" data-v-a0ec6b4e data-v-03792142><div class="comment-content" data-v-57d4d532 data-v-a0ec6b4e><div class="comment-content-inner default" data-v-57d4d532><span data-v-57d4d532>已坑，发现我有点渣男，看的时候觉得嗯不错，但评价的时候又说不出什么好话，拔X无情。优点是在目前的晋江同人榜单里，算文笔好的那批，我真的感觉现在起码一般是中学生在写，还是初中，缺点是女主的个性时不时让我感觉冲突违和</span><!----></div></div><div class="createdAt-source" data-v-a0ec6b4e><a href="/book/154364/comment/5d5574a0c2e8857cd5f9918a" target="_blank" class="createdAt" data-v-a0ec6b4e>发表于2019-08-15 23:05</a></div><!----><!----></div></div><div index="5d557244c2e8857cd5f99101" createrId="[object Object]" class="common-card-layout booklist-book-item" data-v-03792142 data-v-24f67f33><div bookId="172311" class="card-bookInfo" data-v-f047370c data-v-03792142><!----><!----><!----></div><div comment="[object Object]" commentId="5d557244c2e8857cd5f99101" bookId="172311" replyable="true" templateType="comment" class="CommentBody" data-v-a0ec6b4e data-v-03792142><div class="comment-content" data-v-57d4d532 data-v-a0ec6b4e><div class="comment-content-inner default" data-v-57d4d532><span data-v-57d4d532>12章的小短文，为什么要推呢，因为是成年绿谷！还是外软内硬（？）的那种，很美味，我好了。话说我这个书单是不是该改名叫同人书单算了……九成九都是同人</span><!----></div></div><div class="createdAt-source" data-v-a0ec6b4e><a href="/book/172311/comment/5d557244c2e8857cd5f99101" target="_blank" class="createdAt" data-v-a0ec6b4e>发表于2019-08-15 22:55</a></div><!----><!----></div></div><div index="5d4bc7d20df3870947b23a05" createrId="[object Object]" class="common-card-layout booklist-book-item" data-v-03792142 data-v-24f67f33><div bookId="166311" class="card-bookInfo" data-v-f047370c data-v-03792142><!----><!----><!----></div><div comment="[object Object]" commentId="5d4bc7d20df3870947b23a05" bookId="166311" replyable="true" templateType="comment" class="CommentBody" data-v-a0ec6b4e data-v-03792142><div class="comment-content" data-v-57d4d532 data-v-a0ec6b4e><div class="comment-content-inner default" data-v-57d4d532><span data-v-57d4d532>改版后这个网站难用的跟*一样，尤其关注的书单都没更新推送了，那上你这个破站还有啥用呢……手机版连最新热门文列表都看不到，搞得我偶尔想加几本书都没热情。
+这文里最百无禁忌的地方我觉得是点评每个世界伴侣的床事能力……展昭不可能不行的我不相信！</span><!----></div></div><div class="createdAt-source" data-v-a0ec6b4e><a href="/book/166311/comment/5d4bc7d20df3870947b23a05" target="_blank" class="createdAt" data-v-a0ec6b4e>发表于2019-08-08 14:57</a></div><!----><!----></div></div><div index="5cfb775553fa3ac5530af706" createrId="[object Object]" class="common-card-layout booklist-book-item" data-v-03792142 data-v-24f67f33><div bookId="70375" class="card-bookInfo" data-v-f047370c data-v-03792142><!----><!----><!----></div><div comment="[object Object]" commentId="5cfb775553fa3ac5530af706" bookId="70375" replyable="true" templateType="comment" class="CommentBody" data-v-a0ec6b4e data-v-03792142><div class="comment-content" data-v-57d4d532 data-v-a0ec6b4e><div class="comment-content-inner default" data-v-57d4d532><span data-v-57d4d532>骑士股彻底上位，老王股心如死灰……当然知道老王就是不可能和女主在一起啦，作者都预告过他们做朋友很开心，但当夫妻完全不行，但金毛鬼畜这种乙女游戏里出现了百八十次的设定就是戳我的点哈哈</span><!----></div></div><div class="createdAt-source" data-v-a0ec6b4e><a href="/book/70375/comment/5cfb775553fa3ac5530af706" target="_blank" class="createdAt" data-v-a0ec6b4e>发表于2019-06-08 16:52</a></div><!----><!----></div></div><div index="5cfb74a8537342cb53db9cbc" createrId="[object Object]" class="common-card-layout booklist-book-item" data-v-03792142 data-v-24f67f33><div bookId="166492" class="card-bookInfo" data-v-f047370c data-v-03792142><!----><!----><!----></div><div comment="[object Object]" commentId="5cfb74a8537342cb53db9cbc" bookId="166492" replyable="true" templateType="comment" class="CommentBody" data-v-a0ec6b4e data-v-03792142><div class="comment-content" data-v-57d4d532 data-v-a0ec6b4e><div class="comment-content-inner default" data-v-57d4d532><span data-v-57d4d532>前20章看着有点白痴，后面作者想表达的女主形象有传达到我，角色有点太好攻略了但爽文就不要追求那么多了！女主的性格有点戳到我最近的心伤，以前也觉得坦荡荡交流可以维系住感情，然后现实给了我一击，失恋都没这么伤心</span><!----></div></div><div class="createdAt-source" data-v-a0ec6b4e><a href="/book/166492/comment/5cfb74a8537342cb53db9cbc" target="_blank" class="createdAt" data-v-a0ec6b4e>发表于2019-06-08 16:41</a></div><!----><!----></div></div><div index="5cce811f53fa3ac553098bdc" createrId="[object Object]" class="common-card-layout booklist-book-item" data-v-03792142 data-v-24f67f33><div bookId="167921" class="card-bookInfo" data-v-f047370c data-v-03792142><!----><!----><!----></div><div comment="[object Object]" commentId="5cce811f53fa3ac553098bdc" bookId="167921" replyable="true" templateType="comment" class="CommentBody" data-v-a0ec6b4e data-v-03792142><div class="comment-content" data-v-57d4d532 data-v-a0ec6b4e><div class="comment-content-inner default" data-v-57d4d532><span data-v-57d4d532>近期的心头肉，居然没什么人看，评论区问了作者，回答说是纯同人所以不让入V，想想晋江那堆同人榜，真是搞不懂标准……婶婶身亡，刀剑们集合力量塑造出一个芥子世界，有点轮回转世的感觉，本土化的刀剑生活太有意思了，大咖喱居然是挑夫哈哈哈，还会炸麻花</span><!----></div></div><div class="createdAt-source" data-v-a0ec6b4e><a href="/book/167921/comment/5cce811f53fa3ac553098bdc" target="_blank" class="createdAt" data-v-a0ec6b4e>发表于2019-05-05 14:22</a></div><!----><!----></div></div><div index="5c7d471c2075f1b56113b555" createrId="[object Object]" class="common-card-layout booklist-book-item" data-v-03792142 data-v-24f67f33><div bookId="164257" class="card-bookInfo" data-v-f047370c data-v-03792142><!----><!----><!----></div><div comment="[object Object]" commentId="5c7d471c2075f1b56113b555" bookId="164257" replyable="true" templateType="comment" class="CommentBody" data-v-a0ec6b4e data-v-03792142><div class="comment-content" data-v-57d4d532 data-v-a0ec6b4e><div class="comment-content-inner default" data-v-57d4d532><span data-v-57d4d532>伯爵和恩奇杜我都要！里面描写的“普通”女性面对一堆真男神时的反应也是真实……不要看迷妹们平时都网上狼嚎我要睡了男神我要玷污他！真面对时怂如鸡，无法和这么完美的人待在同一间屋子里哈哈哈哈。欢乐与污泥并存，恰到好处的吐槽度，不过还是有点轻小说了，可能有部分读者会不适应</span><!----></div></div><div class="createdAt-source" data-v-a0ec6b4e><a href="/book/164257/comment/5c7d471c2075f1b56113b555" target="_blank" class="createdAt" data-v-a0ec6b4e>发表于2019-03-04 23:41</a></div><!----><!----></div></div><div index="5c7d44dd848b3e7d6146f691" createrId="[object Object]" class="common-card-layout booklist-book-item" data-v-03792142 data-v-24f67f33><div bookId="155447" class="card-bookInfo" data-v-f047370c data-v-03792142><!----><!----><!----></div><div comment="[object Object]" commentId="5c7d44dd848b3e7d6146f691" bookId="155447" replyable="true" templateType="comment" class="CommentBody" data-v-a0ec6b4e data-v-03792142><div class="comment-content" data-v-57d4d532 data-v-a0ec6b4e><div class="comment-content-inner default" data-v-57d4d532><span data-v-57d4d532>惊艳的开头后越写越差了，不知道是不是作者缓更也有一部分原因，毕竟很久才写一章，也会失去感觉？而且这种没啥剧情去支撑的温柔大姐姐形象，又要写长篇幅，和那些女主很美，很美很美很美，美美美美美到众人倾倒，翻来覆去就这种描写的武侠同人有区别吗……</span><!----></div></div><div class="createdAt-source" data-v-a0ec6b4e><a href="/book/155447/comment/5c7d44dd848b3e7d6146f691" target="_blank" class="createdAt" data-v-a0ec6b4e>发表于2019-03-04 23:31</a></div><!----><!----></div></div></div><!----></div></div></div></section><!----></div></div></div> <script>window.__INITIAL_STATE__={"Book":{"fetched":false,"commentsFetched":false,"header":{"title":"","keywords":"","description":""},"shielded":false,"notFound":false,"loading":true,"bookId":"","bookInfo":{},"loadComments":false,"myScore":0,"myComment":null,"collected":false,"commented":false,"bookSource":[],"tags":[],"privateTags":[],"scoreDetail":[],"booklistsResult":{"total":0,"booklists":[]},"commentsLoaded":false,"commentsResult":{"total":0,"comments":[]}},"Bookcase":{"bookcase":[],"taglistData":{"taglist":[],"bookCount":0},"currentTag":""},"Booklist":{"fetched":true,"booksFetched":true,"header":{"title":"女性向，杂食 - 推书单 - 优书网","keywords":"地下城生长日志 攻略不下来的男人[快穿] 每个世界苏一遍 每天都在征服情敌 位面直播中 [综]完美攻略 只因暮色难寻 [综武侠]离骚 对不起，我性别认知障碍 上膳书 [综]朕的记忆果然有问题! 重生引路人 今天的我也在拯救世界 魔王的日常 训宠指南 [综武侠]美人裙下 『猎人』七色 我的朋友很多[综] [综]黑暗本丸洗白日常 [综]审神者好像哪里不对 ","description":"共72本书， 包括地下城生长日志 攻略不下来的男人[快穿] 每个世界苏一遍 每天都在征服情敌 位面直播中 [综]完美攻略 只因暮色难寻 [综武侠]离骚 对不起，我性别认知障碍 上膳书 [综]朕的记忆果然有问题! 重生引路人 今天的我也在拯救世界 魔王的日常 训宠指南 [综武侠]美人裙下 『猎人』七色 我的朋友很多[综] [综]黑暗本丸洗白日常 [综]审神者好像哪里不对 等书"},"shielded":false,"notFound":false,"createrId":{"_id":614083,"userName":"spice54"},"booklistId":"59b0acb8fe92bfeb5cb948c7","booklistInfo":{"_id":"59b0acb8fe92bfeb5cb948c7","editable":0,"comTotal":0,"clicks":18745,"praiseTotal":86,"favsTotal":49,"bookTotal":87,"essence":false,"shielded":false,"unSearch":false,"createdAt":"2017-09-07T02:19:36.000Z","createrId":{"_id":614083,"userName":"spice54"},"title":"女性向，杂食","content":"","listType":"female","updateAt":"2019-09-27T07:36:39.000Z","praiseAt":"2019-11-10T23:54:09.000Z","__v":0,"inReview":false,"classes":[{"classId":26,"className":"衍生同人","count":60},{"classId":23,"className":"幻想言情","count":9},{"classId":25,"className":"耽美纯爱","count":4},{"classId":21,"className":"都市言情","count":4},{"classId":22,"className":"仙侠奇缘","count":2},{"classId":27,"className":"轻小说","count":1}],"collectNum":51,"covers":["https:\u002F\u002Fi.loli.net\u002F2019\u002F07\u002F04\u002F5d1da8997bbfa67223.jpg","http:\u002F\u002Fww1.sinaimg.cn\u002Fmw1024\u002Fe6da1624gw1f98e08uswyj209m0cnt8x.jpg","https:\u002F\u002Fwx2.sinaimg.cn\u002Flarge\u002F006YZ3UMgy1g25waehi8lj305k07s762.jpg"],"collected":false,"header":{"title":"女性向，杂食 - 推书单 - 优书网","keywords":"地下城生长日志 攻略不下来的男人[快穿] 每个世界苏一遍 每天都在征服情敌 位面直播中 [综]完美攻略 只因暮色难寻 [综武侠]离骚 对不起，我性别认知障碍 上膳书 [综]朕的记忆果然有问题! 重生引路人 今天的我也在拯救世界 魔王的日常 训宠指南 [综武侠]美人裙下 『猎人』七色 我的朋友很多[综] [综]黑暗本丸洗白日常 [综]审神者好像哪里不对 ","description":"共72本书， 包括地下城生长日志 攻略不下来的男人[快穿] 每个世界苏一遍 每天都在征服情敌 位面直播中 [综]完美攻略 只因暮色难寻 [综武侠]离骚 对不起，我性别认知障碍 上膳书 [综]朕的记忆果然有问题! 重生引路人 今天的我也在拯救世界 魔王的日常 训宠指南 [综武侠]美人裙下 『猎人』七色 我的朋友很多[综] [综]黑暗本丸洗白日常 [综]审神者好像哪里不对 等书"},"voting":0},"books":[{"_id":"5d8dbc07c268c25f05c19b01","createrId":{"_id":614083,"userName":"spice54"},"content":"居然没有标记这本，看之前，什么女穿男，同性情侣养娃，还有穿皮作品角色都是我的雷点，但这本把一切都推翻了，还让我喜欢上了麻婆，不过还是讨厌金皮卡","createdAt":"2019-09-27T07:36:39.235Z","inReview":false,"jurisdiction":0,"praiseCount":0,"replyCount":0,"score":5,"shielded":false,"stickie":false,"sortId":87,"bookId":{"status":0,"title":"[Fate系列] 反派HOLD住","author":"蓝珑琼","cover":"https:\u002F\u002Fi.loli.net\u002F2019\u002F07\u002F04\u002F5d1da8997bbfa67223.jpg","countWord":239086,"updateAt":"2018-12-13T07:21:15.000Z","bookId":37059,"caseId":0},"collected":false,"booklistShipId":"5d8dbc07c268c25f05c19b02","voting":0,"replyable":true},{"_id":"5d5b2a63b5aa8032fef75dab","createrId":{"_id":614083,"userName":"spice54"},"content":"发现了不少过往不感兴趣，现在看特别美味的角色哈哈哈，世界观是真的爆炸，导致前期尤其是日常角色逐渐沦为路人","createdAt":"2019-08-19T23:01:55.653Z","inReview":false,"jurisdiction":0,"praiseCount":0,"replyCount":0,"score":3,"shielded":false,"stickie":false,"sortId":86,"bookId":{"status":0,"title":"[综]世界观爆炸","author":"搦朽","cover":"http:\u002F\u002Fww1.sinaimg.cn\u002Fmw1024\u002Fe6da1624gw1f98e08uswyj209m0cnt8x.jpg","countWord":189418,"updateAt":"2019-11-25T01:46:15.000Z","bookId":155680,"caseId":0},"collected":false,"booklistShipId":"5d5b2a63b5aa8032fef75dac","voting":0,"replyable":true},{"_id":"5d5a8006b5aa8032fef744d7","createrId":{"_id":614083,"userName":"spice54"},"content":"原设绿谷的性转版，让我想起看《守望者》的心碎感，我喜欢罗夏，很长一段时间内自比罗夏，然后逐渐发现自己是笑匠，甚至是法老王，没有后悔被现实改变，坦然接受自己的欲望，但我果然还是无可救药的浪漫主义者，小英雄经常被诟病善恶阵营黑白简单化，在这样一部作品中喜爱着欧尔麦特，大概人类就是本能般渴望着纯粹吧","createdAt":"2019-08-19T10:55:02.344Z","inReview":false,"jurisdiction":0,"praiseCount":0,"replyCount":0,"score":4,"shielded":false,"stickie":false,"sortId":85,"bookId":{"status":0,"title":"[综]无个性英雄","author":"福袋党","countWord":668444,"cover":"https:\u002F\u002Fwx2.sinaimg.cn\u002Flarge\u002F006YZ3UMgy1g25waehi8lj305k07s762.jpg","updateAt":"2019-12-05T16:15:00.000Z","bookId":171504,"caseId":0},"collected":false,"booklistShipId":"5d5a8006b5aa8032fef744d8","voting":0,"replyable":true},{"_id":"5d5575f0c2e8857cd5f991d2","createrId":{"_id":614083,"userName":"spice54"},"content":"发了四次书评了次次屏蔽，已经搞不懂这破站G点\n搞笑的是喷网站居然通过了？？","createdAt":"2019-08-15T15:10:40.742Z","inReview":false,"jurisdiction":0,"praiseCount":1,"replyCount":0,"score":3,"shielded":false,"stickie":false,"sortId":84,"bookId":{"status":0,"title":"[综]色食魔女","author":"葵里","countWord":113726,"cover":"https:\u002F\u002Fwx3.sinaimg.cn\u002Fmw690\u002F007kt7YNgy1g5jaw5me0oj30ps15omyt.jpg","updateAt":"2019-09-15T17:23:52.000Z","bookId":172312,"caseId":0},"collected":false,"booklistShipId":"5d55819dc2e8857cd5f99451","voting":0,"replyable":true},{"_id":"5d557d45c2e8857cd5f99355","createrId":{"_id":614083,"userName":"spice54"},"content":"文案耽误了我，实际上内容比文案cult多了，女主替自杀的身体原主复仇时没有犹豫加分","createdAt":"2019-08-15T15:41:57.307Z","inReview":false,"jurisdiction":0,"praiseCount":0,"replyCount":0,"score":4,"shielded":false,"stickie":false,"sortId":83,"bookId":{"status":0,"title":"[综]神奇周边的不正确使用指南","author":"天之方兮望美人","cover":"http:\u002F\u002Fwx3.sinaimg.cn\u002Fmw690\u002F005AkT1sgy1g3i64fg0i1j305k07st93.jpg","countWord":761054,"updateAt":"2019-12-05T03:11:11.000Z","bookId":170495,"caseId":0},"collected":false,"booklistShipId":"5d5580e0c2e8857cd5f993f9","voting":0,"replyable":true},{"_id":"5d557fc7c2e8857cd5f993d0","createrId":{"_id":614083,"userName":"spice54"},"content":"更新慢，虽然作者再三保证但感觉在坑的边缘，走心的攻略我一直很喜欢，而且还是很少见的有药王，明明是卖肉略后宫向作品的男主，但仔细想想他真的很难攻略","createdAt":"2019-08-15T15:52:39.861Z","inReview":false,"jurisdiction":0,"praiseCount":1,"replyCount":0,"score":4,"shielded":false,"stickie":false,"sortId":82,"bookId":{"status":0,"title":"[综]东京恋爱养成攻略","author":"叶子田粥","cover":"http:\u002F\u002Fwx2.sinaimg.cn\u002Fmw690\u002Fc317b391gy1g114b3a66cj20go0ncgri.jpg","countWord":281292,"updateAt":"2019-12-01T15:02:11.000Z","bookId":165394,"caseId":0},"collected":false,"booklistShipId":"5d557fc7c2e8857cd5f993d1","voting":0,"replyable":true},{"_id":"5d557e68c2e8857cd5f99395","createrId":{"_id":614083,"userName":"spice54"},"content":"我的渣男书评属性又要发作了，明明看了一百多章，但仔细看看到底说了个嘛呢……不就是嘎勒底御主与黑泥哒宰桑的爱情故事，其他的好像啥也没发生，整本书就是像流水素面一样，圆滑的嗖地一下没了，但现在让我看完一本书真的不容易，考虑到这点给四星","createdAt":"2019-08-15T15:46:48.928Z","inReview":false,"jurisdiction":0,"praiseCount":0,"replyCount":0,"score":4,"shielded":false,"stickie":false,"sortId":81,"bookId":{"status":1,"title":"[综]退休救世主日常","author":"归途何在","countWord":443500,"cover":"http:\u002F\u002Fi9-static.jjwxc.net\u002Fnovelimage.php?novelid=4147670&coverid=32&ver=5520fee03c2501f5103ef59d2e353710","updateAt":"2019-08-31T00:00:00.000Z","bookId":172319,"caseId":0},"collected":false,"booklistShipId":"5d557e68c2e8857cd5f99396","voting":0,"replyable":true},{"_id":"5d557199c2e8857cd5f990e0","createrId":{"_id":614083,"userName":"spice54"},"content":"邪恶混乱女主，暂无感情戏，写蝙蝠一家只要怎样做就能劝服二桶那里我枯了哈哈哈，谁说女主莫得感情，这不是很有情商嘛只是懒得用，但所有的设定文笔堆出来的主角并没有让我觉得很酷或者很疯，可能是要写的世界多所有展开有点快？","createdAt":"2019-08-15T14:52:09.252Z","inReview":false,"jurisdiction":0,"praiseCount":0,"replyCount":0,"score":3,"shielded":false,"stickie":false,"sortId":80,"bookId":{"status":0,"title":"[综英美]最终攻略成就","author":"桉柏","cover":"https:\u002F\u002Fi.loli.net\u002F2019\u002F05\u002F10\u002F5cd5725c3dd39.jpg","countWord":420516,"updateAt":"2019-12-05T16:17:23.000Z","bookId":167408,"caseId":0},"collected":false,"booklistShipId":"5d557d6cc2e8857cd5f99363","voting":0,"replyable":true},{"_id":"5d557c26c2e8857cd5f9931c","createrId":{"_id":614083,"userName":"spice54"},"content":"三星半？作品很好只是我不喜欢，毕竟这是我的私人书单，不需要客观。弃书于美队危机那里，原因大概是，我不喜欢美队，他很好，作品里也写出了他更像“人”而不是一个符号的一面，但我就是不喜欢而已，不知道后面是否他确定是男主，可我看不下去了","createdAt":"2019-08-15T15:37:10.164Z","inReview":false,"jurisdiction":0,"praiseCount":0,"replyCount":0,"score":3,"shielded":false,"stickie":false,"sortId":79,"bookId":{"status":0,"title":"[综英美]宇宙巡警海德拉","author":"顾清漱","countWord":397622,"cover":"http:\u002F\u002Fwx2.sinaimg.cn\u002Fmw690\u002F0067qreMly1g2f5dpzmbuj30b40fk43x.jpg","updateAt":"2019-10-07T15:23:00.000Z","bookId":172318,"caseId":0},"collected":false,"booklistShipId":"5d557c26c2e8857cd5f9931d","voting":0,"replyable":true},{"_id":"5d557ac8c2e8857cd5f992c5","createrId":{"_id":614083,"userName":"spice54"},"content":"狂犬女主，文笔不能算优秀，但这种粗糙的醍醐味，我喜啊。目前黄金之风已结束，走到不灭钻石的剧情了，女主是布姐手中的狂犬，精神状态和茶哥有点像？充满自我毁灭欲，正篇世界线中算是稳定住了没有死掉，甚至开启了布姐与茸总的修罗场！茸茸那种年下但冷静可靠积极进攻的苏感有被写出来，虽然只有短短几次","createdAt":"2019-08-15T15:31:20.225Z","inReview":false,"jurisdiction":0,"praiseCount":0,"replyCount":0,"score":4,"shielded":false,"stickie":false,"sortId":78,"bookId":{"status":0,"title":"[JOJO]关我黑事","author":"banananice","countWord":387832,"cover":"https:\u002F\u002Fwx4.sinaimg.cn\u002Fmw690\u002F8d057b64ly1g8m9kfclegj20u0160u0y.jpg","updateAt":"2019-12-05T11:17:18.000Z","bookId":172315,"caseId":0},"collected":false,"booklistShipId":"5d557ac8c2e8857cd5f992c6","voting":0,"replyable":true},{"_id":"5d5577fdc2e8857cd5f99228","createrId":{"_id":614083,"userName":"spice54"},"content":"薄樱鬼里的嘎勒底御主，我不喜欢薄樱鬼，那为什么要看呢，因为冲田小姐太可爱了！还有嘎勒底的土方先生，自从“土方在福袋里埋伏我”事件后导致他风评下降，但我还是很喜欢他卡面和配音的","createdAt":"2019-08-15T15:19:25.055Z","inReview":false,"jurisdiction":0,"praiseCount":0,"replyCount":0,"score":3,"shielded":false,"stickie":false,"sortId":77,"bookId":{"status":1,"title":"自打我成了游戏女主[综]","author":"离机","countWord":132909,"cover":"https:\u002F\u002Fpic.yupoo.com\u002Fdaisysiud_v\u002Fe602d45d\u002F59897477.jpg","updateAt":"2019-09-06T01:00:01.000Z","bookId":172313,"caseId":0},"collected":false,"booklistShipId":"5d5577fdc2e8857cd5f99229","voting":0,"replyable":true},{"_id":"5d557722c2e8857cd5f991f2","createrId":{"_id":614083,"userName":"spice54"},"content":"老作者诈尸之作，OOC的太宰，但不带脑子看得欢乐，是的我就是喜欢哒宰桑，虽然我觉得文野是部很烂的作品，但不妨碍我在晋江搜寻能吃的粮，主太宰的文里我会觉得中也超可爱，但并不想看他的文……","createdAt":"2019-08-15T15:15:46.852Z","inReview":false,"jurisdiction":0,"praiseCount":0,"replyCount":0,"score":3,"shielded":false,"stickie":false,"sortId":76,"bookId":{"status":0,"title":"[综]甜文女主","author":"芙娅","cover":"http:\u002F\u002Fwx3.sinaimg.cn\u002Flarge\u002F75b5c19dgy1g5etgwa2voj205k07s0tw.jpg","countWord":1168944,"updateAt":"2019-12-05T11:00:00.000Z","bookId":170492,"caseId":0},"collected":false,"booklistShipId":"5d557722c2e8857cd5f991f3","voting":0,"replyable":true},{"_id":"5d5574a0c2e8857cd5f9918a","createrId":{"_id":614083,"userName":"spice54"},"content":"已坑，发现我有点渣男，看的时候觉得嗯不错，但评价的时候又说不出什么好话，拔X无情。优点是在目前的晋江同人榜单里，算文笔好的那批，我真的感觉现在起码一般是中学生在写，还是初中，缺点是女主的个性时不时让我感觉冲突违和","createdAt":"2019-08-15T15:05:04.870Z","inReview":false,"jurisdiction":0,"praiseCount":0,"replyCount":0,"score":3,"shielded":false,"stickie":false,"sortId":75,"bookId":{"status":0,"title":"[综]神死去之日","author":"葵里","cover":"https:\u002F\u002Fwx4.sinaimg.cn\u002Fmw690\u002Fea8bf8a8ly1foosf86ftlj205k07sq3f.jpg","countWord":137666,"updateAt":"2019-08-22T16:01:58.000Z","bookId":154364,"caseId":0},"collected":false,"booklistShipId":"5d5574a0c2e8857cd5f9918b","voting":0,"replyable":true},{"_id":"5d557244c2e8857cd5f99101","createrId":{"_id":614083,"userName":"spice54"},"content":"12章的小短文，为什么要推呢，因为是成年绿谷！还是外软内硬（？）的那种，很美味，我好了。话说我这个书单是不是该改名叫同人书单算了……九成九都是同人","createdAt":"2019-08-15T14:55:00.686Z","inReview":false,"jurisdiction":0,"praiseCount":0,"replyCount":0,"score":3,"shielded":false,"stickie":false,"sortId":74,"bookId":{"status":1,"title":"[我英]我真的是纯情人设","author":"竹米","countWord":31017,"cover":"http:\u002F\u002Fi9-static.jjwxc.net\u002Fnovelimage.php?novelid=4244559&coverid=6&ver=8f5975a991c767f82f566188d4c0acbb","updateAt":"2019-08-11T16:28:02.000Z","bookId":172311,"caseId":0},"collected":false,"booklistShipId":"5d557244c2e8857cd5f99102","voting":0,"replyable":true},{"_id":"5d4bc7d20df3870947b23a05","createrId":{"_id":614083,"userName":"spice54"},"content":"改版后这个网站难用的跟*一样，尤其关注的书单都没更新推送了，那上你这个破站还有啥用呢……手机版连最新热门文列表都看不到，搞得我偶尔想加几本书都没热情。\n这文里最百无禁忌的地方我觉得是点评每个世界伴侣的床事能力……展昭不可能不行的我不相信！","createdAt":"2019-08-08T06:57:22.417Z","inReview":false,"jurisdiction":0,"praiseCount":0,"replyCount":0,"score":3,"shielded":false,"stickie":false,"sortId":73,"bookId":{"status":1,"title":"[综武侠]百无禁忌","author":"若然晴空","cover":"http:\u002F\u002Fbbs.jjwxc.net\u002Fupload\u002F201903\u002F22\u002F22-8a92dbc.jpg","countWord":462618,"updateAt":"2019-11-05T16:16:48.000Z","bookId":166311,"caseId":0},"collected":false,"booklistShipId":"5d4bc7d20df3870947b23a06","voting":0,"replyable":true},{"_id":"5cfb775553fa3ac5530af706","shielded":false,"replyCount":0,"jurisdiction":0,"praiseCount":0,"createrId":{"_id":614083,"userName":"spice54"},"createdAt":"2019-06-08T08:52:37.000Z","content":"骑士股彻底上位，老王股心如死灰……当然知道老王就是不可能和女主在一起啦，作者都预告过他们做朋友很开心，但当夫妻完全不行，但金毛鬼畜这种乙女游戏里出现了百八十次的设定就是戳我的点哈哈","score":4,"inReview":false,"stickie":false,"sortId":72,"bookId":{"status":0,"title":"（西幻）所有长得帅的深井冰都喜欢我","author":"我这次一定填坑","cover":"https:\u002F\u002Fwx3.sinaimg.cn\u002Fmw690\u002F005WDHJJly1fnwqc8ol9sj30b40fkn2w.jpg","countWord":946093,"updateAt":"2019-11-14T14:13:27.000Z","bookId":70375,"caseId":0},"collected":false,"booklistShipId":"5cfb775553fa3ac5530af705","voting":0,"replyable":true},{"_id":"5cfb74a8537342cb53db9cbc","shielded":false,"replyCount":0,"jurisdiction":0,"praiseCount":0,"createrId":{"_id":614083,"userName":"spice54"},"createdAt":"2019-06-08T08:41:12.000Z","content":"前20章看着有点白痴，后面作者想表达的女主形象有传达到我，角色有点太好攻略了但爽文就不要追求那么多了！女主的性格有点戳到我最近的心伤，以前也觉得坦荡荡交流可以维系住感情，然后现实给了我一击，失恋都没这么伤心","score":4,"inReview":false,"stickie":false,"sortId":71,"bookId":{"status":1,"title":"说出来你可能不信[综]","author":"吃鲸路人","cover":"http:\u002F\u002Fwx3.sinaimg.cn\u002Fmw690\u002F0067qreMgy1g1k0ixrqrrj30b40fkdjs.jpg","countWord":343342,"updateAt":"2019-11-18T02:36:12.000Z","bookId":166492,"caseId":0},"collected":false,"booklistShipId":"5cfb74a8537342cb53db9cbb","voting":0,"replyable":true},{"_id":"5cce811f53fa3ac553098bdc","shielded":false,"replyCount":0,"jurisdiction":0,"praiseCount":0,"createrId":{"_id":614083,"userName":"spice54"},"createdAt":"2019-05-05T06:22:23.000Z","content":"近期的心头肉，居然没什么人看，评论区问了作者，回答说是纯同人所以不让入V，想想晋江那堆同人榜，真是搞不懂标准……婶婶身亡，刀剑们集合力量塑造出一个芥子世界，有点轮回转世的感觉，本土化的刀剑生活太有意思了，大咖喱居然是挑夫哈哈哈，还会炸麻花","score":5,"inReview":false,"stickie":false,"sortId":70,"bookId":{"status":0,"title":"[刀剑乱舞]刀剑男士现代系列","author":"脑浆咕","cover":"https:\u002F\u002Fwxt.sinaimg.cn\u002Fthumb300\u002F0079OROuly1fvym6jl50cj305k07stb3.jpg","countWord":239303,"updateAt":"2019-10-02T02:13:43.000Z","bookId":167921,"caseId":0},"collected":false,"booklistShipId":"5cce811f53fa3ac553098bdb","voting":0,"replyable":true},{"_id":"5c7d471c2075f1b56113b555","shielded":false,"replyCount":0,"jurisdiction":0,"praiseCount":1,"createrId":{"_id":614083,"userName":"spice54"},"createdAt":"2019-03-04T15:41:16.000Z","content":"伯爵和恩奇杜我都要！里面描写的“普通”女性面对一堆真男神时的反应也是真实……不要看迷妹们平时都网上狼嚎我要睡了男神我要玷污他！真面对时怂如鸡，无法和这么完美的人待在同一间屋子里哈哈哈哈。欢乐与污泥并存，恰到好处的吐槽度，不过还是有点轻小说了，可能有部分读者会不适应","score":4,"inReview":false,"stickie":false,"sortId":69,"bookId":{"status":0,"title":"超能力氪金[综]","author":"川上羽","cover":"https:\u002F\u002Fwx4.sinaimg.cn\u002Fmw690\u002F72f7e86bgy1fyqkweqqhdj20jg0r8dz7.jpg","countWord":509599,"updateAt":"2019-10-29T18:49:53.000Z","bookId":164257,"caseId":0},"collected":false,"booklistShipId":"5c7d471c2075f1b56113b554","voting":0,"replyable":true},{"_id":"5c7d44dd848b3e7d6146f691","shielded":false,"replyCount":0,"jurisdiction":0,"praiseCount":0,"createrId":{"_id":614083,"userName":"spice54"},"createdAt":"2019-03-04T15:31:41.000Z","content":"惊艳的开头后越写越差了，不知道是不是作者缓更也有一部分原因，毕竟很久才写一章，也会失去感觉？而且这种没啥剧情去支撑的温柔大姐姐形象，又要写长篇幅，和那些女主很美，很美很美很美，美美美美美到众人倾倒，翻来覆去就这种描写的武侠同人有区别吗……","score":3,"inReview":false,"stickie":false,"sortId":68,"bookId":{"status":0,"title":"[综]如何温柔地杀死狂犬","author":"所谓前夜","cover":"http:\u002F\u002Fwx3.sinaimg.cn\u002Fmw690\u002F006VPr1hgy1fvgewr33qhj305k07swfc.jpg","countWord":464593,"updateAt":"2019-11-14T11:59:11.000Z","bookId":155447,"caseId":0},"collected":false,"booklistShipId":"5c7d44dd848b3e7d6146f690","voting":0,"replyable":true}],"total":87,"booksLoaded":false},"Booklists":{"booklists":[],"total":0,"fetched":false},"Bookstore":{"books":[],"total":0,"fetched":false,"easyMode":false,"storeOptions":null},"Dialog":{"dialog":null},"Explore":{"comments":[],"lastTime":""},"Home":{"friends":[],"actions":[],"nextTime":""},"Me":{"userName":"","uid":"","photo":"","isAdmin":false,"isGeneralAdmin":false,"unRead":false,"status":0,"showLogin":false,"showSignup":false,"isSmall":false,"contentId":null,"isLoaded":false},"Search":{"total":0},"Space":{"uid":null,"spaceUserName":"","routeName":null,"otherPageConfig":{"loading":true,"page":1,"result":{"users":[],"total":0}}},"Topic":{"fetched":false,"header":{"title":"","description":"","keywords":""},"mySubject":null,"answered":false,"shielded":false,"notFound":false,"createrId":{"_id":""},"topicId":null,"topicInfo":null,"subjects":[],"subjectsFetched":false,"total":0},"Topics":{"topics":[],"total":0,"fetched":false}};(function(){var s;(s=document.currentScript||document.scripts[document.scripts.length-1]).parentNode.removeChild(s);}());</script>  <script src="/js/chunk-vendors.2ae1758f.js" defer></script><script src="/js/chunk-08f09854.d754755b.js" defer></script><script src="/js/chunk-0c4f7370.bfdf292f.js" defer></script><script src="/js/chunk-03d925a9.98c037d8.js" defer></script><script src="/js/chunk-2ad49d59.ae15f5d9.js" defer></script><script src="/js/chunk-2b66ae69.85dc371a.js" defer></script><script src="/js/app.f80969f5.js" defer></script></body></html>

@@ -1,0 +1,1429 @@
+<!DOCTYPE html><html lang=zh-Hans><head><meta charset=utf-8><meta name=viewport content="width=device-width,minimum-scale=1,maximum-scale=1,initial-scale=1,user-scalable=no"><meta name=description content=优书网(www.yousuu.com)集小说搜索、追更阅读、读者评分、书单推荐于一体,不但可以追看小说最新更新,还可以解决书荒寻找到更多更好看的小说,在这里你可以阅读、...><!--[if lte IE 8]>
+    <script type="text/javascript">
+     window.alert('浏览器版本过低，请使用现代浏览器访问本站')
+    </script>
+    <![endif]--><script src=//cdn.staticfile.org/babel-polyfill/7.4.4/polyfill.min.js></script><script src=//cdn.staticfile.org/vue/2.6.10/vue.min.js></script><script src=//cdn.staticfile.org/vuex/3.1.0/vuex.min.js></script><script src=//cdn.staticfile.org/moment.js/2.23.0/moment.min.js></script><script src=//cdn.staticfile.org/moment.js/2.24.0/locale/zh-cn.js></script><script src=//cdn.staticfile.org/vue-router/3.0.2/vue-router.min.js></script><script src=//cdn.staticfile.org/axios/0.18.0/axios.min.js></script><script src=//cdn.staticfile.org/element-ui/2.12.0/index.js></script><link href=//cdn.staticfile.org/element-ui/2.12.0/theme-chalk/index.css rel=stylesheet><link rel=stylesheet href=/display.css><link rel=icon href=/favicon.png><title></title><link rel="preload" href="/js/chunk-vendors.8bd3b900.js" as="script"><link rel="preload" href="/css/app.e20a1d95.css" as="style"><link rel="preload" href="/js/app.a34c91f1.js" as="script"><link rel="preload" href="/css/chunk-08f09854.a27a919e.css" as="style"><link rel="preload" href="/js/chunk-08f09854.90558ebb.js" as="script"><link rel="preload" href="/css/chunk-0c4f7370.f50b17fe.css" as="style"><link rel="preload" href="/js/chunk-0c4f7370.bfdf292f.js" as="script"><link rel="preload" href="/css/chunk-03d925a9.9c8bdec6.css" as="style"><link rel="preload" href="/js/chunk-03d925a9.ac1e598c.js" as="script"><link rel="preload" href="/css/chunk-cd969a60.4ad5e63c.css" as="style"><link rel="preload" href="/js/chunk-cd969a60.372c6c9a.js" as="script"><link rel="preload" href="/css/chunk-3c27be2c.f4e36511.css" as="style"><link rel="preload" href="/js/chunk-3c27be2c.5b8c6346.js" as="script"><link rel="prefetch" href="/css/chunk-3d6f543a.f051f8bf.css"><link rel="prefetch" href="/css/chunk-3f724e29.90e6c05a.css"><link rel="prefetch" href="/css/chunk-456bd1ea.01b15785.css"><link rel="prefetch" href="/css/chunk-45f7dcc5.e86f2911.css"><link rel="prefetch" href="/css/chunk-588066cd.7e23b635.css"><link rel="prefetch" href="/css/chunk-5b586462.eb858a02.css"><link rel="prefetch" href="/css/chunk-5e69c062.f99d46c6.css"><link rel="prefetch" href="/css/chunk-61a4aa5f.c3d28fca.css"><link rel="prefetch" href="/css/chunk-6514e929.a7c91a7a.css"><link rel="prefetch" href="/css/chunk-8c464618.f1106934.css"><link rel="prefetch" href="/css/chunk-a6a34bd2.385efc79.css"><link rel="prefetch" href="/css/chunk-b0cb9a92.c33d8228.css"><link rel="prefetch" href="/css/chunk-c224eaa6.a21fadd4.css"><link rel="prefetch" href="/css/chunk-c8e03218.f9d9164d.css"><link rel="prefetch" href="/css/chunk-cd811c12.0ce68ef5.css"><link rel="prefetch" href="/css/chunk-e4b8cc70.715944dd.css"><link rel="prefetch" href="/css/chunk-e7f421e6.8edc5d88.css"><link rel="prefetch" href="/css/chunk-eaba3df2.51804518.css"><link rel="prefetch" href="/display.css"><link rel="prefetch" href="/js/chunk-2d0b1d9a.2262834d.js"><link rel="prefetch" href="/js/chunk-2d0d0095.0b91d809.js"><link rel="prefetch" href="/js/chunk-2d0d640e.f7603056.js"><link rel="prefetch" href="/js/chunk-2d207b69.d129f9bb.js"><link rel="prefetch" href="/js/chunk-3d6f543a.ee89b0c3.js"><link rel="prefetch" href="/js/chunk-3f724e29.e9872a0b.js"><link rel="prefetch" href="/js/chunk-456bd1ea.a618058d.js"><link rel="prefetch" href="/js/chunk-45f7dcc5.ca2e3076.js"><link rel="prefetch" href="/js/chunk-588066cd.fb366fde.js"><link rel="prefetch" href="/js/chunk-5b586462.d734bd6d.js"><link rel="prefetch" href="/js/chunk-5e69c062.058fde97.js"><link rel="prefetch" href="/js/chunk-61a4aa5f.3ea8333e.js"><link rel="prefetch" href="/js/chunk-6514e929.61ce8693.js"><link rel="prefetch" href="/js/chunk-6adc696c.464a14bd.js"><link rel="prefetch" href="/js/chunk-8c464618.d8c188db.js"><link rel="prefetch" href="/js/chunk-a6a34bd2.da5e1f5b.js"><link rel="prefetch" href="/js/chunk-b0cb9a92.92ca1e34.js"><link rel="prefetch" href="/js/chunk-c224eaa6.f3b9a830.js"><link rel="prefetch" href="/js/chunk-c8e03218.4e2f9027.js"><link rel="prefetch" href="/js/chunk-cd811c12.86f0d7a2.js"><link rel="prefetch" href="/js/chunk-e4b8cc70.3ef2d71c.js"><link rel="prefetch" href="/js/chunk-e7f421e6.707dc50c.js"><link rel="prefetch" href="/js/chunk-eaba3df2.c2778e2a.js"> <link rel="stylesheet" href="/css/app.e20a1d95.css"><link rel="stylesheet" href="/css/chunk-08f09854.a27a919e.css"><link rel="stylesheet" href="/css/chunk-0c4f7370.f50b17fe.css"><link rel="stylesheet" href="/css/chunk-03d925a9.9c8bdec6.css"><link rel="stylesheet" href="/css/chunk-cd969a60.4ad5e63c.css"><link rel="stylesheet" href="/css/chunk-3c27be2c.f4e36511.css"><style data-vue-ssr-id="829db9f0:0 df47ec5e:0 30ed692e:0 29c61380:0 279f8473:0 7fc0ca85:0 93e6dfb8:0 189a3f1c:0 267ae499:0 3b091f38:0 19244458:0 fecbca90:0 ece3b906:0 755ced8f:0 d59455d6:0 7a3684fe:0 6e2dd942:0 9c7d41be:0 5efcb8c9:0 7e7f7640:0 3bc29c90:0 72b6980d:0 20cb99d8:0 57139fd4:0 090608d0:0 49261848:0 75a481e6:0 1a234d6b:0 d4ceb460:0 eb595cbe:0">/* notice */
+.messageLength{
+  min-width: 300px;
+}
+.el-rate {
+  height: 18px;
+  margin-top: -2px;
+}
+/* hack element */
+.el-message-box{
+  /* width:50vw; */
+  max-width: 432px;
+}
+.el-popover--plain{
+  padding:10px;
+}
+.el-dialog{
+  max-width: 95vw;
+}
+.el-dropdown-menu__item {
+  line-height: 2.2em;
+  padding:0 20px;
+}
+.el-collapse-item__content{
+  padding-bottom:15px;
+}
+.el-collapse{
+  border-top:none;
+}
+.el-collapse-item__wrap,.el-collapse{
+  border-bottom: none;
+}
+.el-collapse-item:last-child{
+  margin-bottom:0;
+}
+.el-rate__icon{
+  margin-right:2px;
+}
+.el-dialog__header {
+  padding: 10px 20px 0px;
+  }
+  .el-form--label-top .el-form-item__label{
+    padding:0;
+  }
+  .el-form-item{
+    margin-bottom:5px;
+  }
+.el-dialog__headerbtn {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  padding: 8px;
+  /* background-color: #888; */
+  border-radius: 50%;
+  outline: 0;
+  color:#fff;
+  cursor: pointer;
+  font-size: 16px;
+}
+.el-tag {
+  margin: 5px 10px 5px 0px;
+  }
+/*  弹窗样式覆盖*/
+.el-dropdown-menu li{
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+.DialogFormItem .el-textarea__inner {
+  border-color: transparent !important;
+  padding: 0.7em 0 0 0;
+}
+.DialogFormItem .el-input__inner {
+  border-color: transparent;
+}
+#Dialog-EditBookInfo input{
+  text-align: center;
+}
+#Dialog-EditBookInfo .yousuu-selector.el-select .el-input__inner{
+  padding-left:30px;
+}
+.yousuu-selector-dropdown-align-center {
+  text-align: center;
+}
+.yousuu-selector-dropdown-align-center .popper__arrow,.DatePicker-Customer .popper__arrow {
+  left: 49%!important;
+}
+@media(max-width:768px){
+  .el-collapse-item__header{
+    line-height: 44px;
+    height: 44px;
+  }
+}
+/* 公用 */
+table {
+  text-align: left;
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  color: #999;
+}
+th,
+td {
+  font-size: 14px;
+}
+button:disabled{
+  cursor:not-allowed!important;
+}
+/* 空白网页 */
+.empty-container{
+max-width: 1000px;
+width: 100%;
+margin:0 auto;
+}
+.empty-tip{
+  text-align: center;
+  font-size: 20px;
+  color:#888;
+  padding-bottom:20px;
+}
+.empty-tip.withhead{
+  padding-top:20px;
+}
+.withicon {
+  font-size: 14px;
+  color: #999;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+.withicon + .withicon{
+  margin-left: 30px;
+}
+.withicon svg {
+  margin-right: 6px;
+  width: 17px;
+  /* height: 14px; */
+}
+.withicon.mini{
+  font-size: 14px;
+}
+.withicon.ban{
+  color:#f35e6b;
+  /* margin-left: 25px; */
+}
+.withicon.mini svg {
+  width: 14px;
+  height: 14px;
+}
+.followBtn {
+  /* width: 120px; */min-width:100px;
+  padding:0 15px;
+  height: 34px;
+  background-color: #efefef;
+  color: #aaa;
+  font-size: 14px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.followBtn.onlyText{
+  background:transparent;
+  min-width: 1em;
+  width: auto;
+  height: 24px;
+  padding:0;
+}
+.followBtn.small{
+  padding:0 10px;
+} 
+.unFollow {
+  background-color: #567ceb;
+  color: #fff;
+}
+.unFollow.onlyText{
+  color:#567ceb;
+}
+/* new follow btn style */
+.follow-btn.gear {
+  font-size: 14px;
+  color: #888;
+  padding: 7px 12px;
+  border: 1px solid #aaa;
+  border-radius: 2px;
+}
+.follow-btn.text {
+  font-size: 14px;
+  color: #567ceb;
+}
+.follow-btn.gear.inBookcase {
+  background-color: #f8f8f8;
+  /* color: #bbb; */
+  border-color: transparent;
+}
+.follow-btn {
+  cursor: pointer;
+}
+.follow-btn:hover {
+  color: #567ceb;
+  border-color: #567ceb;
+}
+button.inBookcase.follow-btn,button.inBookcase{
+  color:#888
+}
+/* 分割 */
+.primary {
+  background-color: #567ceb;
+  color: #fff;
+}
+.text {
+  margin-left: 26px;
+  color: #888;
+  font-size: 14px;
+  cursor: pointer;
+}
+.plain {
+  border: 1px solid #ccc;
+  color: #aaa;
+}
+.danger {
+  background: #f74e5c;
+  color: #fff;
+}
+.StoreBooks,.SearchResult,.SpaceBooklist,.BooklistsResult{
+  padding:0px 30px;
+}
+.space-action-item-padding{
+  padding:20px;
+}
+.ActionBooklistVoting {
+  margin-top: 15px;
+}
+@media (max-width: 768px) {
+  *:not(.navbar-wrap,.backtop-btn){
+    -webkit-box-shadow: none!important;
+            box-shadow: none!important;
+  }
+  .withicon + .withicon{
+    margin-left: 5vw;
+  }
+  .el-dialog__body{
+    padding:15px!important;
+  }
+  .space-action-item-padding {
+    padding: 10px !important;
+  }
+  .StoreBooks,.BooklistsResult,.SearchResult,.space-action-item-padding,.SpaceBooklist{
+    padding: 0 15px;
+  }
+    .ActionBooklistVoting {
+      margin-top: 10px;
+    }
+}
+
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 14px;
+  background-color: #f3f4f7;
+  /* -webkit-font-smoothing: antialiased; */
+  /* -webkit-tap-highlight-color:  */
+  /* -webkit-appearance: none; */
+  word-wrap: break-word;
+  word-break: break-all;
+  text-decoration: none;
+  font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, PingFang SC,
+    Microsoft YaHei, Source Han Sans SC, Noto Sans CJK SC, WenQuanYi Micro Hei,
+    sans-serif;
+}
+*,
+*:before,
+*:after {
+  -webkit-appearance: inherit;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  outline: none;
+  border: none;
+  line-height: 1.1em;
+  text-decoration: inherit;
+  color: inherit;
+  -webkit-transition: color 0.2s;
+  transition: color 0.2s;
+  background-color: transparent;
+}
+a:hover {
+  color: #567ceb;
+  /* color: #1988fa; */
+}
+/* .app-main {
+  padding-top: 56px;
+} */
+.ellipsis {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+::-webkit-input-placeholder {
+  color: #d8d8d8;
+}
+button,
+input {
+  -webkit-transition: background-color 0.4s;
+  transition: background-color 0.4s;
+}
+body {
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+*::-webkit-scrollbar {
+  background-color: #fff;
+  width: 7px;
+}
+*::-webkit-scrollbar-thumb {
+  width: 100%;
+  height: auto;
+  border-radius: 18px;
+  background-color: #aaa;
+}
+#app {
+  width: 100vw;
+  position: absolute;
+}
+.capsule {
+  /* width: 120px; */
+  height: 40px;
+  border-radius: 20px;
+  font-size: 14px;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+
+.navbar-wrap[data-v-68dc387f] {
+  width: 100vw;
+  background: #fff;
+  -webkit-box-shadow: 0 0 1px 0px rgba(0, 0, 0, 0.15);
+          box-shadow: 0 0 1px 0px rgba(0, 0, 0, 0.15);
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  z-index: 100;
+  font-size: 14px;
+  color: #888;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: -webkit-sticky;
+  position: sticky;
+  /* position: fixed; */
+  top: 0;
+}
+.topic.archiver .navbar-wrap[data-v-68dc387f],
+.booklist.archiver .navbar-wrap[data-v-68dc387f] {
+  display: none;
+}
+.navbar-inner[data-v-68dc387f] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.navbar-main-xs-only[data-v-68dc387f] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+@media (max-width: 999px) {
+.navbar-inner[data-v-68dc387f] {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+}
+}
+@media (min-width: 1000px) {
+.navbar-inner[data-v-68dc387f] {
+    width: 1000px;
+}
+}
+.user-info[data-v-68dc387f] {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+a[data-v-68dc387f],
+img[data-v-68dc387f],
+span[data-v-68dc387f] {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.navbar-main[data-v-68dc387f] {
+  /* margin: 0 auto; */
+  margin-left: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 555px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.navbar-main-wrap[data-v-68dc387f] {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  /* justify-content: center; */
+}
+.navbar-main .router-link-active[data-v-68dc387f]:not(.search-block) {
+  font-weight: bold;
+  color: #343434;
+}
+.navbar-side[data-v-68dc387f] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 120px;
+  margin-left: 30px;
+}
+.news-route[data-v-68dc387f] {
+  position: relative;
+}
+.news-route em[data-v-68dc387f] {
+  display: block;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 8px;
+  height: 8px;
+  background: #f35e6b;
+  border-radius: 50%;
+}
+.logo svg[data-v-68dc387f] {
+  width: 106px;
+  min-width: 106px;
+  height: 30px;
+}
+@media (max-width: 768px) {
+.navbar-wrap[data-v-68dc387f] {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+}
+.logo svg[data-v-68dc387f] {
+    width: 106px;
+    min-width: 106px;
+    height: 30px;
+}
+}
+@media (max-width: 992px) {
+.navbar-side[data-v-68dc387f] {
+    width: 150px;
+    margin-left: 0px;
+}
+}
+@media (max-width: 320px) {
+.navbar-side[data-v-68dc387f] {
+    width: 130px;
+    margin-left: 0px;
+}
+}
+
+
+.svg-icon[data-v-80a6e342] {
+  width: 1em;
+  height: 1em;
+  fill: #343434;
+  overflow: hidden;
+}
+/* .logo {
+  width: 89px;
+  height: 38px;
+}
+/* .logoBeta { */
+/* width: 89px; */
+/* height: 38px; */
+/* } */
+/* @media (max-width: 768px) {
+  .logo {
+    width: 120px;
+    height: 30px;
+  }
+  .logoBeta {
+    height: 30px;
+  }
+} */
+.search[data-v-80a6e342] {
+  width: 14px;
+  height: 14px;
+}
+.bookcase[data-v-80a6e342],
+.news[data-v-80a6e342] {
+  width: 18px;
+  height: 18px;
+}
+.bookcase.mini[data-v-80a6e342] {
+  width: 14px;
+  height: 14px;
+}
+/* .share,
+.comment,
+.fav,
+.fav_block {
+  width: 16px;
+  height: 16px;
+} */
+.createbooklist[data-v-80a6e342],
+.postBook[data-v-80a6e342],
+.postcomment[data-v-80a6e342] {
+  fill: #343434;
+  width: 20px;
+  height: 20px;
+}
+/* .router-link-active * {
+  fill: #567ceb;
+} */
+.router-link-active .logo[data-v-80a6e342] {
+  fill: #343434;
+}
+
+
+.backtop-btn[data-v-5587096e] {
+  position: fixed;
+  bottom: 30px;
+  right: 12px;
+  cursor: pointer;
+  z-index: 99;
+  font-size: 24px;
+  -webkit-box-shadow: 0px 4px 12px 0px rgba(86, 124, 235, 0.26);
+          box-shadow: 0px 4px 12px 0px rgba(86, 124, 235, 0.26);
+  width: 50px;
+  height: 50px;
+  border-radius: 4px;
+  color: #5a7be6;
+  background-color: #fff;
+  font-weight: bold;
+}
+
+
+.BooklistBooksAd[data-v-f2ac917a] {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+@media (max-width: 768px) {
+.BooklistBooksAd[data-v-f2ac917a] {
+    margin-top: 10px;
+}
+}
+
+
+.bookpage-layout-header[data-v-a616861a] {
+  background-color: #ffffff;
+  margin: 0 auto;
+  padding-top: 30px;
+  width: 100%;
+  position: relative;
+  padding-bottom: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  /* box-shadow: 0 0 4px 0 rgba(204, 204, 204, 0.5); */
+}
+.bookpage-layout-header-wrap[data-v-a616861a] {
+  max-width: 1000px;
+  width: 100%;
+  -ms-flex-item-align: center;
+      align-self: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.bookpage-layout-header-main[data-v-a616861a] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+.bookpage-layout-header-side[data-v-a616861a] {
+  width: 280px;
+}
+@media (max-width: 992px) {
+.bookpage-layout-header-wrap[data-v-a616861a] {
+    width: 100%;
+    display: block;
+}
+.bookpage-layout-header-main[data-v-a616861a] {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+}
+.bookpage-layout-header[data-v-a616861a] {
+    padding: 0px;
+}
+.bookpage-layout-header-side[data-v-a616861a] {
+    width: 100%;
+    padding: 0 15px;
+}
+}
+
+
+.BooklistHeader[data-v-1d77f6b6] {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+/* .BooklistHeader-Actions {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+} */
+/* .BooklistName {
+  display: flex;
+  align-items: center;
+} */
+.BooklistMetaTitle[data-v-1d77f6b6] {
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+@media (max-width: 992px) {
+.BooklistHeader[data-v-1d77f6b6] {
+    padding: 0 15px;
+}
+}
+
+
+.BooklistHeader .BooklistInfoIntro {
+  padding: 10px 0 5px;
+}
+@media (max-width: 992px) {
+.BooklistHeader {
+    padding: 0 15px;
+}
+.BooklistHeader .BooklistInfoIntro {
+    padding: 6px 0 0px;
+}
+}
+
+
+a[data-v-cac7e50c] {
+  display: inline-block;
+  font-size: 13px;
+  color: #567ceb;
+  background-color: #eff3fe;
+  border-radius: 3px;
+  padding: 8px 12px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+@media (max-width: 768px) {
+a[data-v-cac7e50c] {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+}
+
+
+.BooklistMeta[data-v-7ac25c74] {
+  line-height: 1em;
+}
+.booklistName[data-v-7ac25c74] {
+  color: #333;
+  font-size: 22px;
+  font-weight: bold;
+  /* display: inline-block; */
+}
+.flow .booklistName[data-v-7ac25c74] {
+  font-size: 18px;
+}
+@media (max-width: 768px) {
+.flow[data-v-7ac25c74] {
+    margin-top: 15px;
+}
+}
+
+
+.BooklistInfoIntro[data-v-387bbed7] {
+  line-height: 2em;
+  color: #888;
+}
+.flow[data-v-387bbed7] {
+  padding-bottom: 0;
+}
+/* .SpaceFlow {
+  padding: 15px 0 0 0;
+} */
+@media (max-width: 768px) {
+  /* .BooklistInfoIntro { */
+  /* padding: 5px 0 5px; */
+  /* } */
+  /* .SpaceFlow {
+    padding: 5px 0 0 0;
+  } */
+}
+
+
+.ToggleBtn[data-v-57d4d532] {
+  color: #567ceb;
+  font-size: 15px;
+  cursor: pointer;
+  margin-top: 5px;
+}
+.comment-content-inner[data-v-57d4d532] {
+  font-size: 15px;
+  line-height: 2em;
+  color: #333;
+  word-wrap: break-word;
+  word-break: break-word;
+  white-space: pre-wrap;
+  overflow: hidden;
+}
+.ReplyContentInner .comment-content-inner[data-v-57d4d532] {
+  font-size: 14px;
+  line-height: 1.6em;
+}
+.ReplyContentInner .ToggleBtn[data-v-57d4d532] {
+  font-size: 14px;
+}
+
+
+.comment-content-inner a {
+  color: #567ceb;
+}
+
+
+.booklist-header-side[data-v-5a9f5cee] {
+  text-align: right;
+  min-height: 70px;
+}
+.booklist-status-inner[data-v-5a9f5cee] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+/* .number-border-item:first-child {
+  padding-right: 15px;
+} */
+.number-border-item[data-v-5a9f5cee]:nth-child(2) {
+  padding: 0 15px;
+  margin: 0 15px;
+  border-left: 1px solid #f5f5f5;
+  border-right: 1px solid #f5f5f5;
+}
+.number-border-itemname[data-v-5a9f5cee] {
+  font-size: 14px;
+  color: #999;
+  padding-top: 6px;
+}
+.number-border-itemvalue[data-v-5a9f5cee] {
+  color: #333;
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.number-border-item[data-v-5a9f5cee] {
+  text-align: center;
+}
+
+
+.booklist-info-footer[data-v-db9b7b58] {
+  width: 1000px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 14px;
+  color: #888;
+}
+.BooklistUpdateAtInfo[data-v-db9b7b58] {
+  padding-right: 14px;
+}
+button.withicon[data-v-db9b7b58] {
+  cursor: pointer;
+  padding: 8px 14px;
+  border-radius: 4px;
+  font-size: 14px;
+}
+.BooklistCollectArea[data-v-db9b7b58] {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  height: 30px;
+  /* display: flex;
+  justify-content: flex-end; */
+  position: relative;
+}
+.BooklistCollectArea button[data-v-db9b7b58] {
+  position: absolute;
+  right: 0;
+  top: -16px;
+}
+.main-actions[data-v-db9b7b58] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.main-actions button[data-v-db9b7b58] {
+  margin-right: 10px;
+}
+.withicon + .withicon[data-v-db9b7b58] {
+  margin: 0;
+}
+@media (max-width: 992px) {
+.booklist-info-footer-wrap[data-v-db9b7b58] {
+    width: 100%;
+}
+.BooklistUpdateAtInfo[data-v-db9b7b58] {
+    padding-right: 0px;
+}
+button.withicon[data-v-db9b7b58] {
+    padding: 5px;
+    margin-left: 0px;
+}
+.booklist-info-footer[data-v-db9b7b58] {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    /* flex-direction: column; */
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 10px 15px;
+}
+.text[data-v-db9b7b58] {
+    padding-right: 0;
+    margin-left: 5px;
+}
+.BooklistCollectSmallArea[data-v-db9b7b58] {
+    padding-bottom: 20px;
+    padding-top: 5px;
+}
+.BooklistCollectSmallArea button[data-v-db9b7b58] {
+    margin: 0 auto;
+}
+}
+
+
+.dropdown-button[data-v-452d7828] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  /* padding: 5px; */
+}
+
+
+.BooklistCollect[data-v-6d746988] {
+  border: 1px solid #ff7f7f;
+  width: 120px;
+  /* height: 40px; */
+  /* padding: 12px 35px; */
+  background: #ff7f7f;
+  -webkit-box-shadow: 0px 3px 10px 0px rgba(255, 127, 127, 0.5);
+          box-shadow: 0px 3px 10px 0px rgba(255, 127, 127, 0.5);
+  /* border-radius: 20px; */
+  color: #fff;
+  /* font-size: 14px; */
+  /* display: flex;
+  align-items: center;
+  justify-content: center;*/
+}
+em[data-v-6d746988] {
+  margin-left: 5px;
+}
+span[data-v-6d746988] {
+  display: none;
+}
+.BooklistCollect[data-v-6d746988]:hover {
+  background-color: #ec6d6d;
+}
+.BooklistCollect.collected[data-v-6d746988] {
+  background-color: #fff;
+  -webkit-box-shadow: unset;
+          box-shadow: unset;
+  color: #ff7f7f;
+}
+.BooklistCollect.collected svg[data-v-6d746988] {
+  fill: #ff7f7f;
+}
+.BooklistCollect.collected:hover svg[data-v-6d746988],
+.BooklistCollect.collected:hover em[data-v-6d746988] {
+  display: none;
+}
+.BooklistCollect.collected:hover span[data-v-6d746988] {
+  display: inline-block;
+}
+/* .BooklistCollect:hover  */
+
+
+.bookpage-layout-main[data-v-14c62c06] {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1000px;
+  padding-bottom: 0px;
+}
+.bookpage-layout-main-right[data-v-14c62c06],
+.bookpage-layout-main-left[data-v-14c62c06] {
+  width: 100%;
+}
+@media (min-width: 1015px) {
+.bookpage-layout-main[data-v-14c62c06] {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.bookpage-layout-main-right[data-v-14c62c06] {
+    width: 280px;
+    margin-left: 10px;
+    /* display: flex;
+    flex-direction: column; */
+}
+.bookpage-layout-main-left[data-v-14c62c06] {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+}
+}
+
+
+@media (min-width: 768px) {
+.sticky[data-v-4f60c280] {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 66px;
+}
+}
+
+
+.OwnerProfile[data-v-533eb795] {
+  padding: 30px;
+}
+.OwnerProfileContent[data-v-533eb795] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.owner-info[data-v-533eb795] {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.owner-info *[data-v-533eb795] {
+  display: block;
+  text-align: center;
+}
+.user-name[data-v-533eb795] {
+  font-size: 20px;
+  color: #333;
+  padding: 20px 0;
+}
+.user-name.bold[data-v-533eb795] {
+  font-weight: 700;
+}
+.followers[data-v-533eb795] {
+  font-size: 14px;
+  color: #999;
+}
+.profile-actions[data-v-533eb795] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+  width: 100%;
+}
+.followBtn[data-v-533eb795] {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  min-width: unset;
+  padding: 0;
+}
+/* .el-dropdown, */
+.other-info[data-v-533eb795] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  padding-top: 10px;
+}
+.other-info.booklist[data-v-533eb795] {
+  padding-top: 0px;
+}
+.booklist .followBtn.onlyText[data-v-533eb795] {
+  text-align: right;
+}
+.BanInfoPadding[data-v-533eb795] {
+  padding: 30px;
+}
+@media (max-width: 992px) {
+.owner-info[data-v-533eb795] {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+}
+.BanInfoPadding[data-v-533eb795] {
+    padding: 0px 10px;
+}
+.owner-info.booklist[data-v-533eb795] {
+    display: none;
+}
+.OwnerProfile[data-v-533eb795] {
+    padding: 15px;
+    padding-top: 0;
+}
+.OwnerProfile.booklist[data-v-533eb795] {
+    margin-top: 10px;
+    padding: 10px;
+}
+.user-name[data-v-533eb795] {
+    padding: 0 15px;
+    font-size: 16px;
+}
+.OwnerProfileContent[data-v-533eb795] {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+}
+.booklist-owner-profile[data-v-533eb795] {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.owner-info-small[data-v-533eb795] {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+}
+
+
+.title[data-v-4a5fc30d] {
+  font-size: 24px;
+  font-weight: bold;
+}
+img[data-v-4a5fc30d] {
+  width: 60px;
+  height: 60px;
+  margin-top: 20px;
+}
+.medals[data-v-4a5fc30d] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+
+a[data-v-bd4bb766] {
+  padding: 10px 0;
+  cursor: pointer;
+  display: block;
+}
+a[data-v-bd4bb766]:last-child {
+  padding-bottom: 0;
+}
+.sticky[data-v-bd4bb766] {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 392px;
+}
+
+
+.less-tip[data-v-0edefe9c] {
+  font-size: 14px;
+  text-align: center;
+  color: #888;
+  padding: 10px 0 30px;
+}
+.BooklistBooksAd[data-v-0edefe9c] {
+  margin-bottom: 20px;
+}
+@media (max-width: 768px) {
+.less-tip[data-v-0edefe9c] {
+    padding-bottom: 20px;
+}
+.BooklistBooksAd[data-v-0edefe9c] {
+    margin-bottom: 10px;
+}
+}
+
+
+.result-view.as-result-view[data-v-a26c59f8] {
+  min-height: 529px;
+}
+.pagination[data-v-a26c59f8] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 10px 0;
+}
+
+
+.close-btn[data-v-966415fe] {
+  position: absolute;
+  right: -40px;
+  top: 0px;
+}
+.modal-title[data-v-966415fe] {
+  font-size: 24px;
+  color: #333;
+  text-align: center;
+}
+.modal-content[data-v-966415fe] {
+  font-size: 16px;
+  padding: 20px;
+  line-height: 1.5em;
+  margin: 0 auto;
+}
+.modal-actions-wrap[data-v-966415fe] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.modal-actions[data-v-966415fe] {
+  width: 240px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+@media (max-width: 768px) {
+.modal-content[data-v-966415fe] {
+    padding: 20px 0;
+}
+}
+
+
+.booklist-book-item[data-v-4c10dfb6] {
+  padding: 0 30px 30px 30px;
+}
+.card-actions-wrap[data-v-4c10dfb6] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.owner-rate[data-v-4c10dfb6] {
+  margin: 20px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 16px;
+  color: #999;
+}
+.card-actions[data-v-4c10dfb6] {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin-left: 20px;
+}
+@media (max-width: 768px) {
+.owner-rate[data-v-4c10dfb6] {
+    margin: 10px 0;
+}
+.booklist-book-item[data-v-4c10dfb6] {
+    padding: 0 15px 15px 15px;
+}
+}
+
+
+.common-card-layout {
+  width: 100%;
+  background-color: #fff;
+  margin-bottom: 10px;
+  /* border-radius: 4px;
+  box-shadow: 0px 0px 4px 0px rgba(204, 204, 204, 0.5); */
+}
+@media (max-width: 768px) {
+.common-card-layout {
+    margin-bottom: 10px;
+}
+}
+
+
+.card-bookInfo[data-v-ff296a9c] {
+  padding-top: 30px;
+  padding-bottom: 15px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #999;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.card-bookInfo-meta[data-v-ff296a9c] {
+  margin-left: 14px;
+}
+.add-btn[data-v-ff296a9c] {
+  position: absolute;
+  top: 20px;
+  right: 0;
+}
+.card-bookInfo-cover[data-v-ff296a9c] {
+  position: relative;
+}
+.card-bookInfo-cover span[data-v-ff296a9c] {
+  background-color: rgba(152, 153, 169, 0.5);
+  color: #fff;
+  position: absolute;
+  padding: 5px 7px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+@media (max-width: 768px) {
+.card-bookInfo[data-v-ff296a9c] {
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+.card-bookInfo-meta[data-v-ff296a9c] {
+    margin-left: 10px;
+}
+}
+
+
+.createdAt-source[data-v-a0ec6b4e] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  /* margin: 15px 0 20px; */
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.createdAt[data-v-a0ec6b4e] {
+  color: #999;
+  font-size: 14px;
+  display: inline-block;
+  padding: 15px 0 20px;
+}
+.createdAt[data-v-a0ec6b4e]:hover {
+  color: #567ceb;
+}
+@media (max-width: 768px) {
+.createdAt[data-v-a0ec6b4e] {
+    padding: 10px 0 8px;
+}
+}
+</style></head><body><div id="app" data-server-rendered="true" class="booklist"><header class="navbar-wrap" data-v-68dc387f><nav class="navbar-inner" data-v-68dc387f><a href="/" class="logo" data-v-68dc387f><!----></a><div class="navbar-main-wrap hidden-sm-and-down" data-v-68dc387f><div class="navbar-main" data-v-68dc387f><a href="/bookstore/" data-v-68dc387f>书库</a><a href="/booklists/" data-v-68dc387f>书单</a><a href="/topics/" data-v-68dc387f>话题</a><a href="/explore" data-v-68dc387f>发现</a><!----></div></div><div class="navbar-main-xs-only hidden-md-and-up" data-v-68dc387f></div><div class="navbar-side" data-v-68dc387f><!----><a href="/search/" class="hidden-md-and-up" data-v-68dc387f><!----></a><span data-v-68dc387f>登录</span><span data-v-68dc387f>注册</span></div></nav><!----></header><div class="app-main"><button class="backtop-btn el-icon-top" style="display:none;" data-v-5587096e></button><div data-v-f2ac917a><header class="bookpage-layout-header" data-v-a616861a data-v-f2ac917a><div class="bookpage-layout-header-wrap" data-v-a616861a><div class="bookpage-layout-header-main" data-v-a616861a><div class="BooklistHeader" data-v-1d77f6b6 data-v-f2ac917a><div data-v-cac7e50c data-v-1d77f6b6><a href="/bookstore/?classId=6" target="_blank" data-v-cac7e50c>都市(13)</a><a href="/bookstore/?classId=11" target="_blank" data-v-cac7e50c>游戏(5)</a><a href="/bookstore/?classId=9" target="_blank" data-v-cac7e50c>历史(3)</a><a href="/bookstore/?classId=2" target="_blank" data-v-cac7e50c>玄幻(2)</a><a href="/bookstore/?classId=3" target="_blank" data-v-cac7e50c>奇幻(1)</a></div><div class="BooklistMetaTitle BooklistMeta" data-v-7ac25c74 data-v-1d77f6b6><a href="/booklist/5c1507ca5f7130ad5931c252" class="booklistName router-link-exact-active router-link-active" data-v-7ac25c74>还是比较推荐的</a></div><div data-v-387bbed7 data-v-1d77f6b6><div class="comment-content BooklistInfoIntro" data-v-57d4d532 data-v-387bbed7><div class="comment-content-inner default" data-v-57d4d532><span data-v-57d4d532>我觉得书要首先能看下去才能评价…… 
+我觉得写书评是记录自己感觉能引起共鸣的东西。
+我觉得书评也是为了将那些有隐隐约约的感觉，而又很难描述的看法尽可能的表述出来。</span><!----></div></div></div><!----></div></div><div class="bookpage-layout-header-side" data-v-a616861a><div class="booklist-header-side hidden-sm-and-down" data-v-5a9f5cee data-v-6765efa0 data-v-f2ac917a><div class="booklist-status-inner" data-v-5a9f5cee><div class="number-border-item" data-v-5a9f5cee><div class="number-border-itemvalue" data-v-5a9f5cee>1w</div><div class="number-border-itemname" data-v-5a9f5cee>浏览</div></div><div class="number-border-item" data-v-5a9f5cee><div class="number-border-itemvalue" data-v-5a9f5cee>39</div><div class="number-border-itemname" data-v-5a9f5cee>本书</div></div><div class="number-border-item" data-v-5a9f5cee><div class="number-border-itemvalue" data-v-5a9f5cee>18</div><div class="number-border-itemname" data-v-5a9f5cee>收藏</div></div></div></div></div></div><div booklistId="5c1507ca5f7130ad5931c252" class="booklist-info-footer-wrap" data-v-db9b7b58 data-v-f2ac917a><div class="booklist-info-footer" data-v-db9b7b58><span class="BooklistUpdateAtInfo" data-v-db9b7b58>2019-11-20更新</span><span class="text hidden-md-and-up" data-v-db9b7b58>1w浏览</span><span class="text hidden-md-and-up" data-v-db9b7b58>39本书</span><!----><!----><button class="withicon share-booklist" data-v-db9b7b58><!---->分享
+  </button><button class="withicon" data-v-db9b7b58><!---->阅读
+    </button><div class="el-dropdown" data-v-452d7828><div class="dropdown-button" data-v-452d7828><button class="withicon"><!----></button></div><ul class="el-dropdown-menu el-popper" style="display:none;" data-v-452d7828><li tabindex="-1" class="el-dropdown-menu__item" data-v-452d7828><!---->举报书单</li></ul></div><div class="BooklistCollectArea" style="display:;" data-v-db9b7b58><button class="capsule BooklistCollect" data-v-6d746988><!----><em data-v-6d746988>收藏</em><span data-v-6d746988>取消收藏</span></button></div></div><div class="BooklistCollectSmallArea" style="display:none;" data-v-db9b7b58><button class="capsule BooklistCollect" data-v-6d746988><!----><em data-v-6d746988>收藏</em><span data-v-6d746988>取消收藏</span></button></div></div></header><section class="bookpage-layout-main" data-v-14c62c06 data-v-f2ac917a><div class="bookpage-layout-main-right" data-v-14c62c06><div route="booklist" class="sticky" data-v-4f60c280 data-v-f2ac917a><!----><!----><!----></div><!----></div><div class="bookpage-layout-main-left" data-v-14c62c06><div data-v-0edefe9c data-v-f2ac917a><div class="result-view" data-v-a26c59f8 data-v-0edefe9c><div class="result" data-v-a26c59f8><div title="书单加书" class="el-dialog__wrapper" style="display:none;" data-v-966415fe data-v-0edefe9c><div role="dialog" aria-modal="true" aria-label="dialog" class="el-dialog form-modal" style="margin-top:6vh;width:480px;"><div class="el-dialog__header"><span class="el-dialog__title"></span><button type="button" aria-label="Close" class="el-dialog__headerbtn"><i class="el-dialog__close el-icon el-icon-close"></i></button></div><!----><!----></div></div><!----><div index="5dd556503a536c5a902bba90" class="common-card-layout booklist-book-item" data-v-4c10dfb6 data-v-0edefe9c><div class="card-bookInfo" data-v-ff296a9c data-v-4c10dfb6><!----><!----><!----></div><div comment="[object Object]" commentId="5dd556503a536c5a902bba90" bookId="164071" replyable="true" templateType="comment" class="CommentBody" data-v-a0ec6b4e data-v-4c10dfb6><div class="comment-content" data-v-57d4d532 data-v-a0ec6b4e><div class="comment-content-inner default" data-v-57d4d532><span data-v-57d4d532>暂时看了70多章，视角很有意思。
+故事性不强，虽然知道主线大概是什么，但是总有点若即若离的感觉。节奏实际偏慢，但忽然感觉像点了快进，打个比方的话，因为风景太美感觉很快到了终点这样。
+作为小说感觉不出色</span><!----></div></div><div class="createdAt-source" data-v-a0ec6b4e><a href="/book/164071/comment/5dd556503a536c5a902bba90" target="_blank" class="createdAt" data-v-a0ec6b4e>发表于2019-11-20 23:05</a></div><!----><!----></div></div><div index="5dd22cd429bd346115b2beb6" class="common-card-layout booklist-book-item" data-v-4c10dfb6 data-v-0edefe9c><div class="card-bookInfo" data-v-ff296a9c data-v-4c10dfb6><!----><!----><!----></div><div comment="[object Object]" commentId="5dd22cd429bd346115b2beb6" bookId="169283" replyable="true" templateType="comment" class="CommentBody" data-v-a0ec6b4e data-v-4c10dfb6><div class="comment-content" data-v-57d4d532 data-v-a0ec6b4e><div class="comment-content-inner default" data-v-57d4d532><span data-v-57d4d532>看了60章，就很一般吧。
+最严重的问题就是剧情单薄，设定常见还带点狗血。而且有相当的既视感：家里祖传手艺，开小店锻炼能力是否能继承家业，男女主双方家里长辈是死对头……剧情没意思也是由于设定的系统过于万能，所有都去交给系统，没有什么有挑战性的感觉，变成单纯的无敌文，也没爽感很无聊。
+另一方面，似乎除了做菜本身能讲出点道理外，没有其他的考量，比方说请客吃饭在菜色安排上的讲究，做菜菜系也是东一榔头西一棒子，先能够推出冷盆后点刀工技艺，找的食客类型单一食客反应也很单一等等。
+说白了感觉准备不足吧，没有认真想过的作品。觉得能看是因为菜色够多，虽然没什么重点，但也没什么毒点。</span><!----></div></div><div class="createdAt-source" data-v-a0ec6b4e><a href="/book/169283/comment/5dd22cd429bd346115b2beb6" target="_blank" class="createdAt" data-v-a0ec6b4e>发表于2019-11-18 13:32</a></div><!----><!----></div></div><div index="5db2b50a44ea8247cdfd4bc4" class="common-card-layout booklist-book-item" data-v-4c10dfb6 data-v-0edefe9c><div class="card-bookInfo" data-v-ff296a9c data-v-4c10dfb6><!----><!----><!----></div><div comment="[object Object]" commentId="5db2b50a44ea8247cdfd4bc4" bookId="172856" replyable="true" templateType="comment" class="CommentBody" data-v-a0ec6b4e data-v-4c10dfb6><div class="comment-content" data-v-57d4d532 data-v-a0ec6b4e><div class="comment-content-inner default" data-v-57d4d532><span data-v-57d4d532>看到订阅后一点和跳看了下网吧。搞笑文，但我并不看好后续。
+先说好的，节奏很舒服，没什么过度，进展相当快，所以也就很爽。另外作者对游戏有一定的了解，游戏通常只要有某一方面很突出都能带来很好的效果，当然被</span><!----></div></div><div class="createdAt-source" data-v-a0ec6b4e><a href="/book/172856/comment/5db2b50a44ea8247cdfd4bc4" target="_blank" class="createdAt" data-v-a0ec6b4e>发表于2019-10-25 16:40</a></div><!----><!----></div></div><div index="5d5a4d572128a52ecaa2303f" class="common-card-layout booklist-book-item" data-v-4c10dfb6 data-v-0edefe9c><div class="card-bookInfo" data-v-ff296a9c data-v-4c10dfb6><!----><!----><!----></div><div comment="[object Object]" commentId="5d5a4d572128a52ecaa2303f" bookId="172365" replyable="true" templateType="comment" class="CommentBody" data-v-a0ec6b4e data-v-4c10dfb6><div class="comment-content" data-v-57d4d532 data-v-a0ec6b4e><div class="comment-content-inner default" data-v-57d4d532><span data-v-57d4d532>文抄公类型，前期资料充足，介绍了很多日本电视制作的情况和日本电视台职场细节。描写依旧出色，感情爆发和部分人物的特色夸张一如既往。但第三卷就开始水的不行，《非自然死亡》都神隐了。
+感觉加了不少没必要的东</span><!----></div></div><div class="createdAt-source" data-v-a0ec6b4e><a href="/book/172365/comment/5d5a4d572128a52ecaa2303f" target="_blank" class="createdAt" data-v-a0ec6b4e>发表于2019-08-19 15:18</a></div><!----><!----></div></div><div index="5d52ba3b505e3b5bdf692bca" class="common-card-layout booklist-book-item" data-v-4c10dfb6 data-v-0edefe9c><div class="card-bookInfo" data-v-ff296a9c data-v-4c10dfb6><!----><!----><!----></div><div comment="[object Object]" commentId="5d52ba3b505e3b5bdf692bca" bookId="167900" replyable="true" templateType="comment" class="CommentBody" data-v-a0ec6b4e data-v-4c10dfb6><div class="comment-content" data-v-57d4d532 data-v-a0ec6b4e><div class="comment-content-inner default" data-v-57d4d532><span data-v-57d4d532>没什么进步甚至感觉是在倒退的一作吧。
+有少妇白一如既往的精于细处描写，而主线薄弱的特点。直言的话，重生生活的商战装13等环节，配不上戏内的认真和爆发。戏内的情感宣泄和人物挖掘依旧可以让人动情，然而却让糟糕的主线牵扯的支离破碎。其男女之间的互动比上两本感觉弱气了很多，虽然出色的地方还是有的。即便是今天应该也没法接受三角恋这种事情吧，到现在还黏黏糊糊的，总觉得对一个是喜欢，对一个是不愿舍弃，但这样耗着总不是太好。
+唯一值得称赞的大概就文笔水准仍在，闲适能看的进去。</span><!----></div></div><div class="createdAt-source" data-v-a0ec6b4e><a href="/book/167900/comment/5d52ba3b505e3b5bdf692bca" target="_blank" class="createdAt" data-v-a0ec6b4e>发表于2019-08-13 21:25</a></div><!----><!----></div></div><div index="5d3dae71ecfa923ba406c6cd" class="common-card-layout booklist-book-item" data-v-4c10dfb6 data-v-0edefe9c><div class="card-bookInfo" data-v-ff296a9c data-v-4c10dfb6><!----><!----><!----></div><div comment="[object Object]" commentId="5d3dae71ecfa923ba406c6cd" bookId="167266" replyable="true" templateType="comment" class="CommentBody" data-v-a0ec6b4e data-v-4c10dfb6><div class="comment-content" data-v-57d4d532 data-v-a0ec6b4e><div class="comment-content-inner default" data-v-57d4d532><span data-v-57d4d532>暂时看到第7部分，内容类似于psp上的“就算要我努力工作”的第二人称小说，当然也更丰富一点。
+由于第二人称叙事，故而没有什么明显的起伏，但因为秘书的毒舌属性，和对角色的一些简单描述就已经使得角色相当立体了。外加一些搞怪的选项，和来自作者疯狂的幸运加成，所以至我所看到的部分为止还是相当欢乐的。选项也并非没有矛盾冲突，部分选择内容既有好的一面也有坏的一面。
+实际上一些剧情类游戏有类似的叙事方法，由于是投票制，比起游戏来就少了一份自主探索或者去选个雷看看的乐趣。也不如跑团那样自由度大，当然跑团需要别人一起。还有，醉酒部分选择机制好评，以及醉酒后没有选择和奇特生物如史莱姆啦蜥蜴人啦睡觉严重差评。</span><!----></div></div><div class="createdAt-source" data-v-a0ec6b4e><a href="/book/167266/comment/5d3dae71ecfa923ba406c6cd" target="_blank" class="createdAt" data-v-a0ec6b4e>发表于2019-07-28 22:17</a></div><!----><!----></div></div><div index="5d3d2941ecfa923ba406af1f" class="common-card-layout booklist-book-item" data-v-4c10dfb6 data-v-0edefe9c><div class="card-bookInfo" data-v-ff296a9c data-v-4c10dfb6><!----><!----><!----></div><div comment="[object Object]" commentId="5d3d2941ecfa923ba406af1f" bookId="1284" replyable="true" templateType="comment" class="CommentBody" data-v-a0ec6b4e data-v-4c10dfb6><div class="comment-content" data-v-57d4d532 data-v-a0ec6b4e><div class="comment-content-inner default" data-v-57d4d532><span data-v-57d4d532>蛮早看的，根据印象写点。中途弃书。
+大体上剧情一步步展开相当舒服，每一卷思路都十分清晰，主体故事也相当简洁，这一点就胜过相当多数的网文了。故事也很有意思，一个穿越的巫妖，在黑手党家庭长大，然后成为王子，别样的欧洲风情。印象最深的想法是对国家的忠诚与对神的忠诚的区别。
+弃书的原因是感觉作者自己飞车了，过于想把自己的看法对读者进行输出。很明显的可以在文中看到关于迈克尔杰克逊，以及类似英国皇室和戴安娜王妃的矛盾。一方面故事基本照搬，另一方面带着浓厚的个人不成熟的看法，那部分简直剧毒。
+四星理由主要在作者的气氛营造上，由于网文中异国的作品较少，总是能引起新鲜感的，还有毕竟也有些年头了。</span><!----></div></div><div class="createdAt-source" data-v-a0ec6b4e><a href="/book/1284/comment/5d3d2941ecfa923ba406af1f" target="_blank" class="createdAt" data-v-a0ec6b4e>发表于2019-07-28 12:49</a></div><!----><!----></div></div><div index="5d3ac4e54bcddd7ebe0d873f" class="common-card-layout booklist-book-item" data-v-4c10dfb6 data-v-0edefe9c><div class="card-bookInfo" data-v-ff296a9c data-v-4c10dfb6><!----><!----><!----></div><div comment="[object Object]" commentId="5d3ac4e54bcddd7ebe0d873f" bookId="43099" replyable="true" templateType="comment" class="CommentBody" data-v-a0ec6b4e data-v-4c10dfb6><div class="comment-content" data-v-57d4d532 data-v-a0ec6b4e><div class="comment-content-inner default" data-v-57d4d532><span data-v-57d4d532>前面有好好看，中间开始就是跳着看的了，还行能看的电子竞技，什么都搭点边也就是什么都没有。
+之所以说什么都想写，就是既有pve剧情、副本，也有pvp对战，还有电子竞技队内队外的矛盾，各战队角色群像，解说</span><!----></div></div><div class="createdAt-source" data-v-a0ec6b4e><a href="/book/43099/comment/5d3ac4e54bcddd7ebe0d873f" target="_blank" class="createdAt" data-v-a0ec6b4e>发表于2019-07-26 17:16</a></div><!----><!----></div></div><div index="5d2d6ac6ed8cca3cc12c7be9" class="common-card-layout booklist-book-item" data-v-4c10dfb6 data-v-0edefe9c><div class="card-bookInfo" data-v-ff296a9c data-v-4c10dfb6><!----><!----><!----></div><div comment="[object Object]" commentId="5d2d6ac6ed8cca3cc12c7be9" bookId="125649" replyable="true" templateType="comment" class="CommentBody" data-v-a0ec6b4e data-v-4c10dfb6><div class="comment-content" data-v-57d4d532 data-v-a0ec6b4e><div class="comment-content-inner default" data-v-57d4d532><span data-v-57d4d532>应该是六年前看完的书，但直到如今依然印象深刻。
+剧情上很多地方还是很不舒服的。由于需要仿名作剧情发展，导致部分故事并不出色，而且很多角色都有点偏执。心叶，如果对于美羽还可以用“不懂”来辩解的话，对于七</span><!----></div></div><div class="createdAt-source" data-v-a0ec6b4e><a href="/book/125649/comment/5d2d6ac6ed8cca3cc12c7be9" target="_blank" class="createdAt" data-v-a0ec6b4e>发表于2019-07-16 14:12</a></div><!----><!----></div></div><div index="5d21d24c78a840c314e398a7" class="common-card-layout booklist-book-item" data-v-4c10dfb6 data-v-0edefe9c><div class="card-bookInfo" data-v-ff296a9c data-v-4c10dfb6><!----><!----><!----></div><div comment="[object Object]" commentId="5d21d24c78a840c314e398a7" bookId="35043" replyable="true" templateType="comment" class="CommentBody" data-v-a0ec6b4e data-v-4c10dfb6><div class="comment-content" data-v-57d4d532 data-v-a0ec6b4e><div class="comment-content-inner default" data-v-57d4d532><span data-v-57d4d532>看了150章左右，科普很不错，小说就……
+很少看到文娱类小说对表演有那么系统的介绍，但是本文的科普已经影响到小说的节奏本身了。课上内容很多，然而表现很像那些公开课，感觉特别假。部分演技上的出色作者也很难用文笔展现出来。
+部分情节点选的很舒服，如第二部电影遇到的问题。但也如文章中说剧本一样，戏剧性事件过少。一方面，男主牛的不行了都，第一第二部电影完全说不出主角有什么成长。另一方面，看不到感情线的进展，文娱类感情线一直是不错的调剂。
+还有就是大段的影评反响，选材，内部审片，开播，电影节一个来一遍，太水了。导演内容反而过少，拍片过的贼快，整体节奏状态不佳。
+最终基本走的还是文娱类套路。</span><!----></div></div><div class="createdAt-source" data-v-a0ec6b4e><a href="/book/35043/comment/5d21d24c78a840c314e398a7" target="_blank" class="createdAt" data-v-a0ec6b4e>发表于2019-07-07 19:06</a></div><!----><!----></div></div><div index="5d20579d4fb742e114e4f5c6" class="common-card-layout booklist-book-item" data-v-4c10dfb6 data-v-0edefe9c><div class="card-bookInfo" data-v-ff296a9c data-v-4c10dfb6><!----><!----><!----></div><div comment="[object Object]" commentId="5d20579d4fb742e114e4f5c6" bookId="49229" replyable="true" templateType="comment" class="CommentBody" data-v-a0ec6b4e data-v-4c10dfb6><div class="comment-content" data-v-57d4d532 data-v-a0ec6b4e><div class="comment-content-inner default" data-v-57d4d532><span data-v-57d4d532>600多章了，实在是坚持不下去了，建议只看前面一部分。
+当初匠心追到更新时就有想看看这一作的想法的，结果是被开头劝退，一是这奇葩的世界观，另一部分是开头那熟悉的都让人反胃的装逼套路。这次看了大半来说两句好坏。
+首先是文不对题，中间充斥着大量的和修补文物无关的内容，前两三百章还好，之后就变成都市文和刑侦文了，又是抓盗墓贼，又是抓走私文物，还有医院换器官的，我都无语了。还喜欢用大量群众反应来拖节奏，就问一句到底想写啥。还有严重的问题就是大量的无脑配角，500多章了对手还那么zz。最后是这个世界观漏洞太多，一开始意思主流是“修旧如新”后面又换了？修帛书有自己补的内容还能满分？对的都不一定是原文。</span><!----></div></div><div class="createdAt-source" data-v-a0ec6b4e><a href="/book/49229/comment/5d20579d4fb742e114e4f5c6" target="_blank" class="createdAt" data-v-a0ec6b4e>发表于2019-07-06 16:11</a></div><!----><!----></div></div><div index="5c97a6f91b4026a361108d19" class="common-card-layout booklist-book-item" data-v-4c10dfb6 data-v-0edefe9c><div class="card-bookInfo" data-v-ff296a9c data-v-4c10dfb6><!----><!----><!----></div><div comment="[object Object]" commentId="5c97a6f91b4026a361108d19" bookId="151765" replyable="true" templateType="comment" class="CommentBody" data-v-a0ec6b4e data-v-4c10dfb6><div class="comment-content" data-v-57d4d532 data-v-a0ec6b4e><div class="comment-content-inner default" data-v-57d4d532><span data-v-57d4d532>变百，看了两卷，喜欢的是文中主角。
+我个人实际上对摄影一窍不通，但对摄影师有一丝好奇。源于一个故事，有位摄影师拍了一个男孩死在自己面前而得奖，最后又选择了自杀。夏寻对暴食主播说的是“可以不收钱拍从疾病折磨回归，也不愿意高价拍步入死亡。”而对于鬼魂希望全世界人忘了他，夏寻选择完成他的愿望，即使自己很想记住。是的，我想说的是摄影师面前的选择相当沉重，而我很喜欢他的选择。
+角色魅力，无论是表示作为摄影师对讨债经验十分丰富，在向大小姐讨债时有那么点没脸没皮又有点萌；还是对旧货店老奶奶想用“看的出，你很热爱摄影”卖情怀砍价，却被同样一句话反套路；亦或自诩经验丰富用“抽出时间”抬高身价，结果接不到单。</span><!----></div></div><div class="createdAt-source" data-v-a0ec6b4e><a href="/book/151765/comment/5c97a6f91b4026a361108d19" target="_blank" class="createdAt" data-v-a0ec6b4e>发表于2019-03-24 23:49</a></div><!----><!----></div></div><div index="5c909cc249afa4c56174bdf7" class="common-card-layout booklist-book-item" data-v-4c10dfb6 data-v-0edefe9c><div class="card-bookInfo" data-v-ff296a9c data-v-4c10dfb6><!----><!----><!----></div><div comment="[object Object]" commentId="5c909cc249afa4c56174bdf7" bookId="113631" replyable="true" templateType="comment" class="CommentBody" data-v-a0ec6b4e data-v-4c10dfb6><div class="comment-content" data-v-57d4d532 data-v-a0ec6b4e><div class="comment-content-inner default" data-v-57d4d532><span data-v-57d4d532>很不错的同人，同时也止步于同人。
+优点是将中华一番，美食的俘虏，食戟之灵相当不错的融合进一个故事。其中还有部分其他acg人物打酱油，像爆漫王，坂本，路人女主等。玩梗也算舒服，可以作为童年回忆向作品，猜猜会用中华一番的哪个菜谱哪个绝活。
+然而除此以外我只能说整部作品都是别人的东西，看不到作者自己的影子，当然美食向想要再出彩确实难。另一方面，其对原作人物把握水平也略显不足，像原作的闪光的一些角色小惠，秘书子等已经成了路人。原作角色的蜕变成长也神隐了，只能抓住明显的萌点反复利用。前期剧情改编食戟，后期偏流水账，感情线很随意。
+所以很快餐化的一本吧，没什么值得担心的，自然也缺少亮眼的地方。</span><!----></div></div><div class="createdAt-source" data-v-a0ec6b4e><a href="/book/113631/comment/5c909cc249afa4c56174bdf7" target="_blank" class="createdAt" data-v-a0ec6b4e>发表于2019-03-19 15:39</a></div><!----><!----></div></div><div index="5c89bf4949afa4c56174861d" class="common-card-layout booklist-book-item" data-v-4c10dfb6 data-v-0edefe9c><div class="card-bookInfo" data-v-ff296a9c data-v-4c10dfb6><!----><!----><!----></div><div comment="[object Object]" commentId="5c89bf4949afa4c56174861d" bookId="142957" replyable="true" templateType="comment" class="CommentBody" data-v-a0ec6b4e data-v-4c10dfb6><div class="comment-content" data-v-57d4d532 data-v-a0ec6b4e><div class="comment-content-inner default" data-v-57d4d532><span data-v-57d4d532>想吐槽的是昨天我看了一百多章，然后晚上睡觉前仔细一想我到底看了些啥……
+时而来几句诗词，时而扯几句淡，看的时候总有一种悠闲犹有余裕的感觉。
+然而还是那个问题，作者究竟想写什么？我个人觉得是想要在现今平淡生活中寻找过去记忆，解谜游戏。比方说这个长生不死的人为什么要去做个高中生还去恋爱，和老一辈的关系，和棺材里的那位的关系等等。奇怪的是为什么不多来点历史记忆和当下生活之间的转变，许多不同朝代多跳跃几次，我觉得这样还能有特质一点。所以结果就是感觉有着大量无关的现实剧情让我怀疑自己的判断了，当然也许作者会让它们相关，需要多点耐心吧。现在看书的感觉就是谜底很害羞，但不勾人，缺少欲拒还迎。</span><!----></div></div><div class="createdAt-source" data-v-a0ec6b4e><a href="/book/142957/comment/5c89bf4949afa4c56174861d" target="_blank" class="createdAt" data-v-a0ec6b4e>发表于2019-03-14 10:41</a></div><!----><!----></div></div><div index="5c89b5e14a78619d61146a7d" class="common-card-layout booklist-book-item" data-v-4c10dfb6 data-v-0edefe9c><div class="card-bookInfo" data-v-ff296a9c data-v-4c10dfb6><!----><!----><!----></div><div comment="[object Object]" commentId="5c89b5e14a78619d61146a7d" bookId="158890" replyable="true" templateType="comment" class="CommentBody" data-v-a0ec6b4e data-v-4c10dfb6><div class="comment-content" data-v-57d4d532 data-v-a0ec6b4e><div class="comment-content-inner default" data-v-57d4d532><span data-v-57d4d532>实际上还行。
+受限于文字水平，还有几年前的套路剧情，被说毒也不过分。但是我个人觉得还是可以看的，同类题材难免和大医比较，这本的话在描写和剧情上是不如大医的，过分执着于医院内，感情线什么的真的没什么意思。但在作为一名医生的态度上，无论说怎么严谨也不过分，还有急诊接到电话心跳就狂跳，对学术的理解上，我觉得是本书更胜一筹的。
+病历很多即是优点也是缺点，本书的优势在于奇奇怪怪的病情，和病人及家属的各种态度总能够有新奇感。但是仅是病历出彩的小说很难说是成功的小说，毕竟将病历连接起来的剧情实在不能说好。 地震部分虽然感觉作者还是没写好，但是那种直面天灾的刺激本就是超脱于文本本身的。</span><!----></div></div><div class="createdAt-source" data-v-a0ec6b4e><a href="/book/158890/comment/5c89b5e14a78619d61146a7d" target="_blank" class="createdAt" data-v-a0ec6b4e>发表于2019-03-14 10:01</a></div><!----><!----></div></div><div index="5c69498d1b4026a3610f2002" class="common-card-layout booklist-book-item" data-v-4c10dfb6 data-v-0edefe9c><div class="card-bookInfo" data-v-ff296a9c data-v-4c10dfb6><!----><!----><!----></div><div comment="[object Object]" commentId="5c69498d1b4026a3610f2002" bookId="37171" replyable="true" templateType="comment" class="CommentBody" data-v-a0ec6b4e data-v-4c10dfb6><div class="comment-content" data-v-57d4d532 data-v-a0ec6b4e><div class="comment-content-inner default" data-v-57d4d532><span data-v-57d4d532>看到第二卷100章左右，能看，就是看的也不怎么舒服。
+主要问题在于想写的太多，综艺、歌谣、电影、甚至商业，什么都有，而实际上放在一起就显得乱七八糟。
+角色也是一样的问题，一个综艺节目就是六个主持人，一个唱歌组合九个人，角色太多了。这就直接导致角色很片面。比如我看到的西卡就是个没头脑，抗压能力差，添乱分子，关于辛苦却往往一笔带过，更没啥成功什么的。这样的角色怎么喜欢起来？
+两者加起来使得主角像个搅屎棍，不管什么组合的事都参与，立场也是奇奇怪怪的。到东方神起说着组合和个人分离，到少女时代就是个人和组合一条船了？一边送进傻冒公司，一边大骂傻冒公司？
+最终剧情大片压抑，换口气后又是难受事。</span><!----></div></div><div class="createdAt-source" data-v-a0ec6b4e><a href="/book/37171/comment/5c69498d1b4026a3610f2002" target="_blank" class="createdAt" data-v-a0ec6b4e>发表于2019-02-17 19:46</a></div><!----><!----></div></div><div index="5c63ad35c84765cb6158cff0" class="common-card-layout booklist-book-item" data-v-4c10dfb6 data-v-0edefe9c><div class="card-bookInfo" data-v-ff296a9c data-v-4c10dfb6><!----><!----><!----></div><div comment="[object Object]" commentId="5c63ad35c84765cb6158cff0" bookId="148048" replyable="true" templateType="comment" class="CommentBody" data-v-a0ec6b4e data-v-4c10dfb6><div class="comment-content" data-v-57d4d532 data-v-a0ec6b4e><div class="comment-content-inner default" data-v-57d4d532><span data-v-57d4d532>人设剧情能看到很多日系动漫的影子，再加上伦理肥皂剧，青春偶像剧杂糅而成的作品？
+最突出的是人物性格的张力，有动漫特色，就会带点夸张，人物有的也会显得过分蠢过分萌，但好在作者驾驭水品不错，描写细致带有感染力，仅凭这点就算是佳作了。譬如之前觉得阳子是个挂件，但作为一个12岁的少女谈判那段，能说出“要去争取自己的幸福”“我还没有输”就早熟的让人心疼了。
+所以胜在描写，很青春，而剧情本身没有出乎意料的部分，但欢欢闹闹的也很开心。后期剧情人物都有一定的崩坏，毕竟zz和搞笑只有一线之隔。有些东西有点离经叛道，女生参加甲子园，姐妹双收这种，会是毒点。错位的系统这个设定并未好好开发，结尾也很草率。</span><!----></div></div><div class="createdAt-source" data-v-a0ec6b4e><a href="/book/148048/comment/5c63ad35c84765cb6158cff0" target="_blank" class="createdAt" data-v-a0ec6b4e>发表于2019-02-13 13:37</a></div><!----><!----></div></div><div index="5c4ea3ac5dc620bb61fa9256" class="common-card-layout booklist-book-item" data-v-4c10dfb6 data-v-0edefe9c><div class="card-bookInfo" data-v-ff296a9c data-v-4c10dfb6><!----><!----><!----></div><div comment="[object Object]" commentId="5c4ea3ac5dc620bb61fa9256" bookId="145161" replyable="true" templateType="comment" class="CommentBody" data-v-a0ec6b4e data-v-4c10dfb6><div class="comment-content" data-v-57d4d532 data-v-a0ec6b4e><div class="comment-content-inner default" data-v-57d4d532><span data-v-57d4d532>就看了两百章左右，很简单的书，不用动脑子，量大管饱，看过就过，丢了就丢了。
+看起来很轻松吧，反正不会有意外也不会有什么惊喜。前面很少放毒，看到觉得讨厌的地方就大段跳过就是了。
+当然事实上，我们都知道很多事情都没那么简单，虽说不要脑子，难免还是会去思考，那就难免有点毒。
+ 还是那番薯、土豆，又是祥瑞，感觉好似低配唐砖，遂弃。</span><!----></div></div><div class="createdAt-source" data-v-a0ec6b4e><a href="/book/145161/comment/5c4ea3ac5dc620bb61fa9256" target="_blank" class="createdAt" data-v-a0ec6b4e>发表于2019-01-28 14:39</a></div><!----><!----></div></div><div index="5c47d58b1b4026a3610e3079" class="common-card-layout booklist-book-item" data-v-4c10dfb6 data-v-0edefe9c><div class="card-bookInfo" data-v-ff296a9c data-v-4c10dfb6><!----><!----><!----></div><div comment="[object Object]" commentId="5c47d58b1b4026a3610e3079" bookId="124600" replyable="true" templateType="comment" class="CommentBody" data-v-a0ec6b4e data-v-4c10dfb6><div class="comment-content" data-v-57d4d532 data-v-a0ec6b4e><div class="comment-content-inner default" data-v-57d4d532><span data-v-57d4d532>啃的艰难，先写点评价吧。
+首先文笔就不说了，头大。前期大量灌设定，设定不该影响阅读体验的。穿到孟菲斯，为什么能莫名奇妙写到大清去。还有以设定为主的作品，出现错误就会很尴尬。“算筹控制，可以拨动的任何一个承载数字的物理单位（可以拨动电子。）。”所以电子是单位？想讲貌似很高端的东西，结果初中物理就出事了emmm
+可看在对于无限流团体内部斗争能写好的太少，凑合着看下去吧。 作者有很多想法，剧情发展也算有意思，但是想法在精不在多，我觉得作者应该控制下这发散的思维，不能内容不足却一堆想法，很出戏。</span><!----></div></div><div class="createdAt-source" data-v-a0ec6b4e><a href="/book/124600/comment/5c47d58b1b4026a3610e3079" target="_blank" class="createdAt" data-v-a0ec6b4e>发表于2019-01-23 10:46</a></div><!----><!----></div></div><div index="5c467866848b3e7d61455fc6" class="common-card-layout booklist-book-item" data-v-4c10dfb6 data-v-0edefe9c><div class="card-bookInfo" data-v-ff296a9c data-v-4c10dfb6><!----><!----><!----></div><div comment="[object Object]" commentId="5c467866848b3e7d61455fc6" bookId="129164" replyable="true" templateType="comment" class="CommentBody" data-v-a0ec6b4e data-v-4c10dfb6><div class="comment-content" data-v-57d4d532 data-v-a0ec6b4e><div class="comment-content-inner default" data-v-57d4d532><span data-v-57d4d532>60章左右败退。表层之下，依旧是套路穿越。
+优点大概是文笔尚可看，穿越搞娱乐，还有人物也许满足很多人的癖好。
+剧情本身并没看见脑洞，相当无趣；普遍角色智商不在线，然后开始尬吹。我是没看出来欢乐在哪儿，太多只是作者一厢情愿，当然也有我对主角态度并不欣赏的偏见在里面。话说想看收女为何不去玩galgame？</span><!----></div></div><div class="createdAt-source" data-v-a0ec6b4e><a href="/book/129164/comment/5c467866848b3e7d61455fc6" target="_blank" class="createdAt" data-v-a0ec6b4e>发表于2019-01-22 09:56</a></div><!----><!----></div></div></div><!----></div></div></div></section><!----></div></div></div> <script>window.__INITIAL_STATE__={"Book":{"fetched":false,"commentsFetched":false,"header":{"title":"","keywords":"","description":""},"shielded":false,"notFound":false,"loading":true,"bookId":"","bookInfo":{},"loadComments":false,"myScore":0,"myComment":null,"collected":false,"commented":false,"bookSource":[],"tags":[],"privateTags":[],"scoreDetail":[],"booklistsResult":{"total":0,"booklists":[]},"commentsLoaded":false,"commentsResult":{"total":0,"comments":[]}},"Bookcase":{"bookcase":[],"taglistData":{"taglist":[],"bookCount":0},"currentTag":""},"Booklist":{"fetched":true,"booksFetched":true,"header":{"title":"还是比较推荐的 - 推书单 - 优书网","keywords":"诡秘之主 惊悚乐园 文艺时代 无穷重阻 超神机械师 大医凌然 我有一座冒险屋 全职高手 秦吏 修真聊天群 娱乐春秋 顾道长生 覆汉 我的女友是恶女 崩坏世界的传奇大冒险 末日乐园 我的一天有48小时 电影教师 我真的长生不老 手术直播间 ","description":"共39本书，我觉得书要首先能看下去才能评价…… \n我觉得写书评是记录自己感觉能引起共鸣的东西。\n我觉得书评也是为了将那些有隐隐约约的感觉，而又很难描述的看法尽可能的表述出来。 包括诡秘之主 惊悚乐园 文艺时代 无穷重阻 超神机械师 大医凌然 我有一座冒险屋 全职高手 秦吏 修真聊天群 娱乐春秋 顾道长生 覆汉 我的女友是恶女 崩坏世界的传奇大冒险 末日乐园 我的一天有48小时 电影教师 我真的长生不老 手术直播间 等书"},"shielded":false,"notFound":false,"createrId":{"_id":1179857,"userName":"叶语华音"},"booklistId":"5c1507ca5f7130ad5931c252","booklistInfo":{"_id":"5c1507ca5f7130ad5931c252","editable":0,"comTotal":0,"clicks":10686,"praiseTotal":70,"favsTotal":16,"bookTotal":39,"essence":false,"shielded":false,"unSearch":false,"createdAt":"2018-12-15T13:55:22.000Z","createrId":{"_id":1179857,"userName":"叶语华音"},"title":"还是比较推荐的","content":"我觉得书要首先能看下去才能评价…… \n我觉得写书评是记录自己感觉能引起共鸣的东西。\n我觉得书评也是为了将那些有隐隐约约的感觉，而又很难描述的看法尽可能的表述出来。","listType":"male","updateAt":"2019-11-20T15:05:52.000Z","praiseAt":"2019-11-20T15:05:52.000Z","__v":0,"inReview":false,"classes":[{"classId":6,"className":"都市","count":13},{"classId":11,"className":"游戏","count":5},{"classId":9,"className":"历史","count":3},{"classId":2,"className":"玄幻","count":2},{"classId":3,"className":"奇幻","count":1},{"classId":29,"className":"其他","count":1},{"classId":5,"className":"仙侠","count":1},{"classId":13,"className":"科幻","count":1},{"classId":14,"className":"二次元","count":1},{"classId":10,"className":"悬疑","count":1}],"collectNum":18,"covers":["https:\u002F\u002Fqidian.qpic.cn\u002Fqdbimg\u002F349573\u002F1014222426\u002F300","https:\u002F\u002Fqidian.qpic.cn\u002Fqdbimg\u002F349573\u002F1015348484\u002F300","https:\u002F\u002Fqidian.qpic.cn\u002Fqdbimg\u002F349573\u002F1016150754\u002F300"],"collected":false,"header":{"title":"还是比较推荐的 - 推书单 - 优书网","keywords":"诡秘之主 惊悚乐园 文艺时代 无穷重阻 超神机械师 大医凌然 我有一座冒险屋 全职高手 秦吏 修真聊天群 娱乐春秋 顾道长生 覆汉 我的女友是恶女 崩坏世界的传奇大冒险 末日乐园 我的一天有48小时 电影教师 我真的长生不老 手术直播间 ","description":"共39本书，我觉得书要首先能看下去才能评价…… \n我觉得写书评是记录自己感觉能引起共鸣的东西。\n我觉得书评也是为了将那些有隐隐约约的感觉，而又很难描述的看法尽可能的表述出来。 包括诡秘之主 惊悚乐园 文艺时代 无穷重阻 超神机械师 大医凌然 我有一座冒险屋 全职高手 秦吏 修真聊天群 娱乐春秋 顾道长生 覆汉 我的女友是恶女 崩坏世界的传奇大冒险 末日乐园 我的一天有48小时 电影教师 我真的长生不老 手术直播间 等书"},"voting":0},"books":[{"_id":"5dd556503a536c5a902bba90","createrId":{"_id":1179857,"userName":"叶语华音"},"content":"暂时看了70多章，视角很有意思。\n故事性不强，虽然知道主线大概是什么，但是总有点若即若离的感觉。节奏实际偏慢，但忽然感觉像点了快进，打个比方的话，因为风景太美感觉很快到了终点这样。\n作为小说感觉不出色，但它很独特。首先很少有人选这些角度，像酒吧服务生、地下乐队。更为有意思的是，每几章都像是有一个小主题，聚焦于某个人物。述说了不同人的不同的看法。地下乐队经纪人的“贩卖优秀”；地下乐队观众对自顾自唱歌的歌手觉得“瞧不起人”；主角那句“给不值钱的小人物放手去做的机会”；还有花丛老手那句“不要过于执着一个女人，要么丢人，要么丢命”等等，真的每过几章都会有个有意思的人，或者有个那么有点意思的想法。\n总之，人物和想法都不错，但是没有足够分量称为是故事的剧情将这些连起来。作者喜欢贫嘴倒是一定程度上冲淡了这些。\n最后吐个槽，看到阿提斯特我一开始以为是某位希腊神话神明，毕竟酒吧名字叫“奥德赛”还去百度了下……后面看到桃浦斯达我内心毫无波动。","createdAt":"2019-11-20T15:05:52.418Z","inReview":false,"jurisdiction":0,"praiseCount":0,"replyCount":0,"score":4,"shielded":false,"stickie":false,"sortId":39,"bookId":{"status":0,"title":"飞越泡沫时代","author":"斜线和弦","cover":"https:\u002F\u002Fqidian.qpic.cn\u002Fqdbimg\u002F349573\u002F1014222426\u002F300","countWord":904900,"updateAt":"2019-12-04T15:59:13.000Z","bookId":164071,"collected":false},"collected":false,"booklistShipId":"5dd556503a536c5a902bba91","voting":0,"replyable":true},{"_id":"5dd22cd429bd346115b2beb6","createrId":{"_id":1179857,"userName":"叶语华音"},"content":"看了60章，就很一般吧。\n最严重的问题就是剧情单薄，设定常见还带点狗血。而且有相当的既视感：家里祖传手艺，开小店锻炼能力是否能继承家业，男女主双方家里长辈是死对头……剧情没意思也是由于设定的系统过于万能，所有都去交给系统，没有什么有挑战性的感觉，变成单纯的无敌文，也没爽感很无聊。\n另一方面，似乎除了做菜本身能讲出点道理外，没有其他的考量，比方说请客吃饭在菜色安排上的讲究，做菜菜系也是东一榔头西一棒子，先能够推出冷盆后点刀工技艺，找的食客类型单一食客反应也很单一等等。\n说白了感觉准备不足吧，没有认真想过的作品。觉得能看是因为菜色够多，虽然没什么重点，但也没什么毒点。","createdAt":"2019-11-18T05:32:04.253Z","inReview":false,"jurisdiction":0,"praiseCount":0,"replyCount":0,"score":2,"shielded":false,"stickie":false,"sortId":38,"bookId":{"status":0,"title":"美食从和面开始","author":"糖醋虾仁","cover":"https:\u002F\u002Fqidian.qpic.cn\u002Fqdbimg\u002F349573\u002F1015348484\u002F300","countWord":1318200,"updateAt":"2019-12-05T10:59:13.000Z","bookId":169283,"collected":false},"collected":false,"booklistShipId":"5dd22cd429bd346115b2beb7","voting":0,"replyable":true},{"_id":"5db2b50a44ea8247cdfd4bc4","createrId":{"_id":1179857,"userName":"叶语华音"},"content":"看到订阅后一点和跳看了下网吧。搞笑文，但我并不看好后续。\n先说好的，节奏很舒服，没什么过度，进展相当快，所以也就很爽。另外作者对游戏有一定的了解，游戏通常只要有某一方面很突出都能带来很好的效果，当然被注意到总是有运气在里面，所以对于鬼将、海上堡垒部分都觉得可以自圆其说。还有说到了一部分营销模式的优点，以及游戏设计有时候反其道行之反而大卖的特点。游戏火不火本身就有点玄学的意思。\n不看好是因为，作者觉得不玩反转缺乏幽默，反倒平常，但是实际上这个设定已经限制发挥了。谁能真的做到一直想亏钱结果赚钱的，设计的意外很难真的出人意料，终究最后只能利用员工能力开挂。游戏制作人我并不看好，你可以把讽刺业界放进真结局、彩蛋等等里，但主线讽刺只是死路一条，这竟然也大热了。倒是4月1日病毒式宣发感觉不错。\n这类写作本身就像是作者出题让读者思考，最后再给出答案。就结果来说无论网吧还是游戏制作人，我都觉得做的并不好。为了反转降低逻辑尚可以理解，为了反转没有逻辑就过了，反转是累赘。","createdAt":"2019-10-25T08:40:42.821Z","inReview":false,"jurisdiction":0,"praiseCount":1,"replyCount":0,"score":3,"shielded":false,"stickie":false,"sortId":37,"bookId":{"status":0,"title":"亏成首富从游戏开始","countWord":736800,"author":"青衫取醉","cover":"https:\u002F\u002Fqidian.qpic.cn\u002Fqdbimg\u002F349573\u002F1016150754\u002F300","updateAt":"2019-12-05T10:31:13.000Z","bookId":172856,"collected":false},"collected":false,"booklistShipId":"5db2b50a44ea8247cdfd4bc5","voting":0,"replyable":true},{"_id":"5d5a4d572128a52ecaa2303f","createrId":{"_id":1179857,"userName":"叶语华音"},"content":"文抄公类型，前期资料充足，介绍了很多日本电视制作的情况和日本电视台职场细节。描写依旧出色，感情爆发和部分人物的特色夸张一如既往。但第三卷就开始水的不行，《非自然死亡》都神隐了。\n感觉加了不少没必要的东西，比方系统就很没有意义，选到合适的人可以用筛选、巧合等等来解释，何必多开个挂。感情上，为什么要给个长得像穿越前女友的设定，所以喜欢的到底是谁，一具皮囊？还有来自女学生莫名的敌意，当然看到后面这男主的表现，我只想说她们太正确了。\n作者绝对算得上我少有看过三观爆炸的，毒点不断。对待爱情，“只要他看中了，别管那瓜强扭的甜不甜，他都想扭下来尝尝，不然不甘心。”，男主真实人渣。之后，美千子还是个孩子，戏也不是她接的，不愿意拍露出大的戏，为此和母亲吵起来，咬了她妈一口，居然男主眼里就不孝了？还真是回到了“父要子亡子不得不亡”的年代。\n实际上也可以总结出海底捞的特色，喜欢化用其他作品里的角色人设或进行一点修改，但这样拼起来的是否都合适有待商榷，一边夸张的人物一边现实的职场——还是以死板著称的日本职场。海底捞对世事、人情的理解都相当有限，经常会出现神奇操作和想法，个人观点适合他的就只有无脑爽文。然而，即使这样的三观依旧迎合了不少人的口味了不是？","createdAt":"2019-08-19T07:18:47.909Z","inReview":false,"jurisdiction":0,"praiseCount":2,"replyCount":8,"score":1,"shielded":false,"stickie":false,"sortId":36,"bookId":{"status":0,"title":"绝对一番","countWord":718900,"author":"海底漫步者","cover":"https:\u002F\u002Fqidian.qpic.cn\u002Fqdbimg\u002F349573\u002F1016138848\u002F300","updateAt":"2019-12-04T15:32:13.000Z","bookId":172365,"collected":false},"collected":false,"booklistShipId":"5d5a4d572128a52ecaa23040","voting":0,"replyable":true},{"_id":"5d52ba3b505e3b5bdf692bca","createrId":{"_id":1179857,"userName":"叶语华音"},"content":"没什么进步甚至感觉是在倒退的一作吧。\n有少妇白一如既往的精于细处描写，而主线薄弱的特点。直言的话，重生生活的商战装13等环节，配不上戏内的认真和爆发。戏内的情感宣泄和人物挖掘依旧可以让人动情，然而却让糟糕的主线牵扯的支离破碎。其男女之间的互动比上两本感觉弱气了很多，虽然出色的地方还是有的。即便是今天应该也没法接受三角恋这种事情吧，到现在还黏黏糊糊的，总觉得对一个是喜欢，对一个是不愿舍弃，但这样耗着总不是太好。\n唯一值得称赞的大概就文笔水准仍在，闲适能看的进去。","createdAt":"2019-08-13T13:25:15.508Z","inReview":false,"jurisdiction":0,"praiseCount":1,"replyCount":0,"score":3,"shielded":false,"stickie":false,"sortId":35,"bookId":{"status":0,"title":"从1983开始","author":"睡觉会变白","cover":"https:\u002F\u002Fqidian.qpic.cn\u002Fqdbimg\u002F349573\u002F1015289802\u002F300","countWord":881700,"updateAt":"2019-12-05T08:27:13.000Z","bookId":167900,"collected":false},"collected":false,"booklistShipId":"5d52ba3b505e3b5bdf692bcb","voting":0,"replyable":true},{"_id":"5d3dae71ecfa923ba406c6cd","shielded":false,"replyCount":0,"jurisdiction":0,"praiseCount":3,"content":"暂时看到第7部分，内容类似于psp上的“就算要我努力工作”的第二人称小说，当然也更丰富一点。\n由于第二人称叙事，故而没有什么明显的起伏，但因为秘书的毒舌属性，和对角色的一些简单描述就已经使得角色相当立体了。外加一些搞怪的选项，和来自作者疯狂的幸运加成，所以至我所看到的部分为止还是相当欢乐的。选项也并非没有矛盾冲突，部分选择内容既有好的一面也有坏的一面。\n实际上一些剧情类游戏有类似的叙事方法，由于是投票制，比起游戏来就少了一份自主探索或者去选个雷看看的乐趣。也不如跑团那样自由度大，当然跑团需要别人一起。还有，醉酒部分选择机制好评，以及醉酒后没有选择和奇特生物如史莱姆啦蜥蜴人啦睡觉严重差评。","score":4,"createrId":{"_id":1179857,"userName":"叶语华音"},"createdAt":"2019-07-28T14:17:21.447Z","inReview":false,"stickie":false,"sortId":34,"bookId":{"status":0,"title":"交互式小说丨冒险者公会","author":"下午是妖","cover":"https:\u002F\u002Fqidian.qpic.cn\u002Fqdbimg\u002F349573\u002F1015064014\u002F300","countWord":1241900,"updateAt":"2019-11-30T15:53:00.000Z","bookId":167266,"collected":false},"collected":false,"booklistShipId":"5d3dae71ecfa923ba406c6ce","voting":0,"replyable":true},{"_id":"5d3d2941ecfa923ba406af1f","shielded":false,"replyCount":0,"jurisdiction":0,"praiseCount":0,"content":"蛮早看的，根据印象写点。中途弃书。\n大体上剧情一步步展开相当舒服，每一卷思路都十分清晰，主体故事也相当简洁，这一点就胜过相当多数的网文了。故事也很有意思，一个穿越的巫妖，在黑手党家庭长大，然后成为王子，别样的欧洲风情。印象最深的想法是对国家的忠诚与对神的忠诚的区别。\n弃书的原因是感觉作者自己飞车了，过于想把自己的看法对读者进行输出。很明显的可以在文中看到关于迈克尔杰克逊，以及类似英国皇室和戴安娜王妃的矛盾。一方面故事基本照搬，另一方面带着浓厚的个人不成熟的看法，那部分简直剧毒。\n四星理由主要在作者的气氛营造上，由于网文中异国的作品较少，总是能引起新鲜感的，还有毕竟也有些年头了。","score":4,"createrId":{"_id":1179857,"userName":"叶语华音"},"createdAt":"2019-07-28T04:49:05.267Z","inReview":false,"stickie":false,"sortId":33,"bookId":{"status":1,"title":"亡灵持政","author":"九鱼","cover":"http:\u002F\u002Fqidian.qpic.cn\u002Fqdbimg\u002F349573\u002F1283656\u002F180","countWord":970842,"updateAt":"2010-04-08T16:55:21.000Z","bookId":1284,"collected":false},"collected":false,"booklistShipId":"5d3d2941ecfa923ba406af20","voting":0,"replyable":true},{"_id":"5d3ac4e54bcddd7ebe0d873f","shielded":false,"replyCount":0,"jurisdiction":0,"praiseCount":0,"content":"前面有好好看，中间开始就是跳着看的了，还行能看的电子竞技，什么都搭点边也就是什么都没有。\n之所以说什么都想写，就是既有pve剧情、副本，也有pvp对战，还有电子竞技队内队外的矛盾，各战队角色群像，解说水平等等，不管偏重哪个方面都可以，可就是什么都写一大堆还不深入，甚至有场比赛写了将近90章简直惊悚。整体文字又过于啰嗦，节奏奇差，很难感受到电子竞技的热血，有小的起伏但没有明显的高潮。\n从一开始就有点感觉是想要反应电竞黑暗一面，使得后期剧情偏灰暗，并不讨喜。其中对战、剧情和副本剧情都比较一般，副本机制比较有意思，人物描写虽然有点脸谱化，但几个主要角色思路清奇也还值得一看。电竞人的想法，对电竞的热爱是胜过同类作品的。\nPS: 我个人有看过dota2的国内b级联赛看的都想睡觉，这里写的还是c级的，而且把大神写的神乎其神的，电竞被神化就相当不舒服。另教导主任剧情过于zz，不想评价。","score":3,"createrId":{"_id":1179857,"userName":"叶语华音"},"createdAt":"2019-07-26T09:16:21.450Z","inReview":false,"stickie":false,"sortId":32,"bookId":{"status":1,"title":"绝顶枪王","author":"果味喵","cover":"http:\u002F\u002Fimg.yc.ireader.com.cn\u002Fbookface\u002F6\u002F55\u002F65599_large.jpg","countWord":2794651,"updateAt":"2018-03-07T15:56:28.000Z","bookId":43099,"collected":false},"collected":false,"booklistShipId":"5d3ac4e54bcddd7ebe0d8740","voting":0,"replyable":true},{"_id":"5d2d6ac6ed8cca3cc12c7be9","shielded":false,"replyCount":2,"jurisdiction":0,"praiseCount":1,"content":"应该是六年前看完的书，但直到如今依然印象深刻。\n剧情上很多地方还是很不舒服的。由于需要仿名作剧情发展，导致部分故事并不出色，而且很多角色都有点偏执。心叶，如果对于美羽还可以用“不懂”来辩解的话，对于七濑真是不折不扣的渣男了，虽说也能说是迟钝？还有拗哭的巡礼者那卷的住院咯，原配咯等等非常有韩剧的胃疼感。\n但依然会说这是一本很出色的小说，主要原因在于对于文学作品的解读上。\n渴望死亡的小丑中提到太宰不仅有人间失格还有奔跑的梅勒斯，而且最有意思的那句“梅勒斯，你没有穿衣服耶”无论日本还是中国思想品德教材上都没有收录，滑稽。\n拗哭的巡礼者中问银河轨道之夜里乔邦尼和康贝瑞拉究竟是谁先抛弃了谁？以此来解释那句“心叶，你一定不懂吧”真的是神来之笔。诉说了宫泽贤治不得志的一生，以及那首败北少年之歌，银河轨道之夜各版本的区别无不体现了作者的用心。\n惠临神明的作者一卷中直言了读者对作者毫无忠诚心，只是期待着好的作品。\n如此还有很多。\n这本书里体现的对原作和人物的解读，作者的认真，恰恰让我觉得是对那些没有新意也没有心意的综漫小说最好的打脸。","createrId":{"_id":1179857,"userName":"叶语华音"},"createdAt":"2019-07-16T06:12:22.670Z","score":5,"inReview":false,"stickie":false,"sortId":31,"bookId":{"status":0,"title":"文学少女","author":"野村美月","cover":"http:\u002F\u002Frs2.sfacg.com\u002Fweb\u002Fnovel\u002Fimages\u002FNovelCover\u002FBig\u002Ffe2010be-51af-449a-b215-b00a6f1d4422.jpg","countWord":2429420,"updateAt":"2016-10-24T07:39:19.000Z","bookId":125649,"collected":false},"collected":false,"booklistShipId":"5d2d6ac6ed8cca3cc12c7bea","voting":0,"replyable":true},{"_id":"5d21d24c78a840c314e398a7","shielded":false,"replyCount":0,"jurisdiction":0,"praiseCount":0,"createrId":{"_id":1179857,"userName":"叶语华音"},"createdAt":"2019-07-07T11:06:52.000Z","content":"看了150章左右，科普很不错，小说就……\r\n很少看到文娱类小说对表演有那么系统的介绍，但是本文的科普已经影响到小说的节奏本身了。课上内容很多，然而表现很像那些公开课，感觉特别假。部分演技上的出色作者也很难用文笔展现出来。\r\n部分情节点选的很舒服，如第二部电影遇到的问题。但也如文章中说剧本一样，戏剧性事件过少。一方面，男主牛的不行了都，第一第二部电影完全说不出主角有什么成长。另一方面，看不到感情线的进展，文娱类感情线一直是不错的调剂。\r\n还有就是大段的影评反响，选材，内部审片，开播，电影节一个来一遍，太水了。导演内容反而过少，拍片过的贼快，整体节奏状态不佳。\r\n最终基本走的还是文娱类套路。","score":3,"inReview":false,"stickie":false,"sortId":30,"bookId":{"status":1,"title":"电影教师","author":"青城无忌","cover":"https:\u002F\u002Fqidian.qpic.cn\u002Fqdbimg\u002F349573\u002F3607274\u002F300","countWord":3715000,"updateAt":"2018-12-02T16:00:00.000Z","bookId":35043,"collected":false},"collected":false,"booklistShipId":"5d21d24c78a840c314e398a6","voting":0,"replyable":true},{"_id":"5d20579d4fb742e114e4f5c6","shielded":false,"replyCount":0,"jurisdiction":0,"praiseCount":0,"createrId":{"_id":1179857,"userName":"叶语华音"},"createdAt":"2019-07-06T08:11:09.000Z","content":"600多章了，实在是坚持不下去了，建议只看前面一部分。\r\n当初匠心追到更新时就有想看看这一作的想法的，结果是被开头劝退，一是这奇葩的世界观，另一部分是开头那熟悉的都让人反胃的装逼套路。这次看了大半来说两句好坏。\r\n首先是文不对题，中间充斥着大量的和修补文物无关的内容，前两三百章还好，之后就变成都市文和刑侦文了，又是抓盗墓贼，又是抓走私文物，还有医院换器官的，我都无语了。还喜欢用大量群众反应来拖节奏，就问一句到底想写啥。还有严重的问题就是大量的无脑配角，500多章了对手还那么zz。最后是这个世界观漏洞太多，一开始意思主流是“修旧如新”后面又换了？修帛书有自己补的内容还能满分？对的都不一定是原文。","score":3,"inReview":false,"stickie":false,"sortId":29,"bookId":{"status":0,"title":"天工","author":"沙包","cover":"https:\u002F\u002Fstatic.zongheng.com\u002Fupload\u002Fs_image\u002Fcover\u002F2016\u002F06\u002F1464759162830.jpg","countWord":2683364,"updateAt":"2018-08-15T17:26:17.000Z","bookId":49229,"collected":false},"collected":false,"booklistShipId":"5d20579d4fb742e114e4f5c5","voting":0,"replyable":true},{"_id":"5c97a6f91b4026a361108d19","shielded":false,"replyCount":1,"jurisdiction":0,"praiseCount":0,"createrId":{"_id":1179857,"userName":"叶语华音"},"createdAt":"2019-03-24T15:49:13.000Z","content":"变百，看了两卷，喜欢的是文中主角。\r\n我个人实际上对摄影一窍不通，但对摄影师有一丝好奇。源于一个故事，有位摄影师拍了一个男孩死在自己面前而得奖，最后又选择了自杀。夏寻对暴食主播说的是“可以不收钱拍从疾病折磨回归，也不愿意高价拍步入死亡。”而对于鬼魂希望全世界人忘了他，夏寻选择完成他的愿望，即使自己很想记住。是的，我想说的是摄影师面前的选择相当沉重，而我很喜欢他的选择。\r\n角色魅力，无论是表示作为摄影师对讨债经验十分丰富，在向大小姐讨债时有那么点没脸没皮又有点萌；还是对旧货店老奶奶想用“看的出，你很热爱摄影”卖情怀砍价，却被同样一句话反套路；亦或自诩经验丰富用“抽出时间”抬高身价，结果接不到单。","score":5,"inReview":false,"stickie":false,"sortId":28,"bookId":{"status":0,"title":"神的调色盘","author":"月鸦","cover":"https:\u002F\u002Fnovel-cdn.kuangxiangit.com\u002Fuploads\u002Fallimg\u002Fc180824\u002F24-08-18170353-43659-100076156.jpg","countWord":1022451,"updateAt":"2019-12-04T16:00:00.000Z","bookId":151765,"collected":false},"collected":false,"booklistShipId":"5c97a6f91b4026a361108d18","voting":0,"replyable":true},{"_id":"5c909cc249afa4c56174bdf7","shielded":false,"replyCount":0,"jurisdiction":0,"praiseCount":2,"createrId":{"_id":1179857,"userName":"叶语华音"},"createdAt":"2019-03-19T07:39:46.000Z","content":"很不错的同人，同时也止步于同人。\r\n优点是将中华一番，美食的俘虏，食戟之灵相当不错的融合进一个故事。其中还有部分其他acg人物打酱油，像爆漫王，坂本，路人女主等。玩梗也算舒服，可以作为童年回忆向作品，猜猜会用中华一番的哪个菜谱哪个绝活。\r\n然而除此以外我只能说整部作品都是别人的东西，看不到作者自己的影子，当然美食向想要再出彩确实难。另一方面，其对原作人物把握水平也略显不足，像原作的闪光的一些角色小惠，秘书子等已经成了路人。原作角色的蜕变成长也神隐了，只能抓住明显的萌点反复利用。前期剧情改编食戟，后期偏流水账，感情线很随意。\r\n所以很快餐化的一本吧，没什么值得担心的，自然也缺少亮眼的地方。","score":4,"inReview":false,"stickie":false,"sortId":27,"bookId":{"status":1,"title":"重生日本当厨神","author":"千回转","cover":"https:\u002F\u002Fqidian.qpic.cn\u002Fqdbimg\u002F349573\u002F1003797438\u002F300","countWord":2468300,"updateAt":"2019-11-18T09:52:00.000Z","bookId":113631,"collected":false},"collected":false,"booklistShipId":"5c909cc249afa4c56174bdf6","voting":0,"replyable":true},{"_id":"5c89bf4949afa4c56174861d","shielded":false,"replyCount":0,"jurisdiction":0,"praiseCount":2,"createrId":{"_id":1179857,"userName":"叶语华音"},"createdAt":"2019-03-14T02:41:13.000Z","content":"想吐槽的是昨天我看了一百多章，然后晚上睡觉前仔细一想我到底看了些啥……\r\n时而来几句诗词，时而扯几句淡，看的时候总有一种悠闲犹有余裕的感觉。\r\n然而还是那个问题，作者究竟想写什么？我个人觉得是想要在现今平淡生活中寻找过去记忆，解谜游戏。比方说这个长生不死的人为什么要去做个高中生还去恋爱，和老一辈的关系，和棺材里的那位的关系等等。奇怪的是为什么不多来点历史记忆和当下生活之间的转变，许多不同朝代多跳跃几次，我觉得这样还能有特质一点。所以结果就是感觉有着大量无关的现实剧情让我怀疑自己的判断了，当然也许作者会让它们相关，需要多点耐心吧。现在看书的感觉就是谜底很害羞，但不勾人，缺少欲拒还迎。","score":3,"inReview":false,"stickie":false,"sortId":26,"bookId":{"status":0,"title":"我真的长生不老","author":"初恋璀璨如夏花","cover":"https:\u002F\u002Fqidian.qpic.cn\u002Fqdbimg\u002F349573\u002F1011717110\u002F300","countWord":1917200,"updateAt":"2019-12-01T18:54:00.000Z","bookId":142957,"collected":false},"collected":false,"booklistShipId":"5c89bf4949afa4c56174861c","voting":0,"replyable":true},{"_id":"5c89b5e14a78619d61146a7d","shielded":false,"replyCount":1,"jurisdiction":0,"praiseCount":4,"createrId":{"_id":1179857,"userName":"叶语华音"},"createdAt":"2019-03-14T02:01:05.000Z","content":"实际上还行。\r\n受限于文字水平，还有几年前的套路剧情，被说毒也不过分。但是我个人觉得还是可以看的，同类题材难免和大医比较，这本的话在描写和剧情上是不如大医的，过分执着于医院内，感情线什么的真的没什么意思。但在作为一名医生的态度上，无论说怎么严谨也不过分，还有急诊接到电话心跳就狂跳，对学术的理解上，我觉得是本书更胜一筹的。\r\n病历很多即是优点也是缺点，本书的优势在于奇奇怪怪的病情，和病人及家属的各种态度总能够有新奇感。但是仅是病历出彩的小说很难说是成功的小说，毕竟将病历连接起来的剧情实在不能说好。 地震部分虽然感觉作者还是没写好，但是那种直面天灾的刺激本就是超脱于文本本身的。","score":2,"inReview":false,"stickie":false,"sortId":25,"bookId":{"status":0,"title":"手术直播间","author":"真熊初墨","cover":"https:\u002F\u002Fqidian.qpic.cn\u002Fqdbimg\u002F349573\u002F1013414929\u002F300","countWord":4828500,"updateAt":"2019-12-04T18:08:13.000Z","bookId":158890,"collected":false},"collected":false,"booklistShipId":"5c89b5e14a78619d61146a7c","voting":0,"replyable":true},{"_id":"5c69498d1b4026a3610f2002","shielded":false,"replyCount":0,"jurisdiction":0,"praiseCount":0,"createrId":{"_id":1179857,"userName":"叶语华音"},"createdAt":"2019-02-17T11:46:21.000Z","content":"看到第二卷100章左右，能看，就是看的也不怎么舒服。\r\n主要问题在于想写的太多，综艺、歌谣、电影、甚至商业，什么都有，而实际上放在一起就显得乱七八糟。\r\n角色也是一样的问题，一个综艺节目就是六个主持人，一个唱歌组合九个人，角色太多了。这就直接导致角色很片面。比如我看到的西卡就是个没头脑，抗压能力差，添乱分子，关于辛苦却往往一笔带过，更没啥成功什么的。这样的角色怎么喜欢起来？\r\n两者加起来使得主角像个搅屎棍，不管什么组合的事都参与，立场也是奇奇怪怪的。到东方神起说着组合和个人分离，到少女时代就是个人和组合一条船了？一边送进傻冒公司，一边大骂傻冒公司？\r\n最终剧情大片压抑，换口气后又是难受事。","score":3,"inReview":false,"stickie":false,"sortId":24,"bookId":{"status":1,"title":"韩娱之影帝","author":"榴弹怕水","cover":"https:\u002F\u002Fqidian.qpic.cn\u002Fqdbimg\u002F349573\u002F3567631\u002F300","countWord":5394900,"updateAt":"2018-03-14T16:44:00.000Z","bookId":37171,"collected":false},"collected":false,"booklistShipId":"5c69498d1b4026a3610f2001","voting":0,"replyable":true},{"_id":"5c63ad35c84765cb6158cff0","shielded":false,"replyCount":5,"jurisdiction":0,"praiseCount":8,"createrId":{"_id":1179857,"userName":"叶语华音"},"createdAt":"2019-02-13T05:37:57.000Z","content":"人设剧情能看到很多日系动漫的影子，再加上伦理肥皂剧，青春偶像剧杂糅而成的作品？\n最突出的是人物性格的张力，有动漫特色，就会带点夸张，人物有的也会显得过分蠢过分萌，但好在作者驾驭水品不错，描写细致带有感染力，仅凭这点就算是佳作了。譬如之前觉得阳子是个挂件，但作为一个12岁的少女谈判那段，能说出“要去争取自己的幸福”“我还没有输”就早熟的让人心疼了。\n所以胜在描写，很青春，而剧情本身没有出乎意料的部分，但欢欢闹闹的也很开心。后期剧情人物都有一定的崩坏，毕竟zz和搞笑只有一线之隔。有些东西有点离经叛道，女生参加甲子园，姐妹双收这种，会是毒点。错位的系统这个设定并未好好开发，结尾也很草率。","score":4,"inReview":false,"stickie":false,"sortId":23,"bookId":{"status":1,"title":"我的女友是恶女","author":"海底漫步者","cover":"https:\u002F\u002Fqidian.qpic.cn\u002Fqdbimg\u002F349573\u002F1012352630\u002F300","countWord":1730600,"updateAt":"2019-08-22T09:49:00.000Z","bookId":148048,"collected":false},"collected":false,"booklistShipId":"5c63ad35c84765cb6158cfef","voting":0,"replyable":true},{"_id":"5c4ea3ac5dc620bb61fa9256","shielded":false,"replyCount":0,"jurisdiction":0,"praiseCount":3,"createrId":{"_id":1179857,"userName":"叶语华音"},"createdAt":"2019-01-28T06:39:40.000Z","content":"就看了两百章左右，很简单的书，不用动脑子，量大管饱，看过就过，丢了就丢了。\r\n看起来很轻松吧，反正不会有意外也不会有什么惊喜。前面很少放毒，看到觉得讨厌的地方就大段跳过就是了。\r\n当然事实上，我们都知道很多事情都没那么简单，虽说不要脑子，难免还是会去思考，那就难免有点毒。\r\n 还是那番薯、土豆，又是祥瑞，感觉好似低配唐砖，遂弃。","score":3,"inReview":false,"stickie":false,"sortId":22,"bookId":{"status":0,"title":"明朝败家子","author":"上山打老虎额","cover":"https:\u002F\u002Fqidian.qpic.cn\u002Fqdbimg\u002F349573\u002F1011705052\u002F300","countWord":5354299,"updateAt":"2019-12-05T06:30:13.000Z","bookId":145161,"collected":false},"collected":false,"booklistShipId":"5c4ea3ac5dc620bb61fa9255","voting":0,"replyable":true},{"_id":"5c47d58b1b4026a3610e3079","shielded":false,"replyCount":2,"jurisdiction":0,"praiseCount":0,"createrId":{"_id":1179857,"userName":"叶语华音"},"createdAt":"2019-01-23T02:46:34.000Z","content":"啃的艰难，先写点评价吧。\r\n首先文笔就不说了，头大。前期大量灌设定，设定不该影响阅读体验的。穿到孟菲斯，为什么能莫名奇妙写到大清去。还有以设定为主的作品，出现错误就会很尴尬。“算筹控制，可以拨动的任何一个承载数字的物理单位（可以拨动电子。）。”所以电子是单位？想讲貌似很高端的东西，结果初中物理就出事了emmm\r\n可看在对于无限流团体内部斗争能写好的太少，凑合着看下去吧。 作者有很多想法，剧情发展也算有意思，但是想法在精不在多，我觉得作者应该控制下这发散的思维，不能内容不足却一堆想法，很出戏。","score":4,"inReview":false,"stickie":false,"sortId":21,"bookId":{"status":1,"title":"无穷重阻","author":"核动力战列舰","cover":"https:\u002F\u002Fstatic.zongheng.com\u002Fupload\u002Fs_image\u002Fcover\u002F83\u002F54\u002F8354a2fab2ab076a2024d57c3601e19a.jpeg","countWord":3000274,"updateAt":"2018-10-18T02:54:59.000Z","bookId":124600,"collected":false},"collected":false,"booklistShipId":"5c47d58b1b4026a3610e3078","voting":0,"replyable":true},{"_id":"5c467866848b3e7d61455fc6","shielded":false,"replyCount":0,"jurisdiction":0,"praiseCount":5,"createrId":{"_id":1179857,"userName":"叶语华音"},"createdAt":"2019-01-22T01:56:54.000Z","content":"60章左右败退。表层之下，依旧是套路穿越。\r\n优点大概是文笔尚可看，穿越搞娱乐，还有人物也许满足很多人的癖好。\r\n剧情本身并没看见脑洞，相当无趣；普遍角色智商不在线，然后开始尬吹。我是没看出来欢乐在哪儿，太多只是作者一厢情愿，当然也有我对主角态度并不欣赏的偏见在里面。话说想看收女为何不去玩galgame？","score":3,"inReview":false,"stickie":false,"sortId":20,"bookId":{"status":1,"title":"娱乐春秋","author":"姬叉","cover":"http:\u002F\u002Fimg.yc.ireader.com.cn\u002Fbookface\u002F7\u002F40\u002F74089_large.jpg","countWord":1860166,"updateAt":"2018-09-26T09:35:12.000Z","bookId":129164,"collected":false},"collected":false,"booklistShipId":"5c467866848b3e7d61455fc5","voting":0,"replyable":true}],"total":39,"booksLoaded":false},"Booklists":{"booklists":[],"total":0,"fetched":false},"Bookstore":{"books":[],"total":0,"fetched":false,"easyMode":false,"storeOptions":null},"Dialog":{"dialog":null},"Explore":{"comments":[],"lastTime":""},"Home":{"friends":[],"actions":[],"nextTime":""},"Me":{"userName":"","uid":"","photo":"","isAdmin":false,"unRead":false,"status":0,"showLogin":false,"showSignup":false,"isSmall":false,"contentId":null,"isLoaded":false},"Search":{"total":0},"Space":{"uid":null,"spaceUserName":"","routeName":null,"otherPageConfig":{"loading":true,"page":1,"result":{"users":[],"total":0}}},"Topic":{"fetched":false,"header":{"title":"","description":"","keywords":""},"mySubject":null,"answered":false,"shielded":false,"notFound":false,"createrId":{"_id":""},"topicId":null,"topicInfo":null,"subjects":[],"subjectsFetched":false,"total":0},"Topics":{"topics":[],"total":0,"fetched":false}};(function(){var s;(s=document.currentScript||document.scripts[document.scripts.length-1]).parentNode.removeChild(s);}());</script>  <script src="/js/chunk-vendors.8bd3b900.js" defer></script><script src="/js/chunk-08f09854.90558ebb.js" defer></script><script src="/js/chunk-0c4f7370.bfdf292f.js" defer></script><script src="/js/chunk-03d925a9.ac1e598c.js" defer></script><script src="/js/chunk-cd969a60.372c6c9a.js" defer></script><script src="/js/chunk-3c27be2c.5b8c6346.js" defer></script><script src="/js/app.a34c91f1.js" defer></script></body></html>

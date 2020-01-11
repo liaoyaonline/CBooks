@@ -1,0 +1,1600 @@
+<!DOCTYPE html><html lang=zh-Hans><head><meta charset=utf-8><meta name=viewport content="width=device-width,minimum-scale=1,maximum-scale=1,initial-scale=1,user-scalable=no"><meta name=description content=优书网(www.yousuu.com)集小说搜索、追更阅读、读者评分、书单推荐于一体,不但可以追看小说最新更新,还可以解决书荒寻找到更多更好看的小说,在这里你可以阅读、...><!--[if lte IE 8]>
+    <script type="text/javascript">
+     window.alert('浏览器版本过低，请使用现代浏览器访问本站')
+    </script>
+    <![endif]--><script src=//cdn.staticfile.org/babel-polyfill/7.4.4/polyfill.min.js></script><script src=//cdn.staticfile.org/vue/2.6.10/vue.min.js></script><script src=//cdn.staticfile.org/vuex/3.1.0/vuex.min.js></script><script src=//cdn.staticfile.org/moment.js/2.23.0/moment.min.js></script><script src=//cdn.staticfile.org/moment.js/2.24.0/locale/zh-cn.js></script><script src=//cdn.staticfile.org/vue-router/3.0.2/vue-router.min.js></script><script src=//cdn.staticfile.org/axios/0.18.0/axios.min.js></script><script src=//cdn.staticfile.org/element-ui/2.12.0/index.js></script><link href=//cdn.staticfile.org/element-ui/2.12.0/theme-chalk/index.css rel=stylesheet><link rel=stylesheet href=/display.css><link rel=icon href=/favicon.png><title></title><link rel="preload" href="/js/chunk-vendors.2ae1758f.js" as="script"><link rel="preload" href="/css/app.e969f070.css" as="style"><link rel="preload" href="/js/app.f80969f5.js" as="script"><link rel="preload" href="/css/chunk-08f09854.daf5f3f3.css" as="style"><link rel="preload" href="/js/chunk-08f09854.d754755b.js" as="script"><link rel="preload" href="/css/chunk-0c4f7370.f50b17fe.css" as="style"><link rel="preload" href="/js/chunk-0c4f7370.bfdf292f.js" as="script"><link rel="preload" href="/css/chunk-353e28b8.2047a095.css" as="style"><link rel="preload" href="/js/chunk-353e28b8.fb9e970c.js" as="script"><link rel="preload" href="/css/chunk-6cf6d074.9aad5b48.css" as="style"><link rel="preload" href="/js/chunk-6cf6d074.9b389b87.js" as="script"><link rel="prefetch" href="/css/chunk-03d925a9.9c8bdec6.css"><link rel="prefetch" href="/css/chunk-1e0eddf4.4a613a22.css"><link rel="prefetch" href="/css/chunk-20430dab.a7526f9a.css"><link rel="prefetch" href="/css/chunk-28410e6e.aed52d4a.css"><link rel="prefetch" href="/css/chunk-2ad49d59.1ae564c8.css"><link rel="prefetch" href="/css/chunk-2b66ae69.ed4f4e8d.css"><link rel="prefetch" href="/css/chunk-35d79526.4367d685.css"><link rel="prefetch" href="/css/chunk-3d6f543a.f051f8bf.css"><link rel="prefetch" href="/css/chunk-3f724e29.90e6c05a.css"><link rel="prefetch" href="/css/chunk-402e3694.fac22ed6.css"><link rel="prefetch" href="/css/chunk-551a5bcf.1f4ae7bd.css"><link rel="prefetch" href="/css/chunk-588066cd.7e23b635.css"><link rel="prefetch" href="/css/chunk-61a4aa5f.c3d28fca.css"><link rel="prefetch" href="/css/chunk-62fbc14e.90d38039.css"><link rel="prefetch" href="/css/chunk-6514e929.a7c91a7a.css"><link rel="prefetch" href="/css/chunk-8b38b6ee.e290abe4.css"><link rel="prefetch" href="/css/chunk-8c464618.f1106934.css"><link rel="prefetch" href="/css/chunk-a6a34bd2.385efc79.css"><link rel="prefetch" href="/css/chunk-e7f421e6.8edc5d88.css"><link rel="prefetch" href="/css/chunk-ffbf21b0.f676977d.css"><link rel="prefetch" href="/display.css"><link rel="prefetch" href="/js/chunk-03d925a9.98c037d8.js"><link rel="prefetch" href="/js/chunk-1e0eddf4.a07129a2.js"><link rel="prefetch" href="/js/chunk-20430dab.fc0c9b79.js"><link rel="prefetch" href="/js/chunk-28410e6e.94075a82.js"><link rel="prefetch" href="/js/chunk-2ad49d59.ae15f5d9.js"><link rel="prefetch" href="/js/chunk-2b66ae69.85dc371a.js"><link rel="prefetch" href="/js/chunk-2d0b1d9a.2262834d.js"><link rel="prefetch" href="/js/chunk-2d0d0095.0b91d809.js"><link rel="prefetch" href="/js/chunk-2d0d640e.f7603056.js"><link rel="prefetch" href="/js/chunk-2d207b69.d129f9bb.js"><link rel="prefetch" href="/js/chunk-35d79526.3b38f74b.js"><link rel="prefetch" href="/js/chunk-3d6f543a.ee89b0c3.js"><link rel="prefetch" href="/js/chunk-3f724e29.e9872a0b.js"><link rel="prefetch" href="/js/chunk-402e3694.9da5bc59.js"><link rel="prefetch" href="/js/chunk-551a5bcf.0c004cdf.js"><link rel="prefetch" href="/js/chunk-588066cd.fb366fde.js"><link rel="prefetch" href="/js/chunk-61a4aa5f.eec8b5d8.js"><link rel="prefetch" href="/js/chunk-62fbc14e.ce7ad43b.js"><link rel="prefetch" href="/js/chunk-6514e929.61ce8693.js"><link rel="prefetch" href="/js/chunk-6adc696c.464a14bd.js"><link rel="prefetch" href="/js/chunk-8b38b6ee.26e08a15.js"><link rel="prefetch" href="/js/chunk-8c464618.27227a08.js"><link rel="prefetch" href="/js/chunk-a6a34bd2.da5e1f5b.js"><link rel="prefetch" href="/js/chunk-e7f421e6.707dc50c.js"><link rel="prefetch" href="/js/chunk-ffbf21b0.067f9459.js"> <link rel="stylesheet" href="/css/app.e969f070.css"><link rel="stylesheet" href="/css/chunk-08f09854.daf5f3f3.css"><link rel="stylesheet" href="/css/chunk-0c4f7370.f50b17fe.css"><link rel="stylesheet" href="/css/chunk-353e28b8.2047a095.css"><link rel="stylesheet" href="/css/chunk-6cf6d074.9aad5b48.css"><style data-vue-ssr-id="829db9f0:0 df47ec5e:0 30ed692e:0 29c61380:0 279f8473:0 498e0b34:0 93e6dfb8:0 5484549e:0 315fc63c:0 583c1257:0 eec1301c:0 4293c5c6:0 5efcb8c9:0 5b7cd2c9:0 1ddc1ee6:0 03b168d8:0 159125ec:0 1a234d6b:0 45bb7abd:0 9a30e3c6:0 1a78965b:0 0740943b:0 019af9b7:0 b1814b7e:0 3d4d82c3:0 090608d0:0 8a3d8666:0 129f9146:0 0239c318:0 eb595cbe:0 ece3b906:0 755ced8f:0">/* notice */
+.messageLength{
+  min-width: 300px;
+}
+.el-rate {
+  height: 18px;
+  margin-top: -2px;
+}
+/* hack element */
+.el-message-box{
+  /* width:50vw; */
+  max-width: 432px;
+}
+.el-popover--plain{
+  padding:10px;
+}
+.el-dialog{
+  max-width: 95vw;
+}
+.el-dropdown-menu__item {
+  line-height: 2.2em;
+  padding:0 20px;
+}
+.el-collapse-item__content{
+  padding-bottom:15px;
+}
+.el-collapse{
+  border-top:none;
+}
+.el-collapse-item__wrap,.el-collapse{
+  border-bottom: none;
+}
+.el-collapse-item:last-child{
+  margin-bottom:0;
+}
+.el-rate__icon{
+  margin-right:2px;
+}
+.el-dialog__header {
+  padding: 10px 20px 0px;
+  }
+  .el-form--label-top .el-form-item__label{
+    padding:0;
+  }
+  .el-form-item{
+    margin-bottom:5px;
+  }
+.el-dialog__headerbtn {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  padding: 8px;
+  /* background-color: #888; */
+  border-radius: 50%;
+  outline: 0;
+  color:#fff;
+  cursor: pointer;
+  font-size: 16px;
+}
+.el-tag {
+  margin: 5px 10px 5px 0px;
+  }
+/*  弹窗样式覆盖*/
+.el-dropdown-menu li{
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+.DialogFormItem .el-textarea__inner {
+  border-color: transparent !important;
+  padding: 0.7em 0 0 0;
+}
+.DialogFormItem .el-input__inner {
+  border-color: transparent;
+}
+#Dialog-EditBookInfo input{
+  text-align: center;
+}
+#Dialog-EditBookInfo .yousuu-selector.el-select .el-input__inner{
+  padding-left:30px;
+}
+.yousuu-selector-dropdown-align-center {
+  text-align: center;
+}
+.yousuu-selector-dropdown-align-center .popper__arrow,.DatePicker-Customer .popper__arrow {
+  left: 49%!important;
+}
+@media(max-width:768px){
+  .el-collapse-item__header{
+    line-height: 44px;
+    height: 44px;
+  }
+}
+/* 公用 */
+table {
+  text-align: left;
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  color: #999;
+}
+th,
+td {
+  font-size: 14px;
+}
+button:disabled{
+  cursor:not-allowed!important;
+}
+/* 空白网页 */
+.empty-container{
+max-width: 1000px;
+width: 100%;
+margin:0 auto;
+}
+.empty-tip{
+  text-align: center;
+  font-size: 20px;
+  color:#888;
+  padding-bottom:20px;
+}
+.empty-tip.withhead{
+  padding-top:20px;
+}
+.withicon {
+  font-size: 14px;
+  color: #999;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+.withicon + .withicon{
+  margin-left: 30px;
+}
+.withicon svg {
+  margin-right: 6px;
+  width: 17px;
+  /* height: 14px; */
+}
+.withicon.mini{
+  font-size: 14px;
+}
+.withicon.ban{
+  color:#f35e6b;
+  /* margin-left: 25px; */
+}
+.withicon.mini svg {
+  width: 14px;
+  height: 14px;
+}
+.followBtn {
+  /* width: 120px; */min-width:100px;
+  padding:0 15px;
+  height: 34px;
+  background-color: #efefef;
+  color: #aaa;
+  font-size: 14px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.followBtn.onlyText{
+  background:transparent;
+  min-width: 1em;
+  width: auto;
+  height: 24px;
+  padding:0;
+}
+.followBtn.small{
+  padding:0 10px;
+} 
+.unFollow {
+  background-color: #567ceb;
+  color: #fff;
+}
+.unFollow.onlyText{
+  color:#567ceb;
+}
+/* new follow btn style */
+.follow-btn.gear {
+  font-size: 14px;
+  color: #888;
+  padding: 7px 12px;
+  border: 1px solid #aaa;
+  border-radius: 2px;
+}
+.follow-btn.text {
+  font-size: 14px;
+  color: #567ceb;
+}
+.follow-btn.gear.inBookcase {
+  background-color: #f8f8f8;
+  /* color: #bbb; */
+  border-color: transparent;
+}
+.follow-btn {
+  cursor: pointer;
+}
+.follow-btn:hover {
+  color: #567ceb;
+  border-color: #567ceb;
+}
+button.inBookcase.follow-btn,button.inBookcase{
+  color:#888
+}
+/* 分割 */
+.primary {
+  background-color: #567ceb;
+  color: #fff;
+}
+.text {
+  margin-left: 26px;
+  color: #888;
+  font-size: 14px;
+  cursor: pointer;
+}
+.plain {
+  border: 1px solid #ccc;
+  color: #aaa;
+}
+.danger {
+  background: #f74e5c;
+  color: #fff;
+}
+.StoreBooks,.SearchResult,.SpaceBooklist,.BooklistsResult{
+  padding:0px 30px;
+}
+.space-action-item-padding{
+  padding:20px;
+}
+.ActionBooklistVoting {
+  margin-top: 15px;
+}
+@media (max-width: 768px) {
+  *:not(.navbar-wrap,.backtop-btn){
+    -webkit-box-shadow: none!important;
+            box-shadow: none!important;
+  }
+  .withicon + .withicon{
+    margin-left: 5vw;
+  }
+  .el-dialog__body{
+    padding:15px!important;
+  }
+  .space-action-item-padding {
+    padding: 10px !important;
+  }
+  .StoreBooks,.BooklistsResult,.SearchResult,.space-action-item-padding,.SpaceBooklist{
+    padding: 0 15px;
+  }
+    .ActionBooklistVoting {
+      margin-top: 10px;
+    }
+}
+
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 14px;
+  background-color: #f3f4f7;
+  word-wrap: break-word;
+  word-break: break-all;
+  text-decoration: none;
+  font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, PingFang SC,
+    Microsoft YaHei, Source Han Sans SC, Noto Sans CJK SC, WenQuanYi Micro Hei,
+    sans-serif;
+}
+*,
+*:before,
+*:after {
+  -webkit-appearance: inherit;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  outline: none;
+  border: none;
+  line-height: 1.1em;
+  text-decoration: inherit;
+  color: inherit;
+  -webkit-transition: color 0.2s;
+  transition: color 0.2s;
+  background-color: transparent;
+}
+a:hover {
+  color: #567ceb;
+}
+.ellipsis {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+::-webkit-input-placeholder {
+  color: #d8d8d8;
+}
+button,
+input {
+  -webkit-transition: background-color 0.4s;
+  transition: background-color 0.4s;
+}
+body {
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+*::-webkit-scrollbar {
+  background-color: #fff;
+  width: 6px;
+  /* position: absolute; */
+}
+*::-webkit-scrollbar-thumb {
+  width: 100%;
+  height: auto;
+  border-radius: 18px;
+  background-color: #aaa;
+  /* transition: display 0.2s; */
+  /* position: absolute; */
+}
+#app {
+  width: 100vw;
+  position: absolute;
+}
+.capsule {
+  /* width: 120px; */
+  height: 40px;
+  border-radius: 20px;
+  font-size: 14px;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+
+.navbar-wrap[data-v-68dc387f] {
+  width: 100vw;
+  background: #fff;
+  -webkit-box-shadow: 0 0 1px 0px rgba(0, 0, 0, 0.15);
+          box-shadow: 0 0 1px 0px rgba(0, 0, 0, 0.15);
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  z-index: 100;
+  font-size: 14px;
+  color: #888;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: -webkit-sticky;
+  position: sticky;
+  /* position: fixed; */
+  top: 0;
+}
+.topic.archiver .navbar-wrap[data-v-68dc387f],
+.booklist.archiver .navbar-wrap[data-v-68dc387f] {
+  display: none;
+}
+.navbar-inner[data-v-68dc387f] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.navbar-main-xs-only[data-v-68dc387f] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+@media (max-width: 999px) {
+.navbar-inner[data-v-68dc387f] {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+}
+}
+@media (min-width: 1000px) {
+.navbar-inner[data-v-68dc387f] {
+    width: 1000px;
+}
+}
+.user-info[data-v-68dc387f] {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+a[data-v-68dc387f],
+img[data-v-68dc387f],
+span[data-v-68dc387f] {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.navbar-main[data-v-68dc387f] {
+  /* margin: 0 auto; */
+  margin-left: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 555px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.navbar-main-wrap[data-v-68dc387f] {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  /* justify-content: center; */
+}
+.navbar-main .router-link-active[data-v-68dc387f]:not(.search-block) {
+  font-weight: bold;
+  color: #343434;
+}
+.navbar-side[data-v-68dc387f] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 120px;
+  margin-left: 30px;
+}
+.news-route[data-v-68dc387f] {
+  position: relative;
+}
+.news-route em[data-v-68dc387f] {
+  display: block;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 8px;
+  height: 8px;
+  background: #f35e6b;
+  border-radius: 50%;
+}
+.logo svg[data-v-68dc387f] {
+  width: 106px;
+  min-width: 106px;
+  height: 30px;
+}
+@media (max-width: 768px) {
+.navbar-wrap[data-v-68dc387f] {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+}
+.logo svg[data-v-68dc387f] {
+    width: 106px;
+    min-width: 106px;
+    height: 30px;
+}
+}
+@media (max-width: 992px) {
+.navbar-side[data-v-68dc387f] {
+    width: 150px;
+    margin-left: 0px;
+}
+}
+@media (max-width: 320px) {
+.navbar-side[data-v-68dc387f] {
+    width: 130px;
+    margin-left: 0px;
+}
+}
+
+
+.svg-icon[data-v-80a6e342] {
+  width: 1em;
+  height: 1em;
+  fill: #343434;
+  overflow: hidden;
+}
+/* .logo {
+  width: 89px;
+  height: 38px;
+}
+/* .logoBeta { */
+/* width: 89px; */
+/* height: 38px; */
+/* } */
+/* @media (max-width: 768px) {
+  .logo {
+    width: 120px;
+    height: 30px;
+  }
+  .logoBeta {
+    height: 30px;
+  }
+} */
+.search[data-v-80a6e342] {
+  width: 14px;
+  height: 14px;
+}
+.bookcase[data-v-80a6e342],
+.news[data-v-80a6e342] {
+  width: 18px;
+  height: 18px;
+}
+.bookcase.mini[data-v-80a6e342] {
+  width: 14px;
+  height: 14px;
+}
+/* .share,
+.comment,
+.fav,
+.fav_block {
+  width: 16px;
+  height: 16px;
+} */
+.createbooklist[data-v-80a6e342],
+.postBook[data-v-80a6e342],
+.postcomment[data-v-80a6e342] {
+  fill: #343434;
+  width: 20px;
+  height: 20px;
+}
+/* .router-link-active * {
+  fill: #567ceb;
+} */
+.router-link-active .logo[data-v-80a6e342] {
+  fill: #343434;
+}
+
+
+.backtop-btn[data-v-5587096e] {
+  position: fixed;
+  bottom: 30px;
+  right: 12px;
+  cursor: pointer;
+  z-index: 99;
+  font-size: 24px;
+  -webkit-box-shadow: 0px 4px 12px 0px rgba(86, 124, 235, 0.26);
+          box-shadow: 0px 4px 12px 0px rgba(86, 124, 235, 0.26);
+  width: 50px;
+  height: 50px;
+  border-radius: 4px;
+  color: #5a7be6;
+  background-color: #fff;
+  font-weight: bold;
+}
+
+
+@media (max-width: 768px) {
+.book-page .main-left-header {
+    margin: 10px 0;
+}
+}
+
+
+.bookpage-layout-header[data-v-a616861a] {
+  background-color: #ffffff;
+  margin: 0 auto;
+  padding-top: 30px;
+  width: 100%;
+  position: relative;
+  padding-bottom: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  /* box-shadow: 0 0 4px 0 rgba(204, 204, 204, 0.5); */
+}
+.bookpage-layout-header-wrap[data-v-a616861a] {
+  max-width: 1000px;
+  width: 100%;
+  -ms-flex-item-align: center;
+      align-self: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.bookpage-layout-header-main[data-v-a616861a] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+.bookpage-layout-header-side[data-v-a616861a] {
+  width: 280px;
+}
+@media (max-width: 992px) {
+.bookpage-layout-header-wrap[data-v-a616861a] {
+    width: 100%;
+    display: block;
+}
+.bookpage-layout-header-main[data-v-a616861a] {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+}
+.bookpage-layout-header[data-v-a616861a] {
+    padding: 0px;
+}
+.bookpage-layout-header-side[data-v-a616861a] {
+    width: 100%;
+    padding: 0 15px;
+}
+}
+
+
+.bookinfo-button {
+  /* width: 100px; */
+  padding: 0 15px;
+  height: 34px;
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  color: #888;
+  font-size: 14px;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+.bookinfo-button {
+    height: 30px;
+    border-radius: 3px;
+    padding: 0 5px;
+    font-size: 12px;
+}
+}
+
+
+.feed-back[data-v-438d1754] {
+  width: 80px;
+  height: 30px;
+}
+.book-info-wrap[data-v-438d1754] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.book-author[data-v-438d1754] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.book-author[data-v-438d1754]:hover {
+  color: #567ceb;
+}
+.book-name[data-v-438d1754] {
+  max-width: 530px;
+}
+.book-info-detail[data-v-438d1754] {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.book-info-btns-wrap button[data-v-438d1754],
+.book-info-btns-wrap div[data-v-438d1754] {
+  margin-right: 10px;
+}
+.el-button + .el-button[data-v-438d1754] {
+  margin-left: 0;
+}
+.book-info[data-v-438d1754] {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.book-info-detail .book-name[data-v-438d1754] {
+  font-size: 32px;
+  color: #000000;
+  padding-top: 10px;
+}
+.book-info-detail p[data-v-438d1754],
+.book-author[data-v-438d1754] {
+  margin-top: 18px;
+  color: #999;
+  font-size: 16px;
+}
+.book-status[data-v-438d1754] {
+  margin-bottom: 0;
+}
+.book-status .status[data-v-438d1754] {
+  color: #de9763;
+}
+.book-info-btns-wrap[data-v-438d1754] {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.book-info-footer[data-v-438d1754] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 10px;
+}
+.feedback-btn[data-v-438d1754] {
+  margin-bottom: 10px;
+  /* align-self: center; */
+}
+@media (max-width: 992px) {
+.book-info[data-v-438d1754] {
+    padding: 0 0px 10px 15px;
+}
+.book-info-detail .book-name[data-v-438d1754] {
+    font-size: 20px;
+    padding-top: 0px;
+    line-height: 1.2em;
+    max-width: 55vw;
+}
+.book-info-detail p[data-v-438d1754],
+  .book-author[data-v-438d1754] {
+    margin-top: 9px;
+    font-size: 14px;
+}
+.feedback-btn[data-v-438d1754] {
+    margin-bottom: 5px;
+}
+}
+
+
+.loadingBlock[data-v-7b843d00] {
+  display: block;
+  background-color: #f3f4f7;
+  border-radius: 4px;
+}
+
+
+.tags[data-v-708b1883] {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.button-new-tag[data-v-708b1883] {
+  height: 24px;
+  line-height: 24px;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-bottom: 10px;
+}
+.input-new-tag[data-v-708b1883] {
+  width: 90px;
+  height: 24px;
+  line-height: 22px;
+  margin-right: 10px;
+  vertical-align: bottom;
+}
+.el-tag[data-v-708b1883],
+.input-new-tag[data-v-708b1883],
+.button-new-tag[data-v-708b1883] {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+
+.tags .input-new-tag input {
+  line-height: 22px !important;
+  height: 24px !important;
+}
+
+
+.bookpage-layout-main[data-v-14c62c06] {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1000px;
+  padding-bottom: 0px;
+}
+.bookpage-layout-main-right[data-v-14c62c06],
+.bookpage-layout-main-left[data-v-14c62c06] {
+  width: 100%;
+}
+@media (min-width: 1015px) {
+.bookpage-layout-main[data-v-14c62c06] {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.bookpage-layout-main-right[data-v-14c62c06] {
+    width: 280px;
+    margin-left: 10px;
+    /* display: flex;
+    flex-direction: column; */
+}
+.bookpage-layout-main-left[data-v-14c62c06] {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+}
+}
+
+
+.sticky[data-v-611f19ec] {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 66px;
+}
+
+
+p[data-v-6581533a] {
+  cursor: pointer;
+}
+.addListCount[data-v-6581533a] {
+  color: #567ceb;
+
+  padding: 0 5px;
+}
+
+
+.side[data-v-562ec182] {
+  font-size: 14px;
+  color: #333;
+  width: 100%;
+}
+h1[data-v-562ec182] {
+  padding-bottom: 10px;
+  font-size: 24px;
+  color: #333;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-weight: bold;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+
+.side a {
+  padding: 10px 0;
+  cursor: pointer;
+  display: block;
+  -webkit-transition: color 0.2s;
+  transition: color 0.2s;
+}
+.side h1 * {
+  padding: 0;
+}
+.side .body a:last-child {
+  padding-bottom: 0;
+}
+.RecBooks .body a {
+  text-indent: -0.5em;
+}
+
+
+.common-card-layout {
+  width: 100%;
+  background-color: #fff;
+  margin-bottom: 10px;
+  /* border-radius: 4px;
+  box-shadow: 0px 0px 4px 0px rgba(204, 204, 204, 0.5); */
+}
+@media (max-width: 768px) {
+.common-card-layout {
+    margin-bottom: 10px;
+}
+}
+
+
+.CommentBtn[data-v-348a438e] {
+  width: 150px;
+  /* height: 100%;
+  line-height: 100%; */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #888;
+  cursor: pointer;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+@media (max-width: 768px) {
+.CommentsAreaAd[data-v-348a438e] {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.CommentBtn[data-v-348a438e] {
+    width: 30vw;
+    /* margin-left: 15vw; */
+    font-size: 14px;
+}
+}
+
+
+.main-left-header[data-v-41abf9f6] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 56px;
+  padding-left: 10px;
+}
+.bookpage-main-left-layout[data-v-41abf9f6] {
+  position: relative;
+}
+@media (max-width: 768px) {
+.main-left-header[data-v-41abf9f6] {
+    height: 44px;
+    padding-left: 0;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .post-comment {
+  padding: 0 20px 20px 20px;
+  margin-bottom: 10px;
+} */
+.post-comment-score[data-v-4d260282] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 1em;
+  color: #999;
+  font-size: 16px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 15px;
+}
+/* .post-comment-score .title {
+  margin-right: 10px;
+}
+.post-comment-textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  color: #999;
+  padding-top: 5px;
+}
+.post-comment-tools {
+  width: 100%;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  color: #999;
+}
+.full-screen-edit {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+.post-comment-setting {
+  display: flex;
+  margin-right: 18px;
+}
+.post-comment-btn {
+  width: 100px;
+  height: 34px;
+  background-color: #567ceb;
+  color: #fff;
+  border-radius: 4px;
+}
+.post-comment-btn:disabled {
+  cursor: not-allowed;
+  background: #ddd;
+} */
+@media (max-width: 768px) {
+  /* .title {
+    font-size: 14px;
+    color: #888;
+  } */
+  /* .post-comment-score {
+    height: 44px;
+  } */
+  /* .post-comment {
+    padding: 0 15px 15px 15px;
+  }
+  .post-comment-btn {
+    width: 76px;
+    height: 28px;
+    border-radius: 3px;
+    font-size: 14px;
+  } */
+.post-comment-score[data-v-4d260282] {
+    /* display: flex;
+  line-height: 1em;
+  color: #999;
+  font-size: 16px; */
+    /* align-items: center; */
+    padding-bottom: 10px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .post-comment-textarea textarea {
+  border: none;
+  padding: 0;
+  min-height: 100px !important;
+} */
+
+
+.post-comment[data-v-1a17e40e] {
+  padding: 30px;
+  margin-bottom: 10px;
+}
+/* .post-comment-score {
+  display: flex;
+  height: 56px;
+  color: #999;
+  font-size: 16px;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+} */
+.post-comment-score .title[data-v-1a17e40e] {
+  margin-right: 10px;
+}
+.post-comment-textarea[data-v-1a17e40e] {
+  width: 100%;
+  margin-bottom: 10px;
+  color: #999;
+  padding-top: 0px;
+}
+.post-comment-tools[data-v-1a17e40e] {
+  width: 100%;
+  height: 34px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #999;
+}
+.full-screen-edit[data-v-1a17e40e] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+.post-comment-setting[data-v-1a17e40e] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 18px;
+}
+.post-comment-btn[data-v-1a17e40e] {
+  padding: 0 20px;
+  height: 34px;
+  background-color: #567ceb;
+  color: #fff;
+  border-radius: 4px;
+}
+.plain[data-v-1a17e40e] {
+  background-color: transparent;
+  color: #333;
+}
+button + button[data-v-1a17e40e] {
+  margin-left: 10px;
+}
+.post-comment-btn[data-v-1a17e40e]:disabled {
+  cursor: not-allowed;
+  background: #ddd;
+}
+@media (max-width: 768px) {
+.title[data-v-1a17e40e] {
+    font-size: 14px;
+    color: #888;
+}
+  /* .post-comment-textarea {
+    padding-top: 15px;
+  } */
+.post-comment[data-v-1a17e40e] {
+    padding: 15px;
+}
+.post-comment-btn[data-v-1a17e40e] {
+    /* width: 76px; */
+    height: 28px;
+    border-radius: 3px;
+    font-size: 14px;
+}
+}
+
+
+.post-comment-textarea textarea {
+  border: 1px solid #ddd;
+  padding: 10px;
+  min-height: 140px !important;
+}
+
+
+.el-dropdown-link[data-v-7e560391] {
+  cursor: pointer;
+}
+.dropdown-menu-checked[data-v-7e560391] {
+  background-color: #ecf5ff;
+  color: #66b1ff;
+}
+
+
+.result-view.as-result-view[data-v-a26c59f8] {
+  min-height: 529px;
+}
+.pagination[data-v-a26c59f8] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 10px 0;
+}
+
+
+.comment-card[data-v-ae9d561a] {
+  width: 100%;
+  background-color: #fff;
+  /* border-radius: 4px; */
+  /* box-shadow: 0px 0px 4px 0px rgba(204, 204, 204, 0.5); */
+  margin-bottom: 10px;
+  padding: 30px;
+}
+.SubjectItem.comment-card[data-v-ae9d561a] {
+  margin-bottom: 0;
+  border-bottom: 1px solid #f6f6f6;
+}
+.ReplyItem.comment-card[data-v-ae9d561a] {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border-top: 1px solid #f3f3f3;
+  padding: 20px 0;
+  margin-bottom: 0px;
+}
+.author-info[data-v-ae9d561a] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.author-info.BookComment[data-v-ae9d561a],
+.author-info.SubjectItem[data-v-ae9d561a] {
+  margin-bottom: 12px;
+}
+.author-info.ReplyItem[data-v-ae9d561a] {
+  margin-bottom: 0px;
+}
+.author-info-right[data-v-ae9d561a] {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+.SpaceCommentItem[data-v-ae9d561a] {
+  padding: 0 20px 20px;
+}
+@media (max-width: 768px) {
+.comment-card[data-v-ae9d561a] {
+    margin-bottom: 10px;
+}
+.SpaceCommentItem[data-v-ae9d561a] {
+    padding: 0 15px 10px;
+}
+.SpaceFavCommentItem[data-v-ae9d561a] {
+    padding: 10px;
+}
+.ReplyItem.comment-card[data-v-ae9d561a] {
+    padding: 10px 0;
+}
+.comment-card.BookCommentItem[data-v-ae9d561a],
+  .comment-card.SubjectItem[data-v-ae9d561a] {
+    padding: 15px;
+}
+.author-info.BookComment[data-v-ae9d561a],
+  .author-info.SubjectItem[data-v-ae9d561a] {
+    margin-bottom: 10px;
+}
+}
+
+
+.comment-author-container[data-v-23fbe57c] {
+  display: inline-block;
+  position: relative;
+}
+.comment-author[data-v-23fbe57c] {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.author-name[data-v-23fbe57c] {
+  font-size: 14px;
+  color: #616161;
+  font-weight: bold;
+}
+@media (max-width: 768px) {
+.author-name[data-v-23fbe57c] {
+    font-size: 14px;
+}
+}
+.author-action[data-v-23fbe57c] {
+  font-size: 12px;
+  color: #999;
+  margin-top: 5px;
+}
+.comment-author-info[data-v-23fbe57c] {
+  margin-left: 10px;
+}
+.fade-enter-active[data-v-23fbe57c],
+.fade-leave-active[data-v-23fbe57c] {
+  -webkit-transition: opacity 0.2s;
+  transition: opacity 0.2s;
+}
+.fade-enter[data-v-23fbe57c],
+.fade-leave-to[data-v-23fbe57c] {
+  opacity: 0;
+}
+
+
+.userinfo-avatar[data-v-a14252a0] {
+  display: inline-block;
+  /* width: 32px;
+  height: 32px; */
+  border-radius: 50%;
+  background-color: #ddd;
+  background-position: center center;
+  background-size: cover;
+  cursor: pointer;
+  /* transition: transform 0.2s; */
+}
+/* .userinfo-avatar:hover {
+  transform: scale(1.1);
+} */
+
+
+.createdAt-source[data-v-a0ec6b4e] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  /* margin: 15px 0 20px; */
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.createdAt[data-v-a0ec6b4e] {
+  color: #999;
+  font-size: 14px;
+  display: inline-block;
+  padding: 15px 0 20px;
+}
+.createdAt[data-v-a0ec6b4e]:hover {
+  color: #567ceb;
+}
+@media (max-width: 768px) {
+.createdAt[data-v-a0ec6b4e] {
+    padding: 10px 0 8px;
+}
+}
+
+
+.ToggleBtn[data-v-57d4d532] {
+  color: #567ceb;
+  font-size: 15px;
+  cursor: pointer;
+  margin-top: 5px;
+}
+.comment-content-inner[data-v-57d4d532] {
+  font-size: 15px;
+  line-height: 2em;
+  color: #333;
+  word-wrap: break-word;
+  word-break: break-word;
+  white-space: pre-wrap;
+  overflow: hidden;
+}
+.ReplyContentInner .comment-content-inner[data-v-57d4d532] {
+  font-size: 14px;
+  line-height: 1.6em;
+}
+.ReplyContentInner .ToggleBtn[data-v-57d4d532] {
+  font-size: 14px;
+}
+
+
+.comment-content-inner a {
+  color: #567ceb;
+}
+</style></head><body><div id="app" data-server-rendered="true" class="book"><header class="navbar-wrap" data-v-68dc387f><nav class="navbar-inner" data-v-68dc387f><a href="/" class="logo" data-v-68dc387f><!----></a><div class="navbar-main-wrap hidden-sm-and-down" data-v-68dc387f><div class="navbar-main" data-v-68dc387f><a href="/bookstore/" data-v-68dc387f>书库</a><a href="/booklists/" data-v-68dc387f>书单</a><a href="/topics/" data-v-68dc387f>话题</a><a href="/explore" data-v-68dc387f>发现</a><!----></div></div><div class="navbar-main-xs-only hidden-md-and-up" data-v-68dc387f></div><div class="navbar-side" data-v-68dc387f><!----><a href="/search/" class="hidden-md-and-up" data-v-68dc387f><!----></a><span data-v-68dc387f>登录</span><span data-v-68dc387f>注册</span></div></nav><!----></header><div class="app-main"><button class="backtop-btn el-icon-top" style="display:none;" data-v-5587096e></button><div><header class="bookpage-layout-header" data-v-a616861a><div class="bookpage-layout-header-wrap" data-v-a616861a><div class="bookpage-layout-header-main" data-v-a616861a><div class="book-info" data-v-438d1754><div class="book-info-wrap" data-v-438d1754><a href="/book/" cover="http://wx4.sinaimg.cn/mw690/005zciTTgy1fl2hu38wibj30go0ncju5.jpg" width="150" height="200" bookId="" class="hidden-sm-and-down router-link-active" style="margin-right:20px;" data-v-7b843d00 data-v-438d1754><span alt="" class="loadingBlock" style="width:150px;height:200px;" data-v-7b843d00></span></a><a href="/book/" cover="http://wx4.sinaimg.cn/mw690/005zciTTgy1fl2hu38wibj30go0ncju5.jpg" width="82.5" height="110" bookId="" class="hidden-md-and-up router-link-active" style="margin-right:10px;" data-v-7b843d00 data-v-438d1754><span alt="" class="loadingBlock" style="width:82.5px;height:110px;" data-v-7b843d00></span></a><div class="book-info-detail" data-v-438d1754><h1 class="book-name" data-v-438d1754>无限塔防</h1><p class="book-author hidden-md-and-up" data-v-438d1754><a href="/search/?SearchType=author&amp;SearchValue=%E8%BD%BB%E4%BA%91%E6%B7%A1" style="margin-right:5px;" data-v-438d1754>轻云淡</a>
+        28.1万 连载
+        <!----></p><p class="hidden-sm-and-down" data-v-438d1754><a href="/search/?SearchType=author&amp;SearchValue=%E8%BD%BB%E4%BA%91%E6%B7%A1" target="_blank" data-v-438d1754>
+          作者:
+          轻云淡
+          <!----></a></p><p class="book-word-count hidden-sm-and-down" data-v-438d1754>本书字数：28.1万字</p><p class="book-status" data-v-438d1754>
+        更新时间：1 年前
+        <span class="status hidden-sm-and-down" data-v-438d1754>·连载</span></p><!----></div></div><div class="book-info-footer" data-v-438d1754><div class="tags" data-v-708b1883 data-v-438d1754><div class="public" data-v-708b1883><span class="el-tag el-tag--primary el-tag--small el-tag--light"><a href="/bookstore/?classId=23" target="_blank">幻想言情</a></span><span class="el-tag el-tag--success el-tag--small el-tag--light"><a href="/bookstore/?tag=%E6%97%A0%E9%99%90%E6%B5%81&amp;classId=23" target="_blank">无限流</a></span><span class="el-tag el-tag--success el-tag--small el-tag--light"><a href="/bookstore/?tag=%E6%B8%B8%E6%88%8F%E7%BD%91%E6%B8%B8&amp;classId=23" target="_blank">游戏网游</a></span><span class="el-tag el-tag--success el-tag--small el-tag--light"><a href="/bookstore/?tag=%E7%9B%B8%E7%88%B1%E7%9B%B8%E6%9D%80&amp;classId=23" target="_blank">相爱相杀</a></span><span class="el-tag el-tag--success el-tag--small el-tag--light"><a href="/bookstore/?tag=%E7%88%BD%E6%96%87&amp;classId=23" target="_blank">爽文</a></span><span class="el-tag el-tag--success el-tag--small el-tag--light"><a href="/bookstore/?tag=%E5%8E%9F%E5%88%9B-%E8%A8%80%E6%83%85-%E8%BF%91%E4%BB%A3%E7%8E%B0%E4%BB%A3-%E7%A7%91%E5%B9%BB&amp;classId=23" target="_blank">原创-言情-近代现代-科幻</a></span></div><!----><button type="button" class="el-button button-new-tag el-button--default el-button--mini" data-v-708b1883><!----><!----><span>新建标签</span></button></div></div></div></div><div class="bookpage-layout-header-side" data-v-a616861a></div></div></header><section class="bookpage-layout-main book-page" data-v-14c62c06><div class="bookpage-layout-main-right" data-v-14c62c06><div class="hidden-sm-and-down sticky" data-v-611f19ec><div data-v-611f19ec><div class="common-card-layout side" style="padding:30px;" data-v-562ec182 data-v-6581533a data-v-611f19ec><h1 data-v-562ec182><p data-v-6581533a>
+      收录书单
+      <span class="addListCount" data-v-6581533a>64</span>次
+    </p></h1><div class="body" data-v-562ec182><a href="/booklist/59c499a25828cdf15c042ab6" target="_blank" class="ellipsis" data-v-6581533a>女主苏爽文推荐！苏苏苏，美美美，爽爽爽</a><a href="/booklist/59fac2575828cdf15c05c527" target="_blank" class="ellipsis" data-v-6581533a>上接五千年悠悠时光，下览亿万重平行宇宙</a><a href="/booklist/5a1c00ad833f95967e257901" target="_blank" class="ellipsis" data-v-6581533a>女主无限流  生存类</a><a href="/booklist/59928cdedfaee2bb3afb56a3" target="_blank" class="ellipsis" data-v-6581533a>各种太监或未完结的撩得我心痒痒的好坑（划掉，其实是个人阅读记录）</a><a href="/booklist/592edf62251955441ea2f8b1" target="_blank" class="ellipsis" data-v-6581533a>【超长评】只推长篇粮草_宅文/重生/无限流</a><a href="/booklist/5a9762782b98e80c6009e0de" target="_blank" class="ellipsis" data-v-6581533a>2018-2019追文指南</a><a href="/booklist/5bc6e54a4b33263955e5788e" target="_blank" class="ellipsis" data-v-6581533a>个人品味的爽文（主线感情向、事业向皆有）</a><a href="/booklist/5bb0f95cc31864cc334e4f47" target="_blank" class="ellipsis" data-v-6581533a>记录自己看完的网络小说</a><a href="/booklist/5909560533167d2a1e4c0aa0" target="_blank" class="ellipsis" data-v-6581533a>末世类</a><a href="/booklist/5b92b6505d60676f14b21d6f" target="_blank" class="ellipsis" data-v-6581533a>女主向升级流爽文（修仙、末世、网游、无限流、灵异、星际等）</a></div></div></div></div></div><div class="bookpage-layout-main-left" data-v-14c62c06><!----><div class="bookpage-main-left-layout" data-v-41abf9f6 data-v-348a438e><div class="common-card-layout main-left-header" data-v-41abf9f6></div><div data-v-41abf9f6><div bookId="" myScore="0" class="common-card-layout post-comment" style="display:none;" data-v-1a17e40e data-v-4d260282 data-v-348a438e><div class="post-comment-score" data-v-4d260282><span class="title" data-v-4d260282>本书评分:</span><div role="slider" aria-valuenow="0" aria-valuetext="" aria-valuemin="0" aria-valuemax="5" tabindex="0" class="el-rate" data-v-4d260282><span class="el-rate__item" style="cursor:pointer;"><i class="el-rate__icon el-icon-star-off" style="color:#C6D1DE;"><!----></i></span><span class="el-rate__item" style="cursor:pointer;"><i class="el-rate__icon el-icon-star-off" style="color:#C6D1DE;"><!----></i></span><span class="el-rate__item" style="cursor:pointer;"><i class="el-rate__icon el-icon-star-off" style="color:#C6D1DE;"><!----></i></span><span class="el-rate__item" style="cursor:pointer;"><i class="el-rate__icon el-icon-star-off" style="color:#C6D1DE;"><!----></i></span><span class="el-rate__item" style="cursor:pointer;"><i class="el-rate__icon el-icon-star-off" style="color:#C6D1DE;"><!----></i></span><!----></div></div><div class="post-comment-textarea el-textarea" data-v-1a17e40e><textarea autocomplete="off" placeholder="写评论，发表评论要记得先对本书进行打分噢(内容不得少于2个字)" class="el-textarea__inner"></textarea><!----></div><div class="post-comment-tools" data-v-1a17e40e><div class="full-screen-edit" data-v-1a17e40e></div><div class="post-comment-setting" data-v-1a17e40e><div class="el-dropdown" data-v-7e560391 data-v-1a17e40e><button class="withicon" data-v-7e560391><!---->设置
+  </button><ul class="el-dropdown-menu el-popper" style="display:none;" data-v-7e560391><li tabindex="-1" class="el-dropdown-menu__item dropdown-menu-checked" data-v-7e560391><!---->
+      所有人可以评论
+      <span data-v-7e560391>√</span></li><li tabindex="-1" class="el-dropdown-menu__item" data-v-7e560391><!---->
+      关注的人可以评论
+      <!----></li><li tabindex="-1" class="el-dropdown-menu__item" data-v-7e560391><!---->
+      禁止评论
+      <!----></li></ul></div></div><!----><button disabled="disabled" class="post-comment-btn" data-v-1a17e40e>发送评论</button></div></div><div class="result-view" data-v-a26c59f8 data-v-348a438e><div class="result" data-v-a26c59f8><div replyable="true" templateType="comment" index="5a1c02b715173cd97ea4ddf7" comment="[object Object]" bookId="" cssType="BookComment" class="comment-card BookCommentItem" data-v-ae9d561a data-v-9d2f8b00 data-v-2dfb9b9e data-v-348a438e><div class="author-info BookComment" data-v-ae9d561a><div size="36" class="comment-author-container" data-v-23fbe57c><a href="/user/1028447/comments" target="_blank" class="comment-author" data-v-23fbe57c><img src="//img.lkong.cn/avatar/001/02/84/47_avatar_small.jpg" loading="lazy" class="userinfo-avatar" style="width:36px;height:36px;" data-v-a14252a0 data-v-23fbe57c><div class="comment-author-info" data-v-23fbe57c><p class="author-name" data-v-23fbe57c>兔牙</p><!----></div></a><!----></div><div class="author-info-right" data-v-ae9d561a></div></div><div class="comment-card-content" data-v-ae9d561a><div commentId="5a1c02b715173cd97ea4ddf7" replyable="true" cssType="BookComment" templateType="comment" index="5a1c02b715173cd97ea4ddf7" comment="[object Object]" bookId="" data-v-a0ec6b4e data-v-9d2f8b00><div class="comment-content" data-v-57d4d532 data-v-a0ec6b4e><div class="comment-content-inner default" data-v-57d4d532><span data-v-57d4d532>类似保卫萝卜的设定？  情节紧凑  男女主对手戏十分有张力</span><!----></div></div><div class="createdAt-source" data-v-a0ec6b4e><a href="/book//comment/5a1c02b715173cd97ea4ddf7" class="createdAt" data-v-a0ec6b4e>发表于2017-11-27 20:19</a></div><!----><!----></div></div><div class="comment-received-hot" data-v-ae9d561a></div></div><div replyable="true" templateType="comment" index="5a70032c714010757006ecf6" comment="[object Object]" bookId="" cssType="BookComment" class="comment-card BookCommentItem" data-v-ae9d561a data-v-9d2f8b00 data-v-2dfb9b9e data-v-348a438e><div class="author-info BookComment" data-v-ae9d561a><div size="36" class="comment-author-container" data-v-23fbe57c><a href="/user/830077/comments" target="_blank" class="comment-author" data-v-23fbe57c><img src="//img.lkong.cn/avatar/000/83/00/77_avatar_small.jpg" loading="lazy" class="userinfo-avatar" style="width:36px;height:36px;" data-v-a14252a0 data-v-23fbe57c><div class="comment-author-info" data-v-23fbe57c><p class="author-name" data-v-23fbe57c>多多包子</p><!----></div></a><!----></div><div class="author-info-right" data-v-ae9d561a></div></div><div class="comment-card-content" data-v-ae9d561a><div commentId="5a70032c714010757006ecf6" replyable="true" cssType="BookComment" templateType="comment" index="5a70032c714010757006ecf6" comment="[object Object]" bookId="" data-v-a0ec6b4e data-v-9d2f8b00><div class="comment-content" data-v-57d4d532 data-v-a0ec6b4e><div class="comment-content-inner default" data-v-57d4d532><span data-v-57d4d532>很短的一本小说，全本不过30万字左右，作者很好的把控住了局面，本就简单的故事讲的同样有趣，因为文字不多，也就不用去可以探讨人物刻画。
+很符合爽文的一贯口味，快意恩仇，无所畏惧，更加上快节奏，让人想着一口气读完，也确实一口气读完，读完之后不会有太多的失落感，因为早就知道，几个小副本之后这本小说就会结束。
+女主的性格很实在，融入这个系统设定很快，和男主的相爱相杀其实看上去有点尬。不过重点这种简单的塔防即视感还是很有趣的。
+整体评分：7分+</span><!----></div></div><div class="createdAt-source" data-v-a0ec6b4e><a href="/book//comment/5a70032c714010757006ecf6" class="createdAt" data-v-a0ec6b4e>发表于2018-01-30 13:31</a></div><!----><!----></div></div><div class="comment-received-hot" data-v-ae9d561a></div></div><div replyable="true" templateType="comment" index="5a4f9194a9ca5e270fef2f2c" comment="[object Object]" bookId="" cssType="BookComment" class="comment-card BookCommentItem" data-v-ae9d561a data-v-9d2f8b00 data-v-2dfb9b9e data-v-348a438e><div class="author-info BookComment" data-v-ae9d561a><div size="36" class="comment-author-container" data-v-23fbe57c><a href="/user/1052037/comments" target="_blank" class="comment-author" data-v-23fbe57c><img src="//img.lkong.cn/avatar/001/05/20/37_avatar_small.jpg" loading="lazy" class="userinfo-avatar" style="width:36px;height:36px;" data-v-a14252a0 data-v-23fbe57c><div class="comment-author-info" data-v-23fbe57c><p class="author-name" data-v-23fbe57c>一只纯纯的馒头</p><!----></div></a><!----></div><div class="author-info-right" data-v-ae9d561a></div></div><div class="comment-card-content" data-v-ae9d561a><div commentId="5a4f9194a9ca5e270fef2f2c" replyable="true" cssType="BookComment" templateType="comment" index="5a4f9194a9ca5e270fef2f2c" comment="[object Object]" bookId="" data-v-a0ec6b4e data-v-9d2f8b00><div class="comment-content" data-v-57d4d532 data-v-a0ec6b4e><div class="comment-content-inner default" data-v-57d4d532><span data-v-57d4d532>作者大大文风一直很一致……爽文路线但不苏，自身天赋强大，也很努力，看这本的时候我想起青柳大大的<a href="/name/末世涅凰" target="_blank">《末世涅凰》</a>，篇幅格局没有末世大，但是文笔也是很不错的……<a href="/name/末世涅凰" target="_blank">《末世涅凰》</a>这篇是被选中的神选者在各类电影剧情里完成任务！<a href="/name/无限" target="_blank">《无限》</a>这篇是死后被选中，完成任务互相竞争复活的机会！男女主互坑，都很强，最后达成强者之间的惺惺相惜……哈哈 
+同类型的还推荐一本起点文<a href="/name/快穿攻略：病娇男主黑化中" target="_blank">《快穿攻略：病娇男主黑化中》</a>这本更带感，男主后期才出现，一只黑化病娇，戳中我的萌点……</span><!----></div></div><div class="createdAt-source" data-v-a0ec6b4e><a href="/book//comment/5a4f9194a9ca5e270fef2f2c" class="createdAt" data-v-a0ec6b4e>发表于2018-01-05 22:54</a></div><!----><!----></div></div><div class="comment-received-hot" data-v-ae9d561a></div></div><div replyable="true" templateType="comment" index="5a5a10efa9ca5e270fef80e6" comment="[object Object]" bookId="" cssType="BookComment" class="comment-card BookCommentItem" data-v-ae9d561a data-v-9d2f8b00 data-v-2dfb9b9e data-v-348a438e><div class="author-info BookComment" data-v-ae9d561a><div size="36" class="comment-author-container" data-v-23fbe57c><a href="/user/925187/comments" target="_blank" class="comment-author" data-v-23fbe57c><img src="//img.lkong.cn/avatar/000/92/51/87_avatar_small.jpg" loading="lazy" class="userinfo-avatar" style="width:36px;height:36px;" data-v-a14252a0 data-v-23fbe57c><div class="comment-author-info" data-v-23fbe57c><p class="author-name" data-v-23fbe57c>北城未晴</p><!----></div></a><!----></div><div class="author-info-right" data-v-ae9d561a></div></div><div class="comment-card-content" data-v-ae9d561a><div commentId="5a5a10efa9ca5e270fef80e6" replyable="true" cssType="BookComment" templateType="comment" index="5a5a10efa9ca5e270fef80e6" comment="[object Object]" bookId="" data-v-a0ec6b4e data-v-9d2f8b00><div class="comment-content" data-v-57d4d532 data-v-a0ec6b4e><div class="comment-content-inner default" data-v-57d4d532><span data-v-57d4d532>粮草。晋江版无限，言情+无敌流。女主身亡后进入分为黑白两个阵营的塔防游戏，和男主一起对战敌人寻求胜利的故事。题材新颖文笔干练，女主性格强势不圣母，和男主的对手戏也很有意思。言情不多，绝大部分为塔防的游戏内容，男生来看完全不会别扭。28W字已完结，很少推这么短的文，但也够度过一段有趣的时间了。粮草</span><!----></div></div><div class="createdAt-source" data-v-a0ec6b4e><a href="/book//comment/5a5a10efa9ca5e270fef80e6" class="createdAt" data-v-a0ec6b4e>发表于2018-01-13 22:00</a></div><!----><!----></div></div><div class="comment-received-hot" data-v-ae9d561a></div></div><div replyable="true" templateType="comment" index="5a7b411ba5d6c11260060ddb" comment="[object Object]" bookId="" cssType="BookComment" class="comment-card BookCommentItem" data-v-ae9d561a data-v-9d2f8b00 data-v-2dfb9b9e data-v-348a438e><div class="author-info BookComment" data-v-ae9d561a><div size="36" class="comment-author-container" data-v-23fbe57c><a href="/user/1006996/comments" target="_blank" class="comment-author" data-v-23fbe57c><img src="//img.lkong.cn/avatar/001/00/69/96_avatar_small.jpg" loading="lazy" class="userinfo-avatar" style="width:36px;height:36px;" data-v-a14252a0 data-v-23fbe57c><div class="comment-author-info" data-v-23fbe57c><p class="author-name" data-v-23fbe57c>九芒</p><!----></div></a><!----></div><div class="author-info-right" data-v-ae9d561a></div></div><div class="comment-card-content" data-v-ae9d561a><div commentId="5a7b411ba5d6c11260060ddb" replyable="true" cssType="BookComment" templateType="comment" index="5a7b411ba5d6c11260060ddb" comment="[object Object]" bookId="" data-v-a0ec6b4e data-v-9d2f8b00><div class="comment-content" data-v-57d4d532 data-v-a0ec6b4e><div class="comment-content-inner default" data-v-57d4d532><span data-v-57d4d532>【无限流】晋江女主文。很新颖的无限流塔防文。角色死后被选中，分成黑白两个阵营对抗。男女主都是算计型，坑队友很6。金手指略大，看得很爽。虽然说男女主是相爱相杀，但感情线并不多，铺垫也比较少。文章不长但作者有能力让人忍不住一口气看完。</span><!----></div></div><div class="createdAt-source" data-v-a0ec6b4e><a href="/book//comment/5a7b411ba5d6c11260060ddb" class="createdAt" data-v-a0ec6b4e>发表于2018-02-08 02:10</a></div><!----><!----></div></div><div class="comment-received-hot" data-v-ae9d561a></div></div><div replyable="true" templateType="comment" index="5becd94f3b9b519a6871d331" comment="[object Object]" bookId="" cssType="BookComment" class="comment-card BookCommentItem" data-v-ae9d561a data-v-9d2f8b00 data-v-2dfb9b9e data-v-348a438e><div class="author-info BookComment" data-v-ae9d561a><div size="36" class="comment-author-container" data-v-23fbe57c><a href="/user/517983/comments" target="_blank" class="comment-author" data-v-23fbe57c><img src="//img.lkong.cn/avatar/000/51/79/83_avatar_small.jpg" loading="lazy" class="userinfo-avatar" style="width:36px;height:36px;" data-v-a14252a0 data-v-23fbe57c><div class="comment-author-info" data-v-23fbe57c><p class="author-name" data-v-23fbe57c>xiao279681</p><!----></div></a><!----></div><div class="author-info-right" data-v-ae9d561a></div></div><div class="comment-card-content" data-v-ae9d561a><div commentId="5becd94f3b9b519a6871d331" replyable="true" cssType="BookComment" templateType="comment" index="5becd94f3b9b519a6871d331" comment="[object Object]" bookId="" data-v-a0ec6b4e data-v-9d2f8b00><div class="comment-content" data-v-57d4d532 data-v-a0ec6b4e><div class="comment-content-inner default" data-v-57d4d532><span data-v-57d4d532>事业向，最近看了好几个这个作者的无限系列，感觉很喜欢作者的脑洞，文笔什么的也在进步中吧，不过还是不可避免的有为了凸显女主的聪明而拉低群众智商的情况，不过当做书荒期的爽文看还是很不错的</span><!----></div></div><div class="createdAt-source" data-v-a0ec6b4e><a href="/book//comment/5becd94f3b9b519a6871d331" class="createdAt" data-v-a0ec6b4e>发表于2018-11-15 10:26</a></div><!----><!----></div></div><div class="comment-received-hot" data-v-ae9d561a></div></div><div replyable="true" templateType="comment" index="5a3177560077cebc7ed56c9e" comment="[object Object]" bookId="" cssType="BookComment" class="comment-card BookCommentItem" data-v-ae9d561a data-v-9d2f8b00 data-v-2dfb9b9e data-v-348a438e><div class="author-info BookComment" data-v-ae9d561a><div size="36" class="comment-author-container" data-v-23fbe57c><a href="/user/1089240/comments" target="_blank" class="comment-author" data-v-23fbe57c><img src="//img.lkong.cn/avatar/001/08/92/40_avatar_small.jpg" loading="lazy" class="userinfo-avatar" style="width:36px;height:36px;" data-v-a14252a0 data-v-23fbe57c><div class="comment-author-info" data-v-23fbe57c><p class="author-name" data-v-23fbe57c>yingluo227</p><!----></div></a><!----></div><div class="author-info-right" data-v-ae9d561a></div></div><div class="comment-card-content" data-v-ae9d561a><div commentId="5a3177560077cebc7ed56c9e" replyable="true" cssType="BookComment" templateType="comment" index="5a3177560077cebc7ed56c9e" comment="[object Object]" bookId="" data-v-a0ec6b4e data-v-9d2f8b00><div class="comment-content" data-v-57d4d532 data-v-a0ec6b4e><div class="comment-content-inner default" data-v-57d4d532><span data-v-57d4d532>男女主一起开挂碾压大杀四方，金手指非常粗。俩心机婊一路互怼，男主成功被怼成小媳妇。
+瑕疵：金手指太粗，完全没有难度。塔防游戏玩过不少，休闲游戏成为无限流背景挺新奇的，但还是略略有点出戏，233</span><!----></div></div><div class="createdAt-source" data-v-a0ec6b4e><a href="/book//comment/5a3177560077cebc7ed56c9e" class="createdAt" data-v-a0ec6b4e>发表于2017-12-14 02:54</a></div><!----><!----></div></div><div class="comment-received-hot" data-v-ae9d561a></div></div><div replyable="true" templateType="comment" index="5a450c4f386916480fa9d385" comment="[object Object]" bookId="" cssType="BookComment" class="comment-card BookCommentItem" data-v-ae9d561a data-v-9d2f8b00 data-v-2dfb9b9e data-v-348a438e><div class="author-info BookComment" data-v-ae9d561a><div size="36" class="comment-author-container" data-v-23fbe57c><a href="/user/1089234/comments" target="_blank" class="comment-author" data-v-23fbe57c><img src="//img.lkong.cn/avatar/001/08/92/34_avatar_small.jpg" loading="lazy" class="userinfo-avatar" style="width:36px;height:36px;" data-v-a14252a0 data-v-23fbe57c><div class="comment-author-info" data-v-23fbe57c><p class="author-name" data-v-23fbe57c>柠檬草的味道</p><!----></div></a><!----></div><div class="author-info-right" data-v-ae9d561a></div></div><div class="comment-card-content" data-v-ae9d561a><div commentId="5a450c4f386916480fa9d385" replyable="true" cssType="BookComment" templateType="comment" index="5a450c4f386916480fa9d385" comment="[object Object]" bookId="" data-v-a0ec6b4e data-v-9d2f8b00><div class="comment-content" data-v-57d4d532 data-v-a0ec6b4e><div class="comment-content-inner default" data-v-57d4d532><span data-v-57d4d532>这篇文脑洞很有意思，死后的人分为黑白两个阵营，男女主在纯白阵营，要求两个阵营进行对抗游戏，获胜的还存在的阵营的人可以获得复活机会，正在追文中！</span><!----></div></div><div class="createdAt-source" data-v-a0ec6b4e><a href="/book//comment/5a450c4f386916480fa9d385" class="createdAt" data-v-a0ec6b4e>发表于2017-12-28 23:22</a></div><!----><!----></div></div><div class="comment-received-hot" data-v-ae9d561a></div></div><div replyable="true" templateType="comment" index="5a9768ea2b98e80c6009e118" comment="[object Object]" bookId="" cssType="BookComment" class="comment-card BookCommentItem" data-v-ae9d561a data-v-9d2f8b00 data-v-2dfb9b9e data-v-348a438e><div class="author-info BookComment" data-v-ae9d561a><div size="36" class="comment-author-container" data-v-23fbe57c><a href="/user/713735/comments" target="_blank" class="comment-author" data-v-23fbe57c><img src="//img.lkong.cn/avatar/000/71/37/35_avatar_small.jpg" loading="lazy" class="userinfo-avatar" style="width:36px;height:36px;" data-v-a14252a0 data-v-23fbe57c><div class="comment-author-info" data-v-23fbe57c><p class="author-name" data-v-23fbe57c>小柒67898</p><!----></div></a><!----></div><div class="author-info-right" data-v-ae9d561a></div></div><div class="comment-card-content" data-v-ae9d561a><div commentId="5a9768ea2b98e80c6009e118" replyable="true" cssType="BookComment" templateType="comment" index="5a9768ea2b98e80c6009e118" comment="[object Object]" bookId="" data-v-a0ec6b4e data-v-9d2f8b00><div class="comment-content" data-v-57d4d532 data-v-a0ec6b4e><div class="comment-content-inner default" data-v-57d4d532><span data-v-57d4d532>女主文，无限流，死后玩生存阵营游戏，男强女强，性格比较突出，感情戏少但互动还可以。已完结，比较短，可看。</span><!----></div></div><div class="createdAt-source" data-v-a0ec6b4e><a href="/book//comment/5a9768ea2b98e80c6009e118" class="createdAt" data-v-a0ec6b4e>发表于2018-03-01 10:43</a></div><!----><!----></div></div><div class="comment-received-hot" data-v-ae9d561a></div></div><div replyable="true" templateType="comment" index="5a5cb8873a0acb150fb46cc4" comment="[object Object]" bookId="" cssType="BookComment" class="comment-card BookCommentItem" data-v-ae9d561a data-v-9d2f8b00 data-v-2dfb9b9e data-v-348a438e><div class="author-info BookComment" data-v-ae9d561a><div size="36" class="comment-author-container" data-v-23fbe57c><a href="/user/650664/comments" target="_blank" class="comment-author" data-v-23fbe57c><img src="//img.lkong.cn/avatar/000/65/06/64_avatar_small.jpg" loading="lazy" class="userinfo-avatar" style="width:36px;height:36px;" data-v-a14252a0 data-v-23fbe57c><div class="comment-author-info" data-v-23fbe57c><p class="author-name" data-v-23fbe57c>飞絮不是花</p><!----></div></a><!----></div><div class="author-info-right" data-v-ae9d561a></div></div><div class="comment-card-content" data-v-ae9d561a><div commentId="5a5cb8873a0acb150fb46cc4" replyable="true" cssType="BookComment" templateType="comment" index="5a5cb8873a0acb150fb46cc4" comment="[object Object]" bookId="" data-v-a0ec6b4e data-v-9d2f8b00><div class="comment-content" data-v-57d4d532 data-v-a0ec6b4e><div class="comment-content-inner default" data-v-57d4d532><span data-v-57d4d532>塔防游戏为主题的无限流，女主言情，男女主一路开挂的爽文。</span><!----></div></div><div class="createdAt-source" data-v-a0ec6b4e><a href="/book//comment/5a5cb8873a0acb150fb46cc4" class="createdAt" data-v-a0ec6b4e>发表于2018-01-15 22:19</a></div><!----><!----></div></div><div class="comment-received-hot" data-v-ae9d561a></div></div><div replyable="true" templateType="comment" index="5aa3b5a85c2f750c79f52772" comment="[object Object]" bookId="" cssType="BookComment" class="comment-card BookCommentItem" data-v-ae9d561a data-v-9d2f8b00 data-v-2dfb9b9e data-v-348a438e><div class="author-info BookComment" data-v-ae9d561a><div size="36" class="comment-author-container" data-v-23fbe57c><a href="/user/1118523/comments" target="_blank" class="comment-author" data-v-23fbe57c><img src="//img.lkong.cn/avatar/001/11/85/23_avatar_small.jpg" loading="lazy" class="userinfo-avatar" style="width:36px;height:36px;" data-v-a14252a0 data-v-23fbe57c><div class="comment-author-info" data-v-23fbe57c><p class="author-name" data-v-23fbe57c>燕啾啾</p><!----></div></a><!----></div><div class="author-info-right" data-v-ae9d561a></div></div><div class="comment-card-content" data-v-ae9d561a><div commentId="5aa3b5a85c2f750c79f52772" replyable="true" cssType="BookComment" templateType="comment" index="5aa3b5a85c2f750c79f52772" comment="[object Object]" bookId="" data-v-a0ec6b4e data-v-9d2f8b00><div class="comment-content" data-v-57d4d532 data-v-a0ec6b4e><div class="comment-content-inner default" data-v-57d4d532><span data-v-57d4d532>【追至第二次副本】游戏网游类bg ，想开点的话，死后还能玩把全息网游也不错了……吧</span><!----></div></div><div class="createdAt-source" data-v-a0ec6b4e><a href="/book//comment/5aa3b5a85c2f750c79f52772" class="createdAt" data-v-a0ec6b4e>发表于2018-03-10 18:38</a></div><!----><!----></div></div><div class="comment-received-hot" data-v-ae9d561a></div></div><div replyable="true" templateType="comment" index="5b3381dc0151af4d5f6bf50d" comment="[object Object]" bookId="" cssType="BookComment" class="comment-card BookCommentItem" data-v-ae9d561a data-v-9d2f8b00 data-v-2dfb9b9e data-v-348a438e><div class="author-info BookComment" data-v-ae9d561a><div size="36" class="comment-author-container" data-v-23fbe57c><a href="/user/940551/comments" target="_blank" class="comment-author" data-v-23fbe57c><img src="//img.lkong.cn/avatar/000/94/05/51_avatar_small.jpg" loading="lazy" class="userinfo-avatar" style="width:36px;height:36px;" data-v-a14252a0 data-v-23fbe57c><div class="comment-author-info" data-v-23fbe57c><p class="author-name" data-v-23fbe57c>清晨露水</p><!----></div></a><!----></div><div class="author-info-right" data-v-ae9d561a></div></div><div class="comment-card-content" data-v-ae9d561a><div commentId="5b3381dc0151af4d5f6bf50d" replyable="true" cssType="BookComment" templateType="comment" index="5b3381dc0151af4d5f6bf50d" comment="[object Object]" bookId="" data-v-a0ec6b4e data-v-9d2f8b00><div class="comment-content" data-v-57d4d532 data-v-a0ec6b4e><div class="comment-content-inner default" data-v-57d4d532><span data-v-57d4d532>可能真的是这个作者的小说不对我的口味，她的设定基本都是主角碾压对手，开场就得各种坑骗对手，我看到的不是斗智斗勇而是自私自利——当然背景设定不赢就要死，那可能也无可厚非。</span><!----></div></div><div class="createdAt-source" data-v-a0ec6b4e><a href="/book//comment/5b3381dc0151af4d5f6bf50d" class="createdAt" data-v-a0ec6b4e>发表于2018-06-27 20:23</a></div><!----><!----></div></div><div class="comment-received-hot" data-v-ae9d561a></div></div><div replyable="true" templateType="comment" index="5b7c41cd1395ef4134ce8383" comment="[object Object]" bookId="" cssType="BookComment" class="comment-card BookCommentItem" data-v-ae9d561a data-v-9d2f8b00 data-v-2dfb9b9e data-v-348a438e><div class="author-info BookComment" data-v-ae9d561a><div size="36" class="comment-author-container" data-v-23fbe57c><a href="/user/1088321/comments" target="_blank" class="comment-author" data-v-23fbe57c><img src="//img.lkong.cn/avatar/001/08/83/21_avatar_small.jpg" loading="lazy" class="userinfo-avatar" style="width:36px;height:36px;" data-v-a14252a0 data-v-23fbe57c><div class="comment-author-info" data-v-23fbe57c><p class="author-name" data-v-23fbe57c>最爱芝士汉堡</p><!----></div></a><!----></div><div class="author-info-right" data-v-ae9d561a></div></div><div class="comment-card-content" data-v-ae9d561a><div commentId="5b7c41cd1395ef4134ce8383" replyable="true" cssType="BookComment" templateType="comment" index="5b7c41cd1395ef4134ce8383" comment="[object Object]" bookId="" data-v-a0ec6b4e data-v-9d2f8b00><div class="comment-content" data-v-57d4d532 data-v-a0ec6b4e><div class="comment-content-inner default" data-v-57d4d532><span data-v-57d4d532>最近一口气刷完了这个作者的三本无限系列，接着又准备去看真实电影。太多介绍就不用了，这个作者的文一向是女强，主剧情流。看完就一个字，爽！这本的男女主心狠手辣，极度利己，没组队前，互坑了很多次。正文无CP，番外是HE，看个人喜好吧。
+粮草。</span><!----></div></div><div class="createdAt-source" data-v-a0ec6b4e><a href="/book//comment/5b7c41cd1395ef4134ce8383" class="createdAt" data-v-a0ec6b4e>发表于2018-08-22 00:46</a></div><!----><!----></div></div><div class="comment-received-hot" data-v-ae9d561a></div></div><div replyable="true" templateType="comment" index="5b97c1839fe95e5a14980b67" comment="[object Object]" bookId="" cssType="BookComment" class="comment-card BookCommentItem" data-v-ae9d561a data-v-9d2f8b00 data-v-2dfb9b9e data-v-348a438e><div class="author-info BookComment" data-v-ae9d561a><div size="36" class="comment-author-container" data-v-23fbe57c><a href="/user/822075/comments" target="_blank" class="comment-author" data-v-23fbe57c><img src="//img.lkong.cn/avatar/000/82/20/75_avatar_small.jpg" loading="lazy" class="userinfo-avatar" style="width:36px;height:36px;" data-v-a14252a0 data-v-23fbe57c><div class="comment-author-info" data-v-23fbe57c><p class="author-name" data-v-23fbe57c>檀子</p><!----></div></a><!----></div><div class="author-info-right" data-v-ae9d561a></div></div><div class="comment-card-content" data-v-ae9d561a><div commentId="5b97c1839fe95e5a14980b67" replyable="true" cssType="BookComment" templateType="comment" index="5b97c1839fe95e5a14980b67" comment="[object Object]" bookId="" data-v-a0ec6b4e data-v-9d2f8b00><div class="comment-content" data-v-57d4d532 data-v-a0ec6b4e><div class="comment-content-inner default" data-v-57d4d532><span data-v-57d4d532>游戏设定完整详细，情节发展虽然有一点点幼稚但逻辑合理。但感觉还是网游的感觉，生死的沉重没有写出来。当网游文看的话，还可以。ps：感情戏可以无视。4星。（该作者写了好几本书，跟这本的情节和主角个性等等，相似度极高）</span><!----></div></div><div class="createdAt-source" data-v-a0ec6b4e><a href="/book//comment/5b97c1839fe95e5a14980b67" class="createdAt" data-v-a0ec6b4e>发表于2018-09-11 21:22</a></div><!----><!----></div></div><div class="comment-received-hot" data-v-ae9d561a></div></div><div replyable="true" templateType="comment" index="5c178691d53a1193595cc1bb" comment="[object Object]" bookId="" cssType="BookComment" class="comment-card BookCommentItem" data-v-ae9d561a data-v-9d2f8b00 data-v-2dfb9b9e data-v-348a438e><div class="author-info BookComment" data-v-ae9d561a><div size="36" class="comment-author-container" data-v-23fbe57c><a href="/user/966329/comments" target="_blank" class="comment-author" data-v-23fbe57c><img src="//img.lkong.cn/avatar/000/96/63/29_avatar_small.jpg" loading="lazy" class="userinfo-avatar" style="width:36px;height:36px;" data-v-a14252a0 data-v-23fbe57c><div class="comment-author-info" data-v-23fbe57c><p class="author-name" data-v-23fbe57c>竹林熊猫</p><!----></div></a><!----></div><div class="author-info-right" data-v-ae9d561a></div></div><div class="comment-card-content" data-v-ae9d561a><div commentId="5c178691d53a1193595cc1bb" replyable="true" cssType="BookComment" templateType="comment" index="5c178691d53a1193595cc1bb" comment="[object Object]" bookId="" data-v-a0ec6b4e data-v-9d2f8b00><div class="comment-content" data-v-57d4d532 data-v-a0ec6b4e><div class="comment-content-inner default" data-v-57d4d532><span data-v-57d4d532>第一次看到这种塔防游戏的无限流，副本设定可参考<a href="/name/王国保卫战" target="_blank">《王国保卫战》</a>，缺点是作为塔防游戏却没有对“塔”做过多描写，全文只出现箭塔，其它诸如炮塔，魔法塔都没有……
+里面的角色设定类似于<a href="/name/王国保卫战" target="_blank">《王国保卫战》</a>里的英雄，人物成长更类似于ARPG的网游，有技能，有天赋，有魔法卷等等，整体故事比较新颖，男强女强，一路打脸装逼，算得上一本不错的爽文。
+言情线很薄弱，男女主从头到尾不来电，最后算是强行被作者凑在一起。我个人还是很希望作者多写一些这种新颖题材的的无限流，评分7/10。</span><!----></div></div><div class="createdAt-source" data-v-a0ec6b4e><a href="/book//comment/5c178691d53a1193595cc1bb" class="createdAt" data-v-a0ec6b4e>发表于2018-12-17 19:20</a></div><!----><!----></div></div><div class="comment-received-hot" data-v-ae9d561a></div></div><div replyable="true" templateType="comment" index="5a3b01890077cebc7ed5af59" comment="[object Object]" bookId="" cssType="BookComment" class="comment-card BookCommentItem" data-v-ae9d561a data-v-9d2f8b00 data-v-2dfb9b9e data-v-348a438e><div class="author-info BookComment" data-v-ae9d561a><div size="36" class="comment-author-container" data-v-23fbe57c><a href="/user/989270/comments" target="_blank" class="comment-author" data-v-23fbe57c><img src="//img.lkong.cn/avatar/000/98/92/70_avatar_small.jpg" loading="lazy" class="userinfo-avatar" style="width:36px;height:36px;" data-v-a14252a0 data-v-23fbe57c><div class="comment-author-info" data-v-23fbe57c><p class="author-name" data-v-23fbe57c>ainvdi</p><!----></div></a><!----></div><div class="author-info-right" data-v-ae9d561a></div></div><div class="comment-card-content" data-v-ae9d561a><div commentId="5a3b01890077cebc7ed5af59" replyable="true" cssType="BookComment" templateType="comment" index="5a3b01890077cebc7ed5af59" comment="[object Object]" bookId="" data-v-a0ec6b4e data-v-9d2f8b00><div class="comment-content" data-v-57d4d532 data-v-a0ec6b4e><div class="comment-content-inner default" data-v-57d4d532><span data-v-57d4d532>还不错，男女主互动很有意思，相爱相杀，保护塔防游戏，不让敌军进入传送阵，男女主在大部分都是穷人的对比下厉害的要拜，还收了三个傀儡式小弟，硬生生喂成高手，看的还是蛮过瘾的</span><!----></div></div><div class="createdAt-source" data-v-a0ec6b4e><a href="/book//comment/5a3b01890077cebc7ed5af59" class="createdAt" data-v-a0ec6b4e>发表于2017-12-21 08:34</a></div><!----><!----></div></div><div class="comment-received-hot" data-v-ae9d561a></div></div><div replyable="true" templateType="comment" index="5a59acc0a82e874e0fae3284" comment="[object Object]" bookId="" cssType="BookComment" class="comment-card BookCommentItem" data-v-ae9d561a data-v-9d2f8b00 data-v-2dfb9b9e data-v-348a438e><div class="author-info BookComment" data-v-ae9d561a><div size="36" class="comment-author-container" data-v-23fbe57c><a href="/user/1010860/comments" target="_blank" class="comment-author" data-v-23fbe57c><img src="//img.lkong.cn/avatar/001/01/08/60_avatar_small.jpg" loading="lazy" class="userinfo-avatar" style="width:36px;height:36px;" data-v-a14252a0 data-v-23fbe57c><div class="comment-author-info" data-v-23fbe57c><p class="author-name" data-v-23fbe57c>r159876</p><!----></div></a><!----></div><div class="author-info-right" data-v-ae9d561a></div></div><div class="comment-card-content" data-v-ae9d561a><div commentId="5a59acc0a82e874e0fae3284" replyable="true" cssType="BookComment" templateType="comment" index="5a59acc0a82e874e0fae3284" comment="[object Object]" bookId="" data-v-a0ec6b4e data-v-9d2f8b00><div class="comment-content" data-v-57d4d532 data-v-a0ec6b4e><div class="comment-content-inner default" data-v-57d4d532><span data-v-57d4d532>言情，完结
+文案：意外身亡后，云娴进入到“无限塔防”游戏。
+游戏规则：
+1、玩家作为英雄阻止怪物抵达传送阵，失败意味死亡。
+2、所有玩家被分为两个阵营。如果一个阵营玩家全体阵亡，那么另一阵营的幸存者可以在现实里复活。
+为了顺利复活，云娴跟腹黑小伙伴相爱相杀，顺便联手坑人。
+【注1：男女主均心狠手辣+利己主义，非圣母】
+【注2：单元剧形式】
+个人点评：喜欢看副本和道具的脑洞，一天看完，言情力度不高。剧情不水能看</span><!----></div></div><div class="createdAt-source" data-v-a0ec6b4e><a href="/book//comment/5a59acc0a82e874e0fae3284" class="createdAt" data-v-a0ec6b4e>发表于2018-01-13 14:52</a></div><!----><!----></div></div><div class="comment-received-hot" data-v-ae9d561a></div></div><div replyable="true" templateType="comment" index="5a731cc99550165b70b9e22b" comment="[object Object]" bookId="" cssType="BookComment" class="comment-card BookCommentItem" data-v-ae9d561a data-v-9d2f8b00 data-v-2dfb9b9e data-v-348a438e><div class="author-info BookComment" data-v-ae9d561a><div size="36" class="comment-author-container" data-v-23fbe57c><a href="/user/955835/comments" target="_blank" class="comment-author" data-v-23fbe57c><img src="//img.lkong.cn/avatar/000/95/58/35_avatar_small.jpg" loading="lazy" class="userinfo-avatar" style="width:36px;height:36px;" data-v-a14252a0 data-v-23fbe57c><div class="comment-author-info" data-v-23fbe57c><p class="author-name" data-v-23fbe57c>仙女彬</p><!----></div></a><!----></div><div class="author-info-right" data-v-ae9d561a></div></div><div class="comment-card-content" data-v-ae9d561a><div commentId="5a731cc99550165b70b9e22b" replyable="true" cssType="BookComment" templateType="comment" index="5a731cc99550165b70b9e22b" comment="[object Object]" bookId="" data-v-a0ec6b4e data-v-9d2f8b00><div class="comment-content" data-v-57d4d532 data-v-a0ec6b4e><div class="comment-content-inner default" data-v-57d4d532><span data-v-57d4d532>已完结 bg向，1v1。意外死亡后进入塔防游戏 分不同阵营 对战赢得复活机会 男女主都是心机屌/婊，不圣母这点我很喜欢。有点像爽文 毕竟后期发育完全就是一路开挂的rmb玩家了hah ，互怼hin好笑 但就是结束的有点仓促 越来越报流水账</span><!----></div></div><div class="createdAt-source" data-v-a0ec6b4e><a href="/book//comment/5a731cc99550165b70b9e22b" class="createdAt" data-v-a0ec6b4e>发表于2018-02-01 21:57</a></div><!----><!----></div></div><div class="comment-received-hot" data-v-ae9d561a></div></div><div replyable="true" templateType="comment" index="5a8572932b98e80c60095baa" comment="[object Object]" bookId="" cssType="BookComment" class="comment-card BookCommentItem" data-v-ae9d561a data-v-9d2f8b00 data-v-2dfb9b9e data-v-348a438e><div class="author-info BookComment" data-v-ae9d561a><div size="36" class="comment-author-container" data-v-23fbe57c><a href="/user/792970/comments" target="_blank" class="comment-author" data-v-23fbe57c><img src="//img.lkong.cn/avatar/000/79/29/70_avatar_small.jpg" loading="lazy" class="userinfo-avatar" style="width:36px;height:36px;" data-v-a14252a0 data-v-23fbe57c><div class="comment-author-info" data-v-23fbe57c><p class="author-name" data-v-23fbe57c>时幻时现</p><!----></div></a><!----></div><div class="author-info-right" data-v-ae9d561a></div></div><div class="comment-card-content" data-v-ae9d561a><div commentId="5a8572932b98e80c60095baa" replyable="true" cssType="BookComment" templateType="comment" index="5a8572932b98e80c60095baa" comment="[object Object]" bookId="" data-v-a0ec6b4e data-v-9d2f8b00><div class="comment-content" data-v-57d4d532 data-v-a0ec6b4e><div class="comment-content-inner default" data-v-57d4d532><span data-v-57d4d532>被选入真人塔防游戏，阵营对抗，生存到最后的，获得复活机会。不算很长的文，但角色节奏和设定都还不错。</span><!----></div></div><div class="createdAt-source" data-v-a0ec6b4e><a href="/book//comment/5a8572932b98e80c60095baa" class="createdAt" data-v-a0ec6b4e>发表于2018-02-15 19:44</a></div><!----><!----></div></div><div class="comment-received-hot" data-v-ae9d561a></div></div><div replyable="true" templateType="comment" index="5a927f8cd867a83a6084a5bf" comment="[object Object]" bookId="" cssType="BookComment" class="comment-card BookCommentItem" data-v-ae9d561a data-v-9d2f8b00 data-v-2dfb9b9e data-v-348a438e><div class="author-info BookComment" data-v-ae9d561a><div size="36" class="comment-author-container" data-v-23fbe57c><a href="/user/1114332/comments" target="_blank" class="comment-author" data-v-23fbe57c><img src="//img.lkong.cn/avatar/001/11/43/32_avatar_small.jpg" loading="lazy" class="userinfo-avatar" style="width:36px;height:36px;" data-v-a14252a0 data-v-23fbe57c><div class="comment-author-info" data-v-23fbe57c><p class="author-name" data-v-23fbe57c>夏天就是夏天</p><!----></div></a><!----></div><div class="author-info-right" data-v-ae9d561a></div></div><div class="comment-card-content" data-v-ae9d561a><div commentId="5a927f8cd867a83a6084a5bf" replyable="true" cssType="BookComment" templateType="comment" index="5a927f8cd867a83a6084a5bf" comment="[object Object]" bookId="" data-v-a0ec6b4e data-v-9d2f8b00><div class="comment-content" data-v-57d4d532 data-v-a0ec6b4e><div class="comment-content-inner default" data-v-57d4d532><span data-v-57d4d532>有点干，男女主很早就勾搭上了，然而就开始各种装逼之路，文不长，但是看到阵营战没多久就看不下去了，直接跳去结局，又是毫不费力毫无悬念获胜。平淡无味，没什么意思。无毒，但是不会觉得好看。</span><!----></div></div><div class="createdAt-source" data-v-a0ec6b4e><a href="/book//comment/5a927f8cd867a83a6084a5bf" class="createdAt" data-v-a0ec6b4e>发表于2018-02-25 17:19</a></div><!----><!----></div></div><div class="comment-received-hot" data-v-ae9d561a></div></div></div><!----></div></div></div></div></section></div></div></div> <script>window.__INITIAL_STATE__={"Book":{"fetched":true,"commentsFetched":true,"header":{"title":"无限塔防 轻云淡 优书网","keywords":"无限塔防  轻云淡   无限塔防写的怎么样 无限塔防好不好看","description":" 无限塔防   轻云淡   对于无限塔防的小说打分、吐槽、深度解析。注意，本文双结局，82-84为结局一，高洁党慎入。85为结局二，所有人均可食用。&lt;br\u002F&gt;&lt;br\u002F&gt;意外身亡后，云娴进入到“无限塔防”游戏。&lt;br\u002F&gt;&lt;br\u002F&gt;游戏规则：&lt;br\u002F&gt;&lt;br\u002F&gt;1、玩家作为英雄阻止怪物抵达传送阵，失败意味死亡。&lt;br\u002F&gt;&lt;br\u002F&gt;2、所有玩家被分为两个阵营。如果一个阵营玩家全体阵亡，那么另一阵营的幸存者可以在现实里复活。&lt;br\u002F&gt;&lt;br\u002F&gt;为了顺利复活，云娴跟腹黑小伙伴相爱相杀，顺便联手坑人。&lt;br\u002F&gt;&lt;br\u002F&gt;【注1：男女主均心狠手辣+利己主义，非圣母】&lt;br\u002F&gt;&lt;br\u002F&gt;【注2：单元剧形式】&lt;br\u002F&gt;&lt;br\u002F&gt;&lt;br\u002F&gt;&lt;br\u002F&gt;阅读须知：&lt;br\u002F&gt;&lt;br\u002F&gt;·1V1，双洁，无前任，主剧情&lt;br\u002F&gt;&lt;br\u002F&gt;·本文很苏很爽，轻松向，不要跟作者谈逻辑&lt;br\u002F&gt;&lt;br\u002F&gt;·[重点]兴趣写作，不喜直接点X，弃文不用告诉作者[重点]&lt;br\u002F&gt;&lt;br\u002F&gt;&lt;br\u002F&gt;&lt;br\u002F&gt;基友文——老公，国家包分配的！&lt;br\u002F&gt;&lt;br\u002F&gt;&lt;br\u002F&gt;&lt;br\u002F&gt;"},"shielded":false,"notFound":false,"loading":true,"bookId":"","bookInfo":{"_id":134039,"status":0,"tags":["无限流","游戏网游","相爱相杀","爽文","原创-言情-近代现代-科幻"],"shielded":false,"defaultSource":134039,"score":7.5,"scoreDetail":[0.077,0.027,0.17,0.501,0.223],"scorerCount":136,"commentCount":81,"addListCount":5,"addListTotal":64,"recom_ignore":false,"title":"无限塔防","author":"轻云淡","cover":"http:\u002F\u002Fwx4.sinaimg.cn\u002Fmw690\u002F005zciTTgy1fl2hu38wibj30go0ncju5.jpg","introduction":"注意，本文双结局，82-84为结局一，高洁党慎入。85为结局二，所有人均可食用。&lt;br\u002F&gt;&lt;br\u002F&gt;意外身亡后，云娴进入到“无限塔防”游戏。&lt;br\u002F&gt;&lt;br\u002F&gt;游戏规则：&lt;br\u002F&gt;&lt;br\u002F&gt;1、玩家作为英雄阻止怪物抵达传送阵，失败意味死亡。&lt;br\u002F&gt;&lt;br\u002F&gt;2、所有玩家被分为两个阵营。如果一个阵营玩家全体阵亡，那么另一阵营的幸存者可以在现实里复活。&lt;br\u002F&gt;&lt;br\u002F&gt;为了顺利复活，云娴跟腹黑小伙伴相爱相杀，顺便联手坑人。&lt;br\u002F&gt;&lt;br\u002F&gt;【注1：男女主均心狠手辣+利己主义，非圣母】&lt;br\u002F&gt;&lt;br\u002F&gt;【注2：单元剧形式】&lt;br\u002F&gt;&lt;br\u002F&gt;&lt;br\u002F&gt;&lt;br\u002F&gt;阅读须知：&lt;br\u002F&gt;&lt;br\u002F&gt;·1V1，双洁，无前任，主剧情&lt;br\u002F&gt;&lt;br\u002F&gt;·本文很苏很爽，轻松向，不要跟作者谈逻辑&lt;br\u002F&gt;&lt;br\u002F&gt;·[重点]兴趣写作，不喜直接点X，弃文不用告诉作者[重点]&lt;br\u002F&gt;&lt;br\u002F&gt;&lt;br\u002F&gt;&lt;br\u002F&gt;基友文——老公，国家包分配的！&lt;br\u002F&gt;&lt;br\u002F&gt;&lt;br\u002F&gt;&lt;br\u002F&gt;","countWord":281300,"updateAt":"2018-07-12T21:31:54.000Z","__v":0,"caseId":0,"classInfo":{"classId":23,"className":"幻想言情"}},"loadComments":true,"myScore":0,"myComment":null,"commented":false,"bookSource":[{"bookId":134039,"siteName":"晋江文学城","bookPage":"http:\u002F\u002Fwww.jjwxc.net\u002Fonebook.php?novelid=3317509"}],"tags":["无限流","游戏网游","相爱相杀","爽文","原创-言情-近代现代-科幻"],"privateTags":[],"scoreDetail":[0.08,0.03,0.17,0.5,0.22],"booklistsResult":{"booklists":[{"_id":"59c499a25828cdf15c042ab6","clicks":277648,"praiseTotal":164,"bookTotal":125,"createdAt":"2017-09-22T05:03:30.000Z","createrId":{"_id":1052037,"userName":"一只纯纯的馒头"},"title":"女主苏爽文推荐！苏苏苏，美美美，爽爽爽","listType":"female","updateAt":"2019-11-20T02:51:25.000Z","praiseAt":"2019-12-06T10:06:12.000Z","classes":[{"classId":21,"className":"都市言情","count":63},{"classId":23,"className":"幻想言情","count":24},{"classId":18,"className":"架空历史","count":9},{"classId":22,"className":"仙侠奇缘","count":5},{"classId":26,"className":"衍生同人","count":4},{"classId":17,"className":"穿越时空","count":1}],"collectNum":292,"covers":["https:\u002F\u002Fqidian.qpic.cn\u002Fqdbimg\u002F349573\u002F1011718497\u002F300","https:\u002F\u002Fqidian.qpic.cn\u002Fqdbimg\u002F349573\u002F3222161\u002F300","http:\u002F\u002Fi7-static.jjwxc.net\u002Ftmp\u002Fbackend\u002Fauthorspace\u002Fs1\u002F14\u002F13337\u002F1333649\u002F20190512005741.jpg"],"booklistId":"59c499a25828cdf15c042ab6","voting":0},{"_id":"59fac2575828cdf15c05c527","clicks":28405,"praiseTotal":68,"bookTotal":109,"createdAt":"2017-11-02T06:59:35.000Z","createrId":{"_id":1075795,"userName":"金色的逗比"},"title":"上接五千年悠悠时光，下览亿万重平行宇宙","listType":"male","updateAt":"2019-12-06T09:57:53.000Z","praiseAt":"2019-12-06T09:57:53.000Z","classes":[{"classId":6,"className":"都市","count":16},{"classId":9,"className":"历史","count":13},{"classId":13,"className":"科幻","count":12},{"classId":14,"className":"二次元","count":9},{"classId":3,"className":"奇幻","count":8},{"classId":11,"className":"游戏","count":6},{"classId":5,"className":"仙侠","count":5},{"classId":2,"className":"玄幻","count":3},{"classId":10,"className":"悬疑","count":2},{"classId":21,"className":"都市言情","count":1},{"classId":18,"className":"架空历史","count":1},{"classId":8,"className":"军事","count":1},{"classId":23,"className":"幻想言情","count":1},{"classId":12,"className":"竞技","count":1},{"classId":25,"className":"耽美纯爱","count":1}],"collectNum":35,"covers":["https:\u002F\u002Fqidian.qpic.cn\u002Fqdbimg\u002F349573\u002F1016534510\u002F300","https:\u002F\u002Fqidian.qpic.cn\u002Fqdbimg\u002F349573\u002F1016658094\u002F300","https:\u002F\u002Fqidian.qpic.cn\u002Fqdbimg\u002F349573\u002F1012850575\u002F300"],"booklistId":"59fac2575828cdf15c05c527","voting":0},{"_id":"5a1c00ad833f95967e257901","clicks":85249,"praiseTotal":38,"bookTotal":19,"createdAt":"2017-11-27T12:10:21.000Z","createrId":{"_id":1028447,"userName":"兔牙"},"title":"女主无限流  生存类","listType":"female","updateAt":"2019-06-26T07:25:40.000Z","praiseAt":"2019-12-05T02:24:53.000Z","classes":[{"classId":23,"className":"幻想言情","count":6},{"classId":21,"className":"都市言情","count":3},{"classId":26,"className":"衍生同人","count":2},{"classId":27,"className":"轻小说","count":1},{"classId":13,"className":"科幻","count":1}],"collectNum":54,"covers":["http:\u002F\u002Fwx4.sinaimg.cn\u002Fmw690\u002F005zciTTgy1fr7u1b38umj30go0ncn07.jpg","http:\u002F\u002Fwx4.sinaimg.cn\u002Fmw690\u002F005zciTTgy1fviitgdwiqj30go0ncmzu.jpg","https:\u002F\u002Fwx4.sinaimg.cn\u002Fmw690\u002F006tKnG2ly1fz2qm8de3gj30b40fkmyh.jpg"],"booklistId":"5a1c00ad833f95967e257901","voting":0},{"_id":"59928cdedfaee2bb3afb56a3","clicks":60082,"praiseTotal":96,"bookTotal":66,"createdAt":"2017-08-15T05:55:42.000Z","createrId":{"_id":1031303,"userName":"一轮日"},"title":"各种太监或未完结的撩得我心痒痒的好坑（划掉，其实是个人阅读记录）","listType":"female","updateAt":"2019-06-07T10:03:57.000Z","praiseAt":"2019-12-04T17:32:15.000Z","classes":[{"classId":21,"className":"都市言情","count":42},{"classId":23,"className":"幻想言情","count":8},{"classId":18,"className":"架空历史","count":5},{"classId":26,"className":"衍生同人","count":1},{"classId":22,"className":"仙侠奇缘","count":1},{"classId":25,"className":"耽美纯爱","count":1},{"classId":9,"className":"历史","count":1}],"collectNum":105,"covers":["http:\u002F\u002Fi5-static.jjwxc.net\u002Ftmp\u002Fbackend\u002Fauthorspace\u002Fs1\u002F5\u002F4933\u002F493213\u002F20190629160137.jpg","http:\u002F\u002Fi9-static.jjwxc.net\u002Fnovelimage.php?novelid=3035283&coverid=23&ver=dce614182e871218397fb523e8c6d9df","https:\u002F\u002Fi.loli.net\u002F2019\u002F05\u002F01\u002F5cc9a75c8079b.jpg"],"booklistId":"59928cdedfaee2bb3afb56a3","voting":0},{"_id":"592edf62251955441ea2f8b1","clicks":403970,"praiseTotal":750,"bookTotal":94,"createdAt":"2017-05-31T15:21:06.000Z","createrId":{"_id":925187,"userName":"北城未晴"},"title":"【超长评】只推长篇粮草_宅文\u002F重生\u002F无限流","listType":"male","updateAt":"2019-09-27T01:47:38.000Z","praiseAt":"2019-12-04T10:15:04.000Z","classes":[{"classId":14,"className":"二次元","count":25},{"classId":6,"className":"都市","count":10},{"classId":13,"className":"科幻","count":8},{"classId":16,"className":"同人","count":3},{"classId":23,"className":"幻想言情","count":3},{"classId":3,"className":"奇幻","count":2},{"classId":11,"className":"游戏","count":2},{"classId":9,"className":"历史","count":1},{"classId":5,"className":"仙侠","count":1}],"collectNum":738,"covers":["https:\u002F\u002Fnovel-cdn.kuangxiangit.com\u002Fuploads\u002Fallimg\u002Fc190606\u002F06-06-19195006-64226-100108823.jpg","https:\u002F\u002Fnovel-cdn.kuangxiangit.com\u002Fuploads\u002Fallimg\u002Fc190718\u002F18-07-19191538-58964-100098769.jpg","https:\u002F\u002Fnovel-cdn.kuangxiangit.com\u002Fuploads\u002Fallimg\u002Fc190417\u002F17-04-19233958-32296.jpg"],"booklistId":"592edf62251955441ea2f8b1","voting":0},{"_id":"5a9762782b98e80c6009e0de","clicks":33173,"praiseTotal":77,"bookTotal":98,"createdAt":"2018-03-01T02:16:24.000Z","createrId":{"_id":713735,"userName":"小柒67898"},"title":"2018-2019追文指南","listType":"male","updateAt":"2019-12-04T09:08:26.000Z","praiseAt":"2019-12-04T09:08:26.000Z","classes":[{"classId":21,"className":"都市言情","count":52},{"classId":18,"className":"架空历史","count":14},{"classId":23,"className":"幻想言情","count":13},{"classId":26,"className":"衍生同人","count":9},{"classId":25,"className":"耽美纯爱","count":5},{"classId":22,"className":"仙侠奇缘","count":2},{"classId":24,"className":"悬疑推理","count":1},{"classId":17,"className":"穿越时空","count":1}],"collectNum":46,"covers":["http:\u002F\u002Fi1-static.jjwxc.net\u002Ftmp\u002Fbackend\u002Fauthorspace\u002Fs1\u002F23\u002F22577\u002F2257645\u002F20191108195221.jpg","http:\u002F\u002Fi3-static.jjwxc.net\u002Ftmp\u002Fbackend\u002Fauthorspace\u002Fs1\u002F4\u002F3245\u002F324486\u002F20190430175034.jpg","https:\u002F\u002Fqidian.qpic.cn\u002Fqdbimg\u002F349573\u002F1013411453\u002F300"],"booklistId":"5a9762782b98e80c6009e0de","voting":0},{"_id":"5bc6e54a4b33263955e5788e","clicks":9642,"praiseTotal":17,"bookTotal":34,"createdAt":"2018-10-17T07:31:22.000Z","createrId":{"_id":517983,"userName":"xiao279681"},"title":"个人品味的爽文（主线感情向、事业向皆有）","listType":"male","updateAt":"2019-12-03T09:29:22.000Z","praiseAt":"2019-12-03T09:29:22.000Z","classes":[{"classId":21,"className":"都市言情","count":13},{"classId":11,"className":"游戏","count":6},{"classId":26,"className":"衍生同人","count":3},{"classId":23,"className":"幻想言情","count":2},{"classId":18,"className":"架空历史","count":1},{"classId":5,"className":"仙侠","count":1},{"classId":13,"className":"科幻","count":1}],"collectNum":13,"covers":["https:\u002F\u002Fqidian.qpic.cn\u002Fqdbimg\u002F349573\u002F2461490\u002F300","http:\u002F\u002Fbbs.jjwxc.net\u002Fupload\u002F201905\u002F05\u002F05-db97be6.jpg","http:\u002F\u002Fww3.sinaimg.cn\u002Fmw690\u002Fe7415f65jw1f8hnn927wxj218g1q8b2a.jpg"],"booklistId":"5bc6e54a4b33263955e5788e","voting":0},{"_id":"5bb0f95cc31864cc334e4f47","clicks":10408,"praiseTotal":23,"bookTotal":87,"createdAt":"2018-09-30T16:27:08.000Z","createrId":{"_id":1205155,"userName":"木笔白芷"},"title":"记录自己看完的网络小说","listType":"male","updateAt":"2019-12-02T17:50:16.000Z","praiseAt":"2019-12-02T17:50:16.000Z","classes":[{"classId":21,"className":"都市言情","count":28},{"classId":23,"className":"幻想言情","count":7},{"classId":18,"className":"架空历史","count":7},{"classId":2,"className":"玄幻","count":5},{"classId":25,"className":"耽美纯爱","count":5},{"classId":26,"className":"衍生同人","count":4},{"classId":20,"className":"总裁豪门","count":3},{"classId":22,"className":"仙侠奇缘","count":3},{"classId":17,"className":"穿越时空","count":3},{"classId":24,"className":"悬疑推理","count":2},{"classId":10,"className":"悬疑","count":1},{"classId":13,"className":"科幻","count":1},{"classId":6,"className":"都市","count":1},{"classId":11,"className":"游戏","count":1}],"collectNum":13,"covers":["https:\u002F\u002Fwx1.sinaimg.cn\u002Fmw1024\u002F006S08bIgy1fs30wo2gfrj305k07sq2v.jpg","http:\u002F\u002Fi9-static.jjwxc.net\u002Fnovelimage.php?novelid=1827794&coverid=21&ver=38622bef699714a5f5ec89ce2819bdbb","http:\u002F\u002Fimages.xxsy.net\u002Fbimg\u002F1074345.jpg"],"booklistId":"5bb0f95cc31864cc334e4f47","voting":0},{"_id":"5909560533167d2a1e4c0aa0","clicks":9094,"praiseTotal":15,"bookTotal":21,"createdAt":"2017-05-03T04:01:09.000Z","createrId":{"_id":989270,"userName":"ainvdi"},"title":"末世类","listType":"male","updateAt":"2018-12-05T08:41:52.000Z","praiseAt":"2019-12-02T11:16:59.000Z","classes":[{"classId":23,"className":"幻想言情","count":9},{"classId":25,"className":"耽美纯爱","count":5},{"classId":13,"className":"科幻","count":2},{"classId":21,"className":"都市言情","count":1}],"collectNum":3,"covers":["http:\u002F\u002Fwx2.sinaimg.cn\u002Fsmall\u002F0061yH01ly1fl1d0xr2jrj305k07sdho.jpg","http:\u002F\u002Fwx4.sinaimg.cn\u002Fmw690\u002Fec67774bgy1fo1xyoprdjj205k07sq3k.jpg","http:\u002F\u002Fww1.sinaimg.cn\u002Fmw690\u002Fb194a680jw1er2sy4zz5gj2087064mxd.jpg"],"booklistId":"5909560533167d2a1e4c0aa0","voting":0},{"_id":"5b92b6505d60676f14b21d6f","clicks":31388,"praiseTotal":15,"bookTotal":26,"createdAt":"2018-09-07T17:33:04.000Z","createrId":{"_id":1197523,"userName":"所见即世界grace"},"title":"女主向升级流爽文（修仙、末世、网游、无限流、灵异、星际等）","listType":"female","updateAt":"2019-06-29T08:50:07.000Z","praiseAt":"2019-12-02T10:36:25.000Z","classes":[{"classId":21,"className":"都市言情","count":4},{"classId":24,"className":"悬疑推理","count":3},{"classId":22,"className":"仙侠奇缘","count":3},{"classId":23,"className":"幻想言情","count":3},{"classId":26,"className":"衍生同人","count":1}],"collectNum":31,"covers":["http:\u002F\u002Fwx2.sinaimg.cn\u002Fmw690\u002Fc01ecff9ly1g0da74r9btj20jg0r87gw.jpg","http:\u002F\u002Fwx2.sinaimg.cn\u002Flarge\u002F6f0473b5ly1ftryt9rd6yj205k07sgnc.jpg","http:\u002F\u002Fwx4.sinaimg.cn\u002Fmw690\u002Fc01ecff9ly1fkjwors5unj205k07sdgx.jpg"],"booklistId":"5b92b6505d60676f14b21d6f","voting":0},{"_id":"5603e9730baef9ff16e58934","clicks":654234,"praiseTotal":1803,"bookTotal":135,"createdAt":"2015-09-24T12:15:47.000Z","createrId":{"_id":830077,"userName":"多多包子"},"title":"【包子推书】总书单","listType":"male","updateAt":"2019-10-04T01:31:57.000Z","praiseAt":"2019-12-02T06:13:49.000Z","classes":[{"classId":6,"className":"都市","count":18},{"classId":13,"className":"科幻","count":17},{"classId":11,"className":"游戏","count":11},{"classId":5,"className":"仙侠","count":10},{"classId":21,"className":"都市言情","count":8},{"classId":2,"className":"玄幻","count":7},{"classId":9,"className":"历史","count":6},{"classId":23,"className":"幻想言情","count":6},{"classId":3,"className":"奇幻","count":4},{"classId":25,"className":"耽美纯爱","count":2},{"classId":18,"className":"架空历史","count":2},{"classId":16,"className":"同人","count":1},{"classId":14,"className":"二次元","count":1},{"classId":26,"className":"衍生同人","count":1}],"collectNum":1023,"covers":["https:\u002F\u002Fqidian.qpic.cn\u002Fqdbimg\u002F349573\u002F1015763759\u002F300","https:\u002F\u002Fqidian.qpic.cn\u002Fqdbimg\u002F349573\u002F1015525869\u002F300","http:\u002F\u002Fi0-static.jjwxc.net\u002Ftmp\u002Fbackend\u002Fauthorspace\u002Fs1\u002F11\u002F10901\u002F1090003\u002F20190518145730.jpg"],"booklistId":"5603e9730baef9ff16e58934","voting":0},{"_id":"59b7711a1e87161f5d53f677","clicks":17554,"praiseTotal":70,"bookTotal":83,"createdAt":"2017-09-12T05:31:06.000Z","createrId":{"_id":1012637,"userName":"Alice9815"},"title":"卷毛的十年书单","listType":"female","updateAt":"2019-08-11T11:16:56.000Z","praiseAt":"2019-12-02T03:34:15.000Z","classes":[{"classId":21,"className":"都市言情","count":19},{"classId":23,"className":"幻想言情","count":12},{"classId":22,"className":"仙侠奇缘","count":7},{"classId":26,"className":"衍生同人","count":6},{"classId":18,"className":"架空历史","count":6},{"classId":5,"className":"仙侠","count":3},{"classId":2,"className":"玄幻","count":3},{"classId":20,"className":"总裁豪门","count":3},{"classId":25,"className":"耽美纯爱","count":1},{"classId":13,"className":"科幻","count":1},{"classId":17,"className":"穿越时空","count":1}],"collectNum":40,"covers":["http:\u002F\u002Fbbs-static.jjwxc.net\u002Fupload\u002F201905\u002F08\u002F08-459bf6b.jpg","http:\u002F\u002Fi9-static.jjwxc.net\u002Fnovelimage.php?novelid=4021174&coverid=46&ver=38c7dfc21a8e0b8de6e1c7de3a9df751","http:\u002F\u002Fi5-static.jjwxc.net\u002Ftmp\u002Fbackend\u002Fauthorspace\u002Fs1\u002F2\u002F1914\u002F191385\u002F20190518110226.jpg"],"booklistId":"59b7711a1e87161f5d53f677","voting":0},{"_id":"59604c2d5fa7ef6a06634e48","clicks":12415,"praiseTotal":19,"bookTotal":32,"createdAt":"2017-07-08T03:06:21.000Z","createrId":{"_id":958458,"userName":"金木樨"},"title":"猎奇向女主文","listType":"female","updateAt":"2019-04-23T13:08:58.000Z","praiseAt":"2019-12-01T16:42:38.000Z","classes":[{"classId":26,"className":"衍生同人","count":10},{"classId":21,"className":"都市言情","count":7},{"classId":23,"className":"幻想言情","count":7},{"classId":22,"className":"仙侠奇缘","count":2},{"classId":24,"className":"悬疑推理","count":1},{"classId":25,"className":"耽美纯爱","count":1},{"classId":20,"className":"总裁豪门","count":1},{"classId":18,"className":"架空历史","count":1},{"classId":14,"className":"二次元","count":1}],"collectNum":28,"covers":["http:\u002F\u002Fww4.sinaimg.cn\u002Fmw690\u002F005FWsKujw1f2aflp0sloj30ei0kb0vf.jpg","https:\u002F\u002Fwx3.sinaimg.cn\u002Fmw690\u002Fc6fca0f4gy1fruxdsfm8fj208c0bo410.jpg","https:\u002F\u002Fwx1.sinaimg.cn\u002Fmw1024\u002F006S08bIgy1fs30wo2gfrj305k07sq2v.jpg"],"booklistId":"59604c2d5fa7ef6a06634e48","voting":0},{"_id":"56fceed21f1a2ac17648fdbd","clicks":6028,"praiseTotal":48,"bookTotal":61,"createdAt":"2016-03-31T09:33:06.000Z","createrId":{"_id":664988,"userName":"wji1992"},"title":"@新近弃书《渐渐无趣》","listType":"male","updateAt":"2019-03-09T04:53:00.000Z","praiseAt":"2019-12-01T14:56:09.000Z","classes":[{"classId":6,"className":"都市","count":21},{"classId":9,"className":"历史","count":8},{"classId":14,"className":"二次元","count":3},{"classId":13,"className":"科幻","count":3},{"classId":5,"className":"仙侠","count":3},{"classId":2,"className":"玄幻","count":2},{"classId":8,"className":"军事","count":1},{"classId":23,"className":"幻想言情","count":1},{"classId":12,"className":"竞技","count":1},{"classId":3,"className":"奇幻","count":1},{"classId":26,"className":"衍生同人","count":1},{"classId":11,"className":"游戏","count":1}],"collectNum":4,"covers":["https:\u002F\u002Fqidian.qpic.cn\u002Fqdbimg\u002F349573\u002F1011489683\u002F300","https:\u002F\u002Fqidian.qpic.cn\u002Fqdbimg\u002F349573\u002F1011097497\u002F300","https:\u002F\u002Fqidian.qpic.cn\u002Fqdbimg\u002F349573\u002F1012346649\u002F300"],"booklistId":"56fceed21f1a2ac17648fdbd","voting":0},{"_id":"5a9d19a57284101a147cb6b6","clicks":145472,"praiseTotal":203,"bookTotal":120,"createdAt":"2018-03-05T10:19:17.000Z","createrId":{"_id":1088321,"userName":"最爱芝士汉堡"},"title":"苏爽文，女主控(正在更的，更完的都有)","listType":"female","updateAt":"2019-06-01T23:31:54.000Z","praiseAt":"2019-11-30T15:09:08.000Z","classes":[{"classId":21,"className":"都市言情","count":50},{"classId":26,"className":"衍生同人","count":34},{"classId":18,"className":"架空历史","count":18},{"classId":23,"className":"幻想言情","count":12}],"collectNum":306,"covers":["http:\u002F\u002Fwx2.sinaimg.cn\u002Fmw690\u002F799f9d99ly1fweo96fz1sj20b40fk74z.jpg","http:\u002F\u002Fi9-static.jjwxc.net\u002Fnovelimage.php?novelid=1829890&coverid=13&ver=543786e9773479e30627d9d6ae483d84","http:\u002F\u002Fwx4.sinaimg.cn\u002Fmw690\u002F0067dd5Agy1ftpjq9zvqij30b40fk78f.jpg"],"booklistId":"5a9d19a57284101a147cb6b6","voting":0},{"_id":"5d992d0bc42db1436eb79ab3","clicks":1083,"collectNum":2,"bookTotal":10,"covers":["http:\u002F\u002Fwx1.sinaimg.cn\u002Fmw690\u002F8ba01281ly1fsee42pb8tj205k07sgm6.jpg","http:\u002F\u002Fwx3.sinaimg.cn\u002Fmw690\u002Fa65f64a8gy1fvcxlaligtj205k07sjry.jpg","http:\u002F\u002Fwx1.sinaimg.cn\u002Fmw1024\u002Fa9d8512fly1fdc9rfi5n9j208g0bcdgu.jpg"],"createrId":{"_id":1230942,"userName":"九木谈"},"title":"我爱的女主文！","listType":"female","createdAt":"2019-10-05T23:53:47.511Z","updateAt":"2019-10-30T08:18:20.000Z","praiseAt":"2019-11-30T14:08:30.000Z","classes":[{"classId":21,"className":"都市言情","count":5},{"classId":23,"className":"幻想言情","count":3},{"classId":18,"className":"架空历史","count":1},{"classId":26,"className":"衍生同人","count":1}],"booklistId":"5d992d0bc42db1436eb79ab3","voting":0},{"_id":"59b2d3eaae4c010b5d987cb2","clicks":74631,"praiseTotal":178,"bookTotal":120,"createdAt":"2017-09-08T17:31:22.000Z","createrId":{"_id":650664,"userName":"飞絮不是花"},"title":"2017-2018看文记录(轻松，温馨，萌，甜，爽，合理)(不看虐文，不给自己添堵)","listType":"female","updateAt":"2019-07-10T11:34:30.000Z","praiseAt":"2019-11-30T08:22:39.000Z","classes":[{"classId":25,"className":"耽美纯爱","count":34},{"classId":21,"className":"都市言情","count":25},{"classId":26,"className":"衍生同人","count":21},{"classId":18,"className":"架空历史","count":9},{"classId":23,"className":"幻想言情","count":6},{"classId":17,"className":"穿越时空","count":4},{"classId":6,"className":"都市","count":2},{"classId":13,"className":"科幻","count":2},{"classId":9,"className":"历史","count":2},{"classId":22,"className":"仙侠奇缘","count":1},{"classId":10,"className":"悬疑","count":1},{"classId":14,"className":"二次元","count":1},{"classId":12,"className":"竞技","count":1}],"collectNum":135,"covers":["http:\u002F\u002Fwx1.sinaimg.cn\u002Fmw690\u002F5f399830gy1flgrd70lwzj20rs15o1fo.jpg","http:\u002F\u002Fwx1.sinaimg.cn\u002Fmw690\u002Fe5775b28ly1foziy9w2ujj205k07stal.jpg","http:\u002F\u002Fi5-static.jjwxc.net\u002Ftmp\u002Fbackend\u002Fauthorspace\u002Fs1\u002F9\u002F8496\u002F849546\u002F20190517235712.jpg"],"booklistId":"59b2d3eaae4c010b5d987cb2","voting":0},{"_id":"5b7c165505bd280134327379","clicks":28710,"praiseTotal":107,"bookTotal":53,"createdAt":"2018-08-21T13:40:37.000Z","createrId":{"_id":1170073,"userName":"一只黑白熊"},"title":"主角控，带脑子苏爽，晋江起点都有","listType":"female","updateAt":"2019-05-27T05:11:40.000Z","praiseAt":"2019-11-30T05:31:31.000Z","classes":[{"classId":23,"className":"幻想言情","count":11},{"classId":21,"className":"都市言情","count":10},{"classId":26,"className":"衍生同人","count":7},{"classId":18,"className":"架空历史","count":4},{"classId":9,"className":"历史","count":3},{"classId":24,"className":"悬疑推理","count":3},{"classId":17,"className":"穿越时空","count":2},{"classId":22,"className":"仙侠奇缘","count":2},{"classId":6,"className":"都市","count":1},{"classId":2,"className":"玄幻","count":1},{"classId":14,"className":"二次元","count":1}],"collectNum":95,"covers":["http:\u002F\u002Fi1-static.jjwxc.net\u002Ftmp\u002Fbackend\u002Fauthorspace\u002Fs1\u002F19\u002F18213\u002F1821210\u002F20190505103059.jpg","http:\u002F\u002Fi9-static.jjwxc.net\u002Fnovelimage.php?novelid=3934660&coverid=70&ver=7e6918db60469d70e50465a1d45f81f1","https:\u002F\u002Fqidian.qpic.cn\u002Fqdbimg\u002F349573\u002F3090181\u002F300"],"booklistId":"5b7c165505bd280134327379","voting":0},{"_id":"5b63ea745a22f5ad5fd23d4e","clicks":55872,"praiseTotal":398,"bookTotal":105,"createdAt":"2018-08-03T05:39:00.000Z","createrId":{"_id":1167462,"userName":"皮皮一枝花"},"title":"主角控2018+2019扫文记录","listType":"male","updateAt":"2019-09-10T19:58:01.000Z","praiseAt":"2019-11-24T16:40:42.000Z","classes":[{"classId":21,"className":"都市言情","count":28},{"classId":25,"className":"耽美纯爱","count":16},{"classId":18,"className":"架空历史","count":14},{"classId":23,"className":"幻想言情","count":10},{"classId":26,"className":"衍生同人","count":10},{"classId":6,"className":"都市","count":6},{"classId":22,"className":"仙侠奇缘","count":5},{"classId":13,"className":"科幻","count":2},{"classId":2,"className":"玄幻","count":1},{"classId":8,"className":"军事","count":1},{"classId":14,"className":"二次元","count":1},{"classId":9,"className":"历史","count":1}],"collectNum":155,"covers":["http:\u002F\u002Fi9-static.jjwxc.net\u002Fnovelimage.php?novelid=4011666&coverid=68&ver=1220cbd1eb78fd8a8e4ee4180bb0004d","https:\u002F\u002Fwx3.sinaimg.cn\u002Fmw690\u002Fea257c05ly1g2mq5lt394j20j40qujuy.jpg","https:\u002F\u002Fqidian.qpic.cn\u002Fqdbimg\u002F349573\u002F1011321110\u002F300"],"booklistId":"5b63ea745a22f5ad5fd23d4e","voting":0},{"_id":"5a8d930711de351e608aa86a","clicks":10117,"praiseTotal":18,"bookTotal":26,"createdAt":"2018-02-21T15:40:55.000Z","createrId":{"_id":1114332,"userName":"夏天就是夏天"},"title":"女性向: 个人基准的挑剔口味能看完的文","listType":"female","updateAt":"2018-10-22T06:21:20.000Z","praiseAt":"2019-11-24T15:21:30.000Z","classes":[{"classId":21,"className":"都市言情","count":11},{"classId":18,"className":"架空历史","count":6},{"classId":23,"className":"幻想言情","count":2},{"classId":25,"className":"耽美纯爱","count":1},{"classId":13,"className":"科幻","count":1},{"classId":2,"className":"玄幻","count":1}],"collectNum":14,"covers":["https:\u002F\u002Fqidian.qpic.cn\u002Fqdbimg\u002F349573\u002F2643379\u002F300","https:\u002F\u002Fqidian.qpic.cn\u002Fqdbimg\u002F349573\u002F3039651\u002F300","http:\u002F\u002Fwx1.sinaimg.cn\u002Fmw690\u002Fe06915a7gy1fhp24ltbljj208w0cidhp.jpg"],"booklistId":"5a8d930711de351e608aa86a","voting":0}],"total":64},"commentsLoaded":true,"commentsResult":{"total":86,"comments":[{"_id":"5a1c02b715173cd97ea4ddf7","shielded":false,"replyCount":0,"jurisdiction":0,"essence":false,"praiseCount":10,"bookId":{"_id":134039,"title":"无限塔防","author":"轻云淡"},"createrId":{"_id":1028447,"userName":"兔牙"},"createdAt":"2017-11-27T12:19:03.000Z","content":"类似保卫萝卜的设定？  情节紧凑  男女主对手戏十分有张力","score":5,"updateAt":"2017-11-27T12:19:03.000Z","inReview":false,"voting":0,"collected":false,"replyable":true},{"_id":"5a70032c714010757006ecf6","shielded":false,"replyCount":0,"jurisdiction":0,"essence":false,"praiseCount":10,"bookId":{"_id":134039,"title":"无限塔防","author":"轻云淡"},"createrId":{"_id":830077,"userName":"多多包子"},"createdAt":"2018-01-30T05:31:24.000Z","content":"很短的一本小说，全本不过30万字左右，作者很好的把控住了局面，本就简单的故事讲的同样有趣，因为文字不多，也就不用去可以探讨人物刻画。\r\n很符合爽文的一贯口味，快意恩仇，无所畏惧，更加上快节奏，让人想着一口气读完，也确实一口气读完，读完之后不会有太多的失落感，因为早就知道，几个小副本之后这本小说就会结束。\r\n女主的性格很实在，融入这个系统设定很快，和男主的相爱相杀其实看上去有点尬。不过重点这种简单的塔防即视感还是很有趣的。\r\n整体评分：7分+","score":4,"updateAt":"2018-01-30T05:31:24.000Z","inReview":false,"voting":0,"collected":false,"replyable":true},{"_id":"5a4f9194a9ca5e270fef2f2c","shielded":false,"replyCount":0,"jurisdiction":0,"essence":false,"praiseCount":5,"bookId":{"_id":134039,"title":"无限塔防","author":"轻云淡"},"createrId":{"_id":1052037,"userName":"一只纯纯的馒头"},"createdAt":"2018-01-05T14:54:12.000Z","content":"作者大大文风一直很一致……爽文路线但不苏，自身天赋强大，也很努力，看这本的时候我想起青柳大大的《末世涅凰》，篇幅格局没有末世大，但是文笔也是很不错的……《末世涅凰》这篇是被选中的神选者在各类电影剧情里完成任务！《无限》这篇是死后被选中，完成任务互相竞争复活的机会！男女主互坑，都很强，最后达成强者之间的惺惺相惜……哈哈 \r\n同类型的还推荐一本起点文《快穿攻略：病娇男主黑化中》这本更带感，男主后期才出现，一只黑化病娇，戳中我的萌点……","score":4,"updateAt":"2018-01-05T14:54:12.000Z","inReview":false,"voting":0,"collected":false,"replyable":true},{"_id":"5a5a10efa9ca5e270fef80e6","shielded":false,"replyCount":0,"jurisdiction":0,"essence":false,"praiseCount":5,"bookId":{"_id":134039,"title":"无限塔防","author":"轻云淡"},"createrId":{"_id":925187,"userName":"北城未晴"},"createdAt":"2018-01-13T14:00:14.000Z","content":"粮草。晋江版无限，言情+无敌流。女主身亡后进入分为黑白两个阵营的塔防游戏，和男主一起对战敌人寻求胜利的故事。题材新颖文笔干练，女主性格强势不圣母，和男主的对手戏也很有意思。言情不多，绝大部分为塔防的游戏内容，男生来看完全不会别扭。28W字已完结，很少推这么短的文，但也够度过一段有趣的时间了。粮草","score":4,"updateAt":"2018-01-13T14:00:14.000Z","inReview":false,"voting":0,"collected":false,"replyable":true},{"_id":"5a7b411ba5d6c11260060ddb","shielded":false,"replyCount":1,"jurisdiction":0,"essence":false,"praiseCount":4,"bookId":{"_id":134039,"title":"无限塔防","author":"轻云淡"},"createrId":{"_id":1006996,"userName":"九芒"},"createdAt":"2018-02-07T18:10:35.000Z","content":"【无限流】晋江女主文。很新颖的无限流塔防文。角色死后被选中，分成黑白两个阵营对抗。男女主都是算计型，坑队友很6。金手指略大，看得很爽。虽然说男女主是相爱相杀，但感情线并不多，铺垫也比较少。文章不长但作者有能力让人忍不住一口气看完。","score":4,"updateAt":"2018-02-07T18:10:35.000Z","inReview":false,"voting":0,"collected":false,"replyable":true},{"_id":"5becd94f3b9b519a6871d331","shielded":false,"replyCount":0,"jurisdiction":0,"essence":false,"praiseCount":4,"bookId":{"_id":134039,"title":"无限塔防","author":"轻云淡"},"createrId":{"_id":517983,"userName":"xiao279681"},"createdAt":"2018-11-15T02:26:22.000Z","content":"事业向，最近看了好几个这个作者的无限系列，感觉很喜欢作者的脑洞，文笔什么的也在进步中吧，不过还是不可避免的有为了凸显女主的聪明而拉低群众智商的情况，不过当做书荒期的爽文看还是很不错的","score":3,"updateAt":"2018-11-15T02:26:22.000Z","inReview":false,"voting":0,"collected":false,"replyable":true},{"_id":"5a3177560077cebc7ed56c9e","shielded":false,"replyCount":0,"jurisdiction":0,"essence":false,"praiseCount":3,"bookId":{"_id":134039,"title":"无限塔防","author":"轻云淡"},"createrId":{"_id":1089240,"userName":"yingluo227"},"createdAt":"2017-12-13T18:54:14.000Z","content":"男女主一起开挂碾压大杀四方，金手指非常粗。俩心机婊一路互怼，男主成功被怼成小媳妇。\r\n瑕疵：金手指太粗，完全没有难度。塔防游戏玩过不少，休闲游戏成为无限流背景挺新奇的，但还是略略有点出戏，233","score":3,"updateAt":"2017-12-13T18:54:14.000Z","inReview":false,"voting":0,"collected":false,"replyable":true},{"_id":"5a450c4f386916480fa9d385","shielded":false,"replyCount":0,"jurisdiction":0,"essence":false,"praiseCount":3,"bookId":{"_id":134039,"title":"无限塔防","author":"轻云淡"},"createrId":{"_id":1089234,"userName":"柠檬草的味道"},"createdAt":"2017-12-28T15:22:55.000Z","content":"这篇文脑洞很有意思，死后的人分为黑白两个阵营，男女主在纯白阵营，要求两个阵营进行对抗游戏，获胜的还存在的阵营的人可以获得复活机会，正在追文中！","score":5,"updateAt":"2017-12-28T15:22:55.000Z","inReview":false,"voting":0,"collected":false,"replyable":true},{"_id":"5a9768ea2b98e80c6009e118","shielded":false,"replyCount":0,"jurisdiction":0,"essence":false,"praiseCount":3,"bookId":{"_id":134039,"title":"无限塔防","author":"轻云淡"},"createrId":{"_id":713735,"userName":"小柒67898"},"createdAt":"2018-03-01T02:43:54.000Z","content":"女主文，无限流，死后玩生存阵营游戏，男强女强，性格比较突出，感情戏少但互动还可以。已完结，比较短，可看。","score":3,"updateAt":"2018-03-01T02:43:54.000Z","inReview":false,"voting":0,"collected":false,"replyable":true},{"_id":"5a5cb8873a0acb150fb46cc4","shielded":false,"replyCount":0,"jurisdiction":0,"essence":false,"praiseCount":2,"bookId":{"_id":134039,"title":"无限塔防","author":"轻云淡"},"createrId":{"_id":650664,"userName":"飞絮不是花"},"createdAt":"2018-01-15T14:19:51.000Z","content":"塔防游戏为主题的无限流，女主言情，男女主一路开挂的爽文。","score":4,"updateAt":"2018-01-15T14:19:51.000Z","inReview":false,"voting":0,"collected":false,"replyable":true},{"_id":"5aa3b5a85c2f750c79f52772","shielded":false,"replyCount":0,"jurisdiction":0,"essence":false,"praiseCount":2,"bookId":{"_id":134039,"title":"无限塔防","author":"轻云淡"},"createrId":{"_id":1118523,"userName":"燕啾啾"},"createdAt":"2018-03-10T10:38:32.000Z","content":"【追至第二次副本】游戏网游类bg ，想开点的话，死后还能玩把全息网游也不错了……吧","score":4,"updateAt":"2018-03-10T10:38:32.000Z","inReview":false,"voting":0,"collected":false,"replyable":true},{"_id":"5b3381dc0151af4d5f6bf50d","shielded":false,"replyCount":0,"jurisdiction":0,"essence":false,"praiseCount":2,"bookId":{"_id":134039,"title":"无限塔防","author":"轻云淡"},"createrId":{"_id":940551,"userName":"清晨露水"},"createdAt":"2018-06-27T12:23:56.000Z","content":"可能真的是这个作者的小说不对我的口味，她的设定基本都是主角碾压对手，开场就得各种坑骗对手，我看到的不是斗智斗勇而是自私自利——当然背景设定不赢就要死，那可能也无可厚非。","score":1,"updateAt":"2018-06-27T12:23:56.000Z","inReview":false,"voting":0,"collected":false,"replyable":true},{"_id":"5b7c41cd1395ef4134ce8383","shielded":false,"replyCount":0,"jurisdiction":0,"essence":false,"praiseCount":2,"bookId":{"_id":134039,"title":"无限塔防","author":"轻云淡"},"createrId":{"_id":1088321,"userName":"最爱芝士汉堡"},"createdAt":"2018-08-21T16:46:05.000Z","content":"最近一口气刷完了这个作者的三本无限系列，接着又准备去看真实电影。太多介绍就不用了，这个作者的文一向是女强，主剧情流。看完就一个字，爽！这本的男女主心狠手辣，极度利己，没组队前，互坑了很多次。正文无CP，番外是HE，看个人喜好吧。\r\n粮草。","score":4,"updateAt":"2018-08-21T16:46:05.000Z","inReview":false,"voting":0,"collected":false,"replyable":true},{"_id":"5b97c1839fe95e5a14980b67","shielded":false,"replyCount":1,"jurisdiction":0,"essence":false,"praiseCount":2,"bookId":{"_id":134039,"title":"无限塔防","author":"轻云淡"},"createrId":{"_id":822075,"userName":"檀子"},"createdAt":"2018-09-11T13:22:11.000Z","content":"游戏设定完整详细，情节发展虽然有一点点幼稚但逻辑合理。但感觉还是网游的感觉，生死的沉重没有写出来。当网游文看的话，还可以。ps：感情戏可以无视。4星。（该作者写了好几本书，跟这本的情节和主角个性等等，相似度极高）","score":4,"updateAt":"2018-09-11T13:22:11.000Z","inReview":false,"voting":0,"collected":false,"replyable":true},{"_id":"5c178691d53a1193595cc1bb","shielded":false,"replyCount":0,"jurisdiction":0,"essence":false,"praiseCount":2,"bookId":{"_id":134039,"title":"无限塔防","author":"轻云淡"},"createrId":{"_id":966329,"userName":"竹林熊猫"},"createdAt":"2018-12-17T11:20:49.000Z","content":"第一次看到这种塔防游戏的无限流，副本设定可参考《王国保卫战》，缺点是作为塔防游戏却没有对“塔”做过多描写，全文只出现箭塔，其它诸如炮塔，魔法塔都没有……\r\n里面的角色设定类似于《王国保卫战》里的英雄，人物成长更类似于ARPG的网游，有技能，有天赋，有魔法卷等等，整体故事比较新颖，男强女强，一路打脸装逼，算得上一本不错的爽文。\r\n言情线很薄弱，男女主从头到尾不来电，最后算是强行被作者凑在一起。我个人还是很希望作者多写一些这种新颖题材的的无限流，评分7\u002F10。","score":4,"updateAt":"2018-12-17T11:20:49.000Z","inReview":false,"voting":0,"collected":false,"replyable":true},{"_id":"5a3b01890077cebc7ed5af59","shielded":false,"replyCount":0,"jurisdiction":0,"essence":false,"praiseCount":1,"bookId":{"_id":134039,"title":"无限塔防","author":"轻云淡"},"createrId":{"_id":989270,"userName":"ainvdi"},"createdAt":"2017-12-21T00:34:17.000Z","content":"还不错，男女主互动很有意思，相爱相杀，保护塔防游戏，不让敌军进入传送阵，男女主在大部分都是穷人的对比下厉害的要拜，还收了三个傀儡式小弟，硬生生喂成高手，看的还是蛮过瘾的","score":4,"updateAt":"2017-12-21T00:34:17.000Z","inReview":false,"voting":0,"collected":false,"replyable":true},{"_id":"5a59acc0a82e874e0fae3284","shielded":false,"replyCount":0,"jurisdiction":0,"essence":false,"praiseCount":1,"bookId":{"_id":134039,"title":"无限塔防","author":"轻云淡"},"createrId":{"_id":1010860,"userName":"r159876"},"createdAt":"2018-01-13T06:52:48.000Z","content":"言情，完结\r\n文案：意外身亡后，云娴进入到“无限塔防”游戏。\r\n游戏规则：\r\n1、玩家作为英雄阻止怪物抵达传送阵，失败意味死亡。\r\n2、所有玩家被分为两个阵营。如果一个阵营玩家全体阵亡，那么另一阵营的幸存者可以在现实里复活。\r\n为了顺利复活，云娴跟腹黑小伙伴相爱相杀，顺便联手坑人。\r\n【注1：男女主均心狠手辣+利己主义，非圣母】\r\n【注2：单元剧形式】\r\n个人点评：喜欢看副本和道具的脑洞，一天看完，言情力度不高。剧情不水能看","score":3,"updateAt":"2018-01-13T06:52:48.000Z","inReview":false,"voting":0,"collected":false,"replyable":true},{"_id":"5a731cc99550165b70b9e22b","shielded":false,"replyCount":0,"jurisdiction":0,"essence":false,"praiseCount":1,"bookId":{"_id":134039,"title":"无限塔防","author":"轻云淡"},"createrId":{"_id":955835,"userName":"仙女彬"},"createdAt":"2018-02-01T13:57:29.000Z","content":"已完结 bg向，1v1。意外死亡后进入塔防游戏 分不同阵营 对战赢得复活机会 男女主都是心机屌\u002F婊，不圣母这点我很喜欢。有点像爽文 毕竟后期发育完全就是一路开挂的rmb玩家了hah ，互怼hin好笑 但就是结束的有点仓促 越来越报流水账","score":4,"updateAt":"2018-02-01T13:57:29.000Z","inReview":false,"voting":0,"collected":false,"replyable":true},{"_id":"5a8572932b98e80c60095baa","shielded":false,"replyCount":0,"jurisdiction":0,"essence":false,"praiseCount":1,"bookId":{"_id":134039,"title":"无限塔防","author":"轻云淡"},"createrId":{"_id":792970,"userName":"时幻时现"},"createdAt":"2018-02-15T11:44:19.000Z","content":"被选入真人塔防游戏，阵营对抗，生存到最后的，获得复活机会。不算很长的文，但角色节奏和设定都还不错。","score":4,"updateAt":"2018-02-15T11:44:19.000Z","inReview":false,"voting":0,"collected":false,"replyable":true},{"_id":"5a927f8cd867a83a6084a5bf","shielded":false,"replyCount":0,"jurisdiction":0,"essence":false,"praiseCount":1,"bookId":{"_id":134039,"title":"无限塔防","author":"轻云淡"},"createrId":{"_id":1114332,"userName":"夏天就是夏天"},"createdAt":"2018-02-25T09:19:08.000Z","content":"有点干，男女主很早就勾搭上了，然而就开始各种装逼之路，文不长，但是看到阵营战没多久就看不下去了，直接跳去结局，又是毫不费力毫无悬念获胜。平淡无味，没什么意思。无毒，但是不会觉得好看。","score":3,"updateAt":"2018-02-25T09:19:08.000Z","inReview":false,"voting":0,"collected":false,"replyable":true}]}},"Bookcase":{"bookcase":[],"taglistData":{"taglist":[],"bookCount":0},"currentTag":""},"Booklist":{"fetched":false,"booksFetched":false,"header":{"title":"","description":"","keywords":""},"shielded":false,"notFound":false,"createrId":{"_id":""},"booklistId":null,"booklistInfo":null,"books":[],"total":0,"booksLoaded":false},"Booklists":{"booklists":[],"total":0,"fetched":false},"Bookstore":{"books":[],"total":0,"fetched":false,"easyMode":false,"storeOptions":null},"Dialog":{"dialog":null},"Explore":{"comments":[],"lastTime":""},"Home":{"friends":[],"actions":[],"nextTime":""},"Me":{"userName":"","uid":"","photo":"","isAdmin":false,"isGeneralAdmin":false,"unRead":false,"status":0,"showLogin":false,"showSignup":false,"isSmall":false,"contentId":null,"isLoaded":false},"Search":{"total":0},"Space":{"uid":null,"spaceUserName":"","routeName":null,"otherPageConfig":{"loading":true,"page":1,"result":{"users":[],"total":0}}},"Topic":{"fetched":false,"header":{"title":"","description":"","keywords":""},"mySubject":null,"answered":false,"shielded":false,"notFound":false,"createrId":{"_id":""},"topicId":null,"topicInfo":null,"subjects":[],"subjectsFetched":false,"total":0},"Topics":{"topics":[],"total":0,"fetched":false}};(function(){var s;(s=document.currentScript||document.scripts[document.scripts.length-1]).parentNode.removeChild(s);}());</script>  <script src="/js/chunk-vendors.2ae1758f.js" defer></script><script src="/js/chunk-08f09854.d754755b.js" defer></script><script src="/js/chunk-0c4f7370.bfdf292f.js" defer></script><script src="/js/chunk-353e28b8.fb9e970c.js" defer></script><script src="/js/chunk-6cf6d074.9b389b87.js" defer></script><script src="/js/app.f80969f5.js" defer></script></body></html>
