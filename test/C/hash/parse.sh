@@ -18,7 +18,7 @@ get(){
 }
 parse(){
     #将网页中的书有多少个书单的数字提取出来
-    NUM=$(cat $FILENAME | grep -E -o "data-v-6581533a>[0-9]{1,5}<" | awk -F "[><]" '{print $2}')
+    NUM=$(cat $FILENAME | grep -E -o "class=\"addListCount\"(.*)" | awk -F "[><]" '{print $2}')
     #将书号 书单数拼接起来
     RESULT=$FILENAME_TMP" "$NUM
     #将RESULT加入文本后边
@@ -28,8 +28,6 @@ parse(){
     cat $FILENAME | grep -E -o "booklist/[a-z0-9]{24}" >> UrlTmp.txt
     #将已经爬取书号和书单号加入已爬取
     echo $offset_address >> done.txt
-    #删除文本ing.txt第一行
-    sed -i '1d' ing.txt
     #删除临时文件
     rm $FILENAME
 }

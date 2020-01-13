@@ -23,7 +23,7 @@ void fwriteHash()
 {
     FILE *fp;
     unsigned int NodeNum = 0;
-    fp=fopen("malltest.txt","r");
+    fp=fopen("done.txt","r");
     while(!feof(fp))
     {
         memset(StrTmp,0,sizeof(StrTmp));
@@ -41,6 +41,7 @@ void fwriteHash()
 }
 void readnode()
 {
+    int HadNum = 0;
     ListNode* HeadTmp = head;
     ListNode* ChildNode = head;
     int m = HASHSIZE;
@@ -49,22 +50,23 @@ void readnode()
     {
         if(head->NodeLen != 0)
         {
+            HadNum ++;
             if(head->NodeLen >1)
             {
-                printf("\n%d\n",head->NodeLen);
+                //printf("\n%d\n",head->NodeLen);
                 error++;
             }
             ChildNode = head;
             while(ChildNode != NULL)
             {
-                printf("阅读第%d个节点的内容为%s  节点长度为%d  地址为 %p,next地址为%p\n",i,ChildNode->Url,ChildNode->NodeLen,ChildNode,ChildNode->next);
+                //printf("阅读第%d个节点的内容为%s  节点长度为%d  地址为 %p,next地址为%p\n",i,ChildNode->Url,ChildNode->NodeLen,ChildNode,ChildNode->next);
                 ChildNode = ChildNode->next;
             }
         }
-        printf("阅读第%d个节点的内容为%s  标识为%d  地址为 %p,next地址为%p\n",i,head->Url,head->NodeLen,head,head->next);
+        //printf("阅读第%d个节点的内容为%s  标识为%d  地址为 %p,next地址为%p\n",i,head->Url,head->NodeLen,head,head->next);
         head++;
     }
-    printf("\n\n总共有这么多个超过１：%d\n",error);
+    printf("\n总共存有 %d 个Url,节点长度超过1的　%d 个：\n",HadNum,error);
     head = HeadTmp;
 }
 unsigned int Hash(char *str)
@@ -150,4 +152,40 @@ int GetHashNode(char *str)
     }
     head = HeadTmp;
     return SearchResult;
+}
+void fCheckUrl()
+{
+    int DiffNum = 0;
+    int SameNum = 0;
+    int GetResult = 0;
+    char UrlTmp[80] = "";
+    FILE *flog = fopen("log.txt","a+");
+    FILE *fp = fopen("UrlTmp.txt","r");
+    FILE *ft = fopen("UrlSame.txt","w");
+    FILE *fin = fopen("ing.txt","a+");
+    while(!feof(fp))
+    {
+        memset(UrlTmp,0,sizeof(UrlTmp));
+        fscanf(fp,"%s",UrlTmp);
+        if(feof(fp))
+        {
+            break;
+        }
+        GetResult = GetHashNode(UrlTmp);
+        if(GetResult == 1)
+        {
+            SameNum++;
+            fprintf(flog,"\tremote:Url:%s\n",UrlTmp);
+            fprintf(ft,"%s\n",UrlTmp);
+            continue;
+        }
+        DiffNum++;
+        fprintf(flog,"\tJoin ing:Url:%s\n",UrlTmp);
+        fprintf(fin,"%s\n",UrlTmp);
+    }
+    fprintf(flog,"\tremote Url　%d 个，Join ing.txt Url %d 个\n",DiffNum,SameNum);
+    fclose(fp);
+    fclose(ft);
+    fclose(fin);
+    system("rm UrlTmp.txt");
 }

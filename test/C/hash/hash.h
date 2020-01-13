@@ -1,6 +1,6 @@
 #ifndef HOTEL_H_INCLUDED
 #define HOTEL_H_INCLUDED
-#define HASHSIZE 400
+#define HASHSIZE 80000
 typedef struct Node
 {
     char Url[80];
@@ -15,5 +15,6 @@ unsigned int Hash(char *str);
 void fwriteHash();
 void readnode();
 int GetHashNode(char *str);
+void fCheckUrl();
 
 #endif

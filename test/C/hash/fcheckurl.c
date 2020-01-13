@@ -19,8 +19,8 @@ void fCheckUrl()
     int GetResult = 0;
     char UrlTmp[80] = "";
     FILE *fp = fopen("UrlTmp.txt","r");
-    FILE *ft = fopen("UrlSame.txt","w+");
-    FILE *fin = fopen("ing.txt","w+");
+    FILE *ft = fopen("UrlSame.txt","w");
+    FILE *fin = fopen("ing.txt","a");
     while(!feof(fp))
     {
         memset(UrlTmp,0,sizeof(UrlTmp));
@@ -41,4 +41,8 @@ void fCheckUrl()
         printf("%s\n",UrlTmp);
         fprintf(fin,"%s\n",UrlTmp);
     }
+    fclose(fp);
+    fclose(ft);
+    fclose(fin);
+    system("rm UrlTmp.txt");
 }
