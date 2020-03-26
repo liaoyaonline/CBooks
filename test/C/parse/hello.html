@@ -1,0 +1,25 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<form action="#" method="post">
+<input name="pass" type="text"></input>
+<input name="submit" type="submit" value="Login"></input>
+</form>
+
+<?php
+
+echo "Refer : " . $_SERVER['HTTP_REFERER'] . "<br>";
+
+if(isset($_POST['pass']))
+{
+    echo "Login successfully via Password <br> pass = " . $_POST['pass'] . "<br>";
+
+    setcookie("pass", "password");
+}
+else if(isset($_COOKIE['pass']))
+{
+    echo "Login successfully via COOKIE <br> pass = " . $_COOKIE['pass'] . "<br>";
+}
+else
+{
+    echo "Please login <br>";
+}
+?>
