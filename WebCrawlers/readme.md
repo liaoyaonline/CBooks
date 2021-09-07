@@ -29,3 +29,30 @@
     └── regexbook4.c//源代码
 
 ```
+## 安装与使用
+* 安装环境
+需要确定是否已经安装了mysql和curl
+安装`mysql`命令
+```
+sudo apt-get install mysql-server
+sudo apt-get install mysql-client
+sudo apt-get install libmysqlclient-dev
+```
+安装`curl`命令
+```
+sudo apt-get install curl
+sudo apt-get install libcurl4-openssl-dev
+```
+* 安装软件
+```
+git clone 
+cd CBooks
+make
+make clean
+```
+
+* 使用软件
+```
+cd bin
+./regexbooks
+```

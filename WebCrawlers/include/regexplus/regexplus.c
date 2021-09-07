@@ -1,11 +1,6 @@
-#include <stdio.h>
 #include <curl/curl.h>
-#include <sys/stat.h>
 #include <fcntl.h>
 #include <string.h>
-#include <stdlib.h>
-#include <unistd.h>
-#include <sys/types.h>
 #include <regex.h>
 #include <unistd.h>
 #include <mysql/mysql.h>
