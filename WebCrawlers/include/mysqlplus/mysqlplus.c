@@ -3,6 +3,7 @@
 #include <stdlib.h>
 #include <mysql/mysql.h>
 
+#include "regexplus.h"
 #include "mysqlplus.h"
 int MysqlDownload(char * Downloadurl,char* TargetTable)
 {

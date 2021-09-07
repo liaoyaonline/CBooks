@@ -43,6 +43,10 @@ int regexbookfile(char* booklistid,const char* pattern,char flag);
 int getinfo(char* booklistid,char* url);
 int readBookInfo(int booknum);
 int regexbook(char * inbookid);
+int regexblfile(char* booklistid,const char* pattern,char flag);
+int readBLInfo(int booknum);
+int BooklistParsing(char* BooklistId);
+int InitBooks();
 static size_t curlCallBackFileWrite(void *buffer, size_t size, size_t nmemb, void *stream)
 {
     int written = fwrite(buffer, size, nmemb , (FILE *)stream);
