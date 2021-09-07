@@ -1,12 +1,10 @@
 #定义编译器
-all: main.o mysqlplus.o regexplus.o
-	gcc -o bin/regexbook main.o mysqlplus.o regexplus.o -g -lmysqlclient -lcurl
-main.o:
-	gcc -c -I./include ./src/main.c
+all: regexbook4.o mysqlplus.o
+	gcc -o bin/regexbook regexbook4.o mysqlplus.o -g -lmysqlclient -lcurl
+regexbook4.o:
+	gcc -c -I./include ./src/regexbook4.c
 mysqlplus.o:
 	gcc -c -I./include ./include/mysqlplus/mysqlplus.c
-regexplus.o:
-	gcc -c -I./include ./include/regexplus/regexplus.c
 .PHONY:clean
 clean:
 	rm ./*.o
