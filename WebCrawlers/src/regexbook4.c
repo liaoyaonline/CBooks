@@ -10,8 +10,8 @@
 #include <unistd.h>
 #include <mysql/mysql.h>
 #include "mysqlplus.h"
-int readBookInfo(int booknum);
-int regexbook(char * inbookid);
+
+
 int regexblfile(char* booklistid,const char* pattern,char flag);
 int readBLInfo(int booknum);
 int BooklistParsing(char* BooklistId);
@@ -51,141 +51,6 @@ int main()
     printf("%s\n",booksid);
     //BooklistParsing(url);
     //regexbook(bookid);
-    return 0;
-}
-int regexbook(char * inbookid)
-{
-    if(strlen(inbookid) > 6)
-    {
-        printf("in bookid error! %ld\n",strlen(inbookid));
-        return -1;
-    }
-    BlInfo *pblist = &BooklistInfo;
-    BInfo *pbook = &BookInfo;
-    CurrBLNum = 0;
-    int Inquire = 0;
-    int Inquirebldone = 0;
-    int Inquirenotnull = 0;
-    char Attribute[3][40];
-    strcpy(Attribute[0],"BookId");
-    strcpy(Attribute[1],"BooklistId");
-    strcpy(Attribute[2],"BooksId");
-    int booklistsnum = 0;
-    int pagenum = 0;
-    char booklisturl[400];
-    char bookurl[400];
-    char booklistid[40];
-    int page = 1;
-    const char * pattern[20];
-    char bookid[100];
-    memset(bookid,0,sizeof(bookid));
-    char TargetTable[3][100];
-    strcpy(TargetTable[0],"BookDone");
-    strcpy(TargetTable[1],"BooklistDone");
-    strcpy(TargetTable[2],"ing");
-    char frontblurl[100] = "https://www.yousuu.com/api/book/";
-    char frontburl[100] ="https://www.yousuu.com/book/";
-    char urlpage[20] ="/booklist?page=";
-    pattern [1] ="class=\"book-name\"[^>]*.\([^<]*)";
-    pattern [2] ="class=\"book-author[^>]*.[^>]*.\([^<]*)";
-    pattern [3] ="class=\"book-word-count[^>]*.\([^<]*)";
-    pattern [4] ="class=\"status[^>]*.\([^<]*)";
-    pattern [5] ="class=\"book-status[^>]*.\\s*\([^<]*)";
-    pattern [6] ="\"score\":\([^,]*),\"score";
-    pattern [7] ="\"scorerCount\":\([^,]*),\"";
-    pattern [8] ="scoreDetail\":\\\[\([^,]*),";//会有两个相同的数据，用后一个覆盖即可
-    pattern [9] ="scoreDetail\":\\\[\[^,]*,([^,]*),";
-    pattern [10] ="scoreDetail\":\\\[\[^,]*,[^,]*,\([^,]*),";
-    pattern [11] ="scoreDetail\":\\\[\[^,]*,[^,]*,[^,]*,\([^,]*),";
-    pattern [12] ="scoreDetail\":\\\[\[^,]*,[^,]*,[^,]*,[^,]*,\([^,]*)]";
-    pattern [13] ="\"tags\":\\\[\([^]]*)";
-    pattern [14] ="class=\"addListCount[^>]*.\([^<]*)";
-    pattern [15] ="\"introduction\":.\([^\"]*)";
-    pattern [16] ="class=\"booklist-card\"[^\"]*./booklist/\([^\"]*)";
-    pattern [17] ="\"booklistId\":\"\([^\"]*)";//https://www.yousuu.com/api/book/176584/booklist?page=4使用这个格式爬取，同时解析这里面的id
-    char flag = 'a';
-    strcpy(bookid,inbookid);
-    printf("test bookid :%s\n",bookid);
-    Inquire = MysqlInquire(bookid,TargetTable[2],Attribute[2]);
-    if(Inquire > 0)
-    {
-        MysqlDelete(bookid,TargetTable[2],Attribute[2]);
-        printf("delete id: %s\n",bookid);
-    }
-    else
-    {
-        printf("id error ,not found from ing :%s\n",bookid);
-        return -2;
-    }
-
-    strcpy(BookInfo.BookId,bookid);//将ｉｄ信息写入结构体
-    sprintf(bookurl,"%s%s",frontburl,bookid);//建立对应的ｕｒｌ
-    printf("%s\n",bookurl);
-    getinfo(bookid,bookurl);//爬取书本对应网页保存到bookid里面
-    for(int i = 1;i < 16;i++)//对网页进行解析，读取有用信息
-    {
-        regexbookfile(bookid,pattern[i],flag);
-        flag++;
-    }
-    readBookInfo(CurrBLNum);//读取爬取到的结构体内容
-    Inquire = MysqlInquire(bookid,TargetTable[0],Attribute[0]);
-    Inquirenotnull = strlen(BookInfo.BookName) + strlen(BookInfo.BookAuthor);//检测不是空白网页爬取,因为每次爬取完这两个值会重置
-    if(Inquire == 0 && Inquirenotnull != 0)
-        MysqlUpload(pblist,pbook,BooklistId[0],TargetTable[0],'1');//将爬取到的书本信息上传到bookdone表里面
-    booklistsnum = BookInfo.AddListCount;//计算书本数目
-    printf("%d\n",booklistsnum);
-    if(booklistsnum > 0)
-    {
-        pagenum = booklistsnum / 20;
-        if(booklistsnum % 20 != 0)
-            pagenum++;
-    }
-    printf("%d\n",pagenum);
-    if(pagenum > 0)//爬取书本对应的书单列表
-    {
-        for(int i = 1;i <= pagenum;i++)
-        {
-            sprintf(booklisturl,"%s%s%s%d",frontblurl,bookid,urlpage,page);
-            printf("%s\n",booklisturl);
-            sprintf(booklistid,"%sbl%d",bookid,page);
-            printf("%s\n",booklistid);
-            getinfo(booklistid,booklisturl);
-            regexbookfile(booklistid,pattern[17],'p');
-            page++;
-        }
-    }
-    readBookInfo(CurrBLNum);//读取所有爬取结果
-    for(int i = 0;i < booklistsnum;i++)//将爬取到的书单ｉｄ，将不在ing里面的ｉｄ上传到ing里面
-    { 
-        Inquire = MysqlInquire(BooklistId[i],TargetTable[2],Attribute[2]);
-        Inquirebldone = MysqlInquire(BooklistId[i],TargetTable[1],Attribute[1]);
-        Inquirenotnull = strlen(BooklistId[i]);//检测数据不为空
-        if(Inquire == 0 && Inquirebldone == 0 && Inquirenotnull != 0)
-            MysqlUpload(pblist,pbook,BooklistId[i],TargetTable[2],'3');
-    }
-    return 0;
-}
-int readBookInfo(int booknum)
-{
-    for(int i = 0; i < booknum;i++)
-    {
-        printf("%s\n",BooklistId[i]);
-    }
-    printf("%s\n",BookInfo.BookName);
-    printf("%s\n",BookInfo.BookAuthor);
-    printf("%s   \n",BookInfo.BookWordCount);
-    printf("%s   \n",BookInfo.Bookstatus);
-    printf("%s   \n",BookInfo.BookUpdata);
-    printf("%.1f    \n",BookInfo.BookScore);
-    printf("%d\n",BookInfo.BookScoreCount);
-    printf("%.2f\n",BookInfo.OneStarRate);
-    printf("%.2f\n",BookInfo.TwoStarRate);
-    printf("%.2f\n",BookInfo.ThreeStarRate);
-    printf("%.2f\n",BookInfo.FourStarRate);
-    printf("%.2f\n",BookInfo.FiveStarRate);
-    printf("%s\n",BookInfo.BookClass);
-    printf("%d\n",BookInfo.AddListCount);
-    printf("%s\n",BookInfo.BookIntro);
     return 0;
 }
 int regexblfile(char* booklistid,const char* pattern,char flag)
