@@ -1,5 +1,5 @@
-#ifndef MYSQLPLUS_H_INCLUDED
-#define MYSQLPLUS_H_INCLUDED
+#ifndef REGEXPLUS_H_INCLUDED
+#define REGEXPLUS_H_INCLUDED
 
 typedef struct Books
 {
@@ -32,13 +32,13 @@ typedef struct Booklists
     char BooklistUpdata[100];
     char BooklistIntro[10000];
 } BlInfo;
+BInfo BookInfo;
+BlInfo BooklistInfo;
+char BooklistId[4000][80];
+char BookId[1000][80];
+int CurrBLNum;
+int i;
 
-
-int MysqlUpload(BlInfo* uploadBL,BInfo * uploadB,char* uploadBS,char* TargetTable,char flag);
-int MysqlDownload(char * Downloadurl,char* TargetTable);
-int MysqlDelete(char * DeleteId,char* TargetTable,char* Attribute);
-int MysqlInquire(char *InquireUrl,char* TargetTable,char* Attribute);
-
-
+int regexbookfile(char* booklistid,const char* pattern,char flag);
 
 #endif
