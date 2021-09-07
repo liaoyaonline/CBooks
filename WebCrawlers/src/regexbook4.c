@@ -10,17 +10,11 @@
 #include <unistd.h>
 #include <mysql/mysql.h>
 #include "mysqlplus.h"
-BInfo BookInfo;
-BlInfo BooklistInfo;
-int CurrBLNum;
-int i;
 static size_t curlCallBackFileWrite(void *buffer, size_t size, size_t nmemb, void *stream)
 {
     int written = fwrite(buffer, size, nmemb , (FILE *)stream);
     return written;
 }
-char BooklistId[4000][80];
-char BookId[1000][80];
 int getinfo(char* booklistid,char* url);
 int readBookInfo(int booknum);
 int regexbook(char * inbookid);
