@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <string.h>
 #include <unistd.h>
-#include "mysqlplus.h"
 #include "regexplus.h"
+#include "mysqlplus.h"
 int main() {
   int sleeptime = 40;
   int Inquire = 0;
@@ -11,6 +11,7 @@ int main() {
   printf("booksid:%s\n", booksid);
   for (int i = 0; i < 20000; i++) {
     MysqlDownload(booksid, "ing");  //从ing中取出url
+    printf("%s\n", booksid);
     if (strlen(booksid) > 6) {
       Inquire = MysqlInquire(booksid, "BooklistDone",
                              "BooklistId");  //检测这个url没有被爬取过
