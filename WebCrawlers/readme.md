@@ -45,6 +45,11 @@ sudo apt-get install libmysqlclient-dev
 sudo apt-get install curl
 sudo apt-get install libcurl4-openssl-dev
 ```
+导入`mysql`的数据库表结构
+```
+下载安装Navicat
+连接本地mysql后导入./sql/books.sql文件
+```
 * 安装软件
 ```
 git clone 
