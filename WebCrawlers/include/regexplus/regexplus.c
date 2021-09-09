@@ -197,7 +197,7 @@ int regexbook(char *inbookid) {
   strcpy(TargetTable[0], "BookDone");
   strcpy(TargetTable[1], "BooklistDone");
   strcpy(TargetTable[2], "ing");
-  char frontblurl[100] = "https://www.yousuu.com/api/book/";
+  char frontblurl[100] = "https://api.yousuu.com/api/book/";
   char frontburl[100] = "https://www.yousuu.com/book/";
   char urlpage[20] = "/booklist?page=";
   pattern[1] = "class=\"book-name\"[^>]*.\([^<]*)";
