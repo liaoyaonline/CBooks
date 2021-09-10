@@ -200,22 +200,22 @@ int regexbook(char *inbookid) {
   char frontblurl[100] = "https://api.yousuu.com/api/book/";
   char frontburl[100] = "https://www.yousuu.com/book/";
   char urlpage[20] = "/booklist?page=";
-  pattern[1] = "class=\"book-name\"[^>]*.\([^<]*)";
+  pattern[1] = "class=\"book-name[^>]*.\([^<]*)";
   pattern[2] = "class=\"book-author[^>]*.[^>]*.\([^<]*)";
   pattern[3] = "class=\"book-word-count[^>]*.\([^<]*)";
   pattern[4] = "class=\"status[^>]*.\([^<]*)";
-  pattern[5] = "class=\"book-status[^>]*.\\s*\([^<]*)";
-  pattern[6] = "\"score\":\([^,]*),\"score";
-  pattern[7] = "\"scorerCount\":\([^,]*),\"";
+  pattern[5] = "class=\"book-status[^>]*.[^>]*.\([^<]*)";
+  pattern[6] = "score:\([^,]*),score";
+  pattern[7] = ",scorerCount:\([^,]*),";
   pattern[8] =
-      "scoreDetail\":\\\[\([^,]*),";  //会有两个相同的数据，用后一个覆盖即可
-  pattern[9] = "scoreDetail\":\\\[\[^,]*,([^,]*),";
-  pattern[10] = "scoreDetail\":\\\[\[^,]*,[^,]*,\([^,]*),";
-  pattern[11] = "scoreDetail\":\\\[\[^,]*,[^,]*,[^,]*,\([^,]*),";
-  pattern[12] = "scoreDetail\":\\\[\[^,]*,[^,]*,[^,]*,[^,]*,\([^,]*)]";
+      "scoreDetail:\\\[\([^,]*),";  //会有两个相同的数据，用后一个覆盖即可
+  pattern[9] = "scoreDetail:\\\[\[^,]*,([^,]*),";
+  pattern[10] = "scoreDetail:\\\[\[^,]*,[^,]*,\([^,]*),";
+  pattern[11] = "scoreDetail:\\\[\[^,]*,[^,]*,[^,]*,\([^,]*),";
+  pattern[12] = "scoreDetail:\\\[\[^,]*,[^,]*,[^,]*,[^,]*,\([^,]*)]";
   pattern[13] = "\"tags\":\\\[\([^]]*)";
   pattern[14] = "class=\"addListCount[^>]*.\([^<]*)";
-  pattern[15] = "\"introduction\":.\([^\"]*)";
+  pattern[15] = "introduction:\"\([^\"]*)";
   pattern[16] = "class=\"booklist-card\"[^\"]*./booklist/\([^\"]*)";
   pattern[17] =
       "\"booklistId\":\"\([^\"]*)";  // https://www.yousuu.com/api/book/176584/booklist?page=4使用这个格式爬取，同时解析这里面的id
