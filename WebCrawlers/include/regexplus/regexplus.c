@@ -432,11 +432,11 @@ int BooklistParsing(char *BooklistId) {
   const char *pattern[10];
   memset(pageurl, 0, sizeof(pageurl));
   pattern[1] = "href=\"\\s*/book/\([0-9]{1,6})\\s*";
-  pattern[2] = "class=\"booklistName\"[^>]*.\([^<]*)\\s*";
+  pattern[2] = "class=\"booklistName[^>]*.\([^<]*)\\s*";
   pattern[3] = "userName\":\"\([^\"]*)\"},\"title\"";
   pattern[4] = "class=\"number-border-itemvalue\"[^>]*.\([^<]*)";
   pattern[5] = "href=\"/bookstore/\\\?classId=[^>]*.\([^<]*)";
-  pattern[6] = "BooklistInfoIntro\"[^>]*.[^>]*.[^>]*.\([^<]*)";
+  pattern[6] = "name=\"description\" content=*.\([^<]*)";
   pattern[7] = "class=\"BooklistUpdateAtInfo\"[^>]*.\([^<]*)";
   // getinfo(booklistid,url);
   strcpy(booklistid, BooklistId);
