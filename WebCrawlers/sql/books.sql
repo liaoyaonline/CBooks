@@ -1,7 +1,7 @@
 /*
  Navicat Premium Data Transfer
 
- Source Server         : hello
+ Source Server         : 1232131
  Source Server Type    : MySQL
  Source Server Version : 50735
  Source Host           : localhost:3306
@@ -11,7 +11,7 @@
  Target Server Version : 50735
  File Encoding         : 65001
 
- Date: 09/09/2021 11:21:33
+ Date: 13/09/2021 11:15:30
 */
 
 SET NAMES utf8mb4;
@@ -47,14 +47,14 @@ CREATE TABLE `BookDone` (
 DROP TABLE IF EXISTS `BooklistDone`;
 CREATE TABLE `BooklistDone` (
   `BooklistId` varchar(100) NOT NULL COMMENT '书单Id',
-  `BooklistName` varchar(100) NOT NULL COMMENT '书单名',
-  `BooklistAuthor` varchar(100) NOT NULL COMMENT '书单作者',
-  `BooklistViews` varchar(100) NOT NULL COMMENT '书单观看人数',
+  `BooklistName` varchar(100) DEFAULT NULL COMMENT '书单名',
+  `BooklistAuthor` varchar(100) DEFAULT NULL COMMENT '书单作者',
+  `BooklistViews` varchar(100) DEFAULT NULL COMMENT '书单观看人数',
   `BooklistCount` int(11) DEFAULT NULL COMMENT '书单内小说数目',
   `BooklistKeep` int(11) DEFAULT NULL COMMENT '收藏本书单人数',
-  `BookType` varchar(1000) NOT NULL COMMENT '书单内小说类型',
-  `BooklistUpdata` varchar(100) NOT NULL COMMENT '书单最近更新时间',
-  `BooklistIntro` varchar(20000) NOT NULL COMMENT '书单介绍',
+  `BookType` varchar(1000) DEFAULT NULL COMMENT '书单内小说类型',
+  `BooklistUpdata` varchar(100) DEFAULT NULL COMMENT '书单最近更新时间',
+  `BooklistIntro` varchar(20000) DEFAULT NULL COMMENT '书单介绍',
   PRIMARY KEY (`BooklistId`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
